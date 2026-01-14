@@ -307,6 +307,39 @@ def generate_dynamic_charts(user_insights: dict) -> list[dict]:
 
 ---
 
+## Future Ideas
+
+### Auto-Generated Avatar Emoji
+
+Select user avatar emoji based on their top interests from the insights data:
+
+```python
+def suggest_avatar(summary: dict) -> str:
+    """Auto-select emoji based on user's top interests"""
+    top_tags = list(summary.get('tags', {}).keys())[:10]
+
+    EMOJI_MAP = {
+        ('cycling', 'biking', 'mtb', 'gravel', 'road cycling'): '🚴',
+        ('running', 'trail running', 'marathon', 'ultrarunning'): '🏃',
+        ('skiing', 'backcountry', 'alpine', 'ski touring'): '⛷️',
+        ('climbing', 'bouldering', 'rock climbing'): '🧗',
+        ('hiking', 'backpacking', 'thru-hiking'): '🥾',
+        ('swimming', 'triathlon', 'open water'): '🏊',
+        ('yoga', 'meditation', 'wellness'): '🧘',
+        ('camping', 'overlanding', 'van life'): '🏕️',
+    }
+
+    for keywords, emoji in EMOJI_MAP.items():
+        if any(tag in keywords for tag in top_tags):
+            return emoji
+
+    return '🏔️'  # Default outdoor emoji
+```
+
+Could be integrated into `report_data_builder.py` to auto-suggest avatars during report generation.
+
+---
+
 ## Next Steps
 
 1. Review schema with engineering team
