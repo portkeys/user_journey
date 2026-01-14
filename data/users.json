@@ -11,44 +11,64 @@
       "events_file": "robin_complete_events.json"
     },
     {
-      "user_id": "placeholder-user-2-uuid",
-      "display_name": "User 2",
-      "slug": "user2",
-      "timezone_offset": -8,
-      "timezone_name": "Pacific Time",
-      "location": "California",
-      "avatar_emoji": "🌊",
-      "events_file": null
-    },
-    {
-      "user_id": "placeholder-user-3-uuid",
-      "display_name": "User 3",
-      "slug": "user3",
+      "user_id": "5b856349-c769-446e-85f0-6e9114b78cb8",
+      "display_name": "Trevor",
+      "slug": "trevor",
       "timezone_offset": -5,
       "timezone_name": "Eastern Time",
       "location": "New York",
-      "avatar_emoji": "🗽",
-      "events_file": null
+      "avatar_emoji": "🌲",
+      "events_file": "events/trevor_events.json"
     },
     {
-      "user_id": "placeholder-user-4-uuid",
-      "display_name": "User 4",
-      "slug": "user4",
+      "user_id": "c31d1441-970f-4197-8c8f-940286ca2c7c",
+      "display_name": "Kate",
+      "slug": "kate",
       "timezone_offset": -6,
       "timezone_name": "Central Time",
       "location": "Texas",
-      "avatar_emoji": "🤠",
-      "events_file": null
+      "avatar_emoji": "🏜️",
+      "events_file": "events/kate_events.json"
     },
     {
-      "user_id": "placeholder-user-5-uuid",
-      "display_name": "User 5",
-      "slug": "user5",
+      "user_id": "562a67e4-b305-4358-9cad-3730221ec8d5",
+      "display_name": "Wen",
+      "slug": "wen",
       "timezone_offset": -7,
       "timezone_name": "Mountain Time",
-      "location": "Utah",
-      "avatar_emoji": "🏜️",
-      "events_file": null
+      "location": "Colorado",
+      "avatar_emoji": "🌊",
+      "events_file": "events/wen_events.json"
+    },
+    {
+      "user_id": "7728a8f5-f97a-4913-916a-7cab7d00741b",
+      "display_name": "Kcal",
+      "slug": "kcal",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "California",
+      "avatar_emoji": "🚴",
+      "events_file": "events/kcal_events.json"
+    },
+    {
+      "user_id": "91a01b84-720b-419e-b4d7-b9228a8e4f56",
+      "display_name": "Dan",
+      "slug": "dan",
+      "timezone_offset": -7,
+      "timezone_name": "Mountain Time",
+      "location": "Colorado",
+      "avatar_emoji": "🏃",
+      "events_file": "events/dan_events.json"
+    },
+    {
+      "user_id": "c35bcfd0-be1b-4557-a985-f86fef5f9275",
+      "display_name": "PJ",
+      "slug": "pj",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "California",
+      "avatar_emoji": "🏔️",
+      "events_file": "events/pj_events.json"
     }
   ]
 }

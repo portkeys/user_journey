@@ -1,329 +1,339 @@
 # User Journey Analysis Pipeline
 
-> **Status**: Demo Complete (Robin) | **Next**: Production Pipeline
-> **Demo Report**: [https://your-username.github.io/user_journey/](https://your-username.github.io/user_journey/)
+> **Status**: Multi-User Production Ready
+> **Live Reports**: [https://portkeys.github.io/user_journey/](https://portkeys.github.io/user_journey/)
 
 ## Overview
 
-This document outlines the process for generating personalized user journey reports from Kafka event streams. The pipeline combines behavioral analytics with LLM-powered insights to create rich, shareable HTML reports.
+A multi-user system that generates personalized "Outside Memory" reports from Kafka event streams, combining behavioral analytics with LLM-powered insights.
 
-### What We Built
+### Current Users
 
-An end-to-end system that:
-1. Consumes user events from Confluent Cloud Kafka
-2. Analyzes behavioral patterns across the Outside ecosystem
-3. Generates LLM-powered narratives and insights
-4. Produces an interactive HTML report with visualizations
+| User | Slug | Events | Status |
+|------|------|--------|--------|
+| Robin | `robin` | 21,354 | ✅ Complete |
+| Trevor | `trevor` | 39,088 | ✅ Complete |
+| Kate | `kate` | 4,525 | Ready |
+| Wen | `wen` | 2,470 | Ready |
+| Kcal | `kcal` | 1,225 | Ready |
+| Dan | `dan` | 162 | Ready |
+| PJ | `pj` | 150 | Ready |
+
+---
+
+## Quick Start
+
+### Generate a User's Report
+
+```bash
+# Generate report for a specific user
+python scripts/batch_generate.py --user trevor
+
+# View in browser
+open "http://localhost:8080/report.html?user=trevor"
+```
+
+### Generate All Reports
+
+```bash
+# Generate for all users with event data
+python scripts/batch_generate.py
+```
+
+### Start Local Server
+
+```bash
+# Start server for local testing
+python -m http.server 8080
+
+# Open landing page
+open http://localhost:8080/
+```
 
 ---
 
 ## Architecture
 
 ```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  Confluent      │     │  Python          │     │  LLM APIs       │
-│  Cloud Kafka    │────▶│  Analysis        │────▶│  (GPT-5-nano,   │
-│  (Event Stream) │     │  Scripts         │     │   Claude Haiku) │
-└─────────────────┘     └──────────────────┘     └─────────────────┘
-                                │                        │
-                                ▼                        ▼
-                        ┌──────────────────┐     ┌─────────────────┐
-                        │  JSON Summary    │     │  Narratives &   │
-                        │  & Metrics       │     │  Insights       │
-                        └──────────────────┘     └─────────────────┘
-                                │                        │
-                                └───────────┬────────────┘
-                                            ▼
-                                ┌──────────────────────┐
-                                │  Interactive HTML    │
-                                │  Report (Chart.js)   │
-                                └──────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        MULTI-USER ARCHITECTURE                          │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│  Kafka Topics                                                           │
+│  ┌─────────────────┐     ┌─────────────────────┐                       │
+│  │ robin_events    │     │ power_user_events   │                       │
+│  │ (single user)   │     │ (6 users, keyed)    │                       │
+│  └────────┬────────┘     └──────────┬──────────┘                       │
+│           │                         │                                   │
+│           ▼                         ▼                                   │
+│  ┌─────────────────┐     ┌─────────────────────┐                       │
+│  │kafka_consumer.py│     │multi_user_consumer  │                       │
+│  └────────┬────────┘     └──────────┬──────────┘                       │
+│           │                         │                                   │
+│           ▼                         ▼                                   │
+│  ┌─────────────────┐     ┌─────────────────────┐                       │
+│  │robin_complete_  │     │events/              │                       │
+│  │events.json      │     │  trevor_events.json │                       │
+│  └────────┬────────┘     │  kate_events.json   │                       │
+│           │              │  wen_events.json    │                       │
+│           │              │  ...                │                       │
+│           │              └──────────┬──────────┘                       │
+│           └──────────┬──────────────┘                                  │
+│                      ▼                                                  │
+│           ┌─────────────────────┐                                      │
+│           │ batch_generate.py   │                                      │
+│           │ + LLM APIs          │                                      │
+│           └──────────┬──────────┘                                      │
+│                      ▼                                                  │
+│           ┌─────────────────────┐     ┌─────────────────────┐         │
+│           │ data/               │     │ GitHub Pages        │         │
+│           │   users.json        │────▶│   index.html        │         │
+│           │   robin.json        │     │   report.html?user= │         │
+│           │   trevor.json       │     └─────────────────────┘         │
+│           │   ...               │                                      │
+│           └─────────────────────┘                                      │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## Data Sources
+## Step-by-Step Guide
 
-### Kafka Event Stream
-
-- **Cluster**: Confluent Cloud
-- **Authentication**: SASL_SSL with API key/secret
-- **Event Format**: JSON with standardized fields
-
-### Key Event Fields
-
-| Field | Description | Example |
-|-------|-------------|---------|
-| `USER_ID` | Unique user identifier | `robin_demo_user` |
-| `TIMESTAMP` | ISO 8601 with timezone | `2024-03-15T14:30:00Z` |
-| `EVENT_NAME` | Action type | `page_view`, `video_play` |
-| `URL` | Page/content URL | `https://trailforks.com/...` |
-| `TITLE` | Content title | `Best Mountain Bike Trails...` |
-| `DOMAIN` | Source platform | `trailforks.com`, `outsideonline.com` |
-| `PLATFORM` | Device/app type | `web`, `ios`, `android` |
-
-### Outside Ecosystem Coverage
-
-| Platform | Event Types | Insights Generated |
-|----------|-------------|-------------------|
-| **Editorial** | Page views, article reads | Reading patterns, topic interests |
-| **Trailforks** | Ride logs, map views, trail lookups | Biking activity, trail preferences |
-| **Gaia GPS** | Session starts, map interactions | Outdoor navigation habits |
-| **Outside Watch** | Video plays, completions | Video consumption patterns |
-| **Outside App** | App opens, feature usage | Mobile engagement |
-
----
-
-## Pipeline Scripts
-
-### 1. `kafka_consumer.py` - Event Collection
-
-**Purpose**: Bulk export events for a specific user from Kafka.
+### Step 1: Environment Setup
 
 ```bash
-# Usage
-python kafka_consumer.py --user-id <USER_ID> --output <filename>.json
+# Clone and enter directory
+cd user_journey
+
+# Install dependencies
+uv sync
+
+# Configure credentials
+cp .env.example .env
+# Edit .env with your Kafka and LLM API credentials
 ```
 
-**Configuration** (`.env` file):
-```
-KAFKA_BOOTSTRAP_SERVERS=pkc-xxxxx.us-west-2.aws.confluent.cloud:9092
-KAFKA_API_KEY=your_api_key
-KAFKA_API_SECRET=your_api_secret
-KAFKA_TOPIC=user_events
-```
+### Step 2: Consume Events from Kafka
 
-**Output**: JSON file with all user events (e.g., `robin_complete_events.json`)
-
----
-
-### 2. `robin_analyzer.py` - Behavioral Analysis
-
-**Purpose**: Process raw events into structured analytics.
-
-**Key Methods**:
-
-| Method | Output |
-|--------|--------|
-| `get_summary()` | Total events, date range, top domains/pages |
-| `get_hourly_distribution()` | Activity by hour (for timezone charts) |
-| `get_daily_distribution()` | Activity by day of week |
-| `analyze_interests()` | Topic categorization from titles/URLs |
-| `analyze_ecosystem_usage()` | Platform-specific metrics |
-| `get_recent_activity()` | Latest reads, watches, sessions |
-
-**Usage**:
-```python
-from robin_analyzer import RobinAnalyzer
-
-analyzer = RobinAnalyzer('user_events.json')
-summary = analyzer.get_summary()
-ecosystem = analyzer.analyze_ecosystem_usage()
-```
-
-**Output**: `robin_summary.json` with aggregated metrics
-
----
-
-### 3. `llm_analyzer.py` - LLM Narrative Generation
-
-**Purpose**: Generate human-readable insights using LLMs.
-
-**LLM Providers**:
-
-| Model | Provider | Use Case |
-|-------|----------|----------|
-| Claude Haiku 4.5 | AWS Bedrock | Main narrative, journey story |
-| GPT-5-nano | OpenAI API | Structured interest analysis |
-
-**Key Functions**:
-
-```python
-# Claude Haiku via AWS Bedrock
-def call_haiku(prompt: str) -> str:
-    # Returns narrative text
-
-# GPT-5-nano via OpenAI
-def call_gpt5_nano(prompt: str) -> dict:
-    # Returns structured JSON with:
-    # - seasonal_patterns
-    # - emerging_interests
-    # - core_interests
-    # - casual_interests
-```
-
-**Configuration** (`.env` file):
-```
-# AWS Bedrock (Claude Haiku)
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
-AWS_REGION=us-west-2
-
-# OpenAI (GPT-5-nano)
-OPENAI_API_KEY=your_key
-```
-
----
-
-### 4. `generate_report.py` - HTML Report Generation
-
-**Purpose**: Combine analytics and LLM insights into interactive HTML.
-
-**Report Sections**:
-
-1. **Your Outside Ecosystem** - Platform usage cards
-2. **Recent Activity Spotlight** - Latest reads, watches, seasonal patterns
-3. **Your Interests** - Core vs casual interests, top topics
-4. **When You're Most Active** - Hour/day distribution charts
-5. **Your Journey with Outside** - LLM-generated narrative
-
-**Usage**:
+**Option A: Single User (Robin's dedicated topic)**
 ```bash
-python generate_report.py
-# Outputs: robin_journey_report.html
+# For Robin (uses KAFKA_TOPIC from .env)
+python kafka_consumer.py robin_complete_events.json
 ```
 
-**Key Features**:
-- Chart.js for interactive visualizations
-- Timezone conversion (UTC → user's local time)
-- Clickable article links with dates
-- Responsive card-based layout
+**Option B: Multiple Users (power_user_events topic)**
+```bash
+# Check topic info first
+python scripts/multi_user_consumer.py --info
+
+# Consume and split by user_id
+python scripts/multi_user_consumer.py
+
+# Output:
+#   events/trevor_events.json
+#   events/kate_events.json
+#   events/wen_events.json
+#   ... (auto-updates data/users.json)
+```
+
+### Step 3: Generate Reports
+
+**Single User:**
+```bash
+# Generate for Trevor
+python scripts/batch_generate.py --user trevor
+
+# Generate for Kate
+python scripts/batch_generate.py --user kate
+
+# Generate for Wen
+python scripts/batch_generate.py --user wen
+
+# Skip LLM calls (for quick testing)
+python scripts/batch_generate.py --user trevor --skip-llm
+```
+
+**All Users:**
+```bash
+# Generate for everyone with event data
+python scripts/batch_generate.py
+```
+
+### Step 4: View Reports Locally
+
+```bash
+# Start local server
+python -m http.server 8080
+
+# View landing page (user selector)
+open http://localhost:8080/
+
+# View specific user's report
+open "http://localhost:8080/report.html?user=robin"
+open "http://localhost:8080/report.html?user=trevor"
+open "http://localhost:8080/report.html?user=kate"
+```
+
+### Step 5: Deploy to GitHub Pages
+
+```bash
+# Commit new report data
+git add data/*.json
+git commit -m "Add report for trevor"
+git push
+
+# Reports are live at:
+# https://portkeys.github.io/user_journey/report.html?user=trevor
+```
 
 ---
 
-### 5. `build_user_profile.py` - Structured User Insights
+## Command Reference
 
-**Purpose**: Generate machine-readable user profile following schema.
+### Kafka Consumers
 
-**Output Schema** (`schemas/user_insights_schema.json`):
+| Command | Purpose |
+|---------|---------|
+| `python kafka_consumer.py <output.json>` | Single-user topic (Robin) |
+| `python scripts/multi_user_consumer.py` | Multi-user topic (splits by user_id) |
+| `python scripts/multi_user_consumer.py --info` | Show topic info without consuming |
+
+### Report Generation
+
+| Command | Purpose |
+|---------|---------|
+| `python scripts/batch_generate.py` | Generate for all users with data |
+| `python scripts/batch_generate.py --user <slug>` | Generate for specific user |
+| `python scripts/batch_generate.py --skip-llm` | Skip LLM calls (testing) |
+
+### Local Development
+
+| Command | Purpose |
+|---------|---------|
+| `python -m http.server 8080` | Start local server |
+| `open http://localhost:8080/` | View landing page |
+| `open "http://localhost:8080/report.html?user=robin"` | View specific report |
+
+---
+
+## File Structure
+
+```
+user_journey/
+├── index.html                    # Landing page (user selector)
+├── report.html                   # Dynamic report template
+├── data/                         # Pre-computed report data
+│   ├── users.json               # User registry
+│   ├── robin.json               # Robin's report data
+│   ├── trevor.json              # Trevor's report data
+│   └── ...
+├── events/                       # Raw event files (gitignored)
+│   ├── trevor_events.json
+│   ├── kate_events.json
+│   └── ...
+├── scripts/                      # Pipeline scripts
+│   ├── multi_user_consumer.py   # Kafka consumer for power_user_events
+│   ├── event_analyzer.py        # Generic event analyzer
+│   ├── report_data_builder.py   # JSON + LLM generation
+│   └── batch_generate.py        # CLI tool
+├── kafka_consumer.py             # Original single-user consumer
+├── robin_complete_events.json    # Robin's events (gitignored)
+└── docs/
+    ├── USER_JOURNEY_PIPELINE.md  # This file
+    └── PHASE2_PROPOSAL.md        # Future infrastructure
+```
+
+---
+
+## User Registry
+
+The `data/users.json` file contains user metadata:
+
 ```json
 {
-  "user_id": "string",
-  "profile": {
-    "interests": [...],
-    "engagement_patterns": {...},
-    "ecosystem_usage": {...}
-  },
-  "insights": {
-    "narrative": "string",
-    "recommendations": [...]
-  }
+  "users": [
+    {
+      "user_id": "uuid-here",
+      "display_name": "Trevor",
+      "slug": "trevor",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "New York",
+      "avatar_emoji": "🌲",
+      "events_file": "events/trevor_events.json"
+    }
+  ]
 }
 ```
 
----
-
-## Step-by-Step Process
-
-### For a New User
-
-```bash
-# 1. Set up environment
-cd user_journey
-uv sync  # Install dependencies
-
-# 2. Configure credentials
-cp .env.example .env
-# Edit .env with Kafka and LLM API credentials
-
-# 3. Export user events from Kafka
-python kafka_consumer.py --user-id NEW_USER_ID --output new_user_events.json
-
-# 4. Update analyzer to use new file
-# Edit robin_analyzer.py: change input filename
-
-# 5. Generate the report
-python generate_report.py
-
-# 6. Review output
-open new_user_journey_report.html
-```
+**To add a new user manually:**
+1. Add entry to `data/users.json`
+2. Place events file in specified location
+3. Run `python scripts/batch_generate.py --user <slug>`
 
 ---
 
-## Report Customization
+## Kafka Topics
 
-### Timezone Configuration
+| Topic | Key | Users | Purpose |
+|-------|-----|-------|---------|
+| `robin_events` | None | Robin only | Original demo user |
+| `power_user_events` | `user_id` | 6 users | Multi-user stream |
 
-Reports convert UTC timestamps to user's local timezone:
+### Re-consuming Events
 
-```python
-# In generate_report.py
-MT_OFFSET = -7  # Mountain Time (Colorado)
+The consumer **re-consumes from the beginning** each time (fresh export). This is intentional for:
+- Replay scenarios (KSQL catching up)
+- Ensuring complete data
 
-# For other users, adjust offset:
-# PST: -8, EST: -5, CST: -6, etc.
-```
-
-### Filtering Content
-
-Latest Reads filters out generic titles:
-
-```python
-GENERIC_PATTERNS = [
-    'home', 'velo -', 'welcome to',
-    'outside magazine', '- outside'
-]
-```
+If the `power_user_events` topic is still replaying:
+1. Run consumer now → get partial data (good for testing)
+2. Run again when replay completes → get full data
+3. Regenerate reports with `batch_generate.py`
 
 ---
 
-## Output Files
+## LLM Configuration
 
-| File | Purpose |
-|------|---------|
-| `*_complete_events.json` | Raw Kafka events (gitignored) |
-| `*_summary.json` | Aggregated analytics |
-| `*_user_insights.json` | Structured profile data |
-| `*_journey_report.html` | Final HTML report |
-| `index.html` | GitHub Pages deployment copy |
+| Model | Provider | Purpose | Config |
+|-------|----------|---------|--------|
+| Claude Haiku 4.5 | AWS Bedrock | Narrative + Recent Activity | `BEDROCK_MODEL_ID` |
+| GPT-5-nano | OpenAI | Structured Interest Analysis | `OPENAI_API_KEY` |
 
----
-
-## Future Pipeline (Phase 2)
-
-See [PHASE2_PROPOSAL.md](./PHASE2_PROPOSAL.md) for planned infrastructure:
-
-- **Automated ingestion**: Scheduled Kafka consumers per user
-- **Embedding storage**: Vector DB for content similarity
-- **Cohort analysis**: Group users by behavior patterns
-- **Personalized recommendations**: Based on journey insights
-- **Dashboard**: Admin view of all user journeys
-
----
-
-## Dependencies
-
-```toml
-# pyproject.toml
-[dependencies]
-confluent-kafka = "^2.3.0"
-boto3 = "^1.34.0"        # AWS Bedrock
-openai = "^1.12.0"       # GPT-5-nano
-python-dotenv = "^1.0.0"
-```
-
-Install with:
-```bash
-uv sync
-```
+**Cost Estimate per User:**
+- Haiku: ~$0.02 (2 calls)
+- GPT-5-nano: ~$0.01 (1 call)
+- Total: ~$0.03/user
 
 ---
 
 ## Troubleshooting
 
-### Common Issues
-
 | Issue | Cause | Fix |
 |-------|-------|-----|
-| Empty hour chart | JSON keys are strings | Use `hours.get(str(h), 0)` |
-| NoneType in titles | Missing TITLE field | Use `(e.get('TITLE') or 'Untitled')` |
-| GPT-5-nano error | Temperature not supported | Remove temperature parameter |
-| Kafka timeout | Network/auth issue | Check .env credentials |
+| "User not found in registry" | Slug not in users.json | Add user to registry or run multi_user_consumer |
+| "No events file found" | Missing events JSON | Run appropriate Kafka consumer first |
+| Empty charts | No temporal data | Check events have TIMESTAMP field |
+| LLM timeout | API rate limit | Wait and retry, or use `--skip-llm` |
+| CORS error (local) | Opening file:// directly | Use `python -m http.server 8080` |
+
+---
+
+## Deployment Checklist
+
+- [ ] Events consumed from Kafka
+- [ ] User added to `data/users.json` with correct timezone
+- [ ] Report generated with `batch_generate.py`
+- [ ] Tested locally with `python -m http.server`
+- [ ] Committed `data/<slug>.json` (not events files)
+- [ ] Pushed to GitHub
+- [ ] Verified on GitHub Pages
 
 ---
 
 ## Contact
 
-- **Demo built by**: Wen Yang + Claude Opus 4.5
-- **Report issues**: GitHub Issues
+- **Built by**: Wen Yang + Claude Opus 4.5
+- **Repository**: [github.com/portkeys/user_journey](https://github.com/portkeys/user_journey)
+- **Report Issues**: GitHub Issues
