@@ -24,20 +24,20 @@
       "user_id": "c31d1441-970f-4197-8c8f-940286ca2c7c",
       "display_name": "Kate",
       "slug": "kate",
-      "timezone_offset": -6,
-      "timezone_name": "Central Time",
-      "location": "Texas",
-      "avatar_emoji": "🏜️",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "Seattle",
+      "avatar_emoji": "🌧️",
       "events_file": "events/kate_events.json"
     },
     {
       "user_id": "562a67e4-b305-4358-9cad-3730221ec8d5",
       "display_name": "Wen",
       "slug": "wen",
-      "timezone_offset": -7,
-      "timezone_name": "Mountain Time",
-      "location": "Colorado",
-      "avatar_emoji": "🌊",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "Berkeley",
+      "avatar_emoji": "🌉",
       "events_file": "events/wen_events.json"
     },
     {
@@ -64,10 +64,10 @@
       "user_id": "c35bcfd0-be1b-4557-a985-f86fef5f9275",
       "display_name": "PJ",
       "slug": "pj",
-      "timezone_offset": -8,
-      "timezone_name": "Pacific Time",
-      "location": "California",
-      "avatar_emoji": "🏔️",
+      "timezone_offset": -7,
+      "timezone_name": "Mountain Time",
+      "location": "Colorado",
+      "avatar_emoji": "⛷️",
       "events_file": "events/pj_events.json"
     }
   ]

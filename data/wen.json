@@ -1,0 +1,852 @@
+{
+  "user": {
+    "display_name": "Wen",
+    "slug": "wen",
+    "timezone_offset": -8,
+    "timezone_name": "Pacific Time",
+    "location": "Berkeley",
+    "avatar_emoji": "\ud83c\udf09"
+  },
+  "summary": {
+    "publications": {
+      "unknown": 844,
+      "Outside Watch": 51,
+      "Trailforks": 152,
+      "Trailforks App": 45,
+      "gaiagps": 24,
+      "Triathlete": 9,
+      "outside-online": 942,
+      "ski": 8,
+      "CleanEating": 1,
+      "yogajournal": 70,
+      "oxygen": 3,
+      "Backpacker": 107,
+      "www.outsideonline.com": 49,
+      "Outside App": 15,
+      "VeloNews": 55,
+      "climbing": 28,
+      "NationalParkTrips": 13,
+      "watch.outsideonline.com": 1,
+      "Run": 50,
+      "UtahNationalParkTrips": 2,
+      "MyGrandCanyon": 1
+    },
+    "tags": {
+      "evergreen": 140,
+      "everest": 34,
+      "everest-base-camp": 33,
+      "everest2025": 33,
+      "mount-everest": 33,
+      "outside-features": 31,
+      "tour-de-france": 25,
+      "tour-de-france-femmes": 25,
+      "aso": 21,
+      "british-cycling": 21,
+      "wellness": 20,
+      "outside-festival": 19,
+      "running-playlist": 19,
+      "accessories": 18,
+      "social-media": 18,
+      "technology": 18,
+      "travel": 17,
+      "native": 14,
+      "aging": 14,
+      "rifle": 14,
+      "nepal": 13,
+      "mountaineering": 12,
+      "hiking-and-backpacking": 11,
+      "hottakes": 10,
+      "camping": 9,
+      "food-and-drink": 9,
+      "beginner": 9,
+      "swede": 9,
+      "travel-guides": 9,
+      "wildlife": 8,
+      "running": 8,
+      "tv": 7,
+      "ultralight": 7,
+      "bobby-julich": 7,
+      "cervelo": 7,
+      "paris-nice": 7,
+      "arctic": 7,
+      "bears": 7,
+      "environment": 7,
+      "norway": 7,
+      "russia": 7,
+      "winter": 7,
+      "big-bear": 6,
+      "celebrities": 6,
+      "profile": 6,
+      "culture": 5,
+      "colorado": 5,
+      "alone": 5,
+      "beginner-runner": 5,
+      "beginner-runners": 5,
+      "beginner-tips": 5,
+      "beginners": 5,
+      "injury-prevention-2": 5,
+      "film": 4,
+      "scuba-diving": 4,
+      "gopro": 4,
+      "weekend-whipper": 4,
+      "backcountry-camping": 4,
+      "car-camping": 4,
+      "gear-review": 4,
+      "insulated": 4,
+      "style": 4,
+      "demi-vollering": 4,
+      "giro-ditalia": 4,
+      "la-vuelta-femenina": 4,
+      "mads-pedersen": 4,
+      "primoz-roglic": 4,
+      "tour-de-hoody": 4,
+      "uci": 4,
+      "womens-cycling": 4,
+      "yellow-cards": 4,
+      "the-farmers-dog": 3,
+      "commerce": 3,
+      "adventure": 3,
+      "jaws": 3,
+      "netflix": 3,
+      "shark": 3,
+      "sharks": 3,
+      "california": 3,
+      "kelly-slater": 3,
+      "surfing": 3,
+      "tahiti": 3,
+      "50k training plan": 3,
+      "training plan": 3,
+      "ultra running": 3,
+      "athletes": 3,
+      "racing": 3,
+      "san-francisco": 3,
+      "trail-running": 3,
+      "camping-chairs": 3,
+      "hammock": 3,
+      "fiber": 2,
+      "nutrition": 2,
+      "nutrition-tips": 2,
+      "sleep": 2,
+      "photography": 2,
+      "yellowstone": 2,
+      "yellowstone-national-park": 2,
+      "climate-change": 2,
+      "national-park-service": 2,
+      "public-lands": 2,
+      "fly-fishing": 2,
+      "friendship": 2,
+      "outside-classics": 2,
+      "water-activities": 2,
+      "survival": 2,
+      "50k-training-plan": 2,
+      "training-plan": 2,
+      "volta-a-catalunya": 2,
+      "free-solo": 2,
+      "niels-tietze": 2,
+      "yosar": 2,
+      "yosemite-search-and-rescue": 2,
+      "grand traverse bay": 2,
+      "michigan": 2,
+      "sleeping bear dunes national lakeshore": 2,
+      "torch lake": 2,
+      "mental-health": 2,
+      "colleen quigley": 2,
+      "pro runners": 2,
+      "running sponsorships": 2,
+      "sabrina stanley": 2,
+      "trail running sponsorships": 2,
+      "skiing-magazine": 1,
+      "back-workouts": 1,
+      "the-outside-festival": 1,
+      "media": 1,
+      "seattle": 1,
+      "adventure-travel": 1,
+      "conservation": 1,
+      "documentary": 1,
+      "manta-ray": 1,
+      "mexico": 1,
+      "sailing": 1,
+      "gravel": 1,
+      "life-time-grand-prix": 1,
+      "unbound-gravel": 1,
+      "deals": 1,
+      "fathers-day": 1,
+      "nebraska": 1,
+      "watersports": 1,
+      "annapurna": 1,
+      "hiking": 1,
+      "treks": 1,
+      "gaia-gps": 1,
+      "health-and-beauty": 1,
+      "frontier": 1,
+      "homesteading": 1,
+      "ultra-running": 1,
+      "5k": 1,
+      "5k-pace": 1,
+      "5k-plans": 1,
+      "5k-times": 1,
+      "5k-training": 1,
+      "glamping": 1,
+      "2025-gear-reviews": 1,
+      "2025-summer-gear-guide": 1,
+      "coolers": 1,
+      "70.3 training": 1,
+      "half": 1,
+      "ironman 70.3": 1,
+      "triathlete.com training plans": 1,
+      "50k": 1,
+      "50k-training": 1,
+      "first-50k": 1,
+      "how-to-train-for-a-50k": 1,
+      "ultrarunning": 1,
+      "alaska": 1,
+      "book-review": 1,
+      "books": 1,
+      "pain relief": 1,
+      "great smoky mountains national park": 1,
+      "wine beer and spirits": 1,
+      "endurance": 1,
+      "kt tape": 1
+    },
+    "events_with_tags": 254,
+    "authors": {
+      "Frederick Dreier": 8,
+      "Ben Ayers": 8,
+      "Brian Higgins": 7,
+      "Adam Roy": 4,
+      "Steven Potter": 4,
+      "Eugene Buchanan": 3,
+      "Alexandra Gillespie": 3,
+      "Mikaela Ruland": 3,
+      "Bobby Julich": 3,
+      "Calin Van Paris": 3,
+      "Scott Tindal": 2,
+      "The Editors": 2,
+      "Nathan Pipenberg": 2,
+      "Emma Veidt": 2,
+      "Gavin Feek": 2,
+      "Timothy McCall MD": 2,
+      "Martin Fritz Huber": 2,
+      "Leah Prinzivalli": 2,
+      "Lily Ritter": 1,
+      "Michael Berg": 1,
+      "Ryleigh Nucilli": 1,
+      "Kathleen Rellihan": 1,
+      "David Quammen": 1,
+      "Alvin Holbrook": 1,
+      "Maren Larsen": 1,
+      "Drew Zieff": 1,
+      "Backpacker Editors": 1,
+      "Madi Salvati": 1,
+      "Graham Averill": 1,
+      "Matt Warshaw": 1,
+      "Zoe Gates": 1,
+      "Bradley Mayhew": 1,
+      "Erica Zazo": 1,
+      "Lola M\u00e9ndez": 1,
+      "Megan Margulies": 1,
+      "David Roche": 1,
+      "\u200bMolly Hurford": 1,
+      "Jessica Sebor": 1,
+      "Jivana Heyman": 1,
+      "Dr. Daya Grant": 1,
+      "Joe Jackson": 1,
+      "Jeff Rennicke": 1,
+      "YJ Editors": 1,
+      "David Kushner": 1,
+      "Heather Hansman": 1,
+      "Jeremy Whittle": 1,
+      "Stephanie Pearson": 1,
+      "Zach Bitter": 1,
+      "Andrew Hood": 1,
+      "Phil Catalfo": 1,
+      "Sarah Bence": 1,
+      "Corey Buhay": 1
+    },
+    "content_categories": {
+      "search": 10,
+      "series": 11,
+      "films": 6,
+      "pro": 2,
+      "map": 121,
+      "appfeed": 31,
+      "route": 1,
+      "profile": 61,
+      "discover": 27,
+      "home": 93,
+      "notifications": 9,
+      "shorts": 1,
+      "categories": 4,
+      "ridelog": 3,
+      "nutrition": 2,
+      "comfort-theory-new-zealand": 1,
+      "video": 2,
+      "gear": 10,
+      "breath-of-gloster": 1,
+      "byline": 1,
+      "poses": 1,
+      "appfeed_ugc_post": 1,
+      "flying-high-again": 1,
+      "adventure-travel": 12,
+      "workouts-for-women": 1,
+      "activity": 22,
+      "login": 1,
+      "ugc_post_success": 1,
+      "rideplans": 2,
+      "homefeed": 44,
+      "culture": 14,
+      "outdoor-adventure": 30,
+      "tag": 4,
+      "category": 1,
+      "gravel": 1,
+      "region": 1,
+      "trails": 4,
+      "outdoor-gear": 5,
+      "skills": 1,
+      "food": 1,
+      "error": 2,
+      "trips": 5,
+      "the-other-side-of-fear-mark-matthews": 2,
+      "health": 2,
+      "discover-rides": 1,
+      "training": 10,
+      "collection": 1,
+      "stories": 2,
+      "people": 2,
+      "culture-climbing": 4,
+      "where-to-stay-camp-eat": 1,
+      "practice": 3,
+      "running": 1,
+      "parks": 2,
+      "road": 4,
+      "news-and-events": 1,
+      "lifestyle": 3,
+      "videos": 1,
+      "news": 3,
+      "teach": 1,
+      "yoga-101": 2,
+      "survival": 1
+    },
+    "subcategories": {
+      "map/region": 28,
+      "culture/books-media": 14,
+      "map/search": 13,
+      "outdoor-adventure/everest": 13,
+      "profile/wenoz": 10,
+      "series/red-bulls-everyday-eileen": 9,
+      "adventure-travel/destinations": 7,
+      "map/trail": 6,
+      "profile/562a67e4-b305-4358-9cad-3730221ec8d5": 6,
+      "profile/b33e4029-da4d-407f-9f35-9f87b7a91637": 4,
+      "training/training-plans": 4,
+      "culture-climbing/climbing-hard-isnt-everything": 4,
+      "gear/your-adventure-dog-benefits-from-a-healthy-diet-and-exercise-just-like-you": 3,
+      "profile/bda0aca2-2e8c-401b-b066-7f639c247003": 3,
+      "profile/68d8b162-6161-42a3-a172-e5d29cf42623": 3,
+      "profile/714ec6ed-3253-4022-adce-6303e9c7a83a": 3,
+      "outdoor-adventure/water-activities": 3,
+      "outdoor-gear/camping": 3,
+      "road/road-gear": 3,
+      "categories/adventure": 2,
+      "nutrition/does-fiber-help-you-sleep": 2,
+      "video/wildlife-immersion-in-yellowstone-national-park": 2,
+      "activity/545c9080-3c2e-11f0-8080-80002d5f5e4d": 2,
+      "profile/c31d1441-970f-4197-8c8f-940286ca2c7c": 2,
+      "profile/037107ab-d0ca-486e-afd2-4b50aae93d39": 2,
+      "profile/6b1ec6b2-63f8-4715-adf2-371413e64e86": 2,
+      "outdoor-adventure/environment": 2,
+      "tag/outside-features": 2,
+      "trails/amphitheater-trail-383476": 2,
+      "tag/public-lands": 2,
+      "activity/fab4c680-5391-11f0-8080-800068c34414": 2,
+      "outdoor-adventure/exploration-survival": 2,
+      "trips/join-backpacker-magazine-nepal-wildland-trekking-nar-phu-langtang": 2,
+      "the-other-side-of-fear-mark-matthews/cHKZflKi": 2,
+      "trips/trips-by-national-park": 2,
+      "profile/48dbd429-d76e-4476-a415-680ddf1c29d2": 2,
+      "health/wellness": 2,
+      "people/when-yosemite-search-and-rescue-loses-one-of-its-own-niels-tietze": 2,
+      "practice/yoga-sequences": 2,
+      "parks/best-national-parks-fall": 2,
+      "outdoor-gear/tools": 2,
+      "trails/map": 2,
+      "training/getting-started": 2,
+      "news/do-onlyfans-sponsorships-for-pro-runners-actually-make-sense": 2,
+      "route/world": 1,
+      "shorts/classics-backpacking-the-winds": 1,
+      "ridelog/yearinreview": 1,
+      "ridelog/view": 1,
+      "comfort-theory-new-zealand/qYH8GUPx": 1,
+      "breath-of-gloster/MZKpoW8n": 1,
+      "byline/lily-krass": 1,
+      "gear/10-steps-to-buying-a-new-pair-of-skis": 1,
+      "categories/action": 1,
+      "gear/backcountry-ski-gear": 1,
+      "ridelog/:id": 1,
+      "flying-high-again/xIZjWmxq": 1,
+      "workouts-for-women/back-workouts-for-women": 1,
+      "gear/deal-of-the-week-this-backpack-was-bult-for-speed-and-its-60-off": 1,
+      "activity/3bbeaa00-3d04-11f0-8080-80010e82382d": 1,
+      "activity/ee5c9372-42f2-11f0-8080-800125635d35": 1,
+      "activity/7f2480c0-430e-11f0-8080-800158a3ffb8": 1,
+      "profile/140d5b3d-e1be-4894-a109-44443ba11b93": 1,
+      "profile/0a0d9bba-d27a-46e6-bfa9-d3aeeeaa77f7": 1,
+      "profile/09ef4e26-7a9f-4b01-82b2-cbdc74235171": 1,
+      "profile/ae96e742-b1ff-4979-be83-bdcd023db9d0": 1,
+      "profile/5cea3cf2-6803-4480-ae87-5200282f885f": 1,
+      "map/route": 1,
+      "profile/3bbca3da-bf9c-4611-af78-2b88714cfecb": 1,
+      "profile/5d5b9bfe-7346-443c-978c-9aaf836a6c4f": 1,
+      "profile/d0ee8e5c-300a-4f9b-9b09-cbc9d617075b": 1,
+      "profile/2be1f093-0bbb-467c-b705-84dde1d4fd45": 1,
+      "adventure-travel/essays": 1,
+      "category/gravel": 1,
+      "gravel/gravel-racing": 1,
+      "profile/0f783e49-b3a4-40f2-98b5-82a9cc852711": 1,
+      "profile/814572f8-f831-4fb0-bdcf-9112611b16a5": 1,
+      "profile/abbe8306-557d-45a4-ae19-40721ca85cd8": 1,
+      "profile/17ad93a0-e14f-4767-a55f-04795400a438": 1,
+      "activity/7a7e99ae-5365-11f0-8080-800125626359": 1,
+      "activity/4b663280-55d1-11f0-8080-8001602eccd1": 1,
+      "region/sugarloaf-mountain-1542215798": 1,
+      "activity/539fa880-575e-11f0-8080-8000278fad20": 1,
+      "gear/five-things-no-ultralighter-should-leave-behind": 1,
+      "skills/beginner-skills": 1,
+      "food/how-brew-backcountry-coffee-budget": 1,
+      "categories/water": 1,
+      "trips/i-had-the-trip-of-my-life-in-nepal-last-year-with-backpacker-now-its-your-turn": 1,
+      "activity/ad42f200-3a91-11f0-8080-800030e935dc": 1,
+      "activity/2d065480-4228-11f0-8080-800159e886c2": 1,
+      "profile/21e7f673-8374-4ddc-9091-bd5605c297a0": 1,
+      "activity/5049dc80-60cf-11f0-8080-80011d67c3a3": 1,
+      "activity/8b744480-641c-11f0-8080-80017971b3d5": 1,
+      "activity/ebdda300-6469-11f0-8080-8001795083e5": 1,
+      "activity/2f88cc00-63da-11f0-8080-80002c0ab6d0": 1,
+      "training/trail-tips-training": 1,
+      "collection/best-training-plans-for-runners": 1,
+      "stories/essays": 1,
+      "activity/58135600-69d8-11f0-8080-80001d31dd6d": 1,
+      "activity/426a3780-68d7-11f0-8080-800132f56159": 1,
+      "profile/fb4d1b3c-e711-494f-987e-bf688c473773": 1
+    },
+    "website_domains": {
+      "watch.outsideonline.com": 58,
+      "outsideonline.com": 1212,
+      "trailforks.com": 202,
+      "skimag.com": 10,
+      "triathlete.com": 13,
+      "cleaneatingmag.com": 3,
+      "yogajournal.com": 78,
+      "oxygenmag.com": 5,
+      "backpacker.com": 128,
+      "climbing.com": 36,
+      "velo.outsideonline.com": 64,
+      "nationalparktrips.com": 19,
+      "trailrunnermag.com": 4,
+      "run.outsideonline.com": 57,
+      "myutahparks.com": 4,
+      "mygrandcanyonpark.com": 3
+    },
+    "referrer_domains": {
+      "outsideonline.com": 118,
+      "trailforks.com": 9,
+      "google.com": 7,
+      "accounts.outsideonline.com": 5,
+      "velo.outsideonline.com": 4,
+      "backpacker.com": 4,
+      "skimag.com": 3,
+      "buy.tinypass.com": 3,
+      "yogajournal.com": 2,
+      "run.outsideonline.com": 2,
+      "studio.apollographql.com": 2,
+      "oxygenmag.com": 1,
+      "scout.outsideonline.com": 1
+    },
+    "email_traffic_count": 23,
+    "temporal": {
+      "first_event": "2024-11-23 06:21:30.596000+00:00",
+      "last_event": "2025-08-14 16:23:57.024000+00:00",
+      "total_days": 264,
+      "events_last_7_days": 271,
+      "events_last_30_days": 770,
+      "avg_events_per_day": 9.356060606060606,
+      "by_hour": {
+        "6": 49,
+        "21": 125,
+        "19": 150,
+        "20": 172,
+        "22": 197,
+        "17": 389,
+        "18": 264,
+        "0": 107,
+        "1": 65,
+        "23": 110,
+        "2": 159,
+        "16": 241,
+        "15": 214,
+        "3": 26,
+        "4": 56,
+        "5": 93,
+        "14": 53
+      },
+      "by_day_of_week": {
+        "Saturday": 55,
+        "Wednesday": 435,
+        "Friday": 279,
+        "Sunday": 50,
+        "Tuesday": 755,
+        "Monday": 506,
+        "Thursday": 390
+      },
+      "by_month": {
+        "2024-11": 1,
+        "2025-01": 87,
+        "2025-02": 16,
+        "2025-03": 23,
+        "2025-04": 61,
+        "2025-05": 46,
+        "2025-06": 928,
+        "2025-07": 800,
+        "2025-08": 508
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 229,
+      "single_read": 159,
+      "multi_read": 70,
+      "most_revisited": [
+        [
+          "Outside Magazine",
+          75
+        ],
+        [
+          "Outside Magazine",
+          10
+        ],
+        [
+          "Adventure - Outdoor News, Science, Politics - Outside Online",
+          10
+        ],
+        [
+          "Outside Magazine",
+          7
+        ],
+        [
+          "Films | Outside TV",
+          6
+        ],
+        [
+          "wenoz's Notifications | Trailforks",
+          6
+        ],
+        [
+          "Wen Yang - Outside",
+          6
+        ],
+        [
+          "Outside Magazine",
+          6
+        ],
+        [
+          "Home | Outside TV",
+          5
+        ],
+        [
+          "Trailforks | Trail Database & Maps",
+          5
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          4
+        ],
+        [
+          "Mike Johnson (autho) - Outside",
+          4
+        ],
+        [
+          "Big Bear Lake, California: A (Sky) Island Paradise for Outdoor Adventure",
+          4
+        ],
+        [
+          "I Thought Climbing \"Hard\" Was Everything. I\u2019m Glad I Was Wrong.",
+          4
+        ],
+        [
+          "Search | Outside TV",
+          3
+        ],
+        [
+          "Red Bull's Everyday Eileen | Outside TV",
+          3
+        ],
+        [
+          "Search | Outside TV",
+          3
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          3
+        ],
+        [
+          "Wildlife Immersion in Yellowstone National Park",
+          3
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          3
+        ],
+        [
+          "Your Adventure Dog Benefits from a Healthy Diet and Exercise, Just Like You",
+          3
+        ],
+        [
+          "International Mountain Bicycling Association - Outside",
+          3
+        ],
+        [
+          "shimano - Outside",
+          3
+        ],
+        [
+          "Travel - Adventure - Destinations - Outside Online",
+          3
+        ],
+        [
+          "Milesh - Outside",
+          3
+        ],
+        [
+          "Is \u2018Alone\u2019 Africa the Toughest Season Yet?",
+          3
+        ],
+        [
+          "Shark Influencers Are Calming Our Fears Post-'Jaws'. But Do They Take It Too Far?",
+          3
+        ],
+        [
+          "A Beginner Training Plan For Your First 50K",
+          3
+        ],
+        [
+          "20 Years Ago an Aluminum Bike Was Cutting Edge Enough to Win Paris-Nice",
+          3
+        ],
+        [
+          "Red Bull's Everyday Eileen",
+          2
+        ]
+      ],
+      "content_types": {
+        "how_to": 7,
+        "best_lists": 17,
+        "reviews": 4,
+        "guides": 1
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 152,
+        "app": 45,
+        "ridelogs": 2,
+        "map_views": 4,
+        "photos": 0,
+        "unique_rides": 1
+      },
+      "gaia_gps": {
+        "events": 24
+      },
+      "outside_app": {
+        "events": 15
+      },
+      "outside_watch": {
+        "events": 52
+      },
+      "editorial": {
+        "events": 1336,
+        "articles": 298
+      },
+      "devices": {
+        "events": 0
+      },
+      "monthly_app_usage": {
+        "2025-01": {
+          "outside_watch": 28,
+          "trailforks_web": 6,
+          "trailforks_app": 5,
+          "gaia_gps": 2
+        },
+        "2025-02": {
+          "gaia_gps": 2,
+          "trailforks_app": 1,
+          "outside_watch": 1
+        },
+        "2025-03": {
+          "outside_watch": 1,
+          "trailforks_web": 1,
+          "trailforks_app": 1
+        },
+        "2025-04": {
+          "outside_watch": 7,
+          "gaia_gps": 10,
+          "trailforks_app": 3,
+          "trailforks_web": 8
+        },
+        "2025-05": {
+          "trailforks_app": 2,
+          "trailforks_web": 5
+        },
+        "2025-06": {
+          "outside_app": 10,
+          "trailforks_web": 81,
+          "trailforks_app": 13
+        },
+        "2025-07": {
+          "trailforks_web": 43,
+          "trailforks_app": 20,
+          "gaia_gps": 10,
+          "outside_watch": 15,
+          "outside_app": 3
+        },
+        "2025-08": {
+          "trailforks_web": 8,
+          "outside_app": 2
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 2470,
+      "total_days_tracked": 264,
+      "events_per_day": 9.356060606060606,
+      "unique_publications": 21,
+      "unique_tags_encountered": 175,
+      "unique_authors_read": 52,
+      "unique_articles": 229
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Wen's 2025 Outside Insights Report\n\n## Welcome Message\n\nWelcome, Wen! We're thrilled to celebrate your incredible journey as a power user of Outside Online's media ecosystem. Over the past nine months, you've logged nearly 2,500 engagements across our publications\u2014a testament to your genuine passion for adventure, wellness, and the stories that inspire both. Your presence has been consistent, thoughtful, and deeply engaged.\n\n---\n\n## Wen's 2025 Outside Memory\n\nYour year began with curiosity and exploration. In **January**, you dove into Outside Watch, discovering series like \"Red Bull's Everyday Eileen\" and exploring adventure content. You were also actively mapping your world through Trailforks and Gaia GPS, checking trail reports and planning routes with the precision of someone who takes their outdoor pursuits seriously. This early phase revealed your multi-platform approach\u2014you weren't just reading; you were *actively engaging* with the full Outside ecosystem.\n\n**February through April** marked a quieter but purposeful period. You shifted focus toward wellness and nutrition content, exploring articles about recovery shoes, sports watches, and protein powders for triathletes. Pieces like \"The Surprising Reason You Can't Sleep, According to a Nutrition Expert\" and \"How Bone Broth Helps to Optimize Your Post-Workout Recovery\" showed a deepening interest in the science behind athletic performance. You also explored video content, discovering \"Wildlife Immersion in Yellowstone National Park.\" This was the season of optimization\u2014understanding not just *how* to train, but *how to recover*.\n\nThen came **June and July**\u2014your breakout months. With 928 events in June alone and 800 in July, you entered a period of extraordinary engagement. The data reveals an intense focus on **Everest content**: you consumed 33 articles tagged with \"everest2025,\" explored \"mount-everest,\" \"everest-base-camp,\" and mountaineering content voraciously. Simultaneously, you tracked the **Tour de France** and Tour de France Femmes with 25 engagements each, following the ASO and British Cycling coverage. This was the season of big mountains and big races\u2014you were living vicariously through some of the world's greatest athletic pursuits while simultaneously exploring the wellness and technology angles that support them.\n\nYour engagement remained strong through **August**, with 508 events logged, suggesting you've sustained this momentum into late summer. Your journey has been one of evolution: from exploratory multi-platform discovery, to specialized wellness knowledge-building, to deep immersion in marquee sporting events and mountaineering pursuits. You're not a casual reader\u2014you're a *curator of your own athletic and adventurous education*.\n\n---\n\n## Your Passions\n\n- **Mountaineering & High-Altitude Adventure** \u2014 Your 33 engagements with \"everest2025\" and \"mount-everest\" content, combined with interest in \"everest-base-camp,\" \"nepal,\" and \"mountaineering\" tags, reveal a fascination with the world's greatest climbing challenges. Whether you're planning your own expedition or living through others' summits, this is clearly a core passion.\n\n- **Professional Cycling** \u2014 With 25 engagements each on Tour de France and Tour de France Femmes coverage, plus focused interest in \"ASO\" and \"British Cycling,\" you're deeply invested in cycling's biggest stages. You're following both the traditional and women's cycling narratives with equal attention.\n\n- **Trail Systems & Route Mapping** \u2014 Your 121 map interactions, 152 Trailforks engagements, and consistent use of Gaia GPS demonstrate a methodical, data-driven approach to outdoor exploration. You're not just hiking or biking\u2014you're studying terrain, checking conditions, and planning with precision.\n\n- **Athletic Recovery & Wellness** \u2014 Your consumption of nutrition, recovery, and sleep-science content (bone broth, protein powders, recovery shoes, sports watches) shows you understand that performance extends beyond the activity itself. You're investing in the science of how to train smarter and recover better.\n\n- **Adventure Storytelling & Cinematography** \u2014 Your engagement with Outside Watch series, adventure films, and visual content like \"Comfort Theory: New Zealand\" and \"Wildlife Immersion in Yellowstone National Park\" reveals you appreciate narrative-driven adventure content. You're inspired by how stories are told, not just the stories themselves.\n\n- **Evergreen Knowledge & Gear Reviews** \u2014 Your 140 engagements with \"evergreen\" content and interest in accessories, technology, and gear reviews show you value timeless, practical information. You're the type of reader who bookmarks a \"Best Sports Watches\" article for future reference and returns to trusted gear guides.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal a creature of habit with a clear rhythm. You're most active between **4:00 PM and 10:00 PM**, with peak engagement at **10:00 PM** (197 events) and **9:00 PM** (172 events). This suggests you're settling in for evening reading sessions\u2014perhaps after work or after outdoor activities, when you have time to digest longer-form content and explore multimedia. Your secondary peak at **5:00 PM** (389 events) indicates you also check in during late afternoon, possibly planning evening activities or catching up on breaking news.\n\n**Tuesday is your dominant day**, with 755 events\u2014nearly double your weekend engagement. This mid-week surge suggests you use Outside content as a midweek mental escape or planning tool. **Monday** (506 events) and **Wednesday** (435 events) remain strong, while weekends drop significantly (Saturday: 55, Sunday: 50). You're a weekday reader, someone who uses Outside Online as part of your work-week rhythm rather than weekend leisure reading.\n\nYour favorite authors include **Frederick Dreier** and **Ben Ayers** (8 articles each), followed closely by **Brian Higgins** (7 articles). These writers appear to resonate with your interests in adventure, gear, and narrative storytelling. You've also engaged with **Bobby Julich** (3 articles), bringing professional cycling expertise into your feed, which aligns perfectly with your Tour de France passion. Across 52 unique authors and 229 unique articles, you're a voracious consumer who values both trusted voices and discovery of new perspectives.",
+    "recent_spotlight": "**You're Deep in Adventure Mode**\n\nYou've been spending serious time with Outside Magazine lately, diving headfirst into their content over the past couple of days. Your reading sessions suggest you're hungry for outdoor inspiration and adventure stories\u2014the kind that gets you dreaming about your next expedition or weekend escape. Whether it's gear reviews, trail guides, or athlete profiles, you're clearly soaking up everything the outdoor world has to offer.\n\nWhile the specific article titles aren't showing up in your activity data, your consistent visits to Outside Online paint a clear picture: you're exploring adventure, athleticism, and the great outdoors. Keep an eye out for their latest gear roundups, destination guides, and inspiring athlete interviews\u2014they seem to be right up your alley.",
+    "seasonal_patterns": [
+      {
+        "season": "Spring",
+        "emoji": "\ud83c\udf38",
+        "activities": [
+          "hiking-and-backpacking",
+          "everest-base-camp",
+          "Trailforks app usage"
+        ],
+        "insight": "Rising spring interest in mountaineering prep and backcountry planning."
+      },
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "trailforks app usage",
+          "everest",
+          "outside-online"
+        ],
+        "insight": "Peak outdoor riding and mapping activity in summer."
+      },
+      {
+        "season": "Autumn",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "travel-guides content",
+          "wildlife content",
+          "nutrition-and-wellness"
+        ],
+        "insight": "Autumn shows travel planning and wildlife content uptick."
+      },
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "ski gear reviews",
+          "wellness content",
+          "indoor training content"
+        ],
+        "insight": "Winter leans into ski content and wellness resources."
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "everest-base-camp",
+        "evidence": "Everest-related tags show rising interest (everest-base-camp: 33; everest: 34; everest2025: 33)."
+      },
+      {
+        "topic": "nepal",
+        "evidence": "Nepal tag appears with 13 mentions, signaling growing regional interest."
+      },
+      {
+        "topic": "Trailforks",
+        "evidence": "Trailforks domain/app interactions indicate increasing engagement with trail data."
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "everest",
+        "strength": "Very Strong",
+        "evidence": "34 mentions in top_tags for everest, with related everest-base-camp and everest2025 variants."
+      },
+      {
+        "topic": "mountaineering",
+        "strength": "Strong",
+        "evidence": "top_tags include 'mountaineering' (12)."
+      },
+      {
+        "topic": "hiking-and-backpacking",
+        "strength": "Strong",
+        "evidence": "11 mentions in top_tags."
+      },
+      {
+        "topic": "outside-online",
+        "strength": "Very Strong",
+        "evidence": "Outside Online publications count is 942, indicating high content engagement."
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "ski",
+        "note": "Occasional engagement with ski gear/content."
+      },
+      {
+        "topic": "wellness",
+        "note": "Periodic wellness content consumption."
+      },
+      {
+        "topic": "travel-guides",
+        "note": "Occasional interest in travel guides content."
+      },
+      {
+        "topic": "wildlife",
+        "note": "Infrequent wildlife content."
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "5 Dangerous Animals Hikers Should Watch Out For (and Ho",
+        "url": "https://www.backpacker.com/survival/surviving-animal-attacks/dangerous-animals-hiking-trails-what-to-do/",
+        "date": "Aug 12"
+      },
+      {
+        "title": "Do OnlyFans Sponsorships for Pro Runners Actually Make ",
+        "url": "https://run.outsideonline.com/news/do-onlyfans-sponsorships-for-pro-runners-actually-make-sense/",
+        "date": "Aug 12"
+      },
+      {
+        "title": "How to Boost Your Endurance",
+        "url": "https://run.outsideonline.com/news/do-onlyfans-sponsorships-for-pro-runners-actually-make-sense/",
+        "date": "Aug 12"
+      },
+      {
+        "title": "Do OnlyFans Sponsorships for Pro Runners Actually Make ",
+        "url": "https://run.outsideonline.com/news/do-onlyfans-sponsorships-for-pro-runners-actually-make-sense/",
+        "date": "Aug 12"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-14T19:59:20.739231Z"
+}
