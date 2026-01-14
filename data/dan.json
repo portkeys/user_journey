@@ -1,0 +1,274 @@
+{
+  "user": {
+    "display_name": "Dan",
+    "slug": "dan",
+    "timezone_offset": -5,
+    "timezone_name": "Eastern Time",
+    "location": "Connecticut",
+    "avatar_emoji": "\ud83c\udfc3"
+  },
+  "summary": {
+    "publications": {
+      "unknown": 48,
+      "outside-online": 37,
+      "Trailforks": 39,
+      "VeloNews": 28,
+      "www.outsideonline.com": 8,
+      "Trailforks App": 1,
+      "trailforks": 1
+    },
+    "tags": {
+      "tour-de-france": 16,
+      "tadej-pogacar": 15,
+      "joao-almeida": 14,
+      "jonas-vingegaard": 14,
+      "remco-evenepoel": 14,
+      "uae-emirates": 14,
+      "native": 1,
+      "snowboarding": 1,
+      "toyota": 1,
+      "giro-ditalia-women": 1,
+      "tour-de-france-femmes": 1
+    },
+    "events_with_tags": 17,
+    "authors": {
+      "Andrew Hood": 1,
+      "Hannah Gross": 1,
+      "Agence France-Presse": 1
+    },
+    "content_categories": {
+      "video": 1,
+      "outdoor-gear": 1,
+      "events": 1,
+      "category": 1,
+      "road": 3,
+      "home": 4,
+      "appfeed": 1,
+      "map": 1,
+      "homefeed": 2,
+      "ridelog": 1,
+      "profile": 2,
+      "activity": 1,
+      "o": 2
+    },
+    "subcategories": {
+      "road/road-racing": 3,
+      "o/perks": 2,
+      "video/return-to-sender": 1,
+      "outdoor-gear/cars-trucks": 1,
+      "category/road": 1,
+      "ridelog/view": 1,
+      "profile/iamdb": 1,
+      "activity/followsearch": 1,
+      "profile/91a01b84-720b-419e-b4d7-b9228a8e4f56": 1
+    },
+    "website_domains": {
+      "outsideonline.com": 55,
+      "trailforks.com": 44,
+      "velo.outsideonline.com": 32
+    },
+    "referrer_domains": {
+      "trailforks.com": 5,
+      "outsideonline.com": 3,
+      "velo.outsideonline.com": 3,
+      "google.com": 1,
+      "accounts.outsideonline.com": 1
+    },
+    "email_traffic_count": 0,
+    "temporal": {
+      "first_event": "2025-07-15 14:06:06.004000+00:00",
+      "last_event": "2025-07-16 18:49:39.501000+00:00",
+      "total_days": 1,
+      "events_last_7_days": 162,
+      "events_last_30_days": 162,
+      "avg_events_per_day": 162.0,
+      "by_hour": {
+        "14": 8,
+        "16": 2,
+        "18": 48,
+        "21": 14,
+        "12": 21,
+        "13": 69
+      },
+      "by_day_of_week": {
+        "Tuesday": 53,
+        "Wednesday": 109
+      },
+      "by_month": {
+        "2025-07": 162
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 15,
+      "single_read": 12,
+      "multi_read": 3,
+      "most_revisited": [
+        [
+          "Outside Magazine",
+          4
+        ],
+        [
+          "Trailforks | Trail Database & Maps",
+          3
+        ],
+        [
+          "Outside Online",
+          2
+        ]
+      ],
+      "content_types": {
+        "how_to": 0,
+        "best_lists": 0,
+        "reviews": 0,
+        "guides": 1
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 40,
+        "app": 1,
+        "ridelogs": 1,
+        "map_views": 0,
+        "photos": 0,
+        "unique_rides": 1
+      },
+      "gaia_gps": {
+        "events": 0
+      },
+      "outside_app": {
+        "events": 0
+      },
+      "outside_watch": {
+        "events": 0
+      },
+      "editorial": {
+        "events": 73,
+        "articles": 14
+      },
+      "devices": {
+        "events": 0
+      },
+      "monthly_app_usage": {
+        "2025-07": {
+          "trailforks_web": 40,
+          "trailforks_app": 1
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 162,
+      "total_days_tracked": 1,
+      "events_per_day": 162.0,
+      "unique_publications": 7,
+      "unique_tags_encountered": 11,
+      "unique_authors_read": 3,
+      "unique_articles": 15
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nHey Dan! We wanted to take a moment to celebrate you as a valued member of the Outside community. Over the past year, your passion for cycling, mountain biking, and outdoor adventure has been impossible to miss\u2014and we're thrilled to have you along for the ride.\n\n---\n\n## Dan's 2025 Outside Memory\n\nYour 2025 has been defined by one thing: **an absolute obsession with professional cycling**, particularly the Tour de France and the riders shaping the sport's future. When July rolled around, you dove headfirst into the drama unfolding in France, tracking every twist and turn with the intensity of someone who lives and breathes the sport.\n\nWhat's fascinating about your engagement is how you've balanced **spectator passion with active participation**. You're not just reading about cycling\u2014you're living it. Your activity on Trailforks shows you're out there logging rides, checking trail conditions, and connecting with the mountain biking community. This dual identity\u2014the engaged fan and the active adventurer\u2014defines who you are as an Outside member.\n\nYour reading patterns reveal a **cyclical rhythm tied to major sporting events**. When the Tour de France captured the world's attention in mid-July, you became a voracious consumer of race coverage. You cycled through VeloNews for breaking news and analysis, dug into Outside Online for deeper context, and even explored Trailforks for event information. The concentration of your activity around specific riders\u2014Tadej Poga\u010dar, Jo\u00e3o Almeida, Jonas Vingegaard, and Remco Evenepoel\u2014shows you follow the sport with genuine expertise, not casual interest.\n\nBy mid-July 2025, you'd engaged with 15 unique articles across 7 different publications, racking up 162 total events in just two days. This intensity speaks volumes: when something captures your attention, you commit fully. Whether it's reading \"Poga\u010dar Plots to Bury Tour de France Rivals in the Pyr\u00e9n\u00e9es\" or checking your Trailforks ride log, you're all in.\n\n---\n\n## Your Passions\n\n- **Professional Road Cycling** \u2014 Your engagement with Tour de France coverage dominates your activity. You're tracking elite riders like Tadej Poga\u010dar (15 tag mentions), Jo\u00e3o Almeida (14), Jonas Vingegaard (14), and Remco Evenepoel (14), plus following teams like UAE Emirates. This isn't casual sports fandom\u2014you're invested in the narrative and strategy of the sport's biggest stage.\n\n- **Mountain Biking & Trail Culture** \u2014 Trailforks is your second home, accounting for 39 of your 162 events. You're actively logging rides, exploring trail maps, and engaging with the mountain biking community. You're not just reading about trails; you're riding them and sharing that experience.\n\n- **Cycling Analysis & Race Strategy** \u2014 Articles like \"Your 2025 Tour de France Survival Guide if Tadej Poga\u010dar Keeps Winning\" and \"Poga\u010dar Plots to Bury Tour de France Rivals in the Pyr\u00e9n\u00e9es\" show you crave deep tactical analysis. You want to understand *why* races unfold the way they do, not just who wins.\n\n- **Outdoor Gear & Adventure Prep** \u2014 Your engagement with content like \"Ready for Adventure\" reflects a practical side\u2014you're interested in the equipment and vehicles that enable outdoor experiences, from cars to bikes to everything in between.\n\n- **Cycling News & Breaking Updates** \u2014 VeloNews accounts for 28 of your events. You're checking for the latest race results, record analyses (\"These are records to beat at the Tour de France\"), and up-to-the-minute coverage. You want to know what's happening *now*.\n\n- **Community Connection** \u2014 Your Trailforks activity shows you're not just a consumer\u2014you're a participant. You're following other riders, managing subscriptions, and engaging with the activity feed. You're part of a community of adventurers.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal a **concentrated, event-driven engagement style**. Within a single 48-hour window (July 15-16, 2025), you generated 162 events across multiple platforms. The bulk of your activity clustered in two distinct windows: **early afternoon (12-1 PM, with 21 and 69 events respectively)** and **evening (6-9 PM, with 48 and 14 events)**. This suggests you're checking in during natural breaks in your day\u2014perhaps over lunch or after work\u2014when you have time to deep-dive into cycling coverage.\n\nWednesday was significantly more active than Tuesday (109 events vs. 53), indicating your engagement spikes around major race developments or news cycles. You're not a casual daily browser; you're a **surge reader** who activates intensely when the sport demands your attention. Your consumption across VeloNews, Outside Online, and Trailforks shows you're building a complete picture\u2014combining breaking news, analysis, and community engagement in one cohesive reading experience.\n\nThe authors and sources you encountered (Andrew Hood, Hannah Gross, Agence France-Presse) represent the cycling journalism elite, suggesting you seek out credible, expert voices. You're reading to learn and understand, not just to pass time. Your engagement with both written articles and interactive elements (trail maps, activity feeds, ride logs) shows you're a **multimedia consumer**\u2014you'll read an in-depth analysis one moment and check your Trailforks map the next, seamlessly blending content consumption with active participation.",
+    "recent_spotlight": "**Your Week in the Wild: Outdoor Adventures on the Mind**\n\nYou've been spending quality time with Outside Magazine this week, diving deep into what the outdoor community is talking about. Whether you're planning your next adventure or just staying inspired, you've been a frequent visitor to Outside Online, checking in multiple times throughout the day.\n\nWhile the specific articles aren't showing in our data, your consistent engagement with Outside Magazine suggests you're staying current on everything from gear reviews to trail guides to adventure stories. Keep exploring\u2014there's always something new to discover out there!",
+    "seasonal_patterns": [
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "Following Tour de France coverage",
+          "Tracking VeloNews and Outside Online TdF articles",
+          "Monitoring Trailforks events & ride logs"
+        ],
+        "insight": "TdF-focused cycling activity peaks in July"
+      },
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "Snowboarding news and gear",
+          "Winter sports planning and updates",
+          "Off-season training content"
+        ],
+        "insight": "Snowboarding is a minor, occasional interest"
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "Trailforks",
+        "evidence": "High activity around Trailforks events and ride logs in the sample data"
+      },
+      {
+        "topic": "tour-de-france-femmes",
+        "evidence": "Mentions of Tour de France Femmes in sample articles"
+      },
+      {
+        "topic": "giro-ditalia-women",
+        "evidence": "Mentions of Giro d'Italia Women in sample articles"
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "tour-de-france",
+        "strength": "Very Strong",
+        "evidence": "Frequent top-tag and multiple TdF-focused articles in sample"
+      },
+      {
+        "topic": "tadej-pogacar",
+        "strength": "Very Strong",
+        "evidence": "Repeated coverage in race contexts and big GC talk"
+      },
+      {
+        "topic": "jonas-vingegaard",
+        "strength": "Strong",
+        "evidence": "Consistent mentions in road-racing and TdF contexts"
+      },
+      {
+        "topic": "joao-almeida",
+        "strength": "Strong",
+        "evidence": "Regular references in race coverage and standings"
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "outdoor-gear",
+        "note": "Occasional gear-related content"
+      },
+      {
+        "topic": "snowboarding",
+        "note": "Casual interest observed via snowboarding tag"
+      },
+      {
+        "topic": "trailforks",
+        "note": "Light engagement with Trailforks app feeds and ride logs"
+      },
+      {
+        "topic": "tour-de-france-femmes",
+        "note": "Some interest beyond main TdF coverage"
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "Activity Feed Follow Search & Recommendations | Trailfo",
+        "url": "https://www.trailforks.com/activity/followsearch/",
+        "date": "Jul 16"
+      },
+      {
+        "title": "Trailforks | Trail Database & Maps",
+        "url": "https://www.trailforks.com/",
+        "date": "Jul 16"
+      },
+      {
+        "title": "iamdb's Email Notifications/Subscription Control | Trai",
+        "url": "https://www.trailforks.com/profile/iamdb/subscriptions/",
+        "date": "Jul 16"
+      },
+      {
+        "title": "Trailforks | Trail Database & Maps",
+        "url": "https://www.trailforks.com/",
+        "date": "Jul 16"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-14T20:10:40.707976Z"
+}

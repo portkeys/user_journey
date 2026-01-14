@@ -41,26 +41,6 @@
       "events_file": "events/wen_events.json"
     },
     {
-      "user_id": "7728a8f5-f97a-4913-916a-7cab7d00741b",
-      "display_name": "Kcal",
-      "slug": "kcal",
-      "timezone_offset": -8,
-      "timezone_name": "Pacific Time",
-      "location": "California",
-      "avatar_emoji": "🚴",
-      "events_file": "events/kcal_events.json"
-    },
-    {
-      "user_id": "91a01b84-720b-419e-b4d7-b9228a8e4f56",
-      "display_name": "Dan",
-      "slug": "dan",
-      "timezone_offset": -7,
-      "timezone_name": "Mountain Time",
-      "location": "Colorado",
-      "avatar_emoji": "🏃",
-      "events_file": "events/dan_events.json"
-    },
-    {
       "user_id": "c35bcfd0-be1b-4557-a985-f86fef5f9275",
       "display_name": "PJ",
       "slug": "pj",
@@ -69,6 +49,26 @@
       "location": "Colorado",
       "avatar_emoji": "⛷️",
       "events_file": "events/pj_events.json"
+    },
+    {
+      "user_id": "7728a8f5-f97a-4913-916a-7cab7d00741b",
+      "display_name": "Kcal",
+      "slug": "kcal",
+      "timezone_offset": -6,
+      "timezone_name": "Central Time",
+      "location": "Texas",
+      "avatar_emoji": "🚴",
+      "events_file": "events/kcal_events.json"
+    },
+    {
+      "user_id": "91a01b84-720b-419e-b4d7-b9228a8e4f56",
+      "display_name": "Dan",
+      "slug": "dan",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "Connecticut",
+      "avatar_emoji": "🏃",
+      "events_file": "events/dan_events.json"
     }
   ]
 }

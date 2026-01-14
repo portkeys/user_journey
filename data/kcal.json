@@ -1,0 +1,899 @@
+{
+  "user": {
+    "display_name": "Kcal",
+    "slug": "kcal",
+    "timezone_offset": -6,
+    "timezone_name": "Central Time",
+    "location": "Texas",
+    "avatar_emoji": "\ud83d\udeb4"
+  },
+  "summary": {
+    "publications": {
+      "outside-online": 219,
+      "Trailforks": 144,
+      "VeloNews": 177,
+      "yogajournal": 24,
+      "accounts": 2,
+      "Run": 204,
+      "Backpacker": 50,
+      "gaiagps": 8,
+      "Triathlete": 7,
+      "TrailRunner": 7,
+      "Devices": 1,
+      "Outside Learn": 26,
+      "Scout": 3,
+      "Outside Watch": 15,
+      "runreg": 2,
+      "unknown": 124,
+      "velo.outsideonline.com": 1,
+      "Trailforks App": 211
+    },
+    "tags": {
+      "evergreen": 89,
+      "tour-de-france": 25,
+      "endurance-training": 19,
+      "running": 14,
+      "native": 14,
+      "nutrition": 13,
+      "sleep": 13,
+      "supershoe": 12,
+      "science": 12,
+      "training": 11,
+      "commerce": 11,
+      "good-nights-sleep": 11,
+      "lack-of-sleep": 11,
+      "running-and-sleep": 11,
+      "sleep-advice": 11,
+      "sleep-deprivation": 11,
+      "sleep-patterns": 11,
+      "sleep-smarter": 11,
+      "sleep-tips": 11,
+      "sleeping": 11,
+      "gaia-gps": 10,
+      "recovery": 10,
+      "boston-marathon": 10,
+      "visma-lease-a-bike": 10,
+      "national-parks": 9,
+      "jakob-ingebrigtsen": 9,
+      "norwegian-training-method": 9,
+      "team-ineos": 9,
+      "utah": 8,
+      "strength-and-power-training": 8,
+      "trail-running": 8,
+      "ultrarunning": 8,
+      "colnago": 8,
+      "colorado": 8,
+      "uae-team-emirates": 8,
+      "hiking": 7,
+      "wellness": 7,
+      "public-lands": 7,
+      "tadej-pogacar": 7,
+      "athletes": 7,
+      "cube": 7,
+      "intermarche-circus-wanty": 7,
+      "pinarello": 7,
+      "tech": 7,
+      "destination-races": 7,
+      "joy-of-running": 7,
+      "road-races": 7,
+      "running-vacation": 7,
+      "new-zealand": 6,
+      "running-shoes": 6,
+      "injury-prevention-2": 6,
+      "jonas-vingegaard": 6,
+      "wout-van-aert": 6,
+      "behind-the-ride": 5,
+      "heart-health": 5,
+      "heart-rate": 5,
+      "stability-running-shoes": 5,
+      "culture": 5,
+      "sweat-science": 5,
+      "blm": 5,
+      "politics": 5,
+      "usfs": 5,
+      "you-vs-the-year-2025": 4,
+      "search-and-rescue": 4,
+      "giro-ditalia": 4,
+      "ruth-croft": 4,
+      "uci": 4,
+      "half-marathons": 4,
+      "marathons": 4,
+      "training-plan": 4,
+      "carbs": 4,
+      "race-nutrition": 4,
+      "running-fueling": 4,
+      "canada": 4,
+      "news": 4,
+      "heart-rate-tracking": 4,
+      "heart-rate-training": 4,
+      "sports": 4,
+      "trek": 4,
+      "specialized": 4,
+      "urban-riding": 4,
+      "boston-marathon-2025": 4,
+      "remco-evenepoel": 4,
+      "how-to-overcome-injury": 4,
+      "walking": 4,
+      "matteo-jorgenson": 4,
+      "outside-features": 4,
+      "sepp-kuss": 4,
+      "london-marathon": 4,
+      "love-story": 4,
+      "marathon-training": 4,
+      "simon-yates": 4,
+      "climbing": 4,
+      "conservation": 4,
+      "dogs": 4,
+      "core": 3,
+      "hydration": 3,
+      "rapha": 3,
+      "velo-podcast": 3,
+      "strava": 3,
+      "half-marathon": 3,
+      "half-marathon-training": 3,
+      "race-pace": 3,
+      "travel": 3,
+      "health": 3,
+      "pirelli": 3,
+      "road-racing": 3,
+      "2025-gear-reviews": 3,
+      "racing-shoes": 3,
+      "super-shoes": 3,
+      "criterium-du-dauphine": 3,
+      "mads-pedersen": 3,
+      "adventure-travel": 3,
+      "video-review": 3,
+      "idaho": 3,
+      "womens-cycling": 3,
+      "biking": 3,
+      "deals": 3,
+      "aging": 3,
+      "cycling-accessory-reviews": 3,
+      "jack-thompson": 3,
+      "american-racing": 3,
+      "mergers-and-acquisitions": 2,
+      "survival": 2,
+      "books": 2,
+      "nature": 2,
+      "abs": 2,
+      "arms": 2,
+      "chest": 2,
+      "exercises": 2,
+      "fkt": 2,
+      "grand-teton-national-park": 2,
+      "apps": 2,
+      "outside-run": 2,
+      "tv": 2,
+      "strava-stories": 2,
+      "western-states": 2,
+      "electrolytes": 2,
+      "fueling": 2,
+      "jenny-wilson": 2,
+      "nutrients": 2,
+      "sodium": 2,
+      "trail-racing": 2,
+      "adventure-running": 2,
+      "bucket-list": 2,
+      "bike": 2,
+      "data": 2,
+      "beginning-runner": 2,
+      "running-terms": 2,
+      "toyota": 2,
+      "trail-karma": 2,
+      "mexico": 2,
+      "cycling": 2,
+      "common-running-injuries": 2,
+      "plantar-fasciitis": 2,
+      "tour-de-hoody": 2,
+      "injury": 2,
+      "running-science": 2,
+      "smartwatch": 2,
+      "lactate-threshold": 2,
+      "lactate-threshold-heart-rate": 2,
+      "moves": 2,
+      "battaglin": 2,
+      "cane-creek": 2,
+      "chiru": 2,
+      "chris-king": 2,
+      "maap": 2,
+      "paprika-53": 2,
+      "this-week-in-tech": 2,
+      "bike-clothing-review": 2,
+      "helmet": 2,
+      "yosemite-national-park": 2,
+      "running-hills": 2,
+      "backpacking": 2,
+      "camping": 2,
+      "velo-buyers-guide": 2,
+      "stretching-for-runners": 2,
+      "a-case-for-suffering": 2,
+      "leroica": 2,
+      "paris-nice": 2,
+      "health-and-beauty": 2,
+      "hunting": 2,
+      "supplements": 2,
+      "mathieu-van-der-poel": 2,
+      "spring-classics": 2,
+      "tour-of-flanders": 2,
+      "paris-roubaix": 2,
+      "sea-otter-classic": 2,
+      "australia": 2,
+      "british-columbia": 2,
+      "costa-rica": 2,
+      "food-and-drink": 2,
+      "italy": 2,
+      "japan": 2,
+      "minnesota": 2,
+      "new-york": 2,
+      "spain": 2,
+      "sweden": 2,
+      "trailforks": 2,
+      "turkey": 2
+    },
+    "events_with_tags": 323,
+    "authors": {
+      "Alex Hutchinson": 24,
+      "Ali Nolan": 18,
+      "Jim Cotton": 14,
+      "Alvin Holbrook": 11,
+      "Josh Ross": 10,
+      "Andrew Hood": 8,
+      "Emma Veidt": 7,
+      "Adam Roy": 7,
+      "Mallory Arnold": 6,
+      "Brian Metzler": 6,
+      "Andy Cochrane": 6,
+      "Zoe Gates": 5,
+      "Betsy Welch": 5,
+      "Elisabeth Kwak-Hefferan": 5,
+      "Jonathan Beverly": 5,
+      "Sarah Wassner Flynn": 5,
+      "The Editors of RUN": 4,
+      "Amelia Arvesen": 4,
+      "Jayme Moye": 4,
+      "Cindy Kuzma": 4,
+      "Matt Fitzgerald": 4,
+      "Rachel Land": 3,
+      "Will Tracy": 3,
+      "Ben Delaney": 3,
+      "Rebecca Taylor": 3,
+      "Kristin Hostetter": 2,
+      "Frederick Dreier": 2,
+      "David Priest": 2,
+      "Hayden Carpenter": 2,
+      "Brendan Leonard": 2,
+      "Zo\u00eb Rom": 2,
+      "Doug Mayer": 2,
+      "Mike Levy": 2,
+      "Malissa Rodenburg": 2,
+      "The Editors": 2,
+      "David Roche": 2,
+      "Calin Van Paris": 2,
+      "Renee Marie Schettler": 2,
+      "Robbie Deckard": 2,
+      "Bethany Mavis": 2,
+      "Yoga With Kassandra": 2,
+      "Jenessa Connor": 2,
+      "Alyssa Ages": 2,
+      "Matt Hart": 2,
+      "Corey Buhay": 2,
+      "Susan Lacke": 2,
+      "Richard A. Lovett": 2,
+      "Blair Braverman": 2,
+      "Gerard Hartmann": 2,
+      "Andrew Lyle": 2,
+      "Brian Rock": 2,
+      "Ian Fohrman": 2,
+      "Katie Arnold": 2,
+      "Bobby Julich": 2,
+      "Megan Michelson": 2,
+      "Dr. Daya Grant": 2,
+      "Caroline Dezendorf": 2,
+      "Erin Beresini": 2,
+      "Bryan Di Salvatore": 2,
+      "Joe Baur": 2,
+      "Mark Sundeen": 2,
+      "Grayson Schaffer": 2,
+      "Matt Gross": 2,
+      "Eugene Buchanan": 2,
+      "Gloria Liu": 2,
+      "Drew Zieff": 2,
+      "Danielle Zickl": 2,
+      "Jenny Wiegand": 2,
+      "Martin Fritz Huber": 2,
+      "VIC BROWN": 2,
+      "Erica Coviello": 2,
+      "Chris Foster": 2,
+      "Owen Clarke": 2,
+      "Maren Horjus": 1,
+      "Scott Tindal": 1,
+      "Alisha McDarris": 1,
+      "Jon Dorn": 1,
+      "Mark Wilson": 1,
+      "Elaine K. Howley": 1,
+      "Mary Beth \u201cMouse\u201d Skylis": 1,
+      "Jerry Davis": 1,
+      "Travis Mundell": 1,
+      "Chris Marshall-Bell": 1,
+      "Keely Larson": 1,
+      "Emily Schaldach": 1,
+      "Marie Wilson": 1,
+      "David Everett": 1,
+      "Therese Iknoian": 1,
+      "YJ Editors": 1,
+      "BACKPACKER Editors &amp; Contributors": 1,
+      "Naomi Mead": 1,
+      "Trail Runner magazine": 1,
+      "Zach Nehr": 1,
+      "Iain Treloar": 1,
+      "Backpacker Editors": 1,
+      "Morgan McFall-Johnsen": 1,
+      "Canyon Woodward": 1,
+      "Cory Smith": 1,
+      "Alex Kurt": 1,
+      "Nicholas Triolo": 1
+    },
+    "content_categories": {
+      "podcast": 2,
+      "region": 2,
+      "home": 99,
+      "outdoor-adventure": 20,
+      "login": 3,
+      "training": 43,
+      "outsideplus": 15,
+      "ouside-io": 2,
+      "o": 11,
+      "business-journal": 2,
+      "skills": 8,
+      "trips": 9,
+      "road": 64,
+      "culture": 19,
+      "teach": 5,
+      "health": 32,
+      "category": 19,
+      "tag": 2,
+      "nutrition": 4,
+      "urban": 6,
+      "survival": 6,
+      "trail": 10,
+      "ridelog": 2,
+      "profile": 9,
+      "news": 13,
+      "stories": 3,
+      "collection": 3,
+      "nutrition-and-health": 12,
+      "adventure-travel": 7,
+      "lifestyle": 6,
+      "gear": 17,
+      "practice": 3,
+      "pose-finder": 1,
+      "ebike": 1,
+      "categories": 2,
+      "Results": 1,
+      "people": 2,
+      "activity": 1,
+      "gravel": 3,
+      "general": 3,
+      "news-and-events": 1,
+      "uncategorized": 2,
+      "outdoor-gear": 4,
+      "mind-body-prep-with-lynsey-dyer": 2,
+      "byline": 1,
+      "oidc-frontend": 1,
+      "membership": 2,
+      "opinion": 2,
+      "homefeed": 22,
+      "map": 9,
+      "appfeed": 5,
+      "groups": 1,
+      "live-events": 2,
+      "all": 1
+    },
+    "subcategories": {
+      "road/road-racing": 28,
+      "health/training-performance": 25,
+      "road/road-culture": 17,
+      "training/injuries-and-prevention": 16,
+      "road/road-gear": 11,
+      "culture/essays-culture": 10,
+      "outdoor-adventure/hiking-and-backpacking": 9,
+      "profile/7728a8f5-f97a-4913-916a-7cab7d00741b": 8,
+      "nutrition-and-health/general-health": 8,
+      "gear/road-shoes": 8,
+      "o/perks": 7,
+      "category/road": 7,
+      "adventure-travel/destinations": 7,
+      "outdoor-adventure/exploration-survival": 5,
+      "survival/garmin-inreach-data-2024-sos-calls": 5,
+      "culture/news": 5,
+      "health/nutrition": 5,
+      "training/you-vs-the-year-2025": 4,
+      "o/perks#_member": 4,
+      "trail/new-zealand-trail-running": 4,
+      "training/training-plans": 4,
+      "nutrition-and-health/how-many-carbs-runners-need-to-maximize-performance": 4,
+      "category/Backpacking": 4,
+      "urban/thanks-doug-viral-video-game-exposing-the-perils-of-removing-torontos-bike-lanes": 4,
+      "outdoor-gear/clothing-apparel": 4,
+      "road/road-training": 3,
+      "teach/yoga-teachers-stop-doing": 3,
+      "nutrition/race-day-nutrition-nutrition": 3,
+      "trail/trail-culture": 3,
+      "category/urban": 3,
+      "category/news": 3,
+      "lifestyle/best-sleep-headphones": 3,
+      "business-journal/brands": 2,
+      "skills/the-cure-for-your-fear-of-heights-more-heights": 2,
+      "trips/long-trails": 2,
+      "culture/love-humor": 2,
+      "tag/velo-podcast": 2,
+      "urban/urban-culture": 2,
+      "training/strava-western-states-100": 2,
+      "skills/backpacking-fitness": 2,
+      "training/strava-data-confirms-women-are-smarter-racers": 2,
+      "training/getting-started": 2,
+      "collection/the-new-era-of-wanderlust": 2,
+      "training/trail-tips-training": 2,
+      "stories/essays": 2,
+      "lifestyle/habit-stacking": 2,
+      "teach/yoga-memes": 2,
+      "gear/does-your-watch-band-contain-forever-chemicals": 2,
+      "training/the-fastest-way-to-get-faster-start-caring-about-lactate-threshold": 2,
+      "news/a-case-for-suffering-the-heroic": 2,
+      "categories/endurance": 2,
+      "health/wellness": 2,
+      "culture/active-families": 2,
+      "trail/trail-racing": 2,
+      "general/run-streaking-is-on-the-rise": 2,
+      "outdoor-adventure/biking": 2,
+      "outdoor-adventure/water-activities": 2,
+      "trips/trips-by-state": 2,
+      "uncategorized/your-adventure-dog-benefits-from-a-healthy-diet-and-exercise-just-like-you": 2,
+      "news/william-goodge-cross-country-run-controversy": 2,
+      "training/are-we-right-to-judge-people-who-run-a-marathon-with-no-training": 2,
+      "gear/running-tech": 2,
+      "news/jack-thompson-is-riding-the-first-tour-de-france-route": 2,
+      "live-events/ironman-pro-series": 2,
+      "region/johnson-city-1501213855": 1,
+      "trips/the-21-best-hikes-for-kids-in-america": 1,
+      "nutrition/does-fiber-help-you-sleep": 1,
+      "ridelog/view": 1,
+      "news/rapha-issues-an-apology": 1,
+      "stories/nature": 1,
+      "news/sagan-fails-to-impress-in-lets-dance-debut": 1,
+      "practice/10-minute-morning-yoga-with-kassandra": 1,
+      "pose-finder/pose-finder": 1,
+      "ebike/ebike-gear": 1,
+      "region/dripping-springs": 1,
+      "news/poc-cytal-road-helmet-costs-less-and-tops-the-virginia-tech-rankings": 1,
+      "road/highlights-amstel-gold-race-2025-mens-womens": 1,
+      "gear/tech-wearables": 1,
+      "road/47-injured-as-mass-pile-up-shatters-uci-gran-fondo-belgium": 1,
+      "Results/default.aspx": 1,
+      "trips/i-had-the-trip-of-my-life-in-nepal-last-year-with-backpacker-now-its-your-turn": 1,
+      "practice/yin-yoga-for-hips-yoga-with-kassandra": 1,
+      "road/how-to-bike-with-a-vulva": 1,
+      "road/enzo-hincapie-bike-broke-2-km-finish-paris-roubaix-juniors-he-ran-rest": 1,
+      "people/environment-people": 1,
+      "activity/46226880-1caf-11f0-8080-8000274dbe2d": 1,
+      "road/opinion-campagnolo-whats-happening-2025": 1,
+      "practice/yoga-challenge": 1,
+      "gravel/what-we-learned-life-time-grand-prix-first-race-2025-sea-otter-classic-gravel": 1,
+      "trips/wildflower-trails-hikes-natures-kaleidoscope": 1,
+      "skills/mind-over-mileage-breathing-techniques-for-hiking": 1,
+      "lifestyle/sedona-yoga-festival-2025-overview": 1,
+      "news/lael-wilcox-guinness-world-record-with-108-day-ride-around-the-world": 1,
+      "news/visma-lease-a-bike-selling-fan-name-placement-tour-de-france-team-kit": 1,
+      "news-and-events/news": 1,
+      "skills/beginner-skills": 1,
+      "people/culture-people": 1,
+      "gear/backpacks": 1,
+      "gear/the-gear-that-backpackers-editors-loved-in-april-2025": 1,
+      "byline/rebecca-taylor": 1
+    },
+    "website_domains": {
+      "outsideonline.com": 245,
+      "trailforks.com": 153,
+      "velo.outsideonline.com": 203,
+      "yogajournal.com": 24,
+      "accounts.outsideonline.com": 3,
+      "run.outsideonline.com": 227,
+      "backpacker.com": 54,
+      "triathlete.com": 7,
+      "trailrunnermag.com": 7,
+      "devices.outsideonline.com": 1,
+      "learn.outsideonline.com": 30,
+      "scout.outsideonline.com": 3,
+      "watch.outsideonline.com": 17,
+      "runreg.com": 2
+    },
+    "referrer_domains": {
+      "shout.ist": 178,
+      "velo.outsideonline.com": 52,
+      "outsideonline.com": 37,
+      "google.com": 36,
+      "l.facebook.com": 20,
+      "run.outsideonline.com": 18,
+      "backpacker.com": 9,
+      "yogajournal.com": 7,
+      "learn.outsideonline.com": 5,
+      "t.co": 4,
+      "buy.tinypass.com": 3,
+      "roammedia.com": 3,
+      "trailforks.com": 2,
+      "accounts.outsideonline.com": 2,
+      "runreg.com": 1,
+      "4566937.hubspotpreview-na1.com": 1
+    },
+    "email_traffic_count": 2,
+    "temporal": {
+      "first_event": "2025-01-14 17:04:09.468000+00:00",
+      "last_event": "2025-07-16 12:26:34.492000+00:00",
+      "total_days": 182,
+      "events_last_7_days": 141,
+      "events_last_30_days": 450,
+      "avg_events_per_day": 6.730769230769231,
+      "by_hour": {
+        "17": 41,
+        "15": 78,
+        "10": 28,
+        "18": 124,
+        "11": 85,
+        "16": 79,
+        "12": 275,
+        "14": 53,
+        "20": 87,
+        "19": 79,
+        "23": 17,
+        "21": 71,
+        "0": 14,
+        "13": 81,
+        "2": 10,
+        "22": 12,
+        "9": 37,
+        "1": 20,
+        "3": 3,
+        "4": 6,
+        "5": 6,
+        "6": 4,
+        "7": 6,
+        "8": 9
+      },
+      "by_day_of_week": {
+        "Tuesday": 197,
+        "Friday": 138,
+        "Wednesday": 194,
+        "Monday": 214,
+        "Thursday": 171,
+        "Saturday": 79,
+        "Sunday": 232
+      },
+      "by_month": {
+        "2025-01": 40,
+        "2025-02": 66,
+        "2025-03": 135,
+        "2025-04": 138,
+        "2025-05": 96,
+        "2025-06": 481,
+        "2025-07": 269
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 262,
+      "single_read": 143,
+      "multi_read": 119,
+      "most_revisited": [
+        [
+          "Outside Magazine",
+          71
+        ],
+        [
+          "Home | Outside Learn",
+          16
+        ],
+        [
+          "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
+          14
+        ],
+        [
+          "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
+          13
+        ],
+        [
+          "Outside Plus Main Subscription - Outside Online",
+          10
+        ],
+        [
+          "Outside Online",
+          10
+        ],
+        [
+          "How to Train Your Physiological Resilience",
+          8
+        ],
+        [
+          "Outside Profile",
+          8
+        ],
+        [
+          "RUN: Training, Gear, News, and Culture - RUN | Powered by Outside",
+          6
+        ],
+        [
+          "Yoga Journal | Yoga Poses - Sequences - Philosophy - Events",
+          5
+        ],
+        [
+          "New Data Uncover the Top Reasons Hikers Called for Rescue in 2024",
+          5
+        ],
+        [
+          "RUN: Training, Gear, News, and Culture - RUN | Powered by Outside",
+          5
+        ],
+        [
+          "You searched for - Outside Online",
+          4
+        ],
+        [
+          "Take the \"You vs. The Year 2025\" Running Challenge",
+          4
+        ],
+        [
+          "How Many Carbs Do You Really Need to Run Your Best?",
+          4
+        ],
+        [
+          "Backpacking Archives | Outside Learn",
+          4
+        ],
+        [
+          "11 Reasons Your Heart Rate is High on Easy Runs",
+          4
+        ],
+        [
+          "I\u2019m in Pain. Can I Still Run?",
+          4
+        ],
+        [
+          "The Bittersweet Reason a Woman Wore Her Wedding Dress During the London Marathon",
+          4
+        ],
+        [
+          "Outside Magazine",
+          4
+        ],
+        [
+          "Yoga Journal | Yoga Poses - Sequences - Philosophy - Events",
+          3
+        ],
+        [
+          "11 Things Many Yoga Teachers Have Stopped Doing in Their Classes",
+          3
+        ],
+        [
+          "Outside Plus Main subscription page - Backpacker",
+          3
+        ],
+        [
+          "Urban - Velo",
+          3
+        ],
+        [
+          "Road Culture - Velo",
+          3
+        ],
+        [
+          "Meet Scout - Outside's AI Search Assistant",
+          3
+        ],
+        [
+          "A conversation on racism in cycling with Dr. Tim Erwin",
+          3
+        ],
+        [
+          "Want to Live Longer? You Better Start Moving\u2014All Day Long.",
+          3
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          3
+        ],
+        [
+          "Podcasts Archive - Outside Online",
+          2
+        ]
+      ],
+      "content_types": {
+        "how_to": 19,
+        "best_lists": 27,
+        "reviews": 28,
+        "guides": 13
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 144,
+        "app": 211,
+        "ridelogs": 2,
+        "map_views": 9,
+        "photos": 0,
+        "unique_rides": 1
+      },
+      "gaia_gps": {
+        "events": 8
+      },
+      "outside_app": {
+        "events": 0
+      },
+      "outside_watch": {
+        "events": 15
+      },
+      "editorial": {
+        "events": 690,
+        "articles": 504
+      },
+      "devices": {
+        "events": 1
+      },
+      "monthly_app_usage": {
+        "2025-01": {
+          "trailforks_web": 2
+        },
+        "2025-02": {
+          "gaia_gps": 4
+        },
+        "2025-03": {
+          "trailforks_web": 2,
+          "gaia_gps": 2,
+          "outside_watch": 2
+        },
+        "2025-04": {
+          "trailforks_web": 2
+        },
+        "2025-05": {
+          "outside_watch": 2
+        },
+        "2025-06": {
+          "trailforks_web": 131,
+          "trailforks_app": 136,
+          "gaia_gps": 2,
+          "outside_watch": 11
+        },
+        "2025-07": {
+          "trailforks_app": 75,
+          "trailforks_web": 7
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 1225,
+      "total_days_tracked": 182,
+      "events_per_day": 6.730769230769231,
+      "unique_publications": 18,
+      "unique_tags_encountered": 200,
+      "unique_authors_read": 100,
+      "unique_articles": 262
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nWelcome, Kcal! We're thrilled to celebrate your incredible journey through Outside's media ecosystem over the past six months. With over 1,200 engagements across our publications and a genuine curiosity that spans everything from trail running to professional cycling, you've been an outstanding member of our community. Let's look back at what made 2025 so remarkable for you.\n\n---\n\n## Kcal's 2025 Outside Memory\n\nYour engagement story this year tells the tale of a multi-sport athlete whose curiosity deepens with each passing month. You started 2025 deliberately, exploring foundational content and testing the waters across our different platforms\u2014from Trailforks trail databases to yoga studios. But as spring arrived, your engagement accelerated dramatically.\n\nMarch marked a turning point. Your activity tripled compared to February as you dove deeper into training science and performance optimization. You were reading Alex Hutchinson's work on physiological resilience, absorbing data-driven insights about how elite athletes recover faster, and exploring the intersection of nutrition and sleep. This wasn't casual browsing\u2014you were building a knowledge base. Articles like \"How to Train Your Physiological Resilience\" and deep dives into electrolyte science showed you were serious about understanding the *why* behind athletic performance.\n\nThen came June\u2014your breakout month. With 481 events, June represented your most engaged period yet, nearly double any previous month. The Tour de France dominated your attention (25 articles tagged with the race), and you were following professional cycling's biggest narratives: Team Ineos, Visma-Lease a Bike, and rising star Jakob Ingebrigtsen's Norwegian training methods. But you weren't just consuming cycling news in isolation. You were synthesizing ideas across sports\u2014reading about running training philosophy, then seeing how those principles applied to pro cycling, then exploring them through the lens of sleep science and recovery.\n\nJuly brought sustained engagement as you continued this pattern of deep, cross-disciplinary learning. Your interests had crystallized into a coherent philosophy: you're an endurance athlete obsessed with the science of performance, recovery, and longevity. You follow the professionals not for gossip, but for the training methodologies they employ.\n\n---\n\n## Your Passions\n\n\u2022 **Endurance Training & Performance Science** \u2014 You've engaged with 19 articles tagged \"endurance-training\" and consistently seek out evidence-based training methodologies. Alex Hutchinson (24 articles read) is clearly a trusted voice for you, and you're deeply interested in how training stress, recovery, and physiological adaptation work at both amateur and professional levels.\n\n\u2022 **Professional Cycling & The Tour de France** \u2014 Your engagement spiked dramatically during cycling season, with 25 articles specifically about the Tour de France and deep interest in teams like Team Ineos and Visma-Lease a Bike. You're following the sport not just for results, but for the training intelligence embedded within it\u2014articles like \"How Pro Cyclists Come Back Faster from Broken Collarbones than You\" show you're mining professional sport for applicable knowledge.\n\n\u2022 **Running & Trail Running** \u2014 With 204 events on the Run publication and consistent engagement with trail-running content, running is clearly central to your athletic identity. You've explored everything from ultrarunning data (Western States 100) to adventure running bucket lists to running lingo for beginners, suggesting you're both a serious runner and someone who helps others in the sport.\n\n\u2022 **Sleep, Recovery & Nutrition** \u2014 An unexpected but powerful theme emerged: you've engaged with 11+ articles specifically about sleep, plus content on nutrition, hydration, and recovery protocols. Articles like \"The Surprising Reason You Can't Sleep, According to a Nutrition Expert\" and \"Is Your Next PR Just a Water Bottle or Two Away?\" show you understand that performance is built in recovery, not just in training.\n\n\u2022 **Outdoor Adventure & Wilderness Skills** \u2014 You've visited Backpacker 50 times and engaged with content about hiking safety, survival, and exploration. Articles like \"A 'Miracle' Lost Backpack Saved Two Hikers in Southern Utah\" and \"New Data Uncover the Top Reasons Hikers Called for Rescue in 2024\" suggest you care about outdoor safety and preparedness, not just personal performance.\n\n\u2022 **Data-Driven Insights & Training Methods** \u2014 You consistently seek out articles that use real data to answer training questions: \"What Strava Data Can Tell Us About How to Run a Fast 100-Miler,\" \"Strava Data Confirms Women Are Smarter Racers,\" and deep dives into Norwegian training methods. You're not interested in trends\u2014you want evidence.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal a disciplined athlete who treats content consumption like training itself. You're most active during midday hours (12 PM is your peak with 275 events), with secondary peaks in mid-afternoon (3-4 PM) and early evening (6-8 PM). This suggests you're reading during work breaks and evening wind-down sessions\u2014fitting content consumption into a structured day. Sundays are your most engaged day of the week (232 events), likely a dedicated time for deeper dives into longer-form content and planning.\n\nYou show remarkable consistency across weekdays, with Monday, Tuesday, and Wednesday all seeing 194-214 events each. This isn't the pattern of a casual browser; you're building a reading ritual. You've encountered 200 unique tags and read from 100 different authors across 262 unique articles, which speaks to intellectual curiosity and a willingness to learn from diverse voices. However, you clearly have trusted authorities: Alex Hutchinson dominates your reading (24 articles), followed by Ali Nolan (18), Jim Cotton (14), and Alvin Holbrook (11). These aren't random clicks\u2014you're following writers whose expertise you respect.\n\nYour publication loyalty is distributed but intentional. Outside Online (219 events), Run (204), and VeloNews (177) form your core, with Trailforks (144) serving as your trail-planning and ride-logging hub. The fact that you've logged your own activities on Trailforks (\"Mar 5, 2025 the-kcal Run\") shows you're not just consuming\u2014you're participating in the community. Your engagement with evergreen content (89 tagged articles) alongside breaking news and seasonal coverage suggests you're building a permanent knowledge base while staying current with what's happening in your sports right now.",
+    "recent_spotlight": "**Trail Life Takes Over: You're All In on the Outdoors**\n\nYou've been living on the trails this past week, with the Trailforks App practically becoming your second home. Between scouting new routes and planning your next adventure, you've also been gearing up and diving into the trail running community conversation. It's clear you're not just thinking about the trails\u2014you're actively exploring them.\n\nRecently, you've been checking out \"Snag Editor-Tested Running Gear on Sale for Amazon Prime Day\" to gear up for your adventures, and you caught the debate on \"Should Blasting Music Be Allowed on Trails?\" That's the kind of trail etiquette discussion that matters to someone like you who's serious about the outdoor community. Whether you're mapping routes or fine-tuning your kit, you're keeping your finger on the pulse of trail culture.",
+    "seasonal_patterns": [
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "sleep-patterns",
+          "nutrition",
+          "training"
+        ],
+        "insight": "Sleep and training planning dominate "
+      },
+      {
+        "season": "Spring",
+        "emoji": "\ud83c\udf31",
+        "activities": [
+          "trail-running",
+          "hydration",
+          "nutrition"
+        ],
+        "insight": "Outdoor training prep rises in spring"
+      },
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "running",
+          "endurance-training",
+          "supershoe"
+        ],
+        "insight": "Peak endurance and running content in summer"
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "gaia-gps",
+        "evidence": "Gaia GPS tagging appears in sample events and top_tags, indicating growing trail-navigation interest."
+      },
+      {
+        "topic": "outsideplus",
+        "evidence": "Outside Plus / membership content and top_tags show rising interest in premium access."
+      },
+      {
+        "topic": "electrolytes",
+        "evidence": "The Runner's Complete Guide To Electrolytes article indicates growing focus on hydration and fueling."
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "Endurance Training",
+        "strength": "Very Strong",
+        "evidence": "High prevalence of endurance-training tags (19) and related training content."
+      },
+      {
+        "topic": "Running / Trail Running",
+        "strength": "Very Strong",
+        "evidence": "Recurring running-related articles and trail-running topics across domains."
+      },
+      {
+        "topic": "Sleep / Sleep Patterns / Recovery",
+        "strength": "Strong",
+        "evidence": "Many sleep-related tags (sleep, sleep-patterns, good-nights-sleep, recovery) indicating core focus."
+      },
+      {
+        "topic": "Nutrition / Hydration",
+        "strength": "Strong",
+        "evidence": "Nutrition and hydration content frequent in top_tags and sample events."
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "Yoga",
+        "note": "Occasional yoga content seen in yogajournal and related items."
+      },
+      {
+        "topic": "Backpacking / Hiking",
+        "note": "Regular but less dominant backpacking and trips content in Backpacker."
+      },
+      {
+        "topic": "Cycling / Road Cycling",
+        "note": "Occasional road/cycling topics in VeloNews and road gear."
+      },
+      {
+        "topic": "Triathlon",
+        "note": "Some triathlon-focused articles and tags."
+      },
+      {
+        "topic": "Culture / Nature Essays",
+        "note": "Occasional essays and nature/culture content."
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "Snag Editor-Tested Running Gear on Sale for Amazon Prim",
+        "url": "https://run.outsideonline.com/gear/2025-amazon-prime-day-deals-runners/?utm_medium=email&utm_source=newsletter&utm_term=mapmyrun&utm_campaign=mapmyrun_newsletter&_hsenc=p2ANqtz-8dv4hEyD7V-h3hVF4vnQ8PlPJDnnljh0m5MAporwcXe-UIo-3sHzMnDkFkgV4OCLpfxiVo",
+        "date": "Jul 14"
+      },
+      {
+        "title": "Should Blasting Music Be Allowed on Trails? We Debate.",
+        "url": "https://run.outsideonline.com/opinion/should-noise-pollution-be-allowed-on-trails/?utm_campaign=shout",
+        "date": "Jul 14"
+      },
+      {
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?nativeTabs=true&redirect=1&version=2&platform=android&scope=nearby&lat=42.2&lng=-71.2&activitytype=1&nearby_range=5",
+        "date": "Jul 14"
+      },
+      {
+        "title": "Stop Bringing Your Dog to the Crag",
+        "url": "https://www.outsideonline.com/outdoor-adventure/climbing/leave-crag-dogs-home/?utm_medium=organic-social&utm_source=Outside_Magazine-facebook&utm_content=comment&fbclid=IwY2xjawLgi0RleHRuA2FlbQIxMABicmlkETFUcDJCNU0ybDdhcllhR21aAR7fLqxBxJYRsvEOLx__YA8PdycIthVHmYXVfKYN36cteEuTOSKyP1GIBZeD-w_aem_ssqLWKrSRtcqf6-I4orwgg",
+        "date": "Jul 13"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-14T20:10:48.189654Z"
+}
