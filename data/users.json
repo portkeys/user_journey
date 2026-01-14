@@ -14,9 +14,9 @@
       "user_id": "5b856349-c769-446e-85f0-6e9114b78cb8",
       "display_name": "Trevor",
       "slug": "trevor",
-      "timezone_offset": -5,
-      "timezone_name": "Eastern Time",
-      "location": "New York",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "Canada",
       "avatar_emoji": "🌲",
       "events_file": "events/trevor_events.json"
     },
