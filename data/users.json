@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "user_id": "placeholder-robin-uuid",
+      "display_name": "Robin",
+      "slug": "robin",
+      "timezone_offset": -7,
+      "timezone_name": "Mountain Time",
+      "location": "Colorado",
+      "avatar_emoji": "🏔️",
+      "events_file": "robin_complete_events.json"
+    },
+    {
+      "user_id": "placeholder-user-2-uuid",
+      "display_name": "User 2",
+      "slug": "user2",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "California",
+      "avatar_emoji": "🌊",
+      "events_file": null
+    },
+    {
+      "user_id": "placeholder-user-3-uuid",
+      "display_name": "User 3",
+      "slug": "user3",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "New York",
+      "avatar_emoji": "🗽",
+      "events_file": null
+    },
+    {
+      "user_id": "placeholder-user-4-uuid",
+      "display_name": "User 4",
+      "slug": "user4",
+      "timezone_offset": -6,
+      "timezone_name": "Central Time",
+      "location": "Texas",
+      "avatar_emoji": "🤠",
+      "events_file": null
+    },
+    {
+      "user_id": "placeholder-user-5-uuid",
+      "display_name": "User 5",
+      "slug": "user5",
+      "timezone_offset": -7,
+      "timezone_name": "Mountain Time",
+      "location": "Utah",
+      "avatar_emoji": "🏜️",
+      "events_file": null
+    }
+  ]
+}

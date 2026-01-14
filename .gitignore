@@ -5,6 +5,7 @@
 
 # Large data files (keep local only)
 robin_complete_events.json
+events/
 
 # Python
 __pycache__/
