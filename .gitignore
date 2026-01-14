@@ -1,6 +1,7 @@
 # Environment and secrets
 .env
 .env.*
+!.env.example
 
 # Large data files (keep local only)
 robin_complete_events.json
