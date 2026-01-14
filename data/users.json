@@ -57,7 +57,7 @@
       "timezone_offset": -6,
       "timezone_name": "Central Time",
       "location": "Texas",
-      "avatar_emoji": "🚴",
+      "avatar_emoji": "🏃",
       "events_file": "events/kcal_events.json"
     },
     {
@@ -67,7 +67,7 @@
       "timezone_offset": -5,
       "timezone_name": "Eastern Time",
       "location": "Connecticut",
-      "avatar_emoji": "🏃",
+      "avatar_emoji": "🚴",
       "events_file": "events/dan_events.json"
     }
   ]
