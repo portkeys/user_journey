@@ -90,6 +90,30 @@ user_journey/
     └── PHASE2_PROPOSAL.md
 ```
 
+## Updating Reports with New Data
+
+When new events are available in Kafka (e.g., after replay catches up):
+
+```bash
+# Step 1: Re-consume events from Kafka (gets latest data)
+python scripts/multi_user_consumer.py
+
+# Step 2: Regenerate all reports
+python scripts/batch_generate.py
+
+# Step 3: Commit and push
+git add data/*.json
+git commit -m "Update reports with latest data"
+git push
+```
+
+**Check if replay is complete:**
+```bash
+python scripts/multi_user_consumer.py --info
+```
+
+The consumer always re-consumes from the beginning, ensuring you get the complete dataset.
+
 ## Adding a New User
 
 1. Add user to `data/users.json`
