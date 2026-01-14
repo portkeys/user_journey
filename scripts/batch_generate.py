@@ -5,6 +5,7 @@ Usage:
     python batch_generate.py                    # Generate for all users with events
     python batch_generate.py --user robin       # Generate for specific user
     python batch_generate.py --user robin --skip-llm  # Skip LLM calls (testing)
+    python batch_generate.py --auto-emoji       # Auto-generate emojis from activity/location
 """
 
 import argparse
@@ -53,7 +54,7 @@ def find_events_file(user_config: dict, base_dir: str = '.') -> str:
     return None
 
 
-def generate_for_user(user_config: dict, base_dir: str = '.', skip_llm: bool = False) -> bool:
+def generate_for_user(user_config: dict, base_dir: str = '.', skip_llm: bool = False, auto_emoji: bool = False) -> bool:
     """Generate report data for a single user"""
     user_name = user_config.get('display_name', 'Unknown')
     slug = user_config.get('slug', 'unknown')
@@ -75,7 +76,7 @@ def generate_for_user(user_config: dict, base_dir: str = '.', skip_llm: bool = F
 
     # Build report data
     try:
-        data = build_report_data(user_config, events_file, skip_llm=skip_llm)
+        data = build_report_data(user_config, events_file, skip_llm=skip_llm, auto_emoji=auto_emoji)
     except Exception as e:
         print(f"  ERROR: Failed to build report data: {e}")
         import traceback
@@ -94,6 +95,7 @@ def main():
     parser = argparse.ArgumentParser(description='Generate user journey report data')
     parser.add_argument('--user', '-u', type=str, help='Generate for specific user (by slug)')
     parser.add_argument('--skip-llm', action='store_true', help='Skip LLM calls (for testing)')
+    parser.add_argument('--auto-emoji', action='store_true', help='Auto-generate emoji from activity/location')
     parser.add_argument('--registry', type=str, default='data/users.json', help='Path to user registry')
     parser.add_argument('--all', '-a', action='store_true', help='Generate for all users (even without events)')
     args = parser.parse_args()
@@ -137,7 +139,7 @@ def main():
             skip_count += 1
             continue
 
-        if generate_for_user(user_config, base_dir, skip_llm=args.skip_llm):
+        if generate_for_user(user_config, base_dir, skip_llm=args.skip_llm, auto_emoji=args.auto_emoji):
             success_count += 1
         else:
             error_count += 1

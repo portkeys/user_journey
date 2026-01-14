@@ -16,6 +16,7 @@ from openai import OpenAI
 import boto3
 
 from event_analyzer import EventAnalyzer, load_events
+from emoji_generator import suggest_avatar_emoji, get_emoji_reason
 
 load_dotenv()
 
@@ -316,7 +317,7 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
     }
 
 
-def build_report_data(user_config: dict, events_file: str, skip_llm: bool = False) -> dict:
+def build_report_data(user_config: dict, events_file: str, skip_llm: bool = False, auto_emoji: bool = False) -> dict:
     """
     Build complete report data for a user.
 
@@ -324,6 +325,7 @@ def build_report_data(user_config: dict, events_file: str, skip_llm: bool = Fals
         user_config: User configuration from registry
         events_file: Path to user's events JSON file
         skip_llm: If True, skip LLM calls (for testing)
+        auto_emoji: If True, auto-generate emoji from activity/location instead of using config
 
     Returns:
         Complete data structure for report rendering
@@ -379,6 +381,23 @@ def build_report_data(user_config: dict, events_file: str, skip_llm: bool = Fals
             'casual_interests': []
         }
 
+    # Generate smart emoji suggestion based on activity and location
+    location = user_config.get('location', '')
+    emoji_info = get_emoji_reason(summary=summary, location=location)
+    suggested_emoji = emoji_info['emoji']
+    emoji_reason = emoji_info['reason']
+
+    # Use suggested emoji if auto_emoji=True, otherwise use config (or suggested as fallback)
+    config_emoji = user_config.get('avatar_emoji')
+    if auto_emoji:
+        final_emoji = suggested_emoji
+        print(f"  Auto-emoji: {final_emoji} ({emoji_reason})")
+    elif config_emoji:
+        final_emoji = config_emoji
+    else:
+        final_emoji = suggested_emoji
+        print(f"  No emoji in config, using suggested: {final_emoji} ({emoji_reason})")
+
     # Build final output
     output = {
         'user': {
@@ -387,7 +406,9 @@ def build_report_data(user_config: dict, events_file: str, skip_llm: bool = Fals
             'timezone_offset': timezone_offset,
             'timezone_name': user_config.get('timezone_name', 'UTC'),
             'location': user_config.get('location'),
-            'avatar_emoji': user_config.get('avatar_emoji', '🏔️')
+            'avatar_emoji': final_emoji,
+            'suggested_emoji': suggested_emoji,
+            'emoji_reason': emoji_reason
         },
         'summary': summary,
         'llm_insights': llm_insights,

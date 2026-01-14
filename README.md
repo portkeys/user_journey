@@ -32,6 +32,8 @@ open http://localhost:8080/
 | PJ | Colorado | 150 | [View](https://portkeys.github.io/user_journey/report.html?user=pj) |
 | Kcal | Texas | 1,225 | [View](https://portkeys.github.io/user_journey/report.html?user=kcal) |
 | Dan | Connecticut | 162 | [View](https://portkeys.github.io/user_journey/report.html?user=dan) |
+| Lauren | New York | Pending | Coming Soon |
+| Mike | North Carolina | Pending | Coming Soon |
 
 ## Architecture
 
@@ -67,7 +69,26 @@ python scripts/batch_generate.py
 
 # Skip LLM calls (for testing)
 python scripts/batch_generate.py --user trevor --skip-llm
+
+# Auto-generate emojis based on activity/location
+python scripts/batch_generate.py --auto-emoji
 ```
+
+### Smart Emoji Generator
+
+The system can automatically suggest avatar emojis based on user activity or location:
+
+```bash
+# Test emoji suggestion for a user
+python scripts/emoji_generator.py --summary-file data/robin.json --location "Colorado"
+
+# Output: Emoji: 🚴  Reason: Based on top activity: tour-de-france
+```
+
+Emoji selection strategy:
+- **Activity-first** (default): Picks emoji based on top activity tags (cycling, running, skiing, etc.)
+- **Location-first**: Uses location emoji if no activity match (🏔️ Colorado, 🌧️ Seattle, etc.)
+- Reports include both `avatar_emoji` and `suggested_emoji` with reasoning
 
 ## File Structure
 
@@ -84,7 +105,8 @@ user_journey/
 │   ├── multi_user_consumer.py
 │   ├── event_analyzer.py
 │   ├── report_data_builder.py
-│   └── batch_generate.py
+│   ├── batch_generate.py
+│   └── emoji_generator.py
 └── docs/
     ├── USER_JOURNEY_PIPELINE.md
     └── PHASE2_PROPOSAL.md

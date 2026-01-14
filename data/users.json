@@ -69,6 +69,26 @@
       "location": "Connecticut",
       "avatar_emoji": "🚴",
       "events_file": "events/dan_events.json"
+    },
+    {
+      "user_id": "placeholder-lauren-uuid",
+      "display_name": "Lauren",
+      "slug": "lauren",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "New York",
+      "avatar_emoji": "🗽",
+      "events_file": "events/lauren_events.json"
+    },
+    {
+      "user_id": "placeholder-mike-uuid",
+      "display_name": "Mike",
+      "slug": "mike",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "North Carolina",
+      "avatar_emoji": "🌲",
+      "events_file": "events/mike_events.json"
     }
   ]
 }
