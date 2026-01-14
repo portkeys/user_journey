@@ -1,0 +1,282 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UserInsights",
+  "description": "Complete user insights for personalization, recommendations, and marketing",
+  "type": "object",
+  "required": ["user_id", "generated_at", "schema_version", "long_term_profile", "short_term_signals", "cohort_attributes"],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Unique user identifier"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this insights object was generated"
+    },
+    "schema_version": {
+      "type": "string",
+      "default": "1.0.0",
+      "description": "Schema version for migrations"
+    },
+
+    "long_term_profile": {
+      "type": "object",
+      "description": "Stable user profile updated weekly/monthly",
+      "required": ["user_id", "last_updated", "core_interests", "engagement_level"],
+      "properties": {
+        "user_id": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date-time" },
+
+        "core_interests": {
+          "type": "array",
+          "description": "Top 10-20 strongest interests",
+          "items": {
+            "type": "object",
+            "required": ["topic", "strength", "score"],
+            "properties": {
+              "topic": { "type": "string", "description": "Normalized topic name" },
+              "strength": {
+                "type": "string",
+                "enum": ["core", "active", "casual", "dormant", "emerging"]
+              },
+              "score": { "type": "number", "minimum": 0, "maximum": 1 },
+              "first_seen": { "type": "string", "format": "date-time" },
+              "last_seen": { "type": "string", "format": "date-time" },
+              "engagement_count": { "type": "integer" },
+              "trend": { "type": "string", "enum": ["rising", "stable", "declining"] }
+            }
+          }
+        },
+
+        "interest_embedding": {
+          "type": "array",
+          "items": { "type": "number" },
+          "description": "Pre-computed embedding vector (768 or 1536 dimensions)"
+        },
+
+        "preferred_publications": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Ranked list of preferred publications"
+        },
+
+        "content_preferences": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "format": { "type": "string", "enum": ["long-reads", "reviews", "how-to", "news", "video", "guides"] },
+              "preference_score": { "type": "number", "minimum": 0, "maximum": 1 },
+              "avg_engagement_depth": { "type": "number" }
+            }
+          }
+        },
+
+        "favorite_authors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "author_name": { "type": "string" },
+              "articles_read": { "type": "integer" },
+              "affinity_score": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        },
+
+        "engagement_level": {
+          "type": "string",
+          "enum": ["power_user", "regular", "casual", "churning", "new"],
+          "description": "Overall engagement classification"
+        },
+
+        "lifetime_events": { "type": "integer" },
+        "account_age_days": { "type": "integer" },
+        "avg_monthly_events": { "type": "number" },
+
+        "temporal_pattern": {
+          "type": "object",
+          "properties": {
+            "peak_hours_utc": {
+              "type": "array",
+              "items": { "type": "integer", "minimum": 0, "maximum": 23 },
+              "maxItems": 3
+            },
+            "peak_days": {
+              "type": "array",
+              "items": { "type": "string" },
+              "maxItems": 3
+            },
+            "timezone_estimate": { "type": "string" },
+            "session_frequency": { "type": "string", "enum": ["daily", "weekly", "sporadic"] },
+            "avg_sessions_per_week": { "type": "number" },
+            "avg_articles_per_session": { "type": "number" }
+          }
+        },
+
+        "seasonal_patterns": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "season": { "type": "string", "enum": ["winter", "spring", "summer", "fall"] },
+              "dominant_topics": { "type": "array", "items": { "type": "string" } },
+              "activity_multiplier": { "type": "number" }
+            }
+          }
+        },
+
+        "cohort_tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Tags for user segmentation"
+        },
+
+        "negative_signals": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Topics to avoid in recommendations"
+        }
+      }
+    },
+
+    "short_term_signals": {
+      "type": "object",
+      "description": "Recent activity for real-time personalization, updated daily",
+      "required": ["user_id", "last_updated"],
+      "properties": {
+        "user_id": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date-time" },
+
+        "recent_articles": {
+          "type": "array",
+          "description": "Last 50-100 article interactions",
+          "items": {
+            "type": "object",
+            "properties": {
+              "article_id": { "type": "string" },
+              "article_embedding": {
+                "type": "array",
+                "items": { "type": "number" }
+              },
+              "title": { "type": "string" },
+              "topics": { "type": "array", "items": { "type": "string" } },
+              "interaction_timestamp": { "type": "string", "format": "date-time" },
+              "interaction_type": { "type": "string", "enum": ["view", "read", "share", "save"] },
+              "engagement_score": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        },
+
+        "recent_embedding": {
+          "type": "array",
+          "items": { "type": "number" },
+          "description": "Weighted average of recent article embeddings"
+        },
+
+        "emerging_topics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "topic": { "type": "string" },
+              "strength": { "type": "string" },
+              "score": { "type": "number" }
+            }
+          }
+        },
+
+        "current_session_topics": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+
+        "days_since_last_visit": { "type": "integer" },
+        "recent_engagement_trend": { "type": "string", "enum": ["increasing", "stable", "decreasing"] },
+
+        "relevant_past_interests": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Dormant interests that match current season"
+        }
+      }
+    },
+
+    "cohort_attributes": {
+      "type": "object",
+      "description": "Attributes for marketing segmentation",
+      "required": ["user_id", "engagement_tier", "primary_vertical"],
+      "properties": {
+        "user_id": { "type": "string" },
+        "last_updated": { "type": "string", "format": "date-time" },
+
+        "engagement_tier": {
+          "type": "string",
+          "enum": ["champion", "loyal", "at_risk", "dormant", "new"],
+          "description": "RFM-style engagement classification"
+        },
+
+        "subscription_status": {
+          "type": "string",
+          "enum": ["active", "lapsed", "never"]
+        },
+
+        "primary_vertical": {
+          "type": "string",
+          "description": "Main content vertical (cycling, running, outdoor, wellness)"
+        },
+
+        "interest_breadth": {
+          "type": "string",
+          "enum": ["specialist", "multi-sport", "explorer"]
+        },
+
+        "content_consumption_style": {
+          "type": "string",
+          "enum": ["deep_reader", "scanner", "video_first"]
+        },
+
+        "device_preference": {
+          "type": "string",
+          "enum": ["mobile", "desktop", "app", "mixed"]
+        },
+
+        "traffic_source_primary": {
+          "type": "string",
+          "enum": ["direct", "email", "search", "social"]
+        },
+
+        "predicted_ltv_tier": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+
+        "email_engagement": {
+          "type": "string",
+          "enum": ["highly_engaged", "moderate", "low", "unsubscribed"]
+        },
+
+        "best_contact_time": { "type": "string" },
+        "best_contact_day": { "type": "string" }
+      }
+    },
+
+    "combined_embedding": {
+      "type": "array",
+      "items": { "type": "number" },
+      "description": "Blended embedding for recommendations"
+    },
+
+    "recommendation_weights": {
+      "type": "object",
+      "description": "How to blend different signals for this user",
+      "properties": {
+        "long_term_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "short_term_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "seasonal_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+        "serendipity_factor": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    }
+  }
+}

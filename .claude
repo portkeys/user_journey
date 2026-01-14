@@ -1,0 +1,13 @@
+# Project Configuration for Claude Code
+
+## Package Management
+- Always use `uv` instead of `pip` for Python package management
+- Use `uv sync` to install dependencies from pyproject.toml (auto-creates venv)
+- Use `uv add <package>` to add new dependencies
+- Use `uv run` for running Python scripts
+
+## IDE
+- User uses PyCharm - no need to run `source .venv/bin/activate` as PyCharm handles virtual environment activation automatically
+
+## Project Context
+This project analyzes user events from Confluent Cloud Kafka to extract user journey insights using LLMs (GPT-5-nano and Claude Haiku 4.5 via AWS Bedrock).

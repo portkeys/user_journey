@@ -1,0 +1,313 @@
+{
+  "user_id": "f03f8762-bd4b-42dc-a989-800836b1bd7e",
+  "generated_at": "2026-01-14T00:10:27.480758Z",
+  "schema_version": "1.0.0",
+  "long_term_profile": {
+    "user_id": "f03f8762-bd4b-42dc-a989-800836b1bd7e",
+    "last_updated": "2026-01-14T00:10:27.480758Z",
+    "core_interests": [
+      {
+        "topic": "tour-de-france",
+        "strength": "casual",
+        "score": 0.341,
+        "engagement_count": 200,
+        "trend": "stable"
+      },
+      {
+        "topic": "tadej-pogacar",
+        "strength": "casual",
+        "score": 0.334,
+        "engagement_count": 178,
+        "trend": "stable"
+      },
+      {
+        "topic": "jonas-vingegaard",
+        "strength": "casual",
+        "score": 0.322,
+        "engagement_count": 143,
+        "trend": "stable"
+      },
+      {
+        "topic": "evergreen",
+        "strength": "casual",
+        "score": 0.322,
+        "engagement_count": 141,
+        "trend": "stable"
+      },
+      {
+        "topic": "outside-features",
+        "strength": "casual",
+        "score": 0.31,
+        "engagement_count": 106,
+        "trend": "stable"
+      },
+      {
+        "topic": "public-lands",
+        "strength": "casual",
+        "score": 0.297,
+        "engagement_count": 65,
+        "trend": "stable"
+      },
+      {
+        "topic": "national-parks",
+        "strength": "casual",
+        "score": 0.295,
+        "engagement_count": 59,
+        "trend": "stable"
+      },
+      {
+        "topic": "visma-lease-a-bike",
+        "strength": "casual",
+        "score": 0.293,
+        "engagement_count": 55,
+        "trend": "stable"
+      },
+      {
+        "topic": "remco-evenepoel",
+        "strength": "casual",
+        "score": 0.293,
+        "engagement_count": 54,
+        "trend": "stable"
+      },
+      {
+        "topic": "design-and-tech",
+        "strength": "casual",
+        "score": 0.291,
+        "engagement_count": 47,
+        "trend": "stable"
+      },
+      {
+        "topic": "yosemite-national-park",
+        "strength": "casual",
+        "score": 0.29,
+        "engagement_count": 45,
+        "trend": "stable"
+      },
+      {
+        "topic": "criterium-du-dauphine",
+        "strength": "casual",
+        "score": 0.29,
+        "engagement_count": 44,
+        "trend": "stable"
+      },
+      {
+        "topic": "footwear",
+        "strength": "casual",
+        "score": 0.289,
+        "engagement_count": 43,
+        "trend": "stable"
+      },
+      {
+        "topic": "sandals",
+        "strength": "casual",
+        "score": 0.289,
+        "engagement_count": 43,
+        "trend": "stable"
+      },
+      {
+        "topic": "jonathan-milan",
+        "strength": "casual",
+        "score": 0.288,
+        "engagement_count": 40,
+        "trend": "stable"
+      },
+      {
+        "topic": "mathieu-van-der-poel",
+        "strength": "casual",
+        "score": 0.288,
+        "engagement_count": 40,
+        "trend": "stable"
+      },
+      {
+        "topic": "simon-yates",
+        "strength": "casual",
+        "score": 0.287,
+        "engagement_count": 37,
+        "trend": "stable"
+      },
+      {
+        "topic": "training",
+        "strength": "casual",
+        "score": 0.287,
+        "engagement_count": 37,
+        "trend": "stable"
+      },
+      {
+        "topic": "ai",
+        "strength": "casual",
+        "score": 0.287,
+        "engagement_count": 35,
+        "trend": "stable"
+      },
+      {
+        "topic": "american racing",
+        "strength": "casual",
+        "score": 0.287,
+        "engagement_count": 35,
+        "trend": "stable"
+      }
+    ],
+    "interest_embedding": null,
+    "preferred_publications": [
+      "Backpacker",
+      "outside-online",
+      "Run",
+      "Trailforks App",
+      "Trailforks"
+    ],
+    "content_preferences": [
+      {
+        "format": "reviews",
+        "preference_score": 0.7,
+        "avg_engagement_depth": 0.6
+      },
+      {
+        "format": "news",
+        "preference_score": 0.5,
+        "avg_engagement_depth": 0.4
+      },
+      {
+        "format": "long-reads",
+        "preference_score": 0.4,
+        "avg_engagement_depth": 0.8
+      }
+    ],
+    "favorite_authors": [
+      {
+        "author_name": "Jim Cotton",
+        "articles_read": 61,
+        "affinity_score": 1.0
+      },
+      {
+        "author_name": "Andrew Hood",
+        "articles_read": 53,
+        "affinity_score": 1.0
+      },
+      {
+        "author_name": "Shane Stokes",
+        "articles_read": 36,
+        "affinity_score": 1.0
+      },
+      {
+        "author_name": "Frederick Dreier",
+        "articles_read": 19,
+        "affinity_score": 0.95
+      },
+      {
+        "author_name": "Will Tracy",
+        "articles_read": 15,
+        "affinity_score": 0.75
+      },
+      {
+        "author_name": "Bobby Julich",
+        "articles_read": 12,
+        "affinity_score": 0.6
+      },
+      {
+        "author_name": "Alex Hutchinson",
+        "articles_read": 10,
+        "affinity_score": 0.5
+      },
+      {
+        "author_name": "Corey Buhay",
+        "articles_read": 10,
+        "affinity_score": 0.5
+      },
+      {
+        "author_name": "Jen Murphy",
+        "articles_read": 10,
+        "affinity_score": 0.5
+      },
+      {
+        "author_name": "Adam Roy",
+        "articles_read": 8,
+        "affinity_score": 0.4
+      }
+    ],
+    "engagement_level": "power_user",
+    "lifetime_events": 21354,
+    "account_age_days": 364,
+    "avg_monthly_events": 1759.9,
+    "temporal_pattern": {
+      "peak_hours_utc": [
+        13,
+        18,
+        12
+      ],
+      "peak_days": [
+        "Monday",
+        "Wednesday",
+        "Tuesday"
+      ],
+      "timezone_estimate": "America/Denver",
+      "session_frequency": "daily",
+      "avg_sessions_per_week": 82.1,
+      "avg_articles_per_session": 5.0
+    },
+    "seasonal_patterns": [
+      {
+        "season": "summer",
+        "dominant_topics": [
+          "tour-de-france",
+          "cycling",
+          "outdoor"
+        ],
+        "activity_multiplier": 1.5
+      },
+      {
+        "season": "winter",
+        "dominant_topics": [
+          "ski",
+          "indoor-training",
+          "gear-reviews"
+        ],
+        "activity_multiplier": 0.8
+      }
+    ],
+    "cohort_tags": [
+      "cyclist",
+      "mountain-biker",
+      "newsletter-engaged",
+      "gear-enthusiast",
+      "skill-builder",
+      "power-user"
+    ],
+    "negative_signals": []
+  },
+  "short_term_signals": {
+    "user_id": "f03f8762-bd4b-42dc-a989-800836b1bd7e",
+    "last_updated": "2026-01-14T00:10:27.480758Z",
+    "recent_articles": [],
+    "recent_embedding": null,
+    "emerging_topics": [],
+    "current_session_topics": [],
+    "days_since_last_visit": 0,
+    "recent_engagement_trend": "stable",
+    "relevant_past_interests": [
+      "winter-training",
+      "indoor-cycling"
+    ]
+  },
+  "cohort_attributes": {
+    "user_id": "f03f8762-bd4b-42dc-a989-800836b1bd7e",
+    "last_updated": "2026-01-14T00:10:27.480758Z",
+    "engagement_tier": "champion",
+    "subscription_status": "active",
+    "primary_vertical": "cycling",
+    "interest_breadth": "multi-sport",
+    "content_consumption_style": "deep_reader",
+    "device_preference": "mixed",
+    "traffic_source_primary": "direct",
+    "predicted_ltv_tier": "high",
+    "email_engagement": "highly_engaged",
+    "best_contact_time": "13:00 UTC",
+    "best_contact_day": "Monday"
+  },
+  "combined_embedding": null,
+  "recommendation_weights": {
+    "long_term_weight": 0.4,
+    "short_term_weight": 0.5,
+    "seasonal_weight": 0.1,
+    "serendipity_factor": 0.15
+  }
+}

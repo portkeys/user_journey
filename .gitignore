@@ -1,0 +1,19 @@
+# Environment and secrets
+.env
+.env.*
+
+# Large data files (keep local only)
+robin_complete_events.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store

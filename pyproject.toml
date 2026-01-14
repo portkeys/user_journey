@@ -1,0 +1,12 @@
+[project]
+name = "user-journey"
+version = "0.1.0"
+description = "Analyze user events from Kafka to extract journey insights using LLMs"
+requires-python = ">=3.11"
+dependencies = [
+    "confluent-kafka>=2.3.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.40.0",
+    "boto3>=1.34.0",
+    "pandas>=2.0.0",
+]

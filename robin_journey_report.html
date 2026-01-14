@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robin's 2025 Outside Memory</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #FFD100;
+            --primary-dark: #E6BC00;
+            --secondary: #000000;
+            --accent: #333333;
+            --bg: #F7F7F7;
+            --card-bg: #FFFFFF;
+            --text: #000000;
+            --text-light: #555555;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: var(--secondary);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--secondary);
+            text-shadow: 1px 1px 0 var(--primary);
+        }
+
+        .stat-label {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        /* Recent Activity Spotlight - Featured Section */
+        .spotlight-section {
+            background: linear-gradient(135deg, var(--secondary) 0%, #1a1a1a 100%);
+            border-radius: 16px;
+            padding: 40px;
+            margin: 30px 0;
+            color: white;
+        }
+
+        .spotlight-section h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .spotlight-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .spotlight-narrative {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #e0e0e0;
+        }
+
+        .spotlight-narrative strong {
+            color: var(--primary);
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .recent-articles-list {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .recent-articles-list h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .recent-article {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .recent-article:last-child {
+            border-bottom: none;
+        }
+
+        .article-link {
+            font-size: 0.9rem;
+            color: white;
+            text-decoration: none;
+            line-height: 1.4;
+            flex: 1;
+            transition: color 0.2s;
+        }
+
+        .article-link:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        .article-date {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+            white-space: nowrap;
+            padding-top: 2px;
+        }
+
+        .article-domain {
+            font-size: 0.75rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .article-title {
+            font-size: 0.95rem;
+            color: white;
+        }
+
+        .content-lists-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        /* Ecosystem Cards */
+        .ecosystem-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .ecosystem-card {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            transition: transform 0.2s;
+        }
+
+        .ecosystem-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .ecosystem-card.editorial { border-top: 3px solid var(--primary); }
+        .ecosystem-card.trailforks { border-top: 3px solid #4CAF50; }
+        .ecosystem-card.gaia { border-top: 3px solid #2196F3; }
+        .ecosystem-card.watch { border-top: 3px solid #FF5722; }
+        .ecosystem-card.app { border-top: 3px solid #9C27B0; }
+
+        .eco-icon { font-size: 2rem; margin-bottom: 8px; }
+        .eco-title { font-weight: bold; margin-bottom: 10px; color: var(--primary); }
+        .eco-stat { font-size: 0.85rem; color: #bbb; margin: 4px 0; }
+        .eco-number { color: white; font-weight: bold; font-size: 1.1rem; }
+
+        /* Seasonal Pattern Cards */
+        .seasonal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .season-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--primary);
+        }
+
+        .season-header {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 10px;
+        }
+
+        .season-activities {
+            font-size: 0.9rem;
+            color: var(--accent);
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .season-insight {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            font-style: italic;
+        }
+
+        /* Interest Cards */
+        .interests-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .interest-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 15px 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+
+        .interest-card.core {
+            border-left: 4px solid var(--primary);
+            background: linear-gradient(135deg, #fffbea 0%, #fff 100%);
+        }
+
+        .interest-card.casual {
+            border-left: 4px solid #888;
+        }
+
+        .interest-topic {
+            font-weight: bold;
+            color: var(--secondary);
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .interest-strength {
+            font-size: 0.8rem;
+            color: #666;
+            background: var(--primary);
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+        }
+
+        .interest-evidence, .interest-note {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        /* Emerging Interests */
+        .emerging-list {
+            margin: 15px 0;
+        }
+
+        .emerging-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .emerging-topic {
+            font-weight: bold;
+            color: var(--secondary);
+            white-space: nowrap;
+        }
+
+        .emerging-evidence {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* Evolution Chart */
+        .evolution-chart-container {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .evolution-chart-container h4 {
+            color: var(--secondary);
+            margin-bottom: 5px;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.06);
+        }
+
+        .section h2 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            display: inline-block;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+
+        .chart-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 30px;
+        }
+
+        .chart-subtitle {
+            color: var(--text-light);
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+
+        .narrative {
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .narrative h2 {
+            color: var(--secondary);
+            margin: 25px 0 15px 0;
+            font-size: 1.5rem;
+        }
+
+        .narrative h3 {
+            color: var(--accent);
+            margin: 20px 0 10px 0;
+        }
+
+        .narrative ul {
+            margin: 15px 0 15px 25px;
+        }
+
+        .narrative li {
+            margin: 8px 0;
+        }
+
+        .narrative strong {
+            color: var(--secondary);
+            background: linear-gradient(to bottom, transparent 60%, var(--primary) 60%);
+            padding: 0 2px;
+        }
+
+        .analysis-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-left: 4px solid var(--secondary);
+            padding: 20px 25px;
+            margin: 20px 0;
+            border-radius: 0 12px 12px 0;
+        }
+
+        /* Dynamic Charts Section */
+        .dynamic-charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .dynamic-chart-card {
+            background: #fafafa;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .dynamic-chart-card h4 {
+            color: var(--secondary);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .chart-description {
+            color: var(--text-light);
+            font-size: 0.85rem;
+            margin-bottom: 15px;
+        }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tag {
+            background: var(--primary);
+            color: var(--secondary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .tag.large {
+            font-size: 1rem;
+            padding: 8px 18px;
+            background: var(--secondary);
+            color: var(--primary);
+        }
+
+        .tag.medium {
+            background: var(--accent);
+            color: white;
+        }
+
+        .tag.small {
+            background: #666666;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: var(--secondary);
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .chart-row, .spotlight-grid, .dynamic-charts-grid, .content-lists-grid, .ecosystem-grid, .seasonal-grid, .interests-grid {
+                grid-template-columns: 1fr;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .ecosystem-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🏔️ Robin's 2025 Outside Memory</h1>
+        <p>Your personalized journey through adventure, cycling, and outdoor exploration</p>
+        <p style="margin-top: 15px; opacity: 0.8;">
+            2025-01-14 → 2026-01-13
+        </p>
+    </div>
+
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">21,354</div>
+                <div class="stat-label">Pages Explored</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">364</div>
+                <div class="stat-label">Days of Adventure</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">963</div>
+                <div class="stat-label">Unique Articles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">99</div>
+                <div class="stat-label">Authors Discovered</div>
+            </div>
+        </div>
+
+        <!-- ECOSYSTEM - Top Featured Section -->
+        <div class="section" style="background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%); color: white;">
+            <h2 style="color: var(--primary); border-bottom-color: var(--primary);">🌍 Your Outside Ecosystem</h2>
+            <p class="chart-subtitle" style="color: #aaa;">Your activity across the Outside family of apps and platforms</p>
+            
+    <div class="ecosystem-grid" style="grid-template-columns: repeat(5, 1fr);">
+        <div class="ecosystem-card editorial">
+            <div class="eco-icon">📰</div>
+            <div class="eco-title">Editorial</div>
+            <div class="eco-stats">
+                <div class="eco-stat"><span class="eco-number">2,720</span> articles read</div>
+                <div class="eco-stat"><span class="eco-number">13,377</span> page views</div>
+            </div>
+        </div>
+        <div class="ecosystem-card trailforks">
+            <div class="eco-icon">🚵</div>
+            <div class="eco-title">Trailforks</div>
+            <div class="eco-stats">
+                <div class="eco-stat"><span class="eco-number">14</span> rides tracked</div>
+                <div class="eco-stat"><span class="eco-number">3,274</span> interactions</div>
+            </div>
+        </div>
+        <div class="ecosystem-card gaia">
+            <div class="eco-icon">🗺️</div>
+            <div class="eco-title">Gaia GPS</div>
+            <div class="eco-stats">
+                <div class="eco-stat"><span class="eco-number">151</span> sessions</div>
+            </div>
+        </div>
+        <div class="ecosystem-card watch">
+            <div class="eco-icon">🎬</div>
+            <div class="eco-title">Outside Watch</div>
+            <div class="eco-stats">
+                <div class="eco-stat"><span class="eco-number">82</span> videos</div>
+            </div>
+        </div>
+        <div class="ecosystem-card app">
+            <div class="eco-icon">📱</div>
+            <div class="eco-title">Outside App</div>
+            <div class="eco-stats">
+                <div class="eco-stat"><span class="eco-number">42</span> sessions</div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <!-- RECENT ACTIVITY SPOTLIGHT - Featured Section -->
+        <div class="spotlight-section">
+            <h2>🔥 Recent Activity Spotlight</h2>
+            <div class="spotlight-grid">
+                <div class="spotlight-narrative">
+                    **Your Week of Adventure: From Pedalpower to Peak Content**
+
+You've been diving deep into the outdoor world this week, splitting your time between competitive cycling coverage and inspiring adventure documentaries. Whether you're catching up on race results or getting lost in climbing stories, it's clear you're fueled by both the adrenaline and the storytelling of the outdoor lifestyle.
+
+Here's what's caught your attention: multiple visits to VeloNews for the latest competitive cycling news and bike reviews, immersive content from Outside TV including "Welcome to UMA & Climbing Part One" and features on destinations like Vail, Colorado and Zion National Park with adventurer Mike Posner, plus a thought-provoking piece on "Generative AI Just Killed the Wildlife Video" that has you questioning the future of outdoor media. You've also been exploring content through the Outside App, staying connected to the broader adventure community.
+                </div>
+                <div class="content-lists-grid">
+                    <div class="recent-articles-list">
+                        <h3>📖 Latest Reads</h3>
+                        <div class="recent-article">
+            <a href="https://www.outsideonline.com/outdoor-adventure/environment/ai-wildlife-video/" target="_blank" class="article-link">Generative AI Just Killed the Wildlife Video. Should Yo</a>
+            <span class="article-date"></span>
+        </div><div class="recent-article">
+            <a href="https://www.outsideonline.com/outdoor-adventure/environment/trump-nps-pass-sticker/" target="_blank" class="article-link">The Battle Over Trump’s Face on National Parks Passes C</a>
+            <span class="article-date"></span>
+        </div><div class="recent-article">
+            <a href="https://velo.outsideonline.com/road/road-racing/retirement-bombshell-giro-champion-simon-yates-ends-career-with-immediate-effect/" target="_blank" class="article-link">Simon Yates Ends Career With Immediate Effect in Shock </a>
+            <span class="article-date"></span>
+        </div>
+                    </div>
+                    <div class="recent-articles-list">
+                        <h3>🎬 Latest Watch</h3>
+                        <div class="recent-article">
+            <a href="https://watch.outsideonline.com/series/park-sessions/cBwPNDcg-MFUQs8df?episode=1&amp;season=1" target="_blank" class="article-link">Mike Posner: Zion National Park</a>
+            <span class="article-date"></span>
+        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Seasonal Patterns inline -->
+            <div style="margin-top: 30px;">
+                <h3 style="color: var(--primary); margin-bottom: 15px;">📅 Seasonal Patterns</h3>
+                <div class="seasonal-grid">
+                    
+        <div class="season-card">
+            <div class="season-header">☀️ Summer</div>
+            <div class="season-activities">watch cycling races (Tour de France and Grand Tours), read road racing/news (VeloNews/Outside Online), plan trails and trips on Trailforks</div>
+            <div class="season-insight">Cycling and trail planning peak in summer.</div>
+        </div>
+        <div class="season-card">
+            <div class="season-header">🍂 Autumn</div>
+            <div class="season-activities">gear reviews and gear launches, train for winter/prepare equipment, visit public lands and national parks for fall trips</div>
+            <div class="season-insight">Gear focus and training ramp up before winter.</div>
+        </div>
+        <div class="season-card">
+            <div class="season-header">❄️ Winter</div>
+            <div class="season-activities">winter hiking traction gear selection, nutrition and sports science topics, environmental & health-related articles (climate, microplastics)</div>
+            <div class="season-insight">Safety, nutrition, and climate topics rise in winter.</div>
+        </div>
+        <div class="season-card">
+            <div class="season-header">🌸 Spring</div>
+            <div class="season-activities">outdoor adventure travel planning, race previews and gear launches, bike tech trends & upgrades</div>
+            <div class="season-insight">Spring drives travel planning and race-season prep.</div>
+        </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Your Reading Journey</h2>
+            <div class="chart-row">
+                <div>
+                    <p class="chart-subtitle">Monthly Activity</p>
+                    <div class="chart-container">
+                        <canvas id="monthlyChart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <p class="chart-subtitle">Publications</p>
+                    <div class="chart-container">
+                        <canvas id="pubChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>⏰ When You Read</h2>
+            <p class="chart-subtitle">Converted to Mountain Time (MT) based on Colorado location. Peak activity: 6:00 MT</p>
+            <div class="chart-row">
+                <div>
+                    <p class="chart-subtitle">Hour of Day (Mountain Time)</p>
+                    <div class="chart-container">
+                        <canvas id="hourChart"></canvas>
+                    </div>
+                </div>
+                <div>
+                    <p class="chart-subtitle">Day of Week</p>
+                    <div class="chart-container">
+                        <canvas id="dayChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏷️ Your Interests</h2>
+
+            <!-- Core vs Casual Interests - First -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px;">
+                <div>
+                    <h3 style="color: var(--secondary); margin-bottom: 15px;">⭐ Core Interests</h3>
+                    <p class="chart-subtitle">Your deep, consistent passions</p>
+                    <div class="interests-grid" style="grid-template-columns: 1fr;">
+                        
+        <div class="interest-card core">
+            <div class="interest-topic">tour-de-france</div>
+            <div class="interest-strength">Very Strong</div>
+            <div class="interest-evidence">Top tag counts include tour-de-france (200) with coverage of Pogacar and Vingegaard.</div>
+        </div>
+        <div class="interest-card core">
+            <div class="interest-topic">national-parks</div>
+            <div class="interest-strength">Strong</div>
+            <div class="interest-evidence">Tags for national-parks and yosemite-national-park appear among top topics.</div>
+        </div>
+        <div class="interest-card core">
+            <div class="interest-topic">training</div>
+            <div class="interest-strength">Strong</div>
+            <div class="interest-evidence">Frequent presence of 'training' and 'winter-training' in top content.</div>
+        </div>
+        <div class="interest-card core">
+            <div class="interest-topic">visma-lease-a-bike</div>
+            <div class="interest-strength">Strong</div>
+            <div class="interest-evidence">Articles and feeds discuss Visma Lease a Bike and related winter training.</div>
+        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="color: var(--secondary); margin-bottom: 15px;">🌱 Casual Interests</h3>
+                    <p class="chart-subtitle">Topics you explore occasionally</p>
+                    <div class="interests-grid" style="grid-template-columns: 1fr;">
+                        
+        <div class="interest-card casual">
+            <div class="interest-topic">footwear</div>
+            <div class="interest-note">Occasional product-interest discussions.</div>
+        </div>
+        <div class="interest-card casual">
+            <div class="interest-topic">Sandals</div>
+            <div class="interest-note">Occasional gear discussions around sandals.</div>
+        </div>
+        <div class="interest-card casual">
+            <div class="interest-topic">Trailforks App</div>
+            <div class="interest-note">Occasional engagement with trail planning/app notifications.</div>
+        </div>
+        <div class="interest-card casual">
+            <div class="interest-topic">outside-love</div>
+            <div class="interest-note">Casual interest in relationship/culture-related Outdoors content.</div>
+        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 20px; color: var(--secondary);">🚀 Emerging Interests</h3>
+            <div class="emerging-list">
+        <div class="emerging-item">
+            <span class="emerging-topic">🚀 ai</span>
+            <span class="emerging-evidence">Generative AI-focused article and AI tagging indicate growing interest.</span>
+        </div>
+        <div class="emerging-item">
+            <span class="emerging-topic">🚀 climate-change</span>
+            <span class="emerging-evidence">Microplastics article with climate-change tag signals rising environmental focus.</span>
+        </div>
+        <div class="emerging-item">
+            <span class="emerging-topic">🚀 nutrition</span>
+            <span class="emerging-evidence">Nutrition-focused athlete content (Vitamin D discussion) shows increasing interest.</span>
+        </div></div>
+
+            <h3 style="margin-top: 30px; color: var(--secondary);">📊 Interest Distribution</h3>
+            <div class="tag-cloud">
+                <span class="tag large">tour-de-france</span><span class="tag large">tadej-pogacar</span><span class="tag large">jonas-vingegaard</span><span class="tag large">evergreen</span><span class="tag large">outside-features</span>
+                <span class="tag medium">public-lands</span><span class="tag medium">national-parks</span><span class="tag medium">visma-lease-a-bike</span><span class="tag medium">remco-evenepoel</span><span class="tag medium">design-and-tech</span>
+                <span class="tag small">yosemite-national-park</span><span class="tag small">criterium-du-dauphine</span><span class="tag small">footwear</span><span class="tag small">sandals</span><span class="tag small">jonathan-milan</span>
+            </div>
+            <div class="chart-container" style="height: 350px;">
+                <canvas id="tagsChart"></canvas>
+            </div>
+        </div>
+
+        <div class="section narrative">
+            <h2>📖 Your Story</h2>
+            <h1>Your 2025 Outside Memory</h1><h2>Welcome Message</h2><p>Hello Robin! We're thrilled to celebrate your incredible year with Outside Online and our media family. As one of our most engaged members, you've logged over 21,000 interactions across our publications—a testament to your passion for the outdoors, cycling, and the stories that matter. Thank you for being such a vital part of our community.</p><p>---</p><h2>Robin's 2025 Outside Memory</h2><p>Your year with us tells the story of a devoted outdoor enthusiast whose interests evolved beautifully across the seasons. You started 2025 with quiet curiosity—exploring winter hiking safety with pieces like "Bringing the Right Traction Could Save Your Winter Hike—or Your Life" on Backpacker, and checking in on running goals as the new year began. But as spring turned to summer, something magical happened: your engagement exploded.</p><p>June marked a turning point. Your monthly activity jumped from under 500 events to over 2,200, and by August, you were consuming content at an extraordinary pace with 4,574 events. This was the season of the Tour de France, and you were all in. You followed every stage, every rider, every drama—obsessively tracking Tadej Pogačar's dominance, Jonas Vingegaard's comeback story, and the tactical brilliance of teams like Visma-Lease a Bike. Through authors like Jim Cotton (61 articles read), Andrew Hood (53), and Shane Stokes (36), you lived and breathed professional cycling's greatest spectacle.</p><p>But you're not a one-sport enthusiast. Woven throughout your year was a genuine love for exploration and adventure. You explored Yosemite National Park through multiple lenses, read deeply about public lands and national parks, and engaged with trail communities through Trailforks—tracking 2,010 Trailforks events and 1,264 app interactions. You're someone who reads about adventure travel, who cares about gear (footwear and sandals featured prominently), and who thinks critically about the outdoors—diving into pieces about microplastics, climate change, and sustainability.</p><p>As summer faded into fall, your engagement remained strong through September and October before settling into a more measured pace in November and December. Yet even in winter, you returned to VeloNews, checking in on off-season training, gear launches, and the anticipation building for the 2025 racing season. Your recent activity shows you're still here, still curious—watching climbing content on Outside TV and pondering the future of wildlife video in the age of AI.</p><p>---</p><h2>Your Passions</h2><ul><li><strong>Professional Cycling & Road Racing</strong> — You're deeply invested in the WorldTour scene. With 200 Tour de France tags, 178 Tadej Pogačar references, and 143 Jonas Vingegaard mentions, you follow the sport with encyclopedic knowledge. You read about team strategies (Visma-Lease a Bike), race analysis, and the human stories behind the performances.</li>
+</ul>
+<ul><li><strong>Trail Exploration & Mountain Biking</strong> — Your 2,010 Trailforks interactions and 1,264 app events show you're actively mapping and discovering trails. You're engaged with the community, following riders, and planning adventures on the ground.</li>
+</ul>
+<ul><li><strong>Adventure Travel & Public Lands</strong> — You care about where we go and how we protect it. Your reads on Yosemite (45 tags), national parks (59 tags), and public lands (65 tags) reveal someone who thinks about responsible outdoor access and conservation.</li>
+</ul>
+<ul><li><strong>Outdoor Gear & Equipment</strong> — From footwear to sandals to bike storage solutions, you're thoughtful about the tools that enable adventure. You read gear reviews and technical analyses with genuine interest.</li>
+</ul>
+<ul><li><strong>Health, Science & Athletic Performance</strong> — You dig into the "why" behind athletic pursuits. Articles on vitamin D supplements, sex differences in sport, training methodologies, and athlete nutrition appear throughout your reading history—you're not just consuming sports content, you're understanding the science.</li>
+</ul>
+<ul><li><strong>Culture & Relationships</strong> — Beyond the hard-core adventure content, you read Blair Braverman's Tough Love column and pieces on relationships in the outdoor world. You're interested in the human dimension of the outdoor lifestyle.</li>
+</ul>
+---</p><h2>Reading Habits</h2><p>You're a creature of consistent rhythm. Your peak reading hours cluster in the afternoon and evening—you're most active between 1 PM and 10 PM, with particular spikes at 2 PM (1,491 events), 6 PM (1,760 events), and 8 PM (1,407 events). This suggests you're checking in during work breaks and settling in for deeper reading in the evening. Weekdays dominate your engagement, with Monday through Thursday accounting for your heaviest traffic, though you remain active on weekends too.</p><p>Your author preferences tell a clear story: you follow trusted voices. Jim Cotton leads your list with 61 articles, followed by Andrew Hood (53) and Shane Stokes (36)—cycling journalists who offer both hard news and nuanced analysis. You also engage with Outside's feature writers and columnists, showing appreciation for long-form storytelling alongside breaking news. Frederick Dreier, Will Tracy, and Bobby Julich appear regularly in your history, suggesting you've developed genuine relationships with specific writers whose perspectives you value.</p><p>VeloNews is your primary destination (3,847 events), but Outside Online remains your home base (8,767 events)—a balanced diet of specialist cycling coverage and broader outdoor culture. You're selective but thorough: across 364 days, you've read 963 unique articles from 99 different authors across 26 publications. You're not skimming; you're diving deep into topics that matter to you, following threads across multiple platforms and returning to voices you trust.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Generated with ❤️ by Outside Online Analytics</p>
+        <p style="margin-top: 10px; opacity: 0.7;">
+            Report created: January 13, 2026 at 17:40
+        </p>
+    </footer>
+
+    <script>
+        // Outside Online brand colors
+        const colors = {
+            primary: '#FFD100',
+            secondary: '#000000',
+            accent: '#333333',
+            chartColors: [
+                '#FFD100', '#000000', '#333333', '#666666',
+                '#999999', '#CCCCCC', '#E6BC00', '#B8960A'
+            ]
+        };
+
+        // Monthly Activity Chart
+        new Chart(document.getElementById('monthlyChart'), {
+            type: 'line',
+            data: {
+                labels: ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01"],
+                datasets: [{
+                    label: 'Page Views',
+                    data: [279, 541, 533, 401, 288, 2293, 2625, 4574, 3790, 2979, 1449, 1418, 184],
+                    borderColor: colors.primary,
+                    backgroundColor: 'rgba(255, 209, 0, 0.15)',
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 5,
+                    pointHoverRadius: 7,
+                    pointBackgroundColor: colors.secondary,
+                    pointBorderColor: colors.primary,
+                    pointBorderWidth: 2,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.08)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Publications Chart
+        new Chart(document.getElementById('pubChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ["Backpacker", "outside-online", "Run", "Trailforks App", "Trailforks", "VeloNews", "unknown", "accounts", "Devices", "Outside Watch"],
+                datasets: [{
+                    data: [80, 8767, 160, 1264, 2010, 3847, 4152, 222, 35, 78],
+                    backgroundColor: [
+                        '#FFD100', '#000000', '#333333', '#666666',
+                        '#999999', '#E6BC00', '#B8960A', '#CCCCCC',
+                        '#444444', '#777777'
+                    ],
+                    borderWidth: 2,
+                    borderColor: '#FFFFFF',
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'right', labels: { boxWidth: 12, color: '#000000' } }
+                }
+            }
+        });
+
+        // Hour of Day Chart
+        new Chart(document.getElementById('hourChart'), {
+            type: 'bar',
+            data: {
+                labels: ["0:00", "1:00", "2:00", "3:00", "4:00", "5:00", "6:00", "7:00", "8:00", "9:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00"],
+                datasets: [{
+                    label: 'Activity',
+                    data: [43, 7, 43, 86, 51, 1661, 1779, 1491, 1276, 1307, 1229, 1760, 1193, 1407, 1294, 961, 927, 1268, 519, 1107, 1052, 693, 123, 77],
+                    backgroundColor: colors.primary,
+                    borderColor: colors.secondary,
+                    borderWidth: 1,
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.08)' } },
+                    x: { grid: { display: false }, ticks: { maxRotation: 45 } }
+                }
+            }
+        });
+
+        // Day of Week Chart
+        new Chart(document.getElementById('dayChart'), {
+            type: 'bar',
+            data: {
+                labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                datasets: [{
+                    label: 'Activity',
+                    data: [3825, 3513, 3621, 3293, 3156, 1752, 2194],
+                    backgroundColor: colors.secondary,
+                    borderColor: colors.primary,
+                    borderWidth: 2,
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.08)' } },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // Tags Chart
+        new Chart(document.getElementById('tagsChart'), {
+            type: 'bar',
+            data: {
+                labels: ["tour-de-france", "tadej-pogacar", "jonas-vingegaard", "evergreen", "outside-features", "public-lands", "national-parks", "visma-lease-a-bike", "remco-evenepoel", "design-and-tech", "yosemite-national-park", "criterium-du-dauphine", "footwear", "sandals", "jonathan-milan"],
+                datasets: [{
+                    label: 'Mentions',
+                    data: [200, 178, 143, 141, 106, 65, 59, 55, 54, 47, 45, 44, 43, 43, 40],
+                    backgroundColor: colors.primary,
+                    borderColor: colors.secondary,
+                    borderWidth: 1,
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: { beginAtZero: true, grid: { color: 'rgba(0,0,0,0.08)' } },
+                    y: { grid: { display: false } }
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
