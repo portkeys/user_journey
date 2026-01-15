@@ -798,6 +798,154 @@ Response:
 2. **Data Transfer**: No egress costs when staying within AWS
 3. **Flink vs ksqlDB**: Managed Flink pricing more predictable than CSU-based ksqlDB
 
+---
+
+### Cost Calculation Details & Sources
+
+#### Our Workload Assumptions
+
+```
+Event throughput:     300,000 events/hour
+                    = 7,200,000 events/day
+                    = 216,000,000 events/month
+
+Historical storage:   3.68 TB (1 year of data)
+
+Average event size:   3.68 TB / (216M × 12 months) ≈ 1.4 KB/event
+
+Monthly ingress:      216M events × 1.4 KB = ~300 GB/month
+```
+
+#### Confluent Cloud Calculation
+
+**Source**: [Confluent Cloud Pricing](https://www.confluent.io/confluent-cloud/pricing/) (January 2026)
+
+| Component | Calculation | Monthly Cost |
+|-----------|-------------|--------------|
+| **Kafka Cluster (Basic)** | ~$1/GB ingress + base fee | |
+| - Ingress | 300 GB × $1.00/GB | $300 |
+| - Base cluster | Standard tier | ~$300-400 |
+| - Partition hours | ~50 partitions × 720 hrs × $0.004 | ~$144 |
+| **Subtotal Cluster** | | **~$750** |
+| | | |
+| **Storage** | | |
+| - Confluent storage | 3.68 TB × ~$0.10/GB/month | ~$370 |
+| - Extended retention | Additional for >7 days | ~$100-200 |
+| **Subtotal Storage** | | **~$500** |
+| | | |
+| **ksqlDB** | | |
+| - CSU pricing | $0.55/CSU-hour |  |
+| - 4 CSUs × 720 hours | 4 × 720 × $0.55 | ~$1,584 |
+| - May need 6-8 CSUs for our aggregations | | ~$1,600-2,400 |
+| **Subtotal ksqlDB** | | **~$2,000** |
+| | | |
+| **Connectors** | | |
+| - Managed connectors | ~$0.10/task-hour | |
+| - 3 connectors × 720 hrs | 3 × 720 × $0.10 | ~$216 |
+| **Subtotal Connectors** | | **~$250** |
+| | | |
+| **Data Transfer (Egress)** | | |
+| - To AWS (cross-cloud) | 300 GB × $0.05-0.10/GB | ~$150-300 |
+| **Subtotal Egress** | | **~$200** |
+| | | |
+| **TOTAL CONFLUENT** | | **~$3,700** |
+
+**Note**: ksqlDB is the biggest cost driver. CSU (Confluent Streaming Unit) pricing at $0.55/hour adds up quickly for always-on stream processing.
+
+#### Amazon MSK Calculation
+
+**Sources**:
+- [Amazon MSK Pricing](https://aws.amazon.com/msk/pricing/) (January 2026)
+- [Amazon Managed Flink Pricing](https://aws.amazon.com/managed-service-apache-flink/pricing/)
+- [S3 Pricing](https://aws.amazon.com/s3/pricing/)
+
+| Component | Calculation | Monthly Cost |
+|-----------|-------------|--------------|
+| **MSK Serverless** | | |
+| - Cluster hours | $0.75/hour × 720 hours | $540 |
+| - Storage (hot) | ~500 GB × $0.10/GB | $50 |
+| - Partition hours | 50 × 720 × $0.0015 | $54 |
+| - Data in | 300 GB × $0.10/GB | $30 |
+| - Data out | 300 GB × $0.05/GB | $15 |
+| **Subtotal MSK** | | **~$700** |
+| | | |
+| **Tiered Storage (S3)** | | |
+| - 3.68 TB in S3 Standard | 3,680 GB × $0.023/GB | ~$85 |
+| - Or S3 Infrequent Access | 3,680 GB × $0.0125/GB | ~$46 |
+| **Subtotal S3** | | **~$50-85** |
+| | | |
+| **Amazon Managed Flink** | | |
+| - KPU pricing | $0.11/KPU-hour | |
+| - 4 KPUs × 720 hours | 4 × 720 × $0.11 | ~$317 |
+| - Running storage | 50 GB × $0.10/GB | ~$5 |
+| - Durable storage | 100 GB × $0.023/GB | ~$2.30 |
+| **Subtotal Flink** | | **~$350** |
+| | | |
+| **Glue Schema Registry** | | |
+| - Free tier: 1M schemas | Likely covered | $0 |
+| **Subtotal Schema** | | **~$0** |
+| | | |
+| **MSK Connect** | | |
+| - Self-managed on EC2 | t3.medium × 2 | ~$60 |
+| - Or Fargate | 0.5 vCPU × 2 × 720 hrs | ~$50 |
+| **Subtotal Connect** | | **~$60** |
+| | | |
+| **Data Transfer** | | |
+| - Within AWS (same region) | | $0 |
+| **Subtotal Transfer** | | **$0** |
+| | | |
+| **TOTAL MSK** | | **~$1,200** |
+
+#### Key Cost Differences Explained
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      WHERE THE SAVINGS COME FROM                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  1. STREAM PROCESSING                                                        │
+│     ksqlDB:  4 CSUs × $0.55/hr × 720 hrs = $1,584/month                     │
+│     Flink:   4 KPUs × $0.11/hr × 720 hrs = $317/month                       │
+│     SAVINGS: ~$1,267/month (80% cheaper)                                    │
+│                                                                              │
+│  2. STORAGE (3.68 TB)                                                        │
+│     Confluent: ~$0.10/GB = $368/month (all on Kafka storage)                │
+│     MSK+S3:    ~$0.023/GB = $85/month (tiered to S3)                        │
+│     SAVINGS: ~$283/month (77% cheaper)                                      │
+│                                                                              │
+│  3. DATA TRANSFER                                                            │
+│     Confluent → AWS: ~$0.05-0.10/GB egress                                  │
+│     Within AWS: $0                                                           │
+│     SAVINGS: ~$150-300/month (100% cheaper)                                 │
+│                                                                              │
+│  TOTAL MONTHLY SAVINGS: ~$1,700-1,850                                       │
+│  TOTAL ANNUAL SAVINGS:  ~$20,000-22,000                                     │
+│                                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#### Caveats & Assumptions
+
+1. **Pricing as of January 2026** - Cloud pricing changes frequently
+2. **Estimates only** - Actual costs depend on exact usage patterns
+3. **ksqlDB CSUs** - May need more/fewer depending on query complexity
+4. **Flink KPUs** - Auto-scaling could increase costs during spikes
+5. **MSK Serverless** - Pricing varies by region; used us-east-1 estimates
+6. **Not included**:
+   - AWS Support plans
+   - Monitoring/logging costs (CloudWatch)
+   - Development/migration labor costs
+7. **Tiered storage assumption**: Assumes ~90% of 3.68 TB is >7 days old and can tier to S3
+
+#### Recommended Next Step
+
+Run the **AWS Pricing Calculator** with your exact workload:
+- https://calculator.aws/#/addService/MSK
+- https://calculator.aws/#/addService/KinesisDataAnalytics (for Managed Flink)
+
+And compare with **Confluent Cost Estimator**:
+- https://www.confluent.io/confluent-cloud/pricing/ (cost calculator at bottom)
+
 ### Feature Comparison
 
 | Feature | Confluent Cloud | Amazon MSK |
