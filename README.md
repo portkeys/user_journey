@@ -34,6 +34,7 @@ open http://localhost:8080/
 | Dan | Connecticut | 5,196 | [View](https://portkeys.github.io/user_journey/report.html?user=dan) |
 | Lauren | New York | 8,766 | [View](https://portkeys.github.io/user_journey/report.html?user=lauren) |
 | Mike | North Carolina | 3,402 | [View](https://portkeys.github.io/user_journey/report.html?user=mike) |
+| Claus | Incline Village, NV | Pending | Coming Soon |
 
 ## Architecture
 

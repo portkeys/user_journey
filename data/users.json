@@ -89,6 +89,16 @@
       "location": "North Carolina",
       "avatar_emoji": "🌲",
       "events_file": "events/mike_events.json"
+    },
+    {
+      "user_id": "placeholder-claus-uuid",
+      "display_name": "Claus",
+      "slug": "claus",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "Incline Village, NV",
+      "avatar_emoji": "🎿",
+      "events_file": "events/claus_events.json"
     }
   ]
 }
