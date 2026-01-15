@@ -1,0 +1,742 @@
+{
+  "user": {
+    "display_name": "Mike",
+    "slug": "mike",
+    "timezone_offset": -5,
+    "timezone_name": "Eastern Time",
+    "location": "North Carolina",
+    "avatar_emoji": "\ud83c\udf32",
+    "suggested_emoji": "\ud83d\udeb4",
+    "emoji_reason": "Based on top activity: tour-de-france-femmes"
+  },
+  "summary": {
+    "publications": {
+      "outside-online": 1053,
+      "unknown": 1226,
+      "Backpacker": 99,
+      "www.backpacker.com": 2,
+      "www.outsideonline.com": 15,
+      "VeloNews": 77,
+      "Trailforks": 289,
+      "Trailforks App": 445,
+      "MySmokyMountainPark": 2,
+      "Triathlete": 14,
+      "Run": 86,
+      "run.outsideonline.com": 1,
+      "CleanEating": 36,
+      "MyYosemitePark": 3,
+      "climbing": 6,
+      "yogajournal": 5,
+      "Devices": 1,
+      "ski": 22,
+      "Outside App": 14,
+      "gaiagps": 6
+    },
+    "tags": {
+      "evergreen": 35,
+      "long reads": 20,
+      "commerce": 12,
+      "pauline-ferrand-prevot": 11,
+      "interview": 11,
+      "olympics": 11,
+      "snow sports": 11,
+      "demi-vollering": 10,
+      "uci-road-world-championships": 10,
+      "athletes": 10,
+      "tour-de-france-femmes": 9,
+      "womens-cycling": 9,
+      "skiing": 9,
+      "visma-lease-a-bike": 8,
+      "everest": 8,
+      "skating": 8,
+      "native": 7,
+      "cowboy": 7,
+      "horeseback riding": 7,
+      "hot springs": 7,
+      "ranch": 7,
+      "western states": 7,
+      "ironman world championship 2025 nice": 7,
+      "triathlon news": 7,
+      "climbing": 6,
+      "news": 6,
+      "outside-features": 5,
+      "deals": 5,
+      "alex-honnold": 4,
+      "conrad-anker": 4,
+      "friendship": 4,
+      "jimmy-chin": 4,
+      "tommy-caldwell": 4,
+      "strava": 4,
+      "mathieu-van-der-poel": 3,
+      "uci": 3,
+      "running": 3,
+      "2025-triathlete-community-survey": 3,
+      "bike": 3,
+      "bike-count": 3,
+      "triathlon-bike": 3,
+      "camping": 3,
+      "mountaineering": 3,
+      "yosemite": 3,
+      "navigation": 3,
+      "survival": 3,
+      "banff sunshine": 3,
+      "best value": 3,
+      "book now": 3,
+      "family skiing": 3,
+      "lake louise": 3,
+      "2025-gear-reviews": 2,
+      "2025-summer-gear-guide": 2,
+      "gear-guide": 2,
+      "running-shoes": 2,
+      "trail-running": 2,
+      "trail-running-shoes": 2,
+      "tadej-pogacar": 2,
+      "womens-racing": 2,
+      "wout-van-aert": 2,
+      "road running": 2,
+      "freediving": 2,
+      "ocean": 2,
+      "scuba diving": 2,
+      "shark": 2,
+      "2025 gear reviews": 2,
+      "2025 summer gear guide": 2,
+      "camping gear": 2,
+      "moves": 2,
+      "science": 2,
+      "workouts": 2,
+      "dance": 2,
+      "endurance training": 2,
+      "performance": 2,
+      "taylor swift": 2,
+      "mount everest": 2,
+      "yosemite national park": 2,
+      "ford": 2,
+      "off-road": 2,
+      "gift guide": 2,
+      "gift guides": 2,
+      "holiday": 2,
+      "gear": 2,
+      "holiday gifts": 2,
+      "ask the boot doctor": 2,
+      "bootfitting": 2,
+      "outside+": 2,
+      "ski boots": 2,
+      "fastest known time": 2,
+      "fkt": 2,
+      "michelino senseri": 2,
+      "backcountry sleep": 1,
+      "sea to summit": 1,
+      "core strength": 1,
+      "exercises": 1,
+      "myths": 1,
+      "training tips": 1,
+      "nutrition": 1,
+      "training": 1,
+      "wout-poels": 1,
+      "nebraska": 1,
+      "watersports": 1,
+      "profile": 1,
+      "bolivia": 1,
+      "ice climbing": 1,
+      "syndicated": 1,
+      "books": 1,
+      "culture": 1,
+      "food and drink": 1,
+      "yellowstone national park": 1,
+      "nature": 1,
+      "swimming": 1,
+      "water activities": 1,
+      "hiking-and-backpacking": 1,
+      "pennsylvania": 1,
+      "hankook-tires": 1,
+      "overlanding": 1,
+      "fat bear week": 1,
+      "kim-le-court": 1,
+      "liege-bastogne-liege": 1,
+      "rider-safety": 1,
+      "womens-liege-bastogne-liege": 1,
+      "yellow-cards": 1,
+      "warren miller": 1,
+      "adventure": 1,
+      "big wall free climbing": 1,
+      "connor herson": 1,
+      "el capitan": 1,
+      "the nose": 1,
+      "everest base camp": 1,
+      "gifts": 1,
+      "travel": 1,
+      "best gifts for runners": 1,
+      "holiday gift guide": 1,
+      "holiday gifts for runners": 1,
+      "velo deals": 1,
+      "chicago marathon": 1,
+      "road races": 1,
+      "thanksgiving": 1,
+      "turkey trot": 1,
+      "hiking and backpacking": 1,
+      "national parks": 1,
+      "best towns": 1,
+      "mountain towns": 1,
+      "small towns": 1,
+      "film": 1,
+      "tv": 1,
+      "friday fantasy": 1,
+      "hotels": 1,
+      "montana": 1,
+      "indoor training": 1,
+      "trainingpeaks": 1,
+      "road running culture": 1,
+      "run club": 1,
+      "running couples": 1,
+      "best races": 1,
+      "bucket list races": 1,
+      "fall race guide": 1,
+      "joy of running": 1,
+      "trail half marathons": 1,
+      "running shoes": 1,
+      "style": 1
+    },
+    "events_with_tags": 121,
+    "authors": {
+      "Tom Vanderbilt": 4,
+      "Andrew Hood": 3,
+      "Cory Smith": 2,
+      "Lisa Jhung": 2,
+      "Jim Cotton": 1,
+      "Julie Fustanio Kling": 1,
+      "Earl Swift": 1,
+      "Chris Foster": 1,
+      "Josh Ross": 1,
+      "Joe Jackson": 1,
+      "Zoe Gates": 1,
+      "Emma Veidt": 1,
+      "Adam Roy": 1,
+      "Benjamin Tepler": 1,
+      "Maggie Slepian": 1
+    },
+    "content_categories": {
+      "home": 116,
+      "profile": 36,
+      "membership": 4,
+      "skills": 1,
+      "gear": 7,
+      "trips": 1,
+      "health": 8,
+      "outdoor-gear": 8,
+      "adventure-travel": 9,
+      "test-page": 1,
+      "o": 6,
+      "road": 8,
+      "tag": 2,
+      "culture": 11,
+      "outdoor-adventure": 40,
+      "activity": 24,
+      "uncategorized": 1,
+      "appfeed": 37,
+      "map": 43,
+      "ridelog": 27,
+      "homefeed": 73,
+      "ridelogs": 32,
+      "notifications": 11,
+      "error": 4,
+      "news-and-events": 7,
+      "rideplans": 1,
+      "pro": 10,
+      "video": 1,
+      "report": 2,
+      "category": 2,
+      "collection": 1,
+      "magazine-issues": 15,
+      "badge": 1,
+      "news": 4,
+      "games": 6,
+      "connect": 1,
+      "gravel": 2,
+      "lifestyle": 1,
+      "privacy": 1,
+      "performance": 2,
+      "series": 2,
+      "ski-resort-life": 3,
+      "trail": 1
+    },
+    "subcategories": {
+      "ridelog/:id": 27,
+      "ridelogs/my": 27,
+      "outdoor-adventure/snow-sports": 19,
+      "profile/mrenoe": 14,
+      "adventure-travel/destinations": 8,
+      "profile/1786a896-0018-4f55-ba95-b33678e4621b": 7,
+      "health/training-performance": 6,
+      "road/road-racing": 6,
+      "o/perks": 5,
+      "news-and-events/news": 5,
+      "outdoor-adventure/exploration-survival": 5,
+      "games/trailguesser": 5,
+      "culture/essays-culture": 4,
+      "activity/fbf76300-97c9-11f0-8080-80003e034849": 4,
+      "outdoor-adventure/the-perfect-adventure-buddy": 4,
+      "magazine-issues/summer-2022": 4,
+      "outdoor-adventure/water-activities": 3,
+      "culture/books-media": 3,
+      "outdoor-adventure/hiking-and-backpacking": 3,
+      "pro/checkout": 3,
+      "ski-resort-life/canada": 3,
+      "profile/fec01df8-f510-4070-b1fb-082ba3da0319": 2,
+      "outdoor-gear/run": 2,
+      "profile/2890365c-e6d0-4b7f-8d56-46ca0d1ec9f5": 2,
+      "health/nutrition": 2,
+      "culture/news": 2,
+      "report/nearby": 2,
+      "map/search": 2,
+      "outdoor-gear/gear-news": 2,
+      "culture/love-humor": 2,
+      "category/news": 2,
+      "outdoor-gear/camping": 2,
+      "activity/d8c98f00-a0b8-11f0-8080-8000328ca216": 2,
+      "news-and-events/government-shutdown-brings-waves-of-illegal-activity-to-yosemite-national-park": 2,
+      "magazine-issues/february-march-2022": 2,
+      "outdoor-adventure/everest": 2,
+      "outdoor-adventure/climbing": 2,
+      "gravel/gravel-gear": 2,
+      "performance/instruction": 2,
+      "news/michelino-sunseri-presidential-pardon-behind-the-scenes": 2,
+      "profile/0bb7f219-dc7f-499f-b1dd-6a571728d56c": 1,
+      "profile/9974e9a1-d08f-4561-bde2-7cce88dc61cf": 1,
+      "skills/7-things-every-hiker-needs-to-do-before-summer-ends": 1,
+      "gear/how-to-sleep-better-outdoors": 1,
+      "o/perks#_member": 1,
+      "tag/pauline-ferrand-prevot": 1,
+      "activity/b8ccc300-8210-11f0-8080-80006ad4f247": 1,
+      "uncategorized/jackson-hole-ski-instructor-central-couloir-fall-video": 1,
+      "activity/b8e2e380-8407-11f0-8080-800074def5b8": 1,
+      "profile/aa999020-ec0f-4f5a-8150-f1a874e5ae1f": 1,
+      "activity/c3a56600-837e-11f0-8080-80015597df08": 1,
+      "activity/e760a700-8d95-11f0-8080-80005d86ac48": 1,
+      "gear/bike": 1,
+      "activity/e2edfbf0-8e7b-11f0-8080-800104756e7e": 1,
+      "activity/fc9f0980-8e59-11f0-8080-80006e3080f6": 1,
+      "activity/b2ff5600-9281-11f0-8080-80007c5e879f": 1,
+      "activity/3d4ec500-9329-11f0-8080-80015ba40aba": 1,
+      "activity/1ec43300-9675-11f0-8080-80017eb2cc63": 1,
+      "profile/41b1f648-7e98-4166-8d9d-0f01221345d2": 1,
+      "activity/47c20f00-9893-11f0-8080-80012947224e": 1,
+      "tag/outside-features": 1,
+      "activity/356d1a00-9c73-11f0-8080-800048b7e813": 1,
+      "collection/best-training-plans-for-runners": 1,
+      "activity/af3afb80-9d78-11f0-8080-800032d4975e": 1,
+      "activity/942d4480-a393-11f0-8080-80014aa7b261": 1,
+      "activity/67cbf500-a3a0-11f0-8080-80006b22c1f6": 1,
+      "activity/47b82800-a3d8-11f0-8080-800110746a61": 1,
+      "activity/9421b000-a7aa-11f0-8080-80016462ddb9": 1,
+      "activity/79624080-a869-11f0-8080-80010ea5cb6a": 1,
+      "magazine-issues/spring-2022": 1,
+      "badge/:id": 1,
+      "news/strava-api-update-means-changes-to-the-fitness-app-ecosystem": 1,
+      "news/connor-herson-nose-in-a-day-and-triple-direct": 1,
+      "activity/c2dfa180-bf75-11f0-8080-80004a3346cd": 1,
+      "outdoor-gear/best-travel-gifts-2025": 1,
+      "gear/the-5-hiker-gifts-our-editors-are-obsessed-with-this-holiday": 1,
+      "gear/best-gifts-backpackers-hikers-2025": 1,
+      "gear/best-gifts-for-runners-tested-and-reviewed": 1,
+      "gear/best-stocking-stuffers-for-backpackers-and-hikers-2025": 1,
+      "lifestyle/gifts-for-yogis-2025": 1,
+      "adventure-travel/news-analysis": 1,
+      "profile/562a67e4-b305-4358-9cad-3730221ec8d5": 1,
+      "road/road-training": 1,
+      "road/road-culture": 1,
+      "trail/trail-racing": 1,
+      "gear/can-your-running-shoes-wear-pattern-inform-what-shoes-you-need-next": 1
+    },
+    "website_domains": {
+      "outsideonline.com": 1735,
+      "backpacker.com": 195,
+      "velo.outsideonline.com": 118,
+      "trailforks.com": 366,
+      "watch.outsideonline.com": 10,
+      "mysmokymountainpark.com": 4,
+      "triathlete.com": 32,
+      "run.outsideonline.com": 168,
+      "cleaneatingmag.com": 52,
+      "myyosemitepark.com": 4,
+      "climbing.com": 15,
+      "yogajournal.com": 15,
+      "devices.outsideonline.com": 2,
+      "skimag.com": 71
+    },
+    "referrer_domains": {
+      "outsideonline.com": 122,
+      "trailforks.com": 13,
+      "accounts.outsideonline.com": 11,
+      "google.com": 11,
+      "velo.outsideonline.com": 8,
+      "backpacker.com": 7,
+      "run.outsideonline.com": 7,
+      "cleaneatingmag.com": 7,
+      "skimag.com": 3,
+      "cdn.cleaneatingmag.com": 2,
+      "go.bsky.app": 1,
+      "watch.outsideonline.com": 1,
+      "triathlete.com": 1,
+      "bikereg.com": 1,
+      "buy.tinypass.com": 1,
+      "climbing.com": 1,
+      "view.ceros.com": 1,
+      "devices.outsideonline.com": 1
+    },
+    "email_traffic_count": 18,
+    "temporal": {
+      "first_event": "2025-07-31 04:07:22.443000+00:00",
+      "last_event": "2025-12-30 02:14:11.261000+00:00",
+      "total_days": 151,
+      "events_last_7_days": 160,
+      "events_last_30_days": 618,
+      "avg_events_per_day": 22.52980132450331,
+      "by_hour": {
+        "4": 101,
+        "14": 230,
+        "18": 478,
+        "17": 276,
+        "20": 265,
+        "21": 298,
+        "15": 439,
+        "19": 216,
+        "13": 41,
+        "16": 302,
+        "23": 273,
+        "0": 112,
+        "1": 223,
+        "12": 16,
+        "22": 70,
+        "10": 21,
+        "2": 37,
+        "7": 1,
+        "8": 3
+      },
+      "by_day_of_week": {
+        "Thursday": 455,
+        "Monday": 656,
+        "Tuesday": 746,
+        "Wednesday": 517,
+        "Friday": 595,
+        "Sunday": 299,
+        "Saturday": 134
+      },
+      "by_month": {
+        "2025-07": 1,
+        "2025-08": 558,
+        "2025-09": 1256,
+        "2025-10": 558,
+        "2025-11": 448,
+        "2025-12": 581
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 170,
+      "single_read": 116,
+      "multi_read": 54,
+      "most_revisited": [
+        [
+          "Outside Magazine",
+          71
+        ],
+        [
+          "Outside Magazine",
+          36
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          21
+        ],
+        [
+          "Outside Magazine",
+          16
+        ],
+        [
+          "mrenoe's Notifications | Trailforks",
+          14
+        ],
+        [
+          "RUN: Training, Gear, News, and Culture - RUN | Powered by Outside",
+          8
+        ],
+        [
+          "Lindsey Vonn Has Nothing Left to Prove",
+          8
+        ],
+        [
+          "What I Learned After Spending 14 Hours at a Suburban Ice Rink",
+          8
+        ],
+        [
+          "7 of the Wildest Cowboy Core Vacations in the U.S.",
+          7
+        ],
+        [
+          "Outside Online",
+          6
+        ],
+        [
+          "Mike Renoe - Outside",
+          6
+        ],
+        [
+          "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
+          6
+        ],
+        [
+          "Outside Magazine",
+          5
+        ],
+        [
+          "Outside Magazine",
+          4
+        ],
+        [
+          "Error",
+          4
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          4
+        ],
+        [
+          "How to Find the Perfect Adventure Buddy",
+          4
+        ],
+        [
+          "Summer 2022 - Clean Eating",
+          4
+        ],
+        [
+          "Magazine Issues Archive - Clean Eating",
+          4
+        ],
+        [
+          "Backpacker Magazine | Camping - Hiking - Gear - Skills",
+          3
+        ],
+        [
+          "Giant Spiders Are Taking Over America's Most Popular National Park\u2014and the NPS Wants Hikers' Help Tracking Them",
+          3
+        ],
+        [
+          "Mike Renoe - Spent the last few days in Western NC and it just so happened to be the perfect time for leaf peeping. I didn\u2019t capture it but the wildflowers were also everywhere and just as incredible to see. | Outside Magazine",
+          3
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          3
+        ],
+        [
+          "Exploring America's Longest Off Road Trail",
+          3
+        ],
+        [
+          "Trailforks Pro",
+          3
+        ],
+        [
+          "Trailforks Checkout",
+          3
+        ],
+        [
+          "Skiers Were High on a Saddle in the Alps. Then Disaster Struck.",
+          3
+        ],
+        [
+          "Everything You Need to Know Before Skiing Banff | SKI",
+          3
+        ],
+        [
+          "Backpacker Magazine | Camping - Hiking - Gear - Skills",
+          2
+        ],
+        [
+          "The Best Trail Running Shoes for Every Terrain",
+          2
+        ]
+      ],
+      "content_types": {
+        "how_to": 8,
+        "best_lists": 18,
+        "reviews": 9,
+        "guides": 2
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 289,
+        "app": 445,
+        "ridelogs": 59,
+        "map_views": 43,
+        "photos": 11,
+        "unique_rides": 0
+      },
+      "gaia_gps": {
+        "events": 6
+      },
+      "outside_app": {
+        "events": 14
+      },
+      "outside_watch": {
+        "events": 0
+      },
+      "editorial": {
+        "events": 1380,
+        "articles": 350
+      },
+      "devices": {
+        "events": 1
+      },
+      "monthly_app_usage": {
+        "2025-08": {
+          "trailforks_web": 50,
+          "trailforks_app": 47
+        },
+        "2025-09": {
+          "trailforks_web": 149,
+          "trailforks_app": 278
+        },
+        "2025-10": {
+          "trailforks_app": 87,
+          "trailforks_web": 35
+        },
+        "2025-11": {
+          "trailforks_app": 33,
+          "trailforks_web": 33,
+          "outside_app": 7
+        },
+        "2025-12": {
+          "trailforks_web": 22,
+          "gaia_gps": 6,
+          "outside_app": 7
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 3402,
+      "total_days_tracked": 151,
+      "events_per_day": 22.52980132450331,
+      "unique_publications": 20,
+      "unique_tags_encountered": 162,
+      "unique_authors_read": 15,
+      "unique_articles": 170
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome, Mike!\n\nWe're thrilled to celebrate your year with Outside Online and our community of passionate adventurers. Over the past five months, you've been an incredibly engaged member\u2014diving deep into stories, exploring trails, and staying connected to the athletes and adventures that inspire you. This is your personalized year in review.\n\n---\n\n## Mike's 2025 Outside Memory\n\n**A Summer of Discovery**\n\nYour journey with us began in late July, but it was August when you truly found your rhythm. That first full month, you logged 558 events as you explored everything from the fundamentals of outdoor comfort to the glamorous world of cowboy vacations. You were curious and thorough\u2014reading about core strength myths, testing trail running shoes, and discovering wild west getaways featuring horseback riding and hot springs. You weren't just passively consuming; you were actively building a foundation, clicking through gear guides, checking out profiles, and understanding what Outside had to offer.\n\n**September: The Peak of Passion**\n\nSeptember exploded into your most engaged month\u2014a remarkable 1,256 events that showed your deep dive into Outside's ecosystem. This is when your core passions crystallized. You became captivated by women's professional cycling, following Pauline Ferrand-Pr\u00e9vot and Demi Vollering through the Tour de France Femmes and UCI Road World Championships. You weren't just reading headlines; you were tracking narratives, clicking through athlete profiles, and engaging with the nuance of professional sports. Simultaneously, you discovered the power of long-form storytelling\u2014pieces like \"Murder on the Appalachian Trail\" and \"Ice Climbing in Skirts? For These Bolivian Women, It's Power\" captured your attention. You were also actively using Trailforks, logging your own rides and staying connected to the mountain biking community.\n\n**October Through Year-End: Sustained Engagement**\n\nAs fall progressed, your engagement stabilized into a sustainable rhythm. October brought 558 events, November 448, and December 581\u2014showing that you'd found your groove. Your interests remained consistent: women's cycling dominated your reading, but you balanced it with evergreen outdoor education content, adventure travel inspiration, and the occasional deep-dive cultural piece. You were reading across multiple publications\u2014Outside Online, VeloNews, Backpacker, and Trailforks\u2014proving you're not loyal to a single voice but rather to quality storytelling across the outdoor ecosystem.\n\n**Your Rhythm**\n\nWhat emerged most clearly: you're a weekday reader. Tuesdays were your peak engagement day (746 events), followed closely by Mondays (656) and Fridays (595). You tend to read during afternoon and evening hours\u20143 PM to 11 PM is your sweet spot, with particular peaks at 6 PM (478 events) and 9 PM (298 events). You're someone who reads thoughtfully, often returning to pieces and exploring related content through tags and author pages. Over 151 days, you averaged an impressive 22.5 events per day, engaging with 170 unique articles across 162 different tags.\n\n---\n\n## Your Passions\n\n* **Women's Professional Cycling** \u2013 Your most dominant interest. You tracked Pauline Ferrand-Pr\u00e9vot (11 tagged articles), Demi Vollering (10), and major events like the Tour de France Femmes and UCI Road World Championships (both 10+). You're invested in the athletes' stories, not just race results.\n\n* **Evergreen Outdoor Education** \u2013 You've engaged with 35 evergreen-tagged pieces, showing you value timeless knowledge: core strength myths, rip current survival, sleeping better outdoors, and best practices for outdoor adventures. You're building a personal knowledge base.\n\n* **Long-Form Storytelling** \u2013 With 20 long-read engagements, you clearly prefer narrative depth. Pieces like \"Murder on the Appalachian Trail,\" \"Ice Climbing in Skirts,\" and athlete interviews with Rich Roll demonstrate your appetite for stories that go beyond the surface.\n\n* **Mountain Biking & Trail Culture** \u2013 Your heavy use of Trailforks (734 combined app and website events) and engagement with trail-specific content shows you're an active rider. You're not just reading about trails; you're riding them and logging your adventures.\n\n* **Western Adventure & Lifestyle** \u2013 Cowboy culture, ranches, horseback riding, hot springs, and Western States content (7 tagged articles each) reveal a romantic side\u2014you're drawn to adventure experiences that feel immersive and culturally rich.\n\n* **Winter Sports & Climbing** \u2013 Skiing (9 articles), ice climbing (multiple pieces), and climbing culture (6 articles) round out your adventure interests. You appreciate the technical and the transcendent\u2014from ski instructor safety lessons to Bolivian women redefining ice climbing.\n\n---\n\n## Reading Habits\n\n**When You Read**\n\nYou're a creature of habit with clear reading windows. Your primary reading happens during the workday afternoon (1\u20134 PM, peaking at 3 PM with 439 events) and evening hours (6\u201311 PM, with your absolute peak at 6 PM with 478 events). You also have a notable late-night reading pattern, with 273 events at 11 PM and 223 at 1 AM\u2014suggesting you're someone who winds down by scrolling through Outside content. Weekdays are decisively your reading days; Tuesday through Friday account for nearly 2,400 of your 3,402 total events, while weekends see a dramatic drop-off. You're balancing professional life with passionate consumption.\n\n**How You Read**\n\nYou're methodical and exploratory. Rather than one-off article clicks, you tend to follow threads\u2014reading a piece about Pauline Ferrand-Pr\u00e9vot, then clicking to her profile, then exploring related UCI World Championships coverage, then diving into Demi Vollering's story. You engage with author pages (Tom Vanderbilt appears 4 times, Andrew Hood 3 times), suggesting you've identified writers whose voices resonate with you. Your tag exploration is sophisticated; you're not just consuming what's recommended but actively searching for specific interests like \"evergreen,\" \"long reads,\" and athlete names.\n\n**Your Favorite Voices**\n\nWhile you've encountered 15 unique authors, Tom Vanderbilt and Andrew Hood emerge as your go-to voices. You also value the expertise of Lisa Jhung and Cory Smith. Your author engagement suggests you appreciate writers who blend technical knowledge with narrative skill\u2014people who can explain *why* something matters, not just *what* happened. The fact that you've read interviews and profiles extensively (11 interview-tagged articles) shows you're drawn to the human element of outdoor culture\u2014the athletes, adventurers, and thinkers behind the sports.",
+    "recent_spotlight": "**Outdoor Adventures and Style on Your Mind**\n\nYou've been spending time with Outside Online lately, diving into content that blends adventure culture with lifestyle. It looks like you're curious about the intersection of outdoor living and personal style\u2014the kind of content that celebrates both the rugged and the unconventional.\n\nWhile the data is a bit sparse on specifics, we can see you checked out \"The Enduring Appeal of the Dirtbag Mullet,\" a piece that perfectly captures that adventurous spirit mixed with a touch of irreverent style. You've also been exploring Outside Online's broader catalog, suggesting you're interested in staying connected to what's happening in the outdoor community right now.",
+    "seasonal_patterns": [
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "Backpacking trips",
+          "Hiking",
+          "Trail running"
+        ],
+        "insight": "Summer focus on hiking, backpacking, and trail running."
+      },
+      {
+        "season": "Fall",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "Road cycling coverage",
+          "Tour de France Femmes coverage",
+          "Climbing"
+        ],
+        "insight": "Fall emphasizes cycling coverage with ongoing climbing interest."
+      },
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "Skiing",
+          "Snow sports gear reviews",
+          "Ice climbing stories"
+        ],
+        "insight": "Winter centers on skiing and snow sports content."
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "cowboy core vacations",
+        "evidence": "Outside Online articles in Aug 2025 about cowboy vacations."
+      },
+      {
+        "topic": "Trailforks App",
+        "evidence": "Frequent Trailforks App domain activity and app-related content in Aug 2025."
+      },
+      {
+        "topic": "Ice climbing (Bolivian women)",
+        "evidence": "Aug 26, 2025 feature 'Ice Climbing in Skirts? For These Bolivian Women, It\u2019s Power.'"
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "cycling (women's cycling)",
+        "strength": "Very Strong",
+        "evidence": "Multiple articles on Tour de France Femmes, Pauline Ferrand-Prevot, and UCI world championships."
+      },
+      {
+        "topic": "backpacking & hiking",
+        "strength": "Strong",
+        "evidence": "Backpacker magazine content and backpacking/trips coverage."
+      },
+      {
+        "topic": "skiing & snow sports",
+        "strength": "Strong",
+        "evidence": "Top tags include snow sports and skiing; multiple content items."
+      },
+      {
+        "topic": "trail running & gear",
+        "strength": "Strong",
+        "evidence": "Trail running shoes reviews and gear guides."
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "cowboy",
+        "note": "Casual engagement with cowboy culture content."
+      },
+      {
+        "topic": "hot springs",
+        "note": "Occasional reads about hot springs destinations."
+      },
+      {
+        "topic": "ranch",
+        "note": "Light interest in ranch lifestyle content."
+      },
+      {
+        "topic": "horeseback riding",
+        "note": "Sporadic engagement with horseback riding topics."
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "The Enduring Appeal of the Dirtbag Mullet",
+        "url": "https://www.outsideonline.com/culture/love-humor/history-outdoor-mullet/?utm_medium=email&utm_source=ten_tabs&utm_campaign=FIREFOX-EDITORIAL-TENTABS-2025_12_29position%3D6&category=fascinating_stories&scheduled_corpus_item_id=e4481038-38cc-41a3-b7c4-8b723e4dc4e7&url=https%3A%2F%2Fwww.outsideonline.com%2Fculture%2Flove-humor%2Fhistory-outdoor-mullet%2F",
+        "date": "Dec 30"
+      },
+      {
+        "title": "What Your Running Shoes\u2019 Wear Pattern Is Telling You",
+        "url": "https://run.outsideonline.com/gear/can-your-running-shoes-wear-pattern-inform-what-shoes-you-need-next/?utm_source=cordial&utm_medium=email&utm_campaign=OLR_-_NL_-_Weekly",
+        "date": "Dec 23"
+      },
+      {
+        "title": "Top 10 Trail Races for Enjoying Fall Colors and Foliage",
+        "url": "https://run.outsideonline.com/trail/trail-racing/top-12-trail-races-for-fall-colors/?utm_source=cordial&utm_medium=email&utm_campaign=OLR_-_NL_-_Weekly",
+        "date": "Dec 23"
+      },
+      {
+        "title": "Is Run Club Dating Really Worth It?",
+        "url": "https://run.outsideonline.com/road/road-culture/is-run-club-dating-really-worth-it/?utm_source=cordial&utm_medium=email&utm_campaign=OLR_-_NL_-_Weekly",
+        "date": "Dec 23"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-15T19:11:27.071308Z"
+}

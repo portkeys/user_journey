@@ -5,83 +5,126 @@
     "timezone_offset": -8,
     "timezone_name": "Pacific Time",
     "location": "Seattle",
-    "avatar_emoji": "\ud83c\udf27\ufe0f"
+    "avatar_emoji": "\ud83c\udf27\ufe0f",
+    "suggested_emoji": "\u26f7\ufe0f",
+    "emoji_reason": "Based on top activity: stowe-mountain-resort-vt"
   },
   "summary": {
     "publications": {
-      "outside-online": 3431,
+      "outside-online": 5400,
       "accounts": 104,
       "Outside.IO": 4,
-      "www.outsideonline.com": 23,
-      "Trailforks App": 46,
-      "unknown": 361,
-      "yogajournal": 10,
-      "Trailforks": 223,
-      "Backpacker": 131,
+      "www.outsideonline.com": 29,
+      "Trailforks App": 77,
+      "unknown": 1455,
+      "yogajournal": 15,
+      "Trailforks": 249,
+      "Backpacker": 168,
       "Pinkbike": 5,
       "Run": 10,
-      "ski": 116,
+      "ski": 480,
       "runreg": 2,
       "Devices": 10,
-      "gaiagps": 29,
-      "NationalParkTrips": 4,
-      "MyOlympicPark": 6,
-      "VeloNews": 4,
-      "Outside Watch": 2,
-      "www.backpacker.com": 4
+      "gaiagps": 33,
+      "NationalParkTrips": 134,
+      "MyOlympicPark": 30,
+      "VeloNews": 83,
+      "Outside Watch": 9,
+      "www.backpacker.com": 5,
+      "watch.outsideonline.com": 1,
+      "MyGrandCanyon": 10,
+      "UtahNationalParkTrips": 23,
+      "Outside App": 14,
+      "Triathlete": 9,
+      "MyColoradoParks": 4
     },
     "tags": {
-      "commerce": 34,
+      "commerce": 68,
+      "evergreen": 60,
+      "travel": 54,
+      "colorado": 41,
       "gaia-gps": 30,
       "hiking-and-backpacking": 30,
-      "evergreen": 29,
-      "national-parks": 26,
+      "stowe-mountain-resort-vt": 29,
+      "aspen": 29,
+      "national-parks": 28,
+      "vermont": 28,
+      "book now": 28,
       "trailforks": 26,
       "utah": 26,
+      "dining": 26,
+      "east-coast": 26,
+      "ski-towns": 26,
+      "climbing": 25,
+      "banff sunshine": 25,
       "biking": 24,
       "camping": 24,
       "caving-and-canyoneering": 24,
-      "climbing": 24,
       "mountain-biking": 24,
-      "travel": 20,
+      "best value": 24,
+      "family skiing": 24,
+      "lake louise": 24,
+      "resort-guide": 22,
       "telluride-ski-resort-colo": 20,
       "editors-choice-2021": 20,
-      "stowe-mountain-resort-vt": 19,
-      "vermont": 18,
-      "dining": 16,
-      "east-coast": 16,
-      "ski-towns": 16,
+      "snowmass": 20,
+      "destination-guide": 19,
+      "joshua-tree-national-park": 18,
+      "native": 13,
       "outside": 12,
-      "hiking": 8,
+      "vail mountain": 10,
+      "hiking": 9,
+      "lab rat": 9,
+      "sleep": 9,
+      "well spent": 9,
       "barkley-marathons": 8,
       "deals": 8,
-      "colorado": 7,
-      "environment": 6,
+      "environment": 7,
+      "gear": 7,
+      "mt norquay": 7,
       "core": 6,
       "exercises": 6,
       "legs": 6,
       "sports": 6,
       "tools": 6,
+      "hottakes": 6,
+      "aspen-snowmass-colo": 6,
+      "value": 6,
+      "everest": 5,
+      "science": 5,
       "winter-park-colo": 5,
-      "hottakes": 5,
+      "search-and-rescue": 5,
+      "poc": 5,
+      "review": 5,
+      "womens-apparel": 5,
+      "womens-cycling": 5,
       "climate-neutral-ish": 4,
       "food": 4,
       "food-and-drink": 4,
       "health-and-beauty": 4,
       "sustainability": 4,
       "outside-features": 4,
-      "everest": 4,
+      "adventure-travel": 4,
       "british-columbia": 4,
       "scandinave-spa": 4,
       "whistler-blackcomb-bc": 4,
-      "search-and-rescue": 4,
       "best-local-flavor": 4,
+      "opinion": 4,
+      "public lands": 4,
+      "destination guide": 4,
+      "resort guide": 4,
+      "gift guide": 4,
+      "alps": 3,
+      "italy": 3,
+      "great-smoky-mountains-national-park": 3,
       "new-mexico": 3,
       "taos-ski-valley-nm": 3,
-      "adventure-travel": 3,
       "idaho": 3,
       "oregon": 3,
-      "resort-guide": 3,
+      "great smoky mountains national park": 3,
+      "backyard": 3,
+      "beer": 3,
+      "aspen snowmass": 3,
       "design-and-tech": 2,
       "footwear": 2,
       "sandals": 2,
@@ -90,10 +133,8 @@
       "vo2-max": 2,
       "costa-rica": 2,
       "friday-fantasy": 2,
-      "alps": 2,
       "france": 2,
       "hiking-boots": 2,
-      "italy": 2,
       "switzerland": 2,
       "trek": 2,
       "trekking-poles": 2,
@@ -104,12 +145,9 @@
       "skiing": 2,
       "snow-sports": 2,
       "mount-everest": 2,
-      "native": 2,
-      "great-smoky-mountains-national-park": 2,
       "ketchum": 2,
       "sun-valley-resort": 2,
       "nature": 2,
-      "science": 2,
       "survival": 2,
       "wildlife": 2,
       "arches": 2,
@@ -122,7 +160,41 @@
       "kentucky": 2,
       "nebraska": 2,
       "new-york": 2,
+      "alaska": 2,
+      "tennessee": 2,
       "backpacking": 2,
+      "wine beer and spirits": 2,
+      "david-lappartient": 2,
+      "gps": 2,
+      "jonathan-vaughters": 2,
+      "muriel-furrer": 2,
+      "tour-de-romandie-feminin": 2,
+      "uci": 2,
+      "velon": 2,
+      "hotels": 2,
+      "city walks": 2,
+      "travel guide": 2,
+      "washington dc": 2,
+      "alberta": 2,
+      "british columbia": 2,
+      "cat skiing": 2,
+      "fernie alpine": 2,
+      "sun peaks": 2,
+      "hiking and backpacking": 2,
+      "montana": 2,
+      "eco ski hotel": 2,
+      "hotel": 2,
+      "luxury travel": 2,
+      "park city mountain resort": 2,
+      "arches-national-park": 2,
+      "glacier-national-park": 2,
+      "parks": 2,
+      "mesa verde national park": 2,
+      "black canyon of the gunnison national park": 2,
+      "great sand dunes national park and preserve": 2,
+      "aging": 2,
+      "mountain weather": 2,
+      "weather forecast": 2,
       "thru-hiking-2025": 1,
       "first-look": 1,
       "jetboil": 1,
@@ -130,7 +202,6 @@
       "chris-froome": 1,
       "dave-brailsford": 1,
       "tour-de-france": 1,
-      "alaska": 1,
       "appalachian-trail": 1,
       "big-sky": 1,
       "denver": 1,
@@ -140,28 +211,52 @@
       "minnesota": 1,
       "north-carolina": 1,
       "sonoma": 1,
-      "tennessee": 1,
       "the-farmers-dog": 1,
       "reader-survey": 1,
       "resort-survey": 1,
       "best-of-lodging": 1,
-      "astrotourism": 1
+      "astrotourism": 1,
+      "adventure travel": 1,
+      "untamed": 1,
+      "yosemite": 1,
+      "yosemite national park": 1,
+      "delaware river": 1,
+      "green river": 1,
+      "ichetucknee river": 1,
+      "iowa river": 1,
+      "rivers": 1,
+      "24-grand-targhee": 1,
+      "30-keystone-resort": 1,
+      "crystal-mountain": 1,
+      "high-alpine-skiing": 1,
+      "intermediate-terrain": 1,
+      "mt-bachelor-oregon": 1,
+      "terrain-expansion": 1,
+      "washington": 1,
+      "wyoming": 1,
+      "train travel": 1,
+      "food and drink": 1,
+      "food culture": 1,
+      "off-road": 1,
+      "fit through time": 1
     },
-    "events_with_tags": 164,
+    "events_with_tags": 352,
     "authors": {
       "Adam Roy": 10,
+      "Joe Cutts": 9,
       "Abby Levene": 8,
-      "Samantha Berman": 5,
-      "Joe Cutts": 5,
+      "Samantha Berman": 8,
       "Kristin Hostetter": 4,
       "Jayme Moye": 4,
       "The Editors": 4,
       "Drew Zieff": 4,
       "Calin Van Paris": 3,
+      "Alex Hutchinson": 3,
       "Graham Averill": 3,
+      "Owen Clarke": 3,
+      "Sierra Shafer": 3,
       "Scott Yorko": 2,
       "Ryleigh Nucilli": 2,
-      "Alex Hutchinson": 2,
       "Lisa Jhung": 2,
       "Doug Mayer": 2,
       "Emma Veidt": 2,
@@ -169,8 +264,10 @@
       "Mark Sundeen": 2,
       "Maya Silver": 2,
       "Jen Murphy": 2,
-      "Owen Clarke": 2,
       "Hayden Carpenter": 2,
+      "Megan Michelson": 2,
+      "Elisabeth Kwak-Hefferan": 2,
+      "Amy Tara Koch": 2,
       "Viney Kirpal": 1,
       "Amelia Arvesen": 1,
       "Maggie Gigandet": 1,
@@ -183,97 +280,123 @@
       "Sam Pfeifle": 1,
       "Jay Bouchard": 1,
       "Mary Beth \u201cMouse\u201d Skylis": 1,
-      "Stephanie Vermillion": 1
+      "Stephanie Vermillion": 1,
+      "Corey Buhay": 1,
+      "Staff": 1,
+      "Tori Peglar": 1,
+      "Dennis Lewon": 1,
+      "Eric Hansen": 1,
+      "Kathleen Rellihan": 1,
+      "Lindsey Falkenburg": 1,
+      "Emma Loewe": 1
     },
     "content_categories": {
-      "home": 752,
-      "activity": 235,
-      "profile": 303,
+      "profile": 342,
       "oidc-frontend": 99,
-      "outdoor-adventure": 19,
-      "appfeed": 46,
-      "culture": 2,
+      "activity": 268,
+      "home": 838,
+      "outdoor-adventure": 26,
+      "appfeed": 50,
+      "culture": 7,
       "ridelog": 5,
-      "map": 8,
-      "notifications": 2,
+      "map": 12,
+      "notifications": 3,
       "bookmarks": 1,
       "lifestyle": 2,
       "meditation": 3,
-      "login": 6,
+      "login": 8,
       "outsideplus": 16,
-      "byline": 2,
+      "byline": 3,
       "o": 22,
-      "health": 6,
+      "health": 11,
       "photo": 4,
       "signup": 2,
-      "stories": 6,
+      "stories": 7,
       "trails": 6,
       "u": 2,
       "podcast": 4,
-      "adventure-travel": 21,
+      "adventure-travel": 33,
       "survival": 2,
       "news-and-events": 3,
       "trail": 8,
       "subscription": 4,
-      "skills": 1,
+      "skills": 4,
       "12283": 1,
       "events": 1,
       "skillparks": 1,
-      "gear": 6,
+      "gear": 9,
       "reports": 1,
       "outsideplus-comeback": 2,
-      "tag": 3,
-      "parks": 1,
-      "where-to-stay-camp-eat": 2,
+      "tag": 4,
+      "parks": 5,
+      "where-to-stay-camp-eat": 7,
       "manage": 2,
       "settings": 1,
-      "ski-resort-life": 27,
+      "ski-resort-life": 89,
       "routepopular": 1,
       "12413": 1,
       "contest": 2,
-      "travel-guides": 1,
+      "travel-guides": 3,
       "park": 4,
       "connect": 2,
       "garmin_settings": 1,
-      "faqs": 1,
+      "faqs": 3,
       "road-trips": 1,
-      "membership": 3,
-      "road": 1,
+      "membership": 5,
+      "road": 7,
       "poses": 1,
-      "outdoor-gear": 3,
+      "outdoor-gear": 10,
       "collection": 1,
       "community": 5,
       "devices": 1,
-      "videos": 1
+      "videos": 1,
+      "series": 2,
+      "trips": 4,
+      "news": 3,
+      "food": 1,
+      "national-park-stories": 2,
+      "things-to-do": 5,
+      "photos": 1,
+      "ridelogs": 1,
+      "homefeed": 3,
+      "uncategorized": 2,
+      "adventure": 1
     },
     "subcategories": {
-      "profile/c31d1441-970f-4197-8c8f-940286ca2c7c": 184,
+      "profile/c31d1441-970f-4197-8c8f-940286ca2c7c": 207,
       "oidc-frontend/search": 49,
       "oidc-frontend/profile": 41,
+      "ski-resort-life/canada": 27,
       "profile/17ad93a0-e14f-4767-a55f-04795400a438": 26,
-      "profile/kavis": 23,
+      "profile/kavis": 25,
+      "ski-resort-life/lodging": 23,
       "o/perks": 14,
+      "adventure-travel/destinations": 14,
       "profile/8c6d24db-e9e9-4693-8a8f-606cfdf18617": 12,
-      "activity/10a76100-d2f5-11ef-8080-800111a22e03": 10,
-      "adventure-travel/national-parks": 10,
+      "adventure-travel/national-parks": 12,
       "activity/5fc81000-35cd-11f0-8080-80007ef14ce8": 10,
+      "activity/10a76100-d2f5-11ef-8080-800111a22e03": 8,
       "activity/undefined": 8,
       "activity/6e029580-dadf-11ef-8080-800130931c73": 8,
+      "health/training-performance": 8,
       "trail/2025-barkley-marathons-results": 8,
       "activity/e55ee580-22d7-11f0-8080-80007e32d083": 8,
       "activity/dc530a00-2c2f-11f0-8080-800158042a2c": 8,
-      "adventure-travel/destinations": 7,
-      "health/training-performance": 6,
       "stories/issues": 6,
+      "outdoor-adventure/everest": 6,
       "activity/d6237e00-0e78-11f0-8080-80011be49dd4": 6,
       "o/perks#_member": 6,
-      "ski-resort-life/lodging": 6,
       "ski-resort-life/resort-guide-2025": 6,
       "activity/36ccb200-4dfb-11f0-8080-80017366fa69": 6,
+      "activity/47c20f00-9893-11f0-8080-80012947224e": 6,
+      "outdoor-adventure/environment": 5,
       "oidc-frontend/settings": 5,
+      "where-to-stay-camp-eat/hotels-cabins": 5,
+      "profile/60011857-f264-4bc6-9eb1-97a354a5d641": 5,
       "activity/fe072000-4552-11f0-8080-8001705719d1": 5,
+      "ski-resort-life/northern-rockies": 5,
+      "road/road-gear": 5,
       "profile/f4a44fb8-bd3d-4324-a0f0-a23f892a5007": 4,
-      "outdoor-adventure/environment": 4,
       "activity/9a213200-dc17-11ef-8080-8001244c94a5": 4,
       "activity/d7b23a80-e269-11ef-8080-800043fe6b49": 4,
       "profile/c06aba0d-47cb-4c5b-b2b1-9d74a0a31ea3": 4,
@@ -283,15 +406,14 @@
       "profile/c35bcfd0-be1b-4557-a985-f86fef5f9275": 4,
       "profile/dcf03e2e-be50-4d61-9b1a-60016ae42fa1": 4,
       "activity/d57ff600-043b-11f0-8080-8001744894f9": 4,
-      "outdoor-adventure/everest": 4,
       "activity/b5d60800-10a0-11f0-8080-8000529730bb": 4,
       "activity/3ed0a480-13fd-11f0-8080-80011432853f": 4,
       "profile/2d556bb6-56ab-4932-9816-f12c855324c2": 4,
       "activity/4edae780-2237-11f0-8080-80015359e7dd": 4,
+      "ski-resort-life/southern-rockies": 4,
       "activity/ede3aa00-29c2-11f0-8080-8001704fcf4a": 4,
       "activity/9d7f7400-3673-11f0-8080-8001267a0c3e": 4,
       "profile/57228bb1-d110-4b06-90ea-d590e4b65424": 4,
-      "profile/60011857-f264-4bc6-9eb1-97a354a5d641": 4,
       "activity/76e0b980-31eb-11f0-8080-80014a712283": 4,
       "activity/757c1e00-2164-11f0-8080-800124e069b0": 4,
       "activity/6ca24c00-3712-11f0-8080-80001a5f207b": 4,
@@ -299,11 +421,20 @@
       "activity/3456d080-47db-11f0-8080-80013643eb4d": 4,
       "activity/4b663280-55d1-11f0-8080-8001602eccd1": 4,
       "activity/b0cc0c00-555c-11f0-8080-800161ff61e3": 4,
+      "activity/74f66180-748d-11f0-8080-8000174a7621": 4,
+      "culture/opinion": 4,
+      "outdoor-gear/gear-gift-hotline-2025": 4,
       "ridelog/:id": 3,
       "trails/map": 3,
-      "ski-resort-life/southern-rockies": 3,
+      "skills/beginner-skills": 3,
+      "outdoor-adventure/exploration-survival": 3,
+      "faqs/about-national-park-trips": 3,
       "outdoor-adventure/water-activities": 3,
+      "outdoor-adventure/hiking-and-backpacking": 3,
       "gear/14-backpacker-approved-bargains-from-amazons-prime-day": 3,
+      "activity/4d662780-9888-11f0-8080-8001637703b1": 3,
+      "ski-resort-life/resort-guide-2026": 3,
+      "ski-resort-life/aspen-snowmass-first-time": 3,
       "oidc-frontend/newsletter-center": 2,
       "activity/7ee4b300-ce1f-11ef-8080-80005464f65f": 2,
       "activity/981e5f80-d9da-11ef-8080-800054ba0e41": 2,
@@ -331,121 +462,122 @@
       "activity/82472580-0080-11f0-8080-8000356fc323": 2,
       "survival/garmin-inreach-data-2024-sos-calls": 2,
       "ridelog/view": 2,
-      "activity/8ff3af80-006e-11f0-8080-800115f4fca1": 2,
-      "activity/213fa780-04ef-11f0-8080-80007b669f12": 2,
-      "news-and-events/news": 2,
-      "podcast/worst-mountain-towns": 2,
-      "activity/58363900-0069-11f0-8080-8001342647e2": 2,
-      "activity/10ea8100-0046-11f0-8080-80006a4d2edc": 2,
-      "activity/95d41e00-05a3-11f0-8080-8001327db340": 2,
-      "profile/5f2ed836-d1d7-495c-abc4-6b709dd86962": 2,
-      "profile/35f1ec06-de50-4b21-8f30-c71f34b23bd9": 2,
-      "activity/0dc19380-f491-11ef-8080-80011ec84921": 2,
-      "profile/a5a7a98c-eabf-4e8e-bc9f-6998fcee86de": 2,
-      "profile/f03f8762-bd4b-42dc-a989-800836b1bd7e": 2,
-      "activity/11a67f80-1014-11f0-8080-80015605cc0d": 2,
-      "activity/884e8f00-069c-11f0-8080-8001057c832a": 2,
-      "activity/0da92d80-0f40-11f0-8080-8001448badfe": 2,
-      "activity/72aef980-208e-11f0-8080-800037ec7c2d": 2
+      "activity/8ff3af80-006e-11f0-8080-800115f4fca1": 2
     },
     "website_domains": {
-      "outsideonline.com": 3696,
+      "outsideonline.com": 6061,
       "accounts.outsideonline.com": 119,
       "outside.io": 4,
-      "trailforks.com": 291,
-      "yogajournal.com": 12,
-      "backpacker.com": 180,
+      "trailforks.com": 326,
+      "yogajournal.com": 19,
+      "backpacker.com": 268,
       "pinkbike.com": 8,
       "run.outsideonline.com": 10,
-      "skimag.com": 135,
+      "skimag.com": 974,
       "runreg.com": 2,
       "devices.outsideonline.com": 10,
-      "nationalparktrips.com": 4,
-      "myolympicpark.com": 6,
-      "velo.outsideonline.com": 5,
-      "watch.outsideonline.com": 3
+      "nationalparktrips.com": 153,
+      "myolympicpark.com": 39,
+      "velo.outsideonline.com": 93,
+      "watch.outsideonline.com": 13,
+      "mygrandcanyonpark.com": 16,
+      "myutahparks.com": 30,
+      "triathlete.com": 17,
+      "learn.outsideonline.com": 1,
+      "mycoloradoparks.com": 6,
+      "velo-stage.outsideonline.com": 7
     },
     "referrer_domains": {
-      "outsideonline.com": 333,
-      "google.com": 50,
-      "accounts.outsideonline.com": 38,
+      "outsideonline.com": 375,
+      "google.com": 75,
+      "accounts.outsideonline.com": 44,
       "backpacker.com": 37,
-      "trailforks.com": 25,
-      "buy.tinypass.com": 21,
-      "skimag.com": 19,
+      "trailforks.com": 28,
+      "nationalparktrips.com": 23,
+      "buy.tinypass.com": 22,
+      "skimag.com": 21,
+      "myolympicpark.com": 12,
       "devices.outsideonline.com": 9,
-      "myolympicpark.com": 6,
-      "nationalparktrips.com": 4,
+      "velo.outsideonline.com": 7,
+      "mygrandcanyonpark.com": 4,
+      "inntopia.travel": 3,
       "pinkbike.com": 2,
       "run.outsideonline.com": 2,
       "hub.outsideinc.com": 2,
+      "myutahparks.com": 2,
       "login.pinkbike.com": 1,
-      "gaiagps.com": 1
+      "gaiagps.com": 1,
+      "book.outside.travel": 1
     },
-    "email_traffic_count": 117,
+    "email_traffic_count": 154,
     "temporal": {
-      "first_event": "2025-01-15 03:50:17.079000+00:00",
-      "last_event": "2025-08-06 04:36:37.744000+00:00",
-      "total_days": 203,
-      "events_last_7_days": 361,
-      "events_last_30_days": 900,
-      "avg_events_per_day": 22.29064039408867,
+      "first_event": "2025-01-15 04:56:31.179000+00:00",
+      "last_event": "2026-01-15 17:29:05.626000+00:00",
+      "total_days": 365,
+      "events_last_7_days": 316,
+      "events_last_30_days": 779,
+      "avg_events_per_day": 22.912328767123288,
       "by_hour": {
-        "3": 91,
-        "4": 79,
-        "15": 412,
-        "17": 589,
-        "18": 451,
-        "20": 282,
-        "16": 270,
-        "19": 258,
-        "22": 388,
-        "23": 227,
-        "2": 200,
-        "1": 198,
-        "5": 72,
-        "6": 199,
-        "21": 225,
-        "0": 155,
+        "4": 109,
+        "15": 494,
+        "17": 1003,
+        "18": 801,
+        "20": 549,
+        "16": 683,
+        "19": 842,
+        "22": 673,
+        "23": 497,
+        "2": 236,
+        "3": 136,
+        "1": 239,
+        "5": 116,
+        "6": 217,
+        "21": 630,
+        "0": 303,
         "7": 7,
         "10": 2,
-        "14": 392,
-        "12": 9,
-        "13": 15,
-        "11": 4
+        "14": 490,
+        "12": 221,
+        "13": 19,
+        "11": 96
       },
       "by_day_of_week": {
-        "Wednesday": 984,
-        "Friday": 573,
-        "Tuesday": 761,
-        "Thursday": 642,
-        "Saturday": 117,
-        "Sunday": 227,
-        "Monday": 1221
+        "Wednesday": 1248,
+        "Friday": 1093,
+        "Tuesday": 1399,
+        "Thursday": 1482,
+        "Saturday": 361,
+        "Sunday": 323,
+        "Monday": 2457
       },
       "by_month": {
-        "2025-01": 188,
+        "2025-01": 184,
         "2025-02": 264,
         "2025-03": 342,
         "2025-04": 301,
         "2025-05": 400,
         "2025-06": 1920,
         "2025-07": 1003,
-        "2025-08": 107
+        "2025-08": 1155,
+        "2025-09": 710,
+        "2025-10": 448,
+        "2025-11": 336,
+        "2025-12": 890,
+        "2026-01": 410
       }
     },
     "article_engagement": {
-      "unique_articles": 326,
-      "single_read": 150,
-      "multi_read": 176,
+      "unique_articles": 462,
+      "single_read": 249,
+      "multi_read": 213,
       "most_revisited": [
         [
           "Outside Magazine",
-          653
+          706
         ],
         [
           "Kate Davis - Outside",
-          100
+          118
         ],
         [
           "Outside Profile",
@@ -457,18 +589,22 @@
         ],
         [
           "Outside Magazine",
-          34
+          35
         ],
         [
           "Outside Magazine",
-          30
-        ],
-        [
-          "Outside Online",
-          22
+          35
         ],
         [
           "Backpacker Magazine | Camping - Hiking - Gear - Skills",
+          25
+        ],
+        [
+          "Everything You Need to Know Before Skiing Banff | SKI",
+          23
+        ],
+        [
+          "Outside Online",
           22
         ],
         [
@@ -488,24 +624,28 @@
           14
         ],
         [
+          "Outside Magazine",
+          14
+        ],
+        [
           "Outside Profile",
           12
         ],
         [
-          "Outside Magazine",
-          12
-        ],
-        [
           "kavis's Notifications | Trailforks",
-          9
+          11
         ],
         [
           "Trailforks | Trail Database & Maps",
-          9
+          10
         ],
         [
-          "Kate Davis - Better late than never but here are some highlights from spending holidays in ETX! | Outside Magazine",
-          8
+          "Outside Magazine",
+          10
+        ],
+        [
+          "The Best Vail Hotels For Families, Luxury, Value, and More | SKI",
+          10
         ],
         [
           "This content isn't available | Outside Magazine",
@@ -520,6 +660,10 @@
           8
         ],
         [
+          "Kate Davis - Backpacker",
+          8
+        ],
+        [
           "Kate Davis - Last weekend \u2764\ufe0f | Outside Magazine",
           8
         ],
@@ -528,8 +672,8 @@
           8
         ],
         [
-          "Kate Davis - Backpacker",
-          7
+          "Kate Davis - Better late than never but here are some highlights from spending holidays in ETX! | Outside Magazine",
+          6
         ],
         [
           "Kate Davis - Coffee shop coworkers by day, sunset skinners by night w/ @jennalinden | Outside Magazine",
@@ -546,48 +690,36 @@
         [
           "Kate Davis - Just two biker chicks exploring Napa Valley, hugging some eucalyptus trees, and exploring the coast off hwy 1! It was great doing a \u201cmeet in the middle\u201d trip with my mom out in California this past weekend! | Outside Magazine",
           6
-        ],
-        [
-          "Resort Skiing Archives | SKI",
-          6
-        ],
-        [
-          "Outside Magazine",
-          5
-        ],
-        [
-          "\"I'm Afraid People Will Die Because of This\": Rangers Sound the Alarm Over Mass Firings",
-          5
         ]
       ],
       "content_types": {
         "how_to": 0,
-        "best_lists": 18,
-        "reviews": 2,
-        "guides": 17
+        "best_lists": 46,
+        "reviews": 3,
+        "guides": 34
       }
     },
     "ecosystem": {
       "trailforks": {
-        "web": 223,
-        "app": 46,
-        "ridelogs": 4,
-        "map_views": 5,
-        "photos": 0,
+        "web": 249,
+        "app": 77,
+        "ridelogs": 5,
+        "map_views": 9,
+        "photos": 2,
         "unique_rides": 2
       },
       "gaia_gps": {
-        "events": 29
+        "events": 33
       },
       "outside_app": {
-        "events": 0
+        "events": 14
       },
       "outside_watch": {
-        "events": 2
+        "events": 10
       },
       "editorial": {
-        "events": 3735,
-        "articles": 1492
+        "events": 6358,
+        "articles": 1785
       },
       "devices": {
         "events": 10
@@ -624,144 +756,169 @@
         },
         "2025-08": {
           "trailforks_web": 24,
-          "trailforks_app": 5
+          "trailforks_app": 5,
+          "outside_watch": 8
+        },
+        "2025-09": {
+          "gaia_gps": 2
+        },
+        "2025-10": {
+          "outside_app": 14
+        },
+        "2025-11": {
+          "gaia_gps": 2,
+          "trailforks_web": 8,
+          "trailforks_app": 15
+        },
+        "2025-12": {
+          "trailforks_app": 16,
+          "trailforks_web": 18
         }
       }
     },
     "engagement_metrics": {
-      "total_events": 4525,
-      "total_days_tracked": 203,
-      "events_per_day": 22.29064039408867,
-      "unique_publications": 20,
-      "unique_tags_encountered": 115,
-      "unique_authors_read": 35,
-      "unique_articles": 326
+      "total_events": 8363,
+      "total_days_tracked": 365,
+      "events_per_day": 22.912328767123288,
+      "unique_publications": 26,
+      "unique_tags_encountered": 200,
+      "unique_authors_read": 47,
+      "unique_articles": 462
     }
   },
   "llm_insights": {
-    "narrative": "# Your 2025 Outside Memory\n\n## Welcome, Kate!\n\nWe're thrilled to celebrate your journey as a power user of Outside Online over the past eight months. Your engagement\u2014over 4,500 events and counting\u2014tells the story of someone deeply committed to the outdoor lifestyle. From early morning trail sessions to late-night explorations of gear and adventure content, you've been a vital part of our community. Thank you for being here.\n\n---\n\n## Kate's 2025 Outside Memory\n\nYour year with us began in mid-January with curiosity and connection. Those first weeks set the tone: you were exploring our ecosystem, sharing your own adventures on your profile, and diving into content about everything from environmental issues (\"Proof That Our Food Is Filled with Plastic Chemicals\") to the quirky side of outdoor culture (\"The Great Bedrock Clog Heist\"). You were active on Trailforks early on, tracking your rides and connecting with fellow adventurers using the handle \"kavis.\"\n\nFebruary brought momentum. You started sharing more of your life\u2014coffee shop coworkers by day, sunset skinners by night with friends. You logged workouts, trail runs, and even a competitive water race where you placed 5th. You discovered Wily Cycleworks, a new combined coffee shop and bike shop near you, and your enthusiasm for these local discoveries became a thread throughout your engagement. You were also beginning to explore the wellness side of our offerings, checking out Yoga Journal's mindfulness content.\n\nSpring deepened your engagement. March through May saw steady growth in your activity, with your interests becoming more defined. You were regularly consuming content about hiking and backpacking, national parks, and Utah's incredible landscapes. You checked in on gear guides, explored commerce content (likely browsing equipment for your adventures), and spent time on Gaia GPS\u2014the outdoor navigation tool that pairs perfectly with your trail-focused lifestyle. Your reading habits became more voracious during these months, averaging 22 events per day.\n\nThen came June\u2014a turning point. Your engagement exploded to 1,920 events, more than double any previous month. This surge suggests a major shift: perhaps a vacation, a new project, or simply a period where you had more time to explore. You dove deep into ski town content, reading about Telluride and Stowe. You explored caving and canyoneering articles, climbed through climbing guides, and consumed everything related to mountain biking. Your Trailforks activity intensified, and you were clearly planning adventures across multiple regions\u2014Utah, Colorado, Vermont, the East Coast. July maintained this momentum with over 1,000 events, suggesting you were living out some of those plans or at least deeply immersed in the planning and inspiration phase.\n\n---\n\n## Your Passions\n\nBased on your reading patterns and engagement, here's what drives you:\n\n\u2022 **Mountain Biking & Trail Exploration** \u2014 With 24 events tagged to biking and mountain-biking, plus 26 dedicated to Trailforks, you're clearly a rider. Your Trailforks profile (username: kavis) shows completed trails and active followers, indicating you're not just consuming content but actively riding and sharing your experiences with the community.\n\n\u2022 **Hiking & Backcountry Adventure** \u2014 30 events tagged to hiking-and-backpacking and 26 to national-parks reveal your love for multi-day trips and remote landscapes. Utah and national parks appear frequently in your content consumption, suggesting you're either planning trips or armchair adventuring between excursions.\n\n\u2022 **Ski Culture & Mountain Towns** \u2014 Your engagement with Telluride (20 events) and Stowe (19 events) content, plus 16 events tagged to ski-towns, shows you're drawn to the lifestyle and culture of alpine communities\u2014whether you're skiing, biking, or simply soaking in the atmosphere.\n\n\u2022 **Gear & Equipment** \u2014 34 commerce-tagged events indicate you're actively shopping for outdoor gear. You're reading reviews, comparing options, and investing in quality equipment. Your discovery of Wily Cycleworks and your enthusiasm for that local shop reinforces that gear is more than functional\u2014it's part of your identity.\n\n\u2022 **Navigation & Trip Planning** \u2014 Your 30 events with Gaia GPS tags show you're serious about planning. You're mapping routes, studying terrain, and preparing thoroughly before heading out. Combined with your Trailforks engagement, you're a planner who wants to know exactly where you're going.\n\n\u2022 **Caving, Canyoneering & Climbing** \u2014 24 events each for these tags suggest you're not a one-sport adventurer. You're vertically minded\u2014whether that's rappelling into slot canyons, scrambling up rock faces, or exploring cave systems. Your passions span the full spectrum of outdoor pursuits.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal the rhythm of an engaged outdoor enthusiast with a structured life. You're most active during weekday afternoons and evenings\u2014particularly Monday through Wednesday, which account for nearly half your total engagement (2,766 events). Your peak hours cluster around 5 PM (589 events), 3-4 PM (412 events), and 10 PM (388 events), suggesting you browse during work breaks, commutes, and wind-down time. This isn't casual scrolling; you're intentional about when and how you engage.\n\nYou follow a diverse roster of writers, with Adam Roy leading your author list at 10 articles read, followed by Abby Levene (8), and contributors like Samantha Berman and Joe Cutts (5 each). You're drawn to practical, authoritative voices\u2014people who can explain both the \"why\" and the \"how\" of outdoor pursuits. Your engagement with evergreen content (29 events) suggests you value timeless guides and resources you can return to repeatedly, not just trend-chasing. You bookmarked content strategically, indicating certain articles earned a place in your personal archive for future reference.\n\nThe breadth of your reading is striking: you consumed content from Outside Online (3,431 events), Backpacker (131), Trailforks (223), Pinkbike (5), and even Yoga Journal (10). You're not siloed into one publication or one type of content. You'll read about environmental sustainability one moment and then pivot to a feature on Mick Jagger's workout routine the next. This eclecticism\u2014combined with your consistent evening engagement and your clear preference for weekday afternoons\u2014paints a picture of someone who integrates outdoor content into their daily life, using it to inform decisions, inspire adventures, and stay connected to a community of like-minded adventurers.",
-    "recent_spotlight": "**Dreaming of Vermont Slopes in Summer**\n\nYou've been caught in the cozy grip of ski season planning! Over the past week, you've been diving deep into East Coast ski destinations, with a particular focus on what winter adventures await. Your reading has centered around practical travel guides and outdoor exploration, suggesting you're already thinking ahead to those powder days.\n\nYou've been exploring \"The Ski Traveler's Guide to Stowe,\" which covers everything from dining options to the best runs at Stowe Mountain Resort in Vermont. You've also been browsing Outside Online for broader adventure inspiration and travel tips. It looks like you're building your bucket list for the next ski season\u2014and we're here to help you discover even more hidden gems along the way.",
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nKate, what a year it's been! As one of Outside's most dedicated community members, you've logged over **8,300 interactions** across our properties\u2014an average of nearly 23 engagements per day. Your passion for adventure, exploration, and community has made you a true pillar of the Outside ecosystem. We're thrilled to celebrate your 2025 journey with you.\n\n---\n\n## Kate's 2025 Outside Memory\n\nYour year started quietly in January with 184 events as you settled into the new year, but by June, something shifted. Your engagement exploded to 1,920 events\u2014a more than tenfold increase\u2014signaling the beginning of an extraordinary adventure season. This wasn't just a spike; it marked the start of a sustained summer of exploration where you were logging activities, connecting with trails, and diving deep into destination guides across some of the country's most iconic outdoor regions.\n\nThe summer months (June through August) became your golden season, with consistent engagement hovering around 1,000+ events monthly. You were clearly in motion\u2014exploring Colorado's high country, researching ski towns like Aspen and Telluride, diving into Trailforks trail data, and planning trips to Utah's national parks. Your reading habits during this period showed a voracious appetite for travel guides, resort reviews, and destination planning content. The \"book now\" and \"resort-guide\" tags dominated your reading list as you curated your perfect outdoor itinerary.\n\nFall brought a natural rhythm shift, with engagement tapering to 710 events in September before settling into a more moderate 448 in October. But December surged again to 890 events\u2014perhaps holiday planning, year-end reflections, or preparing for winter adventures in Vermont's Stowe Mountain Resort and the Canadian Rockies' Lake Louise and Banff Sunshine. Your interests remained remarkably consistent: the mountain biking trails via Trailforks, the ski resort guides, the climbing and canyoneering content that speaks to your adventurous spirit.\n\nWhat emerges from your year is a portrait of someone deeply engaged with the outdoor lifestyle\u2014not just as a consumer of content, but as an active community member. Your profile visits (342 events), your activity logging, and your consistent presence on Trailforks show someone who's not just reading about adventures; you're living them and sharing them with the community.\n\n---\n\n## Your Passions\n\n- **Mountain Biking & Trail Exploration** \u2014 With 26 Trailforks tags and 249 Trailforks domain visits, trail systems are clearly your playground. You're not just casually browsing; you're actively logging rides and connecting with the mountain biking community under your Trailforks handle \"kavis.\"\n\n- **Ski Resort Culture & Winter Destinations** \u2014 Your deep dives into Stowe Mountain Resort (29 tags), Aspen (29), Telluride (20), Lake Louise (24), and Banff Sunshine (25) reveal a connoisseur's appreciation for ski towns. You're reading resort guides, family skiing content, and planning seasonal trips across the continent.\n\n- **Hiking, Backpacking & National Parks** \u2014 30 tags for hiking-and-backpacking and 28 for national parks show your commitment to foot-powered exploration. Combined with your Backpacker Magazine visits (168 events), you're clearly planning multi-day adventures and researching gear and skills.\n\n- **Climbing & Canyoneering** \u2014 25 tags in this category indicate you're not sticking to established trails. You're seeking technical challenges, whether it's rock climbing or canyon exploration, with content from authors like Adam Roy (10 articles read) guiding your adventures.\n\n- **Travel & Destination Planning** \u2014 54 travel tags and consistent engagement with commerce and \"book now\" content show you're an active trip planner. Your focus on Colorado (41 tags), Vermont (28), Utah (26), and East Coast destinations (26) suggests a strategic approach to seasonal adventures.\n\n- **Wellness & Mindfulness** \u2014 Your 15 visits to Yoga Journal and engagement with meditation content reveal a holistic approach to outdoor living. You're balancing intense physical pursuits with intentional wellness practices\u2014reading pieces on mindfulness and reflective practices that complement your active lifestyle.\n\n---\n\n## Reading Habits\n\nYour reading patterns tell a fascinating story of intentionality and rhythm. You're primarily an **afternoon and evening reader**, with your peak engagement hitting at 5 PM (1,003 events), followed by strong activity at 6 PM (683), 7 PM (842), and 8 PM (801). You're clearly using your commute home, post-work wind-down, and evening hours to research, plan, and stay connected. This suggests you're reading destination guides while dreaming of weekend getaways or logging your latest adventures after they happen.\n\n**Weekdays dominate your reading calendar**, with Monday being your most active day (2,457 events)\u2014likely a combination of weekend activity logging and mid-week planning sessions. Tuesday (1,399), Thursday (1,482), and Wednesday (1,248) show consistent engagement, while weekends drop significantly (361 on Saturday, 323 on Sunday), indicating you're actually *out* on adventures rather than reading about them. Your favorite authors\u2014**Adam Roy** (10 articles), **Joe Cutts** (9), and **Abby Levene** and **Samantha Berman** (8 each)\u2014have become trusted voices guiding your outdoor decisions, with their expertise spanning gear reviews, destination guides, and adventure narratives.\n\nYour content preferences lean heavily toward **evergreen guides and commerce content** (68 tags each, 60 tags for evergreen), meaning you're building a personal library of reference material rather than chasing trending stories. You've read 462 unique articles across 47 different authors, demonstrating both loyalty to trusted voices and a willingness to discover new perspectives. This is the reading habit of someone planning real adventures\u2014you're bookmarking resort guides, saving trail recommendations, and building a curated collection of resources that inform your actual trips to Colorado, Vermont, Utah, and beyond.",
+    "recent_spotlight": "**Gearing Up for Winter Adventures**\n\nYou've been diving deep into your outdoor passions this week, bouncing between two seasonal favorites. Your recent browsing shows a strong focus on women-specific cycling gear and apparel reviews, mixed with some serious ski equipment research as the slopes call your name.\n\nHere's what's caught your attention: women's cycling apparel and gear reviews on VeloNews, \"Best All-Mountain Skis of 2026, Tested & Reviewed by SKI,\" and comprehensive winter gear guides for the season ahead. Whether you're fine-tuning your bike setup or hunting for the perfect skis, you're clearly ready to make the most of winter!",
     "seasonal_patterns": [
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "hiking",
+          "camping",
+          "mountain-biking"
+        ],
+        "insight": "Seasonal peak for outdoor adventures."
+      },
+      {
+        "season": "Fall",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "ski-towns",
+          "destination-guide",
+          "camping"
+        ],
+        "insight": "Interest shifts to alpine destinations as weather cools."
+      },
       {
         "season": "Winter",
         "emoji": "\u2744\ufe0f",
         "activities": [
           "ski-towns",
-          "snowboarding",
-          "snow-sculpture-championships"
+          "snowmass",
+          "destination-guide"
         ],
-        "insight": "Winter activity spikes around skiing and snow sports."
+        "insight": "Snow sports and resort travel become prominent."
       },
       {
         "season": "Spring",
-        "emoji": "\ud83c\udf37",
+        "emoji": "\ud83c\udf38",
         "activities": [
           "hiking-and-backpacking",
-          "camping",
-          "travel"
+          "biking",
+          "camping"
         ],
-        "insight": "Spring boosts outdoor exploration with hikes and camps."
-      },
-      {
-        "season": "Summer",
-        "emoji": "\u2600\ufe0f",
-        "activities": [
-          "hiking-and-backpacking",
-          "camping",
-          "mountain-biking"
-        ],
-        "insight": "Summer drives peak engagement in outdoor adventures."
-      },
-      {
-        "season": "Autumn",
-        "emoji": "\ud83c\udf42",
-        "activities": [
-          "hiking-and-backpacking",
-          "camping",
-          "travel"
-        ],
-        "insight": "Autumn maintains outdoor interest before winter."
+        "insight": "Trail use and cycling content grows with spring."
       }
     ],
     "emerging_interests": [
       {
         "topic": "Outside.io NFT Marketplace",
-        "evidence": "Outside.io - The First Outdoor & Active Lifestyle NFT Marketplace appears in the data."
+        "evidence": "Outside.io - The First Outdoor & Active Lifestyle NFT Marketplace (Jan 2025 sample)"
       },
       {
-        "topic": "Mindfulness / Meditation Content",
-        "evidence": "Mentions of mindfulness/meditation content in Yogajournal and Outside.io (e.g., 'This Podcast Is a Masterclass In Mindfulness' and 'ACOTAR\u2019s Mind-Stilling is Just Meditation')."
+        "topic": "Mindfulness / Meditation in outdoor lifestyle",
+        "evidence": "Yogajournal meditation content and sample events referencing mindfulness"
       },
       {
-        "topic": "Wily Cycleworks Bike Shop / Coffee Shop Integration",
-        "evidence": "Post about 'Wily Cycleworks just opened up ... coffee shop/bike shop/repair shop' shows interest in bike culture retail."
+        "topic": "Sustainability / environmental health in outdoor content",
+        "evidence": "Plastic chemicals in food article with sustainability/environment tags"
       }
     ],
     "core_interests": [
       {
         "topic": "hiking-and-backpacking",
         "strength": "Very Strong",
-        "evidence": "Top tag count 30; strong presence across content."
+        "evidence": "High presence of hiking/backpacking tag (30) and related content"
       },
       {
-        "topic": "trailforks",
+        "topic": "mountain-biking",
         "strength": "Very Strong",
-        "evidence": "Trailforks App publications 46; trailforks tag 26."
+        "evidence": "Tags 'mountain-biking' (24) and 'biking' (24) indicate strong focus"
       },
       {
         "topic": "camping",
         "strength": "Strong",
-        "evidence": "Top tag 24; frequent camping-related content across domains."
+        "evidence": "Camping tag (24) and frequent related content across sources"
       },
       {
-        "topic": "mountain-biking",
+        "topic": "travel",
         "strength": "Strong",
-        "evidence": "Top tag mountain-biking 24; related articles and discussions."
+        "evidence": "Travel tag (54) and destination-guide (19) support"
+      },
+      {
+        "topic": "Trail & Mapping (Trailforks / Gaia GPS)",
+        "strength": "Strong",
+        "evidence": "Tags 'trailforks' (26) and 'gaia-gps' (30) show interest in trail data"
       }
     ],
     "casual_interests": [
       {
+        "topic": "colorado",
+        "note": "Frequent mentions of Colorado destinations."
+      },
+      {
+        "topic": "ski-towns",
+        "note": "Casual interest in ski towns and resort locations."
+      },
+      {
         "topic": "travel",
-        "note": "Occasional engagement with travel content."
+        "note": "General travel content and guides."
       },
       {
         "topic": "dining",
-        "note": "Occasional reads about dining topics."
+        "note": "Occasional interest in dining experiences while traveling."
       },
       {
-        "topic": "footwear",
-        "note": "Occasional articles related to footwear."
-      },
-      {
-        "topic": "meditation",
-        "note": "Occasional mindfulness content."
+        "topic": "national-parks",
+        "note": "Casual interest in national parks."
       }
     ]
   },
   "recent_activity": {
     "latest_reads": [
       {
-        "title": "The Ski Traveler's Guide to Stowe",
-        "url": "https://www.skimag.com/ski-resort-life/lodging/ski-town-stowe-vermont/",
-        "date": "Aug 06"
+        "title": "Best All-Mountain Skis of 2026, Tested & Reviewed by SK",
+        "url": "https://www.skimag.com/gear/ski-reviews/all-mountain-skis/best-all-mountain-skis/",
+        "date": "Jan 15"
       },
       {
-        "title": "The Ski Traveler's Guide to Stowe",
-        "url": "https://www.skimag.com/ski-resort-life/lodging/ski-town-stowe-vermont/?scope=initial",
-        "date": "Aug 05"
+        "title": "What's New at Ski Resorts for 2025-'26 Season | SKI",
+        "url": "https://www.skimag.com/ski-resort-life/new-lifts-terrain-2025-26/",
+        "date": "Jan 14"
       },
       {
-        "title": "Trailforks.com Activity Feed",
-        "url": "https://www.trailforks.com/appfeed/?scope=nearby&nearby_range=30&lat=47.3&lng=-122.4&nativeTabs=true&app=1&activitytype=1&platform=ios",
-        "date": "Aug 03"
+        "title": "Everything You Need to Know Before Skiing Banff | SKI",
+        "url": "https://www.skimag.com/ski-resort-life/canada/everything-you-need-to-know-banff/",
+        "date": "Jan 14"
       },
       {
-        "title": "Trailforks.com Activity Feed",
-        "url": "https://www.trailforks.com/appfeed/?scope=following&nativeTabs=true&app=1&activitytype=1&platform=ios",
-        "date": "Aug 03"
+        "title": "Everything You Need to Know Before Skiing Banff | SKI",
+        "url": "https://www.skimag.com/ski-resort-life/canada/everything-you-need-to-know-banff/",
+        "date": "Jan 13"
       }
     ],
     "latest_watches": []
   },
-  "generated_at": "2026-01-14T19:59:26.244153Z"
+  "generated_at": "2026-01-15T19:02:53.586402Z"
 }

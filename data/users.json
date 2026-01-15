@@ -71,7 +71,7 @@
       "events_file": "events/dan_events.json"
     },
     {
-      "user_id": "placeholder-lauren-uuid",
+      "user_id": "be7e7ce4-50eb-4037-b5b7-5761c6668656",
       "display_name": "Lauren",
       "slug": "lauren",
       "timezone_offset": -5,
@@ -81,7 +81,7 @@
       "events_file": "events/lauren_events.json"
     },
     {
-      "user_id": "placeholder-mike-uuid",
+      "user_id": "1786a896-0018-4f55-ba95-b33678e4621b",
       "display_name": "Mike",
       "slug": "mike",
       "timezone_offset": -5,

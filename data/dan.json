@@ -5,132 +5,572 @@
     "timezone_offset": -5,
     "timezone_name": "Eastern Time",
     "location": "Connecticut",
-    "avatar_emoji": "\ud83d\udeb4"
+    "avatar_emoji": "\ud83d\udeb4",
+    "suggested_emoji": "\ud83d\udeb4",
+    "emoji_reason": "Based on top activity: tour-de-france"
   },
   "summary": {
     "publications": {
-      "unknown": 48,
-      "outside-online": 37,
-      "Trailforks": 39,
-      "VeloNews": 28,
-      "www.outsideonline.com": 8,
-      "Trailforks App": 1,
-      "trailforks": 1
+      "unknown": 1172,
+      "outside-online": 1086,
+      "Trailforks": 1462,
+      "VeloNews": 203,
+      "www.outsideonline.com": 34,
+      "Trailforks App": 607,
+      "trailforks": 1,
+      "Outside Watch": 145,
+      "ski": 160,
+      "yogajournal": 7,
+      "Run": 15,
+      "climbing": 106,
+      "Triathlete": 117,
+      "Backpacker": 69,
+      "MyColoradoParks": 2,
+      "learn.outsideonline.com": 1,
+      "watch.outsideonline.com": 3,
+      "Devices": 6
     },
     "tags": {
-      "tour-de-france": 16,
-      "tadej-pogacar": 15,
+      "tour-de-france": 40,
+      "tadej-pogacar": 20,
+      "jonas-vingegaard": 19,
       "joao-almeida": 14,
-      "jonas-vingegaard": 14,
       "remco-evenepoel": 14,
       "uae-emirates": 14,
-      "native": 1,
+      "mont-ventoux": 14,
+      "tobias-johannessen": 14,
+      "team-uno-x": 14,
+      "evergreen": 13,
+      "book now": 11,
+      "native": 7,
+      "american-racing": 7,
+      "uae-team-emirates": 7,
+      "sepp-kuss": 5,
+      "visma-lease-a-bike": 5,
+      "giro-ditalia": 5,
+      "isaac-del-toro": 5,
+      "mexico": 5,
+      "banff sunshine": 5,
+      "best value": 4,
+      "family skiing": 4,
+      "lake louise": 4,
+      "colorado": 3,
+      "news": 3,
+      "strava": 3,
+      "mountain weather": 3,
+      "snow reports": 3,
+      "weather forecast": 3,
+      "bike": 2,
+      "bike-skills": 2,
+      "bike-training": 2,
+      "race-strategy": 2,
+      "george-hincapie": 2,
+      "kevin-vermaerke": 2,
+      "modern-adventure-pro-cycling": 2,
+      "team-dsm-firmenich-postnl": 2,
+      "transfers": 2,
+      "uci-worldtour": 2,
+      "gaia": 2,
+      "gaia gps": 2,
+      "mapping": 2,
+      "overland": 2,
+      "nature": 2,
+      "garmin": 2,
+      "bike and cycling gear video reviews": 2,
+      "tadej poga\u010dar": 2,
+      "tour de france": 2,
+      "hiking": 2,
+      "reader survey": 2,
+      "commerce": 2,
+      "northern lights": 2,
+      "arizona": 2,
+      "montana": 2,
+      "austria": 2,
+      "family-skiing": 2,
+      "france": 2,
+      "italy": 2,
+      "switzerland": 2,
+      "scott": 2,
+      "park city mountain resort": 2,
+      "vail mountain": 2,
+      "aspen snowmass": 2,
+      "british columbia": 2,
       "snowboarding": 1,
       "toyota": 1,
       "giro-ditalia-women": 1,
-      "tour-de-france-femmes": 1
+      "tour-de-france-femmes": 1,
+      "colby-simmons": 1,
+      "ef-pro-cycling": 1,
+      "paris-roubaix": 1,
+      "quinn-simmons": 1,
+      "tour-of-flanders": 1,
+      "climbing": 1,
+      "mountaineering": 1,
+      "hammerhead": 1,
+      "sram axs": 1,
+      "also": 1,
+      "e-bike": 1,
+      "rivian": 1,
+      "giro d'italia": 1,
+      "jonas vingegaard": 1,
+      "vuelta a espa\u00f1a": 1,
+      "cycling accessory reviews": 1,
+      "pedals": 1,
+      "wolf tooth": 1,
+      "wolf tooth components": 1,
+      "halloween": 1,
+      "adventure": 1,
+      "moab": 1,
+      "travel": 1,
+      "smart trainer": 1,
+      "velo buyer's guides": 1,
+      "camps": 1,
+      "mental health": 1,
+      "gear review": 1,
+      "smart watches": 1,
+      "wearable tech": 1,
+      "astrotourism": 1,
+      "aurora borealis": 1,
+      "photography": 1,
+      "search and rescue": 1,
+      "road trips": 1,
+      "hiking boots": 1,
+      "outside lab": 1,
+      "big sugar": 1,
+      "cameron jones": 1,
+      "keegan swenson": 1,
+      "life time grand prix": 1,
+      "rosa kloser": 1,
+      "cape epic": 1,
+      "gravel": 1,
+      "gravel burn": 1,
+      "lauren stephens": 1,
+      "tom pidcock": 1,
+      "black friday": 1,
+      "deals": 1,
+      "shoes": 1,
+      "gift guide": 1,
+      "velo deals": 1,
+      "east coast": 1,
+      "resort guide 2026": 1,
+      "field notes": 1,
+      "athletes": 1,
+      "layer": 1,
+      "smartwool": 1,
+      "olympics": 1,
+      "ski racing": 1,
+      "skiing": 1,
+      "public lands": 1,
+      "hiking and backpacking": 1,
+      "dangerholm": 1,
+      "cyclocross": 1,
+      "nike": 1,
+      "visma-lease a bike": 1,
+      "wout van aert": 1,
+      "aspen": 1,
+      "destination guide": 1,
+      "resort guide": 1,
+      "cannondale": 1,
+      "colnago": 1,
+      "litespeed": 1,
+      "specialized": 1,
+      "canada": 1,
+      "alberta": 1,
+      "cat skiing": 1,
+      "fernie alpine": 1,
+      "sun peaks": 1,
+      "kimberley": 1
     },
-    "events_with_tags": 17,
+    "events_with_tags": 105,
     "authors": {
-      "Andrew Hood": 1,
+      "Andrew Hood": 3,
       "Hannah Gross": 1,
-      "Agence France-Presse": 1
+      "Agence France-Presse": 1,
+      "Shane Stokes": 1,
+      "Jennie Hansen": 1,
+      "Rebecca Reza": 1,
+      "Bruce Hildenbrand": 1,
+      "Samantha Berman": 1
     },
     "content_categories": {
       "video": 1,
-      "outdoor-gear": 1,
-      "events": 1,
-      "category": 1,
-      "road": 3,
-      "home": 4,
-      "appfeed": 1,
-      "map": 1,
-      "homefeed": 2,
-      "ridelog": 1,
-      "profile": 2,
-      "activity": 1,
-      "o": 2
+      "outdoor-gear": 6,
+      "events": 2,
+      "category": 2,
+      "road": 17,
+      "home": 134,
+      "appfeed": 124,
+      "map": 40,
+      "homefeed": 86,
+      "ridelog": 23,
+      "profile": 177,
+      "activity": 2,
+      "o": 107,
+      "membership": 39,
+      "event": 3,
+      "region": 15,
+      "outdoor-adventure": 15,
+      "trails": 52,
+      "reports": 1,
+      "contribute": 3,
+      "outsideplus": 1,
+      "error": 74,
+      "news": 7,
+      "training": 2,
+      "travel": 1,
+      "park": 1,
+      "ridelogs": 3,
+      "badge": 3,
+      "pro": 7,
+      "report": 1,
+      "survival": 2,
+      "magazine-issues": 1,
+      "login": 2,
+      "badges": 5,
+      "summits": 1,
+      "series": 31,
+      "tag": 1,
+      "films": 2,
+      "anything-is-possible": 2,
+      "ebike": 1,
+      "gravel": 4,
+      "collection": 2,
+      "live-events": 17,
+      "adventure-travel": 4,
+      "ski-resort-life": 21,
+      "gear": 1,
+      "gadgets-and-tech": 1,
+      "tools": 1,
+      "culture": 2,
+      "games": 7,
+      "urban": 1,
+      "uncategorized": 1,
+      "routes": 1,
+      "route": 1,
+      "manage": 1,
+      "connect": 1,
+      "data": 1
     },
     "subcategories": {
-      "road/road-racing": 3,
-      "o/perks": 2,
+      "o/perks": 75,
+      "o/perks#_member": 32,
+      "profile/iamdb": 29,
+      "trails/red-mid": 18,
+      "series/us-ski-and-snowboard": 12,
+      "ridelog/:id": 11,
+      "ridelog/view": 10,
+      "live-events/usss": 10,
+      "road/road-racing": 9,
+      "series/the-road-less-eaten": 8,
+      "trails/lover-s-lane-492697": 7,
+      "road/road-gear": 7,
+      "ski-resort-life/canada": 7,
+      "profile/91a01b84-720b-419e-b4d7-b9228a8e4f56": 6,
+      "games/traillocator": 6,
+      "map/trail": 5,
+      "trails/rollerville-180350": 5,
+      "trails/red-trail-section-1": 4,
+      "region/rockhouse-hill-sanctuary": 4,
+      "badges/view": 4,
+      "live-events/ironman-pro-series": 4,
+      "ski-resort-life/resort-guide-2026": 4,
+      "news/snow-report-week-of-december-22": 4,
+      "event/15457": 3,
+      "trails/map": 3,
+      "trails/adeline-grey": 3,
+      "trails/lemon-squeezer-181639": 3,
+      "ridelogs/my": 3,
+      "badge/:id": 3,
+      "trails/downriver": 3,
+      "region/norbrook-farm-brewery-and-trail-network": 2,
+      "contribute/ridelogreports": 2,
+      "region/powder-ridge-mountain-park": 2,
+      "trails/burban-st": 2,
+      "survival/natural-hazards": 2,
+      "region/pequonnock-river-valley-state-park": 2,
+      "trails/red-trail-section-2": 2,
+      "outdoor-adventure/exploration-survival": 2,
+      "anything-is-possible/p4WAkbmh": 2,
+      "outdoor-adventure/climbing": 2,
+      "gravel/gravel-gear": 2,
+      "adventure-travel/destinations": 2,
+      "outdoor-gear/tools": 2,
+      "adventure-travel/news-analysis": 2,
+      "outdoor-adventure/hiking-and-backpacking": 2,
+      "gravel/gravel-racing": 2,
+      "series/freeride-world-tour-2025": 2,
+      "ridelog/friends": 2,
+      "outdoor-adventure/snow-sports": 2,
+      "ski-resort-life/first-time-park-city": 2,
+      "ski-resort-life/lodging": 2,
+      "ski-resort-life/aspen-snowmass-first-time": 2,
       "video/return-to-sender": 1,
       "outdoor-gear/cars-trucks": 1,
       "category/road": 1,
-      "ridelog/view": 1,
-      "profile/iamdb": 1,
       "activity/followsearch": 1,
-      "profile/91a01b84-720b-419e-b4d7-b9228a8e4f56": 1
+      "reports/all": 1,
+      "region/silver-star-bike-park-1081": 1,
+      "training/5-ways-to-blow-it-on-the-bike": 1,
+      "category/news": 1,
+      "news/kevin-vermaerke-to-join-tadej-pogacar-at-uae-in-2-year-deal": 1,
+      "park/faqs": 1,
+      "trails/peach-farm-loop-351609": 1,
+      "report/:id": 1,
+      "magazine-issues/fall-2025": 1,
+      "profile/a3c66bf8-87b8-470b-b653-ecd1bca7011b": 1,
+      "badges/list": 1,
+      "contribute/ridelog": 1,
+      "summits/view": 1,
+      "tag/gaia-gps": 1,
+      "region/whiteface-mountain-ski-center": 1,
+      "ebike/ebike-gear": 1,
+      "collection/velo-indoor-training-hub": 1,
+      "series/ironman-703": 1,
+      "series/ironman-pro-series": 1,
+      "collection/2026-winter-gear-guide": 1,
+      "tools/weathermap": 1,
+      "culture/books-media": 1,
+      "membership/-usss2023": 1,
+      "outdoor-gear/hiking-gear": 1,
+      "activity/75868880-c3ea-11f0-8080-800169a2106f": 1,
+      "profile/562a67e4-b305-4358-9cad-3730221ec8d5": 1,
+      "outdoor-gear/the-best-adventure-gifts-for-someone-who-is-always-exploring": 1,
+      "ski-resort-life/europe": 1,
+      "outdoor-gear/clothing-apparel": 1,
+      "urban/urban-gear": 1,
+      "region/connecticut": 1,
+      "region/east-branch-community-trails-57514": 1,
+      "culture/essays-culture": 1,
+      "outdoor-adventure/environment": 1,
+      "uncategorized/the-wildest-spot-in-the-lower-48": 1,
+      "road/nike-deal-visma-lease-a-bike-merchandise-big-business": 1,
+      "ski-resort-life/northern-rockies": 1,
+      "trails/rutabaga-ride-trail": 1,
+      "region/weston-1654573642": 1,
+      "route/troutbrook-full-tour": 1,
+      "ski-resort-life/resort-guide-2025": 1
     },
     "website_domains": {
-      "outsideonline.com": 55,
-      "trailforks.com": 44,
-      "velo.outsideonline.com": 32
+      "outsideonline.com": 1468,
+      "trailforks.com": 1646,
+      "velo.outsideonline.com": 358,
+      "watch.outsideonline.com": 202,
+      "skimag.com": 421,
+      "yogajournal.com": 9,
+      "run.outsideonline.com": 22,
+      "climbing.com": 135,
+      "triathlete.com": 153,
+      "backpacker.com": 89,
+      "mycoloradoparks.com": 4,
+      "learn.outsideonline.com": 2,
+      "devices.outsideonline.com": 7
     },
     "referrer_domains": {
-      "trailforks.com": 5,
-      "outsideonline.com": 3,
-      "velo.outsideonline.com": 3,
-      "google.com": 1,
-      "accounts.outsideonline.com": 1
+      "trailforks.com": 147,
+      "outsideonline.com": 103,
+      "velo.outsideonline.com": 25,
+      "cdn.triathlete.com": 23,
+      "skimag.com": 18,
+      "cdn.climbing.com": 18,
+      "cdn.outsideonline.com": 17,
+      "cdn.backpacker.com": 12,
+      "4566937.hubspotpreview-na1.com": 12,
+      "google.com": 11,
+      "triathlete.com": 11,
+      "accounts.outsideonline.com": 9,
+      "climbing.com": 7,
+      "pinkbike.com": 6,
+      "devices.outsideonline.com": 6,
+      "run.outsideonline.com": 3,
+      "mountain-forecast.com": 3,
+      "preview.hubspoteditor.com": 2,
+      "backpacker.com": 2,
+      "warrenmiller.com": 2,
+      "yogajournal.com": 1,
+      "mygrandcanyonpark.com": 1
     },
-    "email_traffic_count": 0,
+    "email_traffic_count": 28,
     "temporal": {
       "first_event": "2025-07-15 14:06:06.004000+00:00",
-      "last_event": "2025-07-16 18:49:39.501000+00:00",
-      "total_days": 1,
-      "events_last_7_days": 162,
-      "events_last_30_days": 162,
-      "avg_events_per_day": 162.0,
+      "last_event": "2025-12-23 19:34:11.670000+00:00",
+      "total_days": 161,
+      "events_last_7_days": 523,
+      "events_last_30_days": 1167,
+      "avg_events_per_day": 32.27329192546584,
       "by_hour": {
-        "14": 8,
-        "16": 2,
-        "18": 48,
-        "21": 14,
-        "12": 21,
-        "13": 69
+        "14": 767,
+        "16": 407,
+        "18": 477,
+        "21": 376,
+        "12": 226,
+        "13": 1094,
+        "15": 557,
+        "20": 420,
+        "17": 351,
+        "19": 329,
+        "11": 41,
+        "23": 17,
+        "22": 134
       },
       "by_day_of_week": {
-        "Tuesday": 53,
-        "Wednesday": 109
+        "Tuesday": 1251,
+        "Wednesday": 766,
+        "Thursday": 947,
+        "Friday": 619,
+        "Monday": 979,
+        "Sunday": 478,
+        "Saturday": 156
       },
       "by_month": {
-        "2025-07": 162
+        "2025-07": 718,
+        "2025-08": 1874,
+        "2025-09": 438,
+        "2025-10": 613,
+        "2025-11": 583,
+        "2025-12": 970
       }
     },
     "article_engagement": {
-      "unique_articles": 15,
-      "single_read": 12,
-      "multi_read": 3,
+      "unique_articles": 259,
+      "single_read": 167,
+      "multi_read": 92,
       "most_revisited": [
         [
+          "Outside Online",
+          87
+        ],
+        [
+          "Error",
+          74
+        ],
+        [
           "Outside Magazine",
-          4
+          62
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          40
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          38
         ],
         [
           "Trailforks | Trail Database & Maps",
-          3
+          33
         ],
         [
-          "Outside Online",
-          2
+          "Triathlete - The world's number-one triathlon resource \u2013 Triathlete",
+          26
+        ],
+        [
+          "Climbing Magazine | Bouldering, Trad, Alpine, and Sport Climbing",
+          21
+        ],
+        [
+          "Home | Outside TV",
+          17
+        ],
+        [
+          "Backpacker Magazine | Camping - Hiking - Gear - Skills",
+          13
+        ],
+        [
+          "Outside Magazine",
+          12
+        ],
+        [
+          "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
+          11
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          10
+        ],
+        [
+          "Red - Mid Multi Trail - Trumbull, Connecticut",
+          9
+        ],
+        [
+          "iamdb's Ride Log 2025 | Trailforks",
+          8
+        ],
+        [
+          "Leaderboard for Red - Mid | Trailforks",
+          8
+        ],
+        [
+          "U.S. Ski & Snowboard | Outside TV",
+          8
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          7
+        ],
+        [
+          "Series | Outside TV",
+          7
+        ],
+        [
+          "US Ski & Snowboard | Outside TV",
+          7
+        ],
+        [
+          "Adventure - Outdoor News, Science, Politics - Outside Online",
+          6
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          6
+        ],
+        [
+          "SKI Magazine Home Page",
+          6
+        ],
+        [
+          "Triathlete",
+          6
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          6
+        ],
+        [
+          "SKI Magazine Home Page",
+          5
+        ],
+        [
+          "iamdb on Trailforks | Trailforks",
+          5
+        ],
+        [
+          "Outside Subscriptions - Outside Online",
+          5
+        ],
+        [
+          "Outside Subscriptions - Outside Online",
+          4
+        ],
+        [
+          "Rockhouse Hill Sanctuary Mountain Biking Trails | Trailforks",
+          4
         ]
       ],
       "content_types": {
         "how_to": 0,
-        "best_lists": 0,
-        "reviews": 0,
-        "guides": 1
+        "best_lists": 17,
+        "reviews": 17,
+        "guides": 5
       }
     },
     "ecosystem": {
       "trailforks": {
-        "web": 40,
-        "app": 1,
-        "ridelogs": 1,
-        "map_views": 0,
+        "web": 1463,
+        "app": 607,
+        "ridelogs": 39,
+        "map_views": 42,
         "photos": 0,
-        "unique_rides": 1
+        "unique_rides": 7
       },
       "gaia_gps": {
         "events": 0
@@ -139,146 +579,164 @@
         "events": 0
       },
       "outside_watch": {
-        "events": 0
+        "events": 148
       },
       "editorial": {
-        "events": 73,
-        "articles": 14
+        "events": 1797,
+        "articles": 442
       },
       "devices": {
-        "events": 0
+        "events": 6
       },
       "monthly_app_usage": {
         "2025-07": {
-          "trailforks_web": 40,
-          "trailforks_app": 1
+          "trailforks_web": 125,
+          "trailforks_app": 34,
+          "outside_watch": 1
+        },
+        "2025-08": {
+          "trailforks_web": 703,
+          "trailforks_app": 392
+        },
+        "2025-09": {
+          "trailforks_web": 200,
+          "trailforks_app": 107,
+          "outside_watch": 19
+        },
+        "2025-10": {
+          "trailforks_app": 33,
+          "trailforks_web": 168,
+          "outside_watch": 19
+        },
+        "2025-11": {
+          "outside_watch": 66,
+          "trailforks_web": 76,
+          "trailforks_app": 41
+        },
+        "2025-12": {
+          "trailforks_web": 191,
+          "outside_watch": 43
         }
       }
     },
     "engagement_metrics": {
-      "total_events": 162,
-      "total_days_tracked": 1,
-      "events_per_day": 162.0,
-      "unique_publications": 7,
-      "unique_tags_encountered": 11,
-      "unique_authors_read": 3,
-      "unique_articles": 15
+      "total_events": 5196,
+      "total_days_tracked": 161,
+      "events_per_day": 32.27329192546584,
+      "unique_publications": 18,
+      "unique_tags_encountered": 149,
+      "unique_authors_read": 8,
+      "unique_articles": 259
     }
   },
   "llm_insights": {
-    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nDan, thank you for being such an engaged member of the Outside community! Over the past year, you've shown us what it means to be a true power user\u2014diving deep into our publications, exploring trails, and staying connected to the sports and adventures you love. We're thrilled to celebrate your journey with us.\n\n---\n\n## Dan's 2025 Outside Memory\n\nYour 2025 engagement tells the story of a passionate cyclist and mountain biker who lives and breathes the rhythm of the racing calendar and trail community. What stands out most is your laser focus: when the Tour de France captured global attention in mid-July, you were there tracking every development, from **Tadej Poga\u010dar's** dominant performances to the tactical battles unfolding in the **Pyr\u00e9n\u00e9es**.\n\nYour engagement across our properties reveals a sophisticated, multi-platform approach to staying informed. You moved fluidly between **VeloNews** for breaking race coverage and analysis, **Outside Online** for broader lifestyle and gear content, and **Trailforks** for the hands-on mountain biking community experience. This wasn't passive consumption\u2014you were actively logging rides, managing your profile subscriptions, and engaging with the activity feed to stay connected with fellow riders.\n\nThe data shows you're particularly drawn to the high-stakes drama of professional cycling. Your reading patterns clustered around coverage of cycling's biggest stars: **Tadej Poga\u010dar**, **Joao Almeida**, **Jonas Vingegaard**, and **Remco Evenepoel**. You consumed pieces like *\"Poga\u010dar Plots to Bury Tour de France Rivals in the Pyr\u00e9n\u00e9es\"* and *\"Your 2025 Tour de France Survival Guide if Tadej Poga\u010dar Keeps Winning\"*\u2014content that speaks to both the technical analysis and the narrative drama you crave.\n\nWhat's particularly telling is your evening engagement pattern. Between 6 PM and 9 PM, you dove deepest into content, suggesting these are your prime hours for catching up on the day's racing developments and planning your own adventures. You balanced this with midday activity\u2014checking trail maps, logging rides, and staying connected to your Trailforks community. You're not just reading about cycling; you're living it.\n\n---\n\n## Your Passions\n\n\u2022 **Professional Road Cycling** \u2014 Your engagement with Tour de France coverage, **UAE Emirates** team dynamics, and the rivalry between cycling's elite athletes dominates your reading. You're following the sport at the highest level with genuine expertise.\n\n\u2022 **Mountain Biking & Trail Culture** \u2014 Trailforks is your second home. You're actively logging rides, exploring trail databases, and engaging with the mountain biking community\u2014this isn't casual interest, it's a core part of your athletic identity.\n\n\u2022 **Cycling Analysis & Strategy** \u2014 You gravitate toward pieces that break down race tactics, rider performance, and competitive dynamics. You want to understand *why* things happen on the bike, not just *what* happened.\n\n\u2022 **Adventure & Outdoor Gear** \u2014 Your exploration of content like *\"Ready for Adventure\"* and *\"Return to Sender\"* shows you're interested in the equipment and vehicles that enable outdoor experiences, from bikes to adventure-ready vehicles.\n\n\u2022 **Community Engagement** \u2014 Your active use of Trailforks' activity feeds, profile management, and subscription controls reveals you value connection with fellow riders and staying updated on what your community is doing.\n\n\u2022 **Competitive Cycling Events** \u2014 Your visits to mountain biking events calendars and race coverage suggest you're not just a spectator\u2014you're interested in participating in and staying informed about organized cycling events.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal someone who treats content consumption strategically. You concentrate your engagement in two distinct windows: **midday (12-1 PM)** and **evening (6-9 PM)**. The afternoon surge suggests you're catching up during a work break or lunch hour, while your evening deep-dives\u2014particularly between 6-9 PM\u2014indicate this is when you settle in for serious engagement with analysis and race coverage. Over your tracked period, you generated 162 events across just two days, showing intense, focused bursts of activity rather than casual browsing.\n\nYou're a **multi-platform reader** who understands where to find different types of content. **VeloNews** captures your race-day engagement and breaking news, while **Outside Online** serves your broader lifestyle and gear interests. **Trailforks** is where you shift from consumer to participant\u2014it's not just reading; it's logging, rating, and connecting. This diversification across seven unique publications shows sophistication in how you navigate the media landscape.\n\nYour author engagement suggests you trust bylines and follow specific voices. While the sample shows work from **Andrew Hood**, **Hannah Gross**, and **Agence France-Presse**, your focus on *tagged* content\u2014particularly stories about specific riders and races\u2014indicates you're driven more by subject matter expertise than individual author loyalty. You're following the story, the athletes, and the competition first. This is the reading pattern of someone who knows exactly what they're looking for and moves decisively to find it.",
-    "recent_spotlight": "**All Trails Lead to Outside Online**\n\nYou've been diving deep into Outside Magazine this week, clocking multiple visits to explore what's new in the world of adventure and outdoor pursuits. Whether you're catching up on the latest gear reviews, trail recommendations, or inspiring stories from the great outdoors, you're clearly in your element. Your activity shows a genuine enthusiasm for staying connected to the outdoor community and discovering fresh content.\n\nWhile the specific article titles aren't fully captured in this week's data, your repeated visits to Outside Online suggest you're regularly browsing their full range of coverage\u2014from gear guides to destination features to adventure journalism. Keep an eye out for their trending sections to find your next favorite read!",
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome, Dan\n\nWe're thrilled to celebrate your year with Outside Online and our community of outdoor enthusiasts. As one of our most engaged power users, you've logged nearly 5,200 interactions across our properties over the past five months\u2014a testament to your passion for the outdoors and the stories that fuel it. This is your personalized journey through 2025.\n\n---\n\n## Dan's 2025 Outside Memory\n\nYour engagement story this year tells the tale of a cyclist and mountain biker with an insatiable appetite for both the sport and the road. Your journey began in mid-July with a bang\u2014immediately diving into Tour de France coverage as the 2025 race unfolded. That first week, you were glued to VeloNews, consuming everything about Tadej Poga\u010dar's dominance, Jonas Vingegaard's strategic brilliance, and the drama unfolding on Mont Ventoux. You read pieces like *\"Poga\u010dar Plots to Bury Tour de France Rivals in the Pyr\u00e9n\u00e9es\"* and *\"Your 2025 Tour de France Survival Guide if Tadej Poga\u010dar Keeps Winning,\"* establishing a pattern that would define your summer: following professional cycling with the intensity of a true fan.\n\nBut July also revealed another side of you. Alongside the pro racing obsession, you were actively exploring local trail networks\u2014Powder Ridge Mountain Park, Norbrook Farm Brewery and Trail Network, and Rockhouse Hill Sanctuary became your digital stomping grounds. You weren't just reading about mountain biking; you were planning rides, checking events, and engaging with the Trailforks community. This dual passion\u2014consuming elite professional cycling content while simultaneously planning your own dirt adventures\u2014emerged as your defining characteristic.\n\nAugust exploded with activity, accounting for nearly 36% of your total engagement for the period (1,874 events). This was your peak month, suggesting a summer when you were most connected to the community. You deepened your Trailforks engagement, exploring leaderboards on trails like Rollerville and Adeline Grey, studying ridelog data, and building your profile within the platform. Simultaneously, you remained locked into Tour de France coverage, following riders like Remco Evenepoel, Sepp Kuss, and Jo\u00e3o Almeida as the race progressed toward its conclusion.\n\nBy September through December, your engagement patterns shifted into a more measured rhythm\u2014still deeply invested, but reflecting the seasonal transition away from the summer cycling calendar. You maintained consistent interest in ski content (evidenced by your exploration of Banff Sunshine and Lake Louise), suggesting you were already planning your winter adventures. Your interest in mountain weather, snow reports, and family skiing destinations indicated you were transitioning your outdoor focus from two wheels to two planks, while never fully abandoning your cycling passion. Throughout this period, your afternoon engagement (particularly 1\u20133 PM) remained your prime time for consuming content, a habit that stayed consistent from summer through winter.\n\n---\n\n## Your Passions\n\n\u2022 **Professional Road Cycling** \u2014 You're a dedicated Tour de France enthusiast with 40 interactions tagged with the race itself. Your fascination with individual riders\u2014especially Tadej Poga\u010dar (20 tags), Jonas Vingegaard (19 tags), and Remco Evenepoel (14 tags)\u2014shows you follow storylines, not just results. You tracked team dynamics across UAE Team Emirates, Visma-Lease a Bike, and Team Uno-X with the focus of someone who understands the sport deeply.\n\n\u2022 **Mountain Biking & Trail Exploration** \u2014 Trailforks dominates your engagement (2,070 total interactions across the platform and app), making it your second home online. You're not a casual browser\u2014you check leaderboards, log rides, study trail reports, and actively explore regional networks around your area. Your engagement with Rollerville, Adeline Grey, and Lemon Squeezer trails shows you're invested in local terrain and community competition.\n\n\u2022 **Data-Driven Performance Tracking** \u2014 Your consistent interaction with ridelog features, activity feeds, leaderboards, and profile management suggests you're someone who values metrics and progress. You're tracking your own performance while staying connected to what others in your community are doing\u2014the hallmark of a competitive but community-minded athlete.\n\n\u2022 **Winter Sports & Ski Tourism** \u2014 As summer faded, your interest shifted toward ski destinations. Your exploration of Banff Sunshine, Lake Louise, and Colorado ski content, combined with searches for \"family skiing\" and \"best value\" ski resorts, indicates you're planning winter adventures and thinking about the broader ski experience beyond just the runs.\n\n\u2022 **Cycling News & Industry Coverage** \u2014 Beyond the race itself, you consume cycling journalism voraciously. Your engagement with VeloNews (203 interactions) and authors like Andrew Hood shows you want context, analysis, and storytelling around the sport\u2014not just results.\n\n\u2022 **Outdoor Adventure & Gear** \u2014 Your interaction with Outside Online's outdoor gear and adventure sections (6 gear-focused interactions, plus regular home feed browsing) shows you're interested in the full outdoor lifestyle\u2014the equipment, the destinations, and the experiences that make adventures possible.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal someone with a structured daily routine and clear peak engagement windows. You're most active between **1\u20132 PM** (1,094 events at hour 13), with secondary peaks at 2 PM and 4 PM. This suggests you're consuming content during work breaks or lunch hours, checking in on race updates and trail conditions throughout your day. Your evening engagement (8\u20139 PM) also remains strong, indicating you wind down by catching up on the day's cycling news or planning your next ride.\n\n**Tuesday is your power day**\u2014you logged 1,251 interactions on Tuesdays, nearly double your Saturday engagement. Mondays and Thursdays also rank high (979 and 947 events respectively), suggesting you're most engaged mid-week. Weekends show a dramatic drop, particularly Saturday (156 events), which is interesting given that weekends are typically when people ride. This pattern suggests you're using Outside's platforms for *planning* and *consuming* during the work week, then actually *doing* the activities on weekends.\n\nYour author engagement is distributed but focused\u2014you've encountered eight unique authors, with Andrew Hood appearing three times. While you're not following a single voice obsessively, your consistent return to VeloNews suggests you trust that publication's coverage of professional cycling. Your willingness to explore content across multiple platforms (Outside Online, VeloNews, Trailforks, Outside Watch, Yoga Journal) shows intellectual curiosity and a desire to see different perspectives on your passions. The data suggests you're a **purposeful reader**\u2014you know what you're looking for, you find it efficiently, and you move on to the next piece of information.",
+    "recent_spotlight": "**Your Winter Adventure Season is in Full Swing**\n\nYou've been diving deep into the outdoor world this week, with your eyes firmly on the slopes and the trails. Between checking out the latest snow reports and exploring backpacking gear, it's clear you're gearing up for some serious winter adventures. You've also been exploring subscription options across your favorite outdoor publications, suggesting you're ready to stay connected to the community.\n\nHere's what's caught your attention: \"Where to Find the Best Skiing Right Now\" for those mountain weather updates, \"Backpacker Magazine | Camping - Hiking - Gear - Skills\" for your trail prep, and the \"Outside Subscriptions\" pages across both Outside Online and Backpacker. Whether you're planning your next ski trip or mapping out a winter backpacking adventure, you're clearly ready to make the most of the season!",
     "seasonal_patterns": [
       {
         "season": "Summer",
         "emoji": "\u2600\ufe0f",
         "activities": [
-          "Tour de France coverage",
-          "Mountain Biking Events & Races Calendar | Trailforks",
-          "Ready for Adventure"
+          "tour-de-france",
+          "tadej-pogacar",
+          "mont-ventoux"
         ],
-        "insight": "Cycling content dominates in summer."
+        "insight": "Tour de France dominance drives summer interest."
+      },
+      {
+        "season": "Fall",
+        "emoji": "\ud83c\udf41",
+        "activities": [
+          "giro-ditalia",
+          "Powder Ridge Mountain Park Mountain Biking Trails"
+        ],
+        "insight": "Continued cycling focus with Powder Ridge activity."
       },
       {
         "season": "Winter",
         "emoji": "\u2744\ufe0f",
         "activities": [
-          "Snowboarding",
-          "Toyota",
-          "Ready for Adventure"
+          "ski",
+          "snow reports",
+          "mountain weather"
         ],
-        "insight": "Snow sports and gear topics gain traction in winter."
-      },
-      {
-        "season": "Fall",
-        "emoji": "\ud83c\udf42",
-        "activities": [
-          "Trailforks | Trail Database & Maps",
-          "Jul 16, 2025 iamdb Ride | Trailforks",
-          "Trailforks Activity Feed"
-        ],
-        "insight": "Trail activity content grows in fall."
+        "insight": "Winter shifts to snow sports and weather updates."
       }
     ],
     "emerging_interests": [
       {
+        "topic": "Powder Ridge Mountain Park Mountain Biking Trails",
+        "evidence": "Multiple Powder Ridge mentions in top tags and sample events indicate rising interest."
+      },
+      {
+        "topic": "Trailforks App",
+        "evidence": "Frequent app-related events and mentions in sample_events; app usage growing."
+      },
+      {
         "topic": "giro-ditalia-women",
-        "evidence": "Tag appears in top_tags and connected content about women's cycling."
-      },
-      {
-        "topic": "tour-de-france-femmes",
-        "evidence": "Tag appears in top_tags and referenced in articles about the Tour de France."
-      },
-      {
-        "topic": "snowboarding",
-        "evidence": "Present as a top_tag and in sample events."
+        "evidence": "Tag appears in a sample event, suggesting emerging women's Giro d'Italia coverage."
       }
     ],
     "core_interests": [
       {
-        "topic": "tour-de-france",
+        "topic": "Tour de France",
         "strength": "Very Strong",
-        "evidence": "High frequency in top_tags (16 mentions) and multiple Tour de France articles."
+        "evidence": "High volume of Tour de France-tagged content and rider coverage."
       },
       {
-        "topic": "tadej-pogacar",
+        "topic": "Trailforks / Mountain Biking",
         "strength": "Very Strong",
-        "evidence": "Top tag with 15 mentions and extensive coverage."
+        "evidence": "Extensive Trailforks event data, ridelogs, and app usage."
       },
       {
-        "topic": "jonas-vingegaard",
+        "topic": "Powder Ridge Mountain Park Mountain Biking Trails",
         "strength": "Strong",
-        "evidence": "High mention count (14) in cycling coverage."
-      },
-      {
-        "topic": "remco-evenepoel",
-        "strength": "Strong",
-        "evidence": "High mention count (14) in cycling coverage."
+        "evidence": "Multiple Powder Ridge mentions in top events and regional trails."
       }
     ],
     "casual_interests": [
       {
-        "topic": "toyota",
-        "note": "Occasional brand-related content."
+        "topic": "Skiing",
+        "note": "Seasonal, intermittent engagement."
       },
       {
-        "topic": "outdoor-gear",
-        "note": "Occasional gear-related reads."
+        "topic": "Outside Online / Outdoor Adventure",
+        "note": "Occasional reading of outdoor content."
       },
       {
-        "topic": "Trailforks App",
-        "note": "Light usage of Trailforks app features."
+        "topic": "Mountain Weather",
+        "note": "Casual weather checks for planning trips."
       },
       {
-        "topic": "snowboarding",
-        "note": "Occasional interest beyond cycling."
+        "topic": "Trail Reports / Ridelogs",
+        "note": "Light engagement with ride logging and trail reports."
       }
     ]
   },
   "recent_activity": {
     "latest_reads": [
       {
-        "title": "Activity Feed Follow Search & Recommendations | Trailfo",
-        "url": "https://www.trailforks.com/activity/followsearch/",
-        "date": "Jul 16"
+        "title": "Outside Subscriptions - Backpacker",
+        "url": "https://www.backpacker.com/membership/?offer=outside_plus&utm_medium=email&utm_source=meteo365&utm_term=bpk&utm_content=benefitsintro&utm_campaign=mediaonboarding2025&_hsenc=p2ANqtz--J5wQpS-xA91ubZEMVGufvfZm-x2EZP3OH2Ttthvij54z2-Dp0rDX10sa3ETuUnDtBnIip",
+        "date": "Dec 23"
       },
       {
-        "title": "Trailforks | Trail Database & Maps",
-        "url": "https://www.trailforks.com/",
-        "date": "Jul 16"
+        "title": "Outside Subscriptions - Backpacker",
+        "url": "https://www.backpacker.com/membership/?offer=outside_plus&utm_medium=email&utm_source=meteo365&utm_term=bpk&utm_content=benefitsintro&utm_campaign=mediaonboarding2025",
+        "date": "Dec 23"
       },
       {
-        "title": "iamdb's Email Notifications/Subscription Control | Trai",
-        "url": "https://www.trailforks.com/profile/iamdb/subscriptions/",
-        "date": "Jul 16"
+        "title": "Backpacker Magazine | Camping - Hiking - Gear - Skills",
+        "url": "https://www.backpacker.com/home",
+        "date": "Dec 23"
       },
       {
-        "title": "Trailforks | Trail Database & Maps",
-        "url": "https://www.trailforks.com/",
-        "date": "Jul 16"
+        "title": "Where to Find the Best Skiing Right Now | SKI",
+        "url": "https://www.skimag.com/news/snow-report-week-of-december-22/",
+        "date": "Dec 23"
       }
     ],
     "latest_watches": []
   },
-  "generated_at": "2026-01-14T20:37:24.832426Z"
+  "generated_at": "2026-01-15T19:08:44.767591Z"
 }

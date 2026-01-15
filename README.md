@@ -26,14 +26,14 @@ open http://localhost:8080/
 | User | Location | Events | Report |
 |------|----------|--------|--------|
 | Robin | Colorado | 21,354 | [View](https://portkeys.github.io/user_journey/report.html?user=robin) |
-| Trevor | Canada | 39,088 | [View](https://portkeys.github.io/user_journey/report.html?user=trevor) |
-| Kate | Seattle | 4,525 | [View](https://portkeys.github.io/user_journey/report.html?user=kate) |
-| Wen | Berkeley | 2,470 | [View](https://portkeys.github.io/user_journey/report.html?user=wen) |
-| PJ | Colorado | 150 | [View](https://portkeys.github.io/user_journey/report.html?user=pj) |
-| Kcal | Texas | 1,225 | [View](https://portkeys.github.io/user_journey/report.html?user=kcal) |
-| Dan | Connecticut | 162 | [View](https://portkeys.github.io/user_journey/report.html?user=dan) |
-| Lauren | New York | Pending | Coming Soon |
-| Mike | North Carolina | Pending | Coming Soon |
+| Trevor | Canada | 83,554 | [View](https://portkeys.github.io/user_journey/report.html?user=trevor) |
+| Kate | Seattle | 8,363 | [View](https://portkeys.github.io/user_journey/report.html?user=kate) |
+| Wen | Berkeley | 6,091 | [View](https://portkeys.github.io/user_journey/report.html?user=wen) |
+| PJ | Colorado | 789 | [View](https://portkeys.github.io/user_journey/report.html?user=pj) |
+| Kcal | Texas | 3,622 | [View](https://portkeys.github.io/user_journey/report.html?user=kcal) |
+| Dan | Connecticut | 5,196 | [View](https://portkeys.github.io/user_journey/report.html?user=dan) |
+| Lauren | New York | 8,766 | [View](https://portkeys.github.io/user_journey/report.html?user=lauren) |
+| Mike | North Carolina | 3,402 | [View](https://portkeys.github.io/user_journey/report.html?user=mike) |
 
 ## Architecture
 

@@ -5,45 +5,107 @@
     "timezone_offset": -7,
     "timezone_name": "Mountain Time",
     "location": "Colorado",
-    "avatar_emoji": "\u26f7\ufe0f"
+    "avatar_emoji": "\u26f7\ufe0f",
+    "suggested_emoji": "\u26f7\ufe0f",
+    "emoji_reason": "Based on top activity: eco ski hotel"
   },
   "summary": {
     "publications": {
-      "outside-online": 118,
-      "unknown": 24,
+      "outside-online": 283,
+      "unknown": 254,
       "accounts": 1,
       "Trailforks App": 4,
-      "Trailforks": 1,
-      "Backpacker": 2
+      "Trailforks": 207,
+      "Backpacker": 6,
+      "ski": 18,
+      "www.outsideonline.com": 9,
+      "VeloNews": 6,
+      "Run": 1
     },
     "tags": {
+      "commerce": 7,
+      "gifts": 5,
+      "gift guide": 4,
+      "wellness": 4,
+      "eco ski hotel": 2,
+      "hotel": 2,
+      "luxury travel": 2,
+      "adventure travel": 2,
+      "australia": 2,
+      "british columbia": 2,
+      "canada": 2,
+      "florida": 2,
+      "manatees": 2,
+      "native": 2,
+      "travel": 2,
       "camping": 1,
-      "commerce": 1,
       "evergreen": 1,
-      "food-and-drink": 1
+      "food-and-drink": 1,
+      "hotels": 1,
+      "ski": 1,
+      "skiing": 1,
+      "gaia gps": 1,
+      "gift-guide": 1,
+      "holiday": 1,
+      "kids": 1,
+      "astrotourism": 1,
+      "olympics": 1
     },
-    "events_with_tags": 1,
-    "authors": {},
+    "events_with_tags": 16,
+    "authors": {
+      "The Editors": 1
+    },
     "content_categories": {
-      "activity": 39,
+      "activity": 42,
       "scout": 2,
-      "home": 58,
+      "home": 74,
       "site-map": 2,
       "oidc-frontend": 1,
       "map": 8,
       "appfeed": 4,
       "ridelogs": 2,
-      "profile": 19,
-      "ridelog": 3,
-      "notifications": 1
+      "profile": 28,
+      "ridelog": 5,
+      "notifications": 1,
+      "about": 11,
+      "games": 12,
+      "ski-resort-life": 2,
+      "adventure-travel": 6,
+      "trails": 115,
+      "goto": 13,
+      "trips": 1,
+      "error": 5,
+      "routes": 3,
+      "region": 5,
+      "routepopular": 3,
+      "route": 3,
+      "o": 2,
+      "health": 4,
+      "culture": 1,
+      "people": 1
     },
     "subcategories": {
-      "profile/c35bcfd0-be1b-4557-a985-f86fef5f9275": 14,
+      "profile/c35bcfd0-be1b-4557-a985-f86fef5f9275": 18,
+      "games/summitlocator": 8,
+      "goto/hike": 7,
       "activity/aed70c00-07fb-11f0-8080-800054169c7f": 6,
+      "about/api": 6,
+      "about/metadata": 5,
+      "adventure-travel/destinations": 5,
       "activity/25ea8c80-dc1f-11ef-8080-8001548c3c20": 4,
       "activity/3d608c00-fdff-11ef-8080-800021a3bb98": 4,
       "activity/e3ccc680-1623-11f0-8080-80003bf544a4": 4,
+      "trails/expert-option": 4,
+      "health/wellness": 4,
       "ridelog/:id": 3,
+      "trails/femur": 3,
+      "trails/whiskey-alt": 3,
+      "trails/serpentine-loop-9303": 3,
+      "trails/ranger-4645": 3,
+      "trails/coyote-run-12980": 3,
+      "trails/white-rim": 3,
+      "trails/view-595912": 3,
+      "trails/bogicevica-loop-gravel-road": 3,
       "activity/d4157e00-dff3-11ef-8080-80002c23ac73": 2,
       "activity/e2683400-fb75-11ef-8080-80003debac50": 2,
       "ridelogs/my": 2,
@@ -55,52 +117,127 @@
       "activity/821d3c80-1fd3-11f0-8080-80011876bde3": 2,
       "activity/078ed500-3365-11f0-8080-80012980b373": 2,
       "activity/5cce6200-2e0c-11f0-8080-8001528a345f": 2,
+      "ski-resort-life/lodging": 2,
+      "trails/huckabyschnebly": 2,
+      "trails/dual-slalom-13713": 2,
+      "trails/sarah-s-lollipop-loop": 2,
+      "goto/12156": 2,
+      "trails/gunny-acc-west": 2,
+      "trails/templeton-acc-12641": 2,
+      "trails/rock-about": 2,
+      "trails/prospect-hill-belt": 2,
+      "trails/korokoro-dam": 2,
+      "region/fort-collins": 2,
+      "trails/powderhouse-gulch": 2,
+      "trails/central-road-connector": 2,
+      "trails/bom-jesus-circle": 2,
+      "trails/sentier-multifonction": 2,
+      "trails/ak-su-alpine-ridge": 2,
+      "trails/c1-217162": 2,
+      "trails/hobnail-tom-trail": 2,
+      "trails/calpa-a-aynaca-super-enduro-supe": 2,
+      "trails/tuckup-trail": 2,
+      "profile/ce849154-fa1d-4db9-98ef-b61dba218316": 2,
+      "trails/logging-museum-trail": 2,
+      "region/erie-singletrack-15128": 2,
+      "routes/discover": 2,
       "oidc-frontend/profile": 1,
       "profile/hookedonwinter": 1,
-      "activity/fd1c0480-3d82-11f0-8080-80004f27adf2": 1
+      "activity/fd1c0480-3d82-11f0-8080-80004f27adf2": 1,
+      "activity/74f66180-748d-11f0-8080-8000174a7621": 1,
+      "activity/1e2a9980-ab5a-11f0-8080-80003cf55b04": 1,
+      "games/trailguesser": 1,
+      "trails/loveland-recreation-trail": 1,
+      "trails/1104": 1,
+      "trails/s-m-285": 1,
+      "goto/trails": 1,
+      "trips/trips-by-national-park": 1,
+      "trails/soldier-pass-conn": 1,
+      "goto/trail3467": 1,
+      "trails/kid-s-loop": 1,
+      "trails/christina-creek-trail": 1,
+      "goto/15651": 1,
+      "trails/eastern-lake-orange-15651": 1,
+      "trails/lynn--cutoff": 1,
+      "trails/azt-oak-tree-15476": 1,
+      "trails/forsyths-mill": 1,
+      "trails/prison-lower": 1,
+      "trails/lollipop-loop": 1,
+      "trails/gooseberry-trail": 1,
+      "trails/walrus": 1,
+      "trails/lollipop-14092": 1,
+      "trails/lake-pueblo-bike-path": 1,
+      "trails/emu-run": 1,
+      "trails/double-black-diamond": 1,
+      "goto/hikes": 1,
+      "routepopular/54027545": 1,
+      "trails/fs-road-442": 1,
+      "trails/cottonwood-trail-247": 1,
+      "trails/kent-trail": 1,
+      "trails/novice-loop": 1,
+      "trails/quartz-ridge-8a": 1,
+      "trails/outer-loop-14115": 1,
+      "trails/kep-track": 1,
+      "trails/greenwater-valley-road": 1,
+      "route/great-divide-north-bound-route": 1,
+      "trails/gould": 1,
+      "route/the-badger-divide": 1,
+      "trails/down-east-sunrise-trail-dest": 1,
+      "trails/bt-middleton-road-dog-road": 1,
+      "trails/oak-leaf-trail-milwaukee-river-line": 1
     },
     "website_domains": {
-      "outsideonline.com": 123,
+      "outsideonline.com": 434,
       "accounts.outsideonline.com": 1,
-      "trailforks.com": 5,
-      "backpacker.com": 2
+      "trailforks.com": 222,
+      "backpacker.com": 16,
+      "skimag.com": 67,
+      "run.outsideonline.com": 11,
+      "velo.outsideonline.com": 19
     },
     "referrer_domains": {
-      "outsideonline.com": 34
+      "outsideonline.com": 39,
+      "trailforks.com": 34,
+      "google.com": 2,
+      "buy.tinypass.com": 1
     },
-    "email_traffic_count": 6,
+    "email_traffic_count": 10,
     "temporal": {
       "first_event": "2025-01-26 23:11:08.100000+00:00",
-      "last_event": "2025-06-01 20:23:57.741000+00:00",
-      "total_days": 125,
-      "events_last_7_days": 8,
-      "events_last_30_days": 20,
-      "avg_events_per_day": 1.2,
+      "last_event": "2026-01-12 16:31:52.785000+00:00",
+      "total_days": 350,
+      "events_last_7_days": 59,
+      "events_last_30_days": 128,
+      "avg_events_per_day": 2.2542857142857144,
       "by_hour": {
-        "23": 19,
-        "3": 14,
-        "1": 28,
-        "22": 5,
-        "15": 5,
-        "21": 11,
-        "4": 21,
-        "13": 8,
-        "14": 2,
-        "0": 7,
+        "23": 90,
+        "3": 18,
+        "1": 39,
+        "22": 53,
+        "15": 19,
+        "21": 159,
+        "4": 32,
+        "13": 12,
+        "14": 14,
+        "0": 8,
         "2": 12,
-        "17": 4,
-        "12": 4,
+        "17": 134,
+        "12": 5,
         "11": 2,
-        "20": 8
+        "20": 27,
+        "16": 71,
+        "19": 38,
+        "18": 44,
+        "9": 12
       },
       "by_day_of_week": {
-        "Sunday": 32,
-        "Tuesday": 20,
-        "Thursday": 2,
-        "Friday": 22,
-        "Saturday": 41,
-        "Monday": 31,
-        "Wednesday": 2
+        "Sunday": 41,
+        "Tuesday": 169,
+        "Thursday": 163,
+        "Friday": 71,
+        "Saturday": 44,
+        "Monday": 205,
+        "Wednesday": 96
       },
       "by_month": {
         "2025-01": 20,
@@ -108,21 +245,38 @@
         "2025-03": 77,
         "2025-04": 32,
         "2025-05": 12,
-        "2025-06": 8
+        "2025-06": 8,
+        "2025-08": 7,
+        "2025-10": 35,
+        "2025-11": 235,
+        "2025-12": 303,
+        "2026-01": 59
       }
     },
     "article_engagement": {
-      "unique_articles": 29,
-      "single_read": 7,
-      "multi_read": 22,
+      "unique_articles": 173,
+      "single_read": 108,
+      "multi_read": 65,
       "most_revisited": [
         [
           "Outside Magazine",
-          52
+          66
         ],
         [
           "Outside Profile",
           14
+        ],
+        [
+          "Api | Trailforks",
+          6
+        ],
+        [
+          "Metadata | Trailforks",
+          5
+        ],
+        [
+          "Error",
+          5
         ],
         [
           "Lauren Bertolini - One of my favorite winter milestones is the when the Hudson freezes enough to hear the creaking ice flows. Winter/Summer always beautiful. | Outside Magazine",
@@ -139,6 +293,50 @@
         [
           "PJ Hoberman - There was a duck in my alley this morning \ud83e\udd37\ud83c\udffb\u200d\u2642\ufe0f | Outside Magazine",
           4
+        ],
+        [
+          "Trailforks Daily Games",
+          3
+        ],
+        [
+          "Trailforks | Trail Database & Maps",
+          3
+        ],
+        [
+          "Femur Mountain Biking Trail - Chilliwack, BC",
+          3
+        ],
+        [
+          "Whiskey Alt Mountain Biking Trail - Kirkwood, California",
+          3
+        ],
+        [
+          "Serpentine (Loop) Mountain Biking Trail - St. George",
+          3
+        ],
+        [
+          "Ranger Mountain Biking Trail - Dallas, Texas",
+          3
+        ],
+        [
+          "Coyote Run Mountain Biking Trail - Fort Carson, Colorado",
+          3
+        ],
+        [
+          "White Rim Multi Trail - Moab, Utah | Trailforks",
+          3
+        ],
+        [
+          "Expert Option Mountain Biking Trail - Spanish Springs",
+          3
+        ],
+        [
+          "\u6d1b\u514b\u6b65\u9053\uff08\u8fed\u5c71\u5317\u7ebf\uff09 Multi Trail -",
+          3
+        ],
+        [
+          "Bogicevica loop: gravel road Mountain Biking Trail - Plav",
+          3
         ],
         [
           "Page not found - Outside Online",
@@ -179,44 +377,20 @@
         [
           "Wen Yang - What kind of coder are you? \ud83e\uddd1\u200d\ud83d\udcbb\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb\ud83d\udc68\ud83c\udffd\u200d\ud83d\udcbb \ud83c\udf77Vintage coder: terminal for everything \ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbbPremodern coder: navigating endless tech choices (debate) or IDEs, cloud providers... \u2728Vibe coder: when you wish upon LLMs, no request is too extreme. I made a short, fun video exploring these archetypes in the coding world. Dedicated to everyone who writes code! Watch it here for a laugh: https://youtu.be/8qws1fN_s4A Bonus if you play MagicTheGathering. \ud83d\ude09 | Outside Magazine",
           2
-        ],
-        [
-          "PJ Hoberman - Accidentally ended up at Engineering Days in Golden this weekend, and it was a delight! Video: https://imgur.com/a/AJqEjUP | Outside Magazine",
-          2
-        ],
-        [
-          "Trevor May - View today. | Outside Magazine",
-          2
-        ],
-        [
-          "Leah Rivkin - Happy earth day! Shoutout to all the people I saw along the river front trail doing trail clean up. You rock! | Outside Magazine",
-          2
-        ],
-        [
-          "Mike Renoe - What a Saturday! Ran my fastest 5k this morning (3rd in my age group) and rode a tour of Chapel Hill with Jasmin, including a snack stop. | Outside Magazine",
-          2
-        ],
-        [
-          "Sadie - We went for a hike and startled a grouse. I've never seen one perched in a tree like this, but it looks so out of place. Like a chicken in a tree | Outside Magazine",
-          2
-        ],
-        [
-          "Outside Magazine",
-          2
         ]
       ],
       "content_types": {
-        "how_to": 0,
-        "best_lists": 0,
-        "reviews": 0,
-        "guides": 0
+        "how_to": 1,
+        "best_lists": 5,
+        "reviews": 1,
+        "guides": 1
       }
     },
     "ecosystem": {
       "trailforks": {
-        "web": 1,
+        "web": 207,
         "app": 4,
-        "ridelogs": 0,
+        "ridelogs": 2,
         "map_views": 0,
         "photos": 0,
         "unique_rides": 0
@@ -231,8 +405,8 @@
         "events": 0
       },
       "editorial": {
-        "events": 120,
-        "articles": 115
+        "events": 323,
+        "articles": 161
       },
       "devices": {
         "events": 0
@@ -241,112 +415,155 @@
         "2025-03": {
           "trailforks_app": 4,
           "trailforks_web": 1
+        },
+        "2025-10": {
+          "trailforks_web": 2
+        },
+        "2025-11": {
+          "trailforks_web": 155
+        },
+        "2025-12": {
+          "trailforks_web": 48
+        },
+        "2026-01": {
+          "trailforks_web": 1
         }
       }
     },
     "engagement_metrics": {
-      "total_events": 150,
-      "total_days_tracked": 125,
-      "events_per_day": 1.2,
-      "unique_publications": 6,
-      "unique_tags_encountered": 4,
-      "unique_authors_read": 0,
-      "unique_articles": 29
+      "total_events": 789,
+      "total_days_tracked": 350,
+      "events_per_day": 2.2542857142857144,
+      "unique_publications": 10,
+      "unique_tags_encountered": 27,
+      "unique_authors_read": 1,
+      "unique_articles": 173
     }
   },
   "llm_insights": {
-    "narrative": "# PJ's 2025 Outside Memory\n\n## Welcome Message\n\nHello PJ! We're thrilled to celebrate your journey as a valued member of the Outside community over the past five months. Your consistent engagement and authentic participation\u2014from sharing your own adventures to connecting with others' stories\u2014has made you a true power user. This is your personalized story of adventure, curiosity, and community.\n\n---\n\n## PJ's 2025 Outside Memory\n\nYour 2025 engagement with Outside tells the story of someone deeply embedded in an active, adventurous lifestyle. Starting in late January with a reflective moment about Lauren Bertolini's winter observations on the frozen Hudson, you were already tuned into the community's rhythm. But March marked your real awakening\u2014a month that saw your engagement surge to 77 events, nearly double any other month. This was your moment of full immersion.\n\nMarch revealed something important about you: you're not just a consumer of content, you're a *contributor*. Your activity feed lit up with your own adventures\u2014Berthoud Pass Ski, Trestle Bike Park, and a celebratory \"New bike day!\"\u2014shared alongside deep dives into the Trailforks ecosystem. You were exploring the platform's full potential, checking your profile, reviewing ride logs, managing notifications, and building your digital presence. This wasn't casual browsing; this was community building.\n\nAs spring progressed through April and May, your engagement evolved into a more balanced rhythm. You continued sharing life's delightful moments\u2014a duck in your alley, an unexpected visit to Engineering Days in Golden, and genuine interest in others' achievements. You engaged with posts from Sam Roehrich about becoming a morning rider, celebrated Leah Rivkin's Earth Day trail cleanups, and admired Mike Renoe's personal 5K record. Your engagement pattern suggests you're drawn to authentic human moments, not just athletic achievements.\n\nBy June, as the year's first half wound down, you were exploring practical gear content\u2014testing insulated beverage containers in the Outside Lab\u2014suggesting your interests span from the deeply personal and adventurous to the thoughtfully practical. Over 125 days and 150 engagement events, you've demonstrated what it means to be a true community member: someone who shares, engages, learns, and celebrates others.\n\n---\n\n## Your Passions\n\n- **Winter & Backcountry Skiing** \u2014 Your activity log is anchored by ski adventures at iconic locations: Teton Village, Berthoud Pass, and Trestle Bike Park. Winter sports aren't just a seasonal interest for you; they're a defining part of your identity.\n\n- **Mountain Biking & Trail Exploration** \u2014 From your \"New bike day!\" celebration to your engagement with Trailforks activity feeds and ride logs, biking is central to your outdoor practice. You're tracking routes, sharing experiences, and staying connected to the trail community.\n\n- **Active Community Participation** \u2014 You're not content to observe from the sidelines. Your profile activity shows consistent sharing of personal moments\u2014from wildlife encounters to local events\u2014proving you value connection and contribution as much as consumption.\n\n- **Authentic Human Storytelling** \u2014 Your engagement pattern reveals a preference for real moments over polished content. You engage with posts about ducks in alleys, unexpected neighborhood peacocks, and personal victories like fastest 5K times. You're drawn to genuine, relatable narratives.\n\n- **Outdoor Gear & Equipment** \u2014 Your browsing extends to practical gear evaluation, from testing travel mugs to exploring Backpacker Magazine's camping and hiking resources. You care about the tools that enable your adventures.\n\n- **Exploration & Discovery** \u2014 Your late-night browsing habits (peak engagement at 1 AM, 4 AM, and 11 PM) combined with site map visits and profile exploration suggest you're someone who enjoys discovering new features, connecting with others, and understanding how the platform works.\n\n---\n\n## Reading Habits\n\nYour engagement patterns paint a picture of someone who consumes content in distinct temporal windows. You're a night owl and early morning adventurer\u2014your peak engagement hours cluster around 1 AM (28 events), 4 AM (21 events), and 11 PM (19 events). This suggests you're catching up on community activity during late-night scrolls or early morning coffee moments before heading out on your own adventures. Weekends dominate your engagement too: Saturday leads with 41 events, followed by Sunday (32) and Monday (31), indicating you're most engaged when you have time to breathe and reflect on outdoor experiences.\n\nYour reading habits are deeply tied to your activity cycle. March's explosive engagement (77 events) coincided with what appears to be your deepest platform exploration\u2014you were simultaneously sharing your own adventures, reviewing others' activities, and navigating every corner of the Outside ecosystem. This wasn't passive reading; it was active community participation. You'd share a personal moment, then immediately check notifications and engage with the broader feed, creating a feedback loop of connection.\n\nWhat's particularly revealing is your preference for *activity feeds* over traditional articles. While you encountered evergreen content, food-and-drink pieces, and camping resources, your primary engagement was with the human stories in the activity stream\u201429 unique pieces of content across 150 events, with heavy emphasis on community member posts rather than branded editorial. You're reading to connect with people like you: adventurers, explorers, and outdoor enthusiasts sharing their real lives, not to consume polished magazine features.",
-    "recent_spotlight": "**Your Summer Adventure Starter Pack**\n\nYou've been diving into Outside Online this week, gearing up for the season ahead! Your recent browsing shows you're thinking about the essentials\u2014from what to pack in your cooler to how to keep your morning coffee hot on the trail. Whether you're planning a camping trip or just want to be prepared for outdoor adventures, you're clearly ready to do it right.\n\nHere's what's caught your attention: an in-depth comparison of 39 insulated beverage containers tested in the Outside Lab to find which keeps drinks hot longest, plus explorations into camping gear, food and drink recommendations, and evergreen outdoor essentials. Sounds like you're building the perfect outdoor toolkit!",
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nHello PJ! We're thrilled to celebrate your year with Outside\u2014you've been an incredible member of our community. With nearly 800 interactions across our platforms over the past year, you've shown us what true engagement looks like. Whether you're sharing your adventures, exploring new trails, or diving into our latest gear stories, you've made Outside Online a meaningful part of your life.\n\n---\n\n## PJ's 2025 Outside Memory\n\nYour year with Outside tells the story of an adventurer who moves fluidly between seasons, disciplines, and discovery. Starting in January with winter milestones like frozen Hudson River reflections and ski days at Teton Village and Berthoud Pass, you established yourself as someone who celebrates the small, poetic moments alongside the big outdoor experiences. By March, your engagement shifted into high gear\u2014you were not only consuming content but actively participating in the Outside community, sharing your own \"new bike day\" moments and diving deep into trail exploration through Trailforks.\n\nSpring brought a shift in your attention. While you continued to engage with skiing and biking content, you started exploring broader themes: you were drawn to stories about community (Engineering Days in Golden), environmental stewardship (Earth Day trail cleanups), and the wildlife encounters that pepper outdoor life (ducks, peacocks, grouse in trees). Your engagement dipped slightly through summer, but this appears to be a natural seasonal rhythm rather than waning interest. By October, you were back with renewed energy, exploring Outside Classics and deepening your connection to our adventure travel content.\n\nThe final quarter of 2025 was your most active period\u2014November and December saw a surge of engagement that tells a clear story: you were planning. You explored new ski hotels for the 2025-26 winter season, investigated luxury travel destinations, and dove into Trailforks' trail database with fresh curiosity. You even discovered Trailforks' daily games (Summit Locator and Guess The Trail), suggesting you're someone who enjoys the playful, interactive side of outdoor exploration. Your engagement pattern shows you're not just a passive reader\u2014you're an active planner, sharer, and community member who sees Outside as both inspiration and practical resource.\n\n---\n\n## Your Passions\n\n\u2022 **Winter Sports & Ski Culture** \u2014 From Teton Village to Berthoud Pass, your early-year activities show a deep commitment to skiing. Your engagement with ski resort content, new ski hotels, and winter travel planning demonstrates this is more than a seasonal hobby\u2014it's central to how you experience the year.\n\n\u2022 **Mountain Biking & Trail Exploration** \u2014 Your \"new bike day\" posts and extensive Trailforks activity (207 events) reveal a serious mountain biker. You're not just riding; you're exploring trails across regions\u2014from Loveland, Colorado to British Columbia's Femur Mountain and S&M trails\u2014and engaging with the trail database as both reference and inspiration.\n\n\u2022 **Adventure Travel & Destination Discovery** \u2014 Your curiosity spans continents. You've explored content tagged with Australia, British Columbia, Canada, and Florida. The manatees tag suggests you're drawn to unique wildlife experiences, while your interest in eco-ski hotels and luxury travel shows you think intentionally about how and where you explore.\n\n\u2022 **Community & Shared Experience** \u2014 Your activity feed reveals someone who celebrates others' adventures and shares your own. From commenting on trail cleanups to sharing your Engineering Days discovery, you're invested in the social fabric of the Outside community.\n\n\u2022 **Gear & Practical Preparation** \u2014 Your engagement with commerce tags, gift guides, and specific gear reviews (like the 39 insulated beverage containers tested in the Outside Lab) shows you approach outdoor pursuits thoughtfully, seeking quality equipment and informed recommendations.\n\n\u2022 **Wildlife & Natural Observation** \u2014 Throughout your year, you've engaged with stories celebrating unexpected wildlife encounters\u2014grouse in trees, ducks in alleys, peacocks in neighborhoods. You appreciate the small moments of wonder that outdoor life offers.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal someone with a distinctly evening and late-night rhythm. Your peak engagement hours are 9 PM (159 events) and 11 PM (90 events), with another surge around 5 PM (134 events) and 4 PM (71 events). This suggests you're using Outside content during wind-down hours and planning sessions\u2014perhaps researching trips after work or exploring trails and gear late at night. You're most active on Mondays (205 events) and Tuesdays (169 events), with strong engagement continuing through Thursday (163 events), indicating you use Outside as part of your weekday routine, likely planning weekend adventures or reflecting on recent ones.\n\nYour content consumption is highly seasonal and purpose-driven. January through March showed consistent engagement as you documented winter activities and transitioned into spring. A notable dip in May through August suggests you're more likely to be *doing* outdoor activities than reading about them during peak seasons\u2014a sign of a genuine, active adventurer. The dramatic surge beginning in November (235 events) and peaking in December (303 events) clearly correlates with winter planning season, when you're researching destinations, gear, and accommodations for the ski season ahead.\n\nWhat's particularly striking about your reading habits is your multi-platform loyalty. While Outside Online is your primary home (283 events), you're equally invested in Trailforks (207 events) and actively explore Backpacker, VeloNews, and ski-specific content. You don't just read articles\u2014you engage with maps, games, activity feeds, and your own profile, suggesting you see these platforms as tools for planning, tracking, and sharing your adventures, not just sources of inspiration.",
+    "recent_spotlight": "**Your Week of Wanderlust: Long Walks, Wildlife, and Adventure Awaits**\n\nYou've been diving deep into Outside Magazine this week, fueling your explorer's spirit with stories that celebrate the great outdoors. From dreaming about epic treks across stunning landscapes to discovering hidden natural wonders, you're clearly in the mood for inspiration and adventure planning.\n\nHere's what's captured your attention: \"The 13 Most Beautiful Long Walks in the World\" has you mapping out potential journeys through Australia and British Columbia, while \"Welcome To the Manatee Capital of the World\" introduced you to Florida's gentle giants. Whether you're plotting your next big trek or simply armchair traveling through some of Earth's most breathtaking destinations, you're building quite the adventure bucket list!",
     "seasonal_patterns": [
       {
         "season": "Winter",
         "emoji": "\u2744\ufe0f",
         "activities": [
           "skiing",
-          "winter hiking",
-          "gear reviews"
+          "ski-resort-life planning",
+          "ski hotels research"
         ],
-        "insight": "Winter focus on skiing and winter gear"
+        "insight": "Winter centers on ski travel and resort content."
       },
       {
         "season": "Spring",
-        "emoji": "\ud83c\udf31",
+        "emoji": "\ud83c\udf37",
         "activities": [
+          "camping",
           "hiking",
-          "mountain biking",
-          "trail cleanups"
+          "gear reviews"
         ],
-        "insight": "Spring shows rising hiking and biking activity with more trail cleanups"
+        "insight": "Spring leans into camping, hiking, and gear reviews."
       },
       {
         "season": "Summer",
         "emoji": "\u2600\ufe0f",
         "activities": [
-          "camping",
+          "mountain biking",
           "trail exploration",
-          "gear testing"
+          "outdoor fitness"
         ],
-        "insight": "Summer centers on camping and trail exploration with gear testing"
+        "insight": "Summer focuses on biking and trail exploration."
+      },
+      {
+        "season": "Fall",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "adventure travel planning",
+          "hotel research",
+          "weekend getaways"
+        ],
+        "insight": "Fall maintains travel planning with a focus on accommodations."
       }
     ],
     "emerging_interests": [
       {
-        "topic": "Trailforks App",
-        "evidence": "Trailforks App appears in multiple March events (Trailforks App Activity Feed, hook notifications)"
+        "topic": "eco ski hotel",
+        "evidence": "Tag appears in top_tags and ski-hotel related content."
       },
       {
-        "topic": "Backpacker Magazine: Camping - Hiking - Gear - Skills",
-        "evidence": "Backpacker Magazine entry on Apr 4 and related camping/hiking gear content"
+        "topic": "astrotourism",
+        "evidence": "Astrotourism tag is present in top_tags."
       },
       {
-        "topic": "Earth Day trail cleanups",
-        "evidence": "Apr 23 post mentions trail clean up as part of Earth Day activity"
+        "topic": "gaia gps",
+        "evidence": "Ga\u00efa GPS tag appears in top_tags, indicating mapping/trail interest."
       }
     ],
     "core_interests": [
       {
-        "topic": "Skiing & winter sports",
+        "topic": "ski",
         "strength": "Very Strong",
-        "evidence": "Multiple entries feature Teton Village Ski, Berthoud Pass Ski, and other ski-related content"
+        "evidence": "High volume of ski-related content and multiple ski articles."
       },
       {
-        "topic": "Camping & Hiking",
+        "topic": "Trailforks",
         "strength": "Very Strong",
-        "evidence": "Backpacker magazine content and camping/hiking gear references appear repeatedly"
+        "evidence": "Frequent visits to Trailforks App and MTB/trail content."
       },
       {
-        "topic": "Trail tracking / ride logs",
+        "topic": "Backpacker",
         "strength": "Strong",
-        "evidence": "Frequent Trailforks App activity feed and ride log references indicate sustained interest"
+        "evidence": "Multiple Backpacker content items and camping/hiking material."
       },
       {
-        "topic": "Running / endurance events",
-        "strength": "Moderate",
-        "evidence": "Mentions of a fast 5k and endurance activities appear sporadically"
+        "topic": "adventure travel",
+        "strength": "Strong",
+        "evidence": "Top_tags include adventure travel and related articles."
       }
     ],
     "casual_interests": [
       {
-        "topic": "Bird/Wildlife sightings",
-        "note": "Occasional posts about ducks, grouse, and wildlife sightings"
+        "topic": "gift guide",
+        "note": "Occasional gift content engagement."
       },
       {
-        "topic": "Morning ride routine",
-        "note": "Reference to gradually becoming a morning rider"
+        "topic": "hotels",
+        "note": "Casual reading about hotels and accommodations."
       },
       {
-        "topic": "Outdoor gear testing (drinks mugs)",
-        "note": "June mug heat-testing and Outside Lab gear testing referenced"
+        "topic": "food-and-drink",
+        "note": "Low-frequency interest in food and drink coverage."
       },
       {
-        "topic": "Trail cleanups (informal)",
-        "note": "Earth Day trail cleanup mentions as light, low-effort activity"
+        "topic": "holiday",
+        "note": "Seasonal/readaround holidays content."
       }
     ]
   },
   "recent_activity": {
-    "latest_reads": [],
+    "latest_reads": [
+      {
+        "title": "The 13 Most Beautiful Long Walks in the World",
+        "url": "https://www.outsideonline.com/adventure-travel/destinations/long-walks-world/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsenc=p2ANqtz--KZ6oaNENw4UVwF1nOecVrr7o1WZFPJdtfTQHp2-7hOy1yZ9qXEumDzmvc7JXMG-HPj52kmDmR5goZX01_kjRYztyUyQ&_hsmi=396418125&utm_source=newsletter",
+        "date": "Jan 05"
+      },
+      {
+        "title": "How Yared Nuguse Became the Fastest 1500m Runner in Col",
+        "url": "https://run.outsideonline.com/people/how-yared-nuguse-became-the-fastest-1500m-runner-in-collegiate-history/",
+        "date": "Jan 05"
+      },
+      {
+        "title": "The 13 Most Beautiful Long Walks in the World",
+        "url": "https://www.outsideonline.com/adventure-travel/destinations/long-walks-world/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsenc=p2ANqtz-9YWLsOG9IvZ675CgADS0QFaERTMHcl6UxY0F3kPA4BwXN5FXlgTvmTvWq5OUP-1FDugPTT8voOdu4BQHrxZY_b2Q1Ffg&_hsmi=396418125&utm_source=newsletter",
+        "date": "Jan 05"
+      },
+      {
+        "title": "Trailforks Personal Year in Review",
+        "url": "https://www.trailforks.com/ridelog/yearinreview/?utm_term=trf&utm_campaign=trf-nl&utm_medium=email&_hsenc=p2ANqtz-_n8V8uL-X7OOkEm5614d4p_b1E9raycjAytWaxh6TlLxacHark-cfr7wH8f9sGgabnJW-FvrAhqS8NXXXiJOv4zsRFEA&_hsmi=396395929&utm_source=newsletter",
+        "date": "Jan 05"
+      }
+    ],
     "latest_watches": []
   },
-  "generated_at": "2026-01-14T19:59:08.959955Z"
+  "generated_at": "2026-01-15T19:05:54.312483Z"
 }
