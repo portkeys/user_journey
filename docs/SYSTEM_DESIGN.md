@@ -699,11 +699,13 @@ Response:
 | Event throughput | ~300k events/hour |
 | Daily events | ~7.2M events/day |
 | Monthly events | ~216M events/month |
-| Historical data | ~4GB (1 year) |
-| Average event size | ~500 bytes |
-| Monthly data ingress | ~100GB |
+| **Historical data** | **~3.68 TB (1 year)** |
+| Average event size | ~1.4 KB |
+| Monthly data ingress | ~300 GB |
 | Number of topics | ~10-20 |
 | Consumer groups | ~5-10 |
+
+**Note**: 3.68 TB of historical data is substantial. This makes storage costs and data transfer a major consideration.
 
 ### Platform Overview
 
@@ -748,43 +750,53 @@ Response:
 
 | Component | Our Usage | Estimated Cost |
 |-----------|-----------|----------------|
-| **Basic Cluster** | 300k events/hr, 100GB/mo | ~$400-600/month |
-| **ksqlDB** | 4 CSUs (processing units) | ~$1,200-1,600/month |
+| **Basic Cluster** | 300k events/hr, 300GB/mo ingress | ~$600-900/month |
+| **Storage** | 3.68 TB retention | ~$400-600/month |
+| **ksqlDB** | 4-8 CSUs (processing units) | ~$1,600-2,400/month |
 | **Schema Registry** | Included | $0 |
 | **Connectors** | 2-3 managed connectors | ~$200-400/month |
-| **Data Transfer** | ~100GB egress | ~$50-100/month |
-| **Total** | | **~$1,850-2,700/month** |
+| **Data Transfer** | ~300GB egress to AWS | ~$150-300/month |
+| **Total** | | **~$2,950-4,600/month** |
 
 #### Amazon MSK Pricing
 
 | Component | Our Usage | Estimated Cost |
 |-----------|-----------|----------------|
-| **MSK Serverless** | 300k events/hr | ~$300-500/month |
-| **MSK Provisioned** (alt) | 3x kafka.m5.large | ~$600-800/month |
-| **Amazon Managed Flink** | 2 KPUs | ~$200-400/month |
+| **MSK Serverless** | 300k events/hr, 300GB/mo | ~$500-800/month |
+| **MSK Provisioned** (alt) | 3x kafka.m5.large | ~$800-1,000/month |
+| **Storage (S3 tiered)** | 3.68 TB (tiered to S3) | ~$100-200/month |
+| **Amazon Managed Flink** | 4 KPUs | ~$400-600/month |
 | **Glue Schema Registry** | Free tier likely | ~$0-50/month |
 | **MSK Connect** | Self-managed on EC2 | ~$100-200/month |
 | **Data Transfer** | Within AWS = free | $0 |
-| **Total (Serverless)** | | **~$600-1,150/month** |
-| **Total (Provisioned)** | | **~$900-1,450/month** |
+| **Total (Serverless)** | | **~$1,100-1,850/month** |
+| **Total (Provisioned)** | | **~$1,400-2,050/month** |
 
 #### Cost Summary
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │                    MONTHLY COST COMPARISON                      │
+│                    (3.68 TB historical data)                    │
 ├────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  Confluent Cloud (with ksqlDB)     ████████████████  $2,300    │
+│  Confluent Cloud (with ksqlDB)     ████████████████████ $3,800 │
 │                                                                 │
-│  Amazon MSK Serverless + Flink     ████████          $900      │
+│  Amazon MSK Serverless + Flink     ████████████        $1,500  │
 │                                                                 │
-│  Amazon MSK Provisioned + Flink    ██████████        $1,200    │
+│  Amazon MSK Provisioned + Flink    ██████████████      $1,700  │
 │                                                                 │
-│  Potential Savings: ~$1,000-1,400/month (~50%)                 │
+│  Potential Savings: ~$2,000-2,300/month (~55-60%)              │
+│  Annual Savings: ~$24,000-28,000/year                          │
 │                                                                 │
 └────────────────────────────────────────────────────────────────┘
 ```
+
+#### Why MSK is Cheaper at This Scale
+
+1. **Storage**: MSK supports tiered storage to S3 (~$0.023/GB vs Confluent ~$0.10/GB)
+2. **Data Transfer**: No egress costs when staying within AWS
+3. **Flink vs ksqlDB**: Managed Flink pricing more predictable than CSU-based ksqlDB
 
 ### Feature Comparison
 
@@ -959,34 +971,37 @@ If we move to MSK, we gain:
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           RECOMMENDATION                                     │
+│                     (Updated for 3.68 TB data volume)                        │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  SHORT-TERM (Next 6 months):                                                │
-│  ══════════════════════════                                                 │
-│  Stay on Confluent Cloud                                                    │
-│  • ksqlDB makes prototyping fast                                            │
-│  • Focus on proving the architecture                                        │
-│  • Cost is manageable at current scale                                      │
-│                                                                              │
-│  MEDIUM-TERM (6-12 months):                                                 │
+│  SHORT-TERM (Next 3 months):                                                │
 │  ═══════════════════════════                                                │
-│  Evaluate MSK migration when:                                               │
-│  • Stream processing patterns are stable                                    │
-│  • Team has bandwidth for migration                                         │
-│  • Cost savings justify effort (~$12-15k/year)                              │
+│  Start MSK migration planning NOW                                           │
+│  • At 3.68 TB, storage costs alone justify migration                        │
+│  • $24-28k/year savings is significant                                      │
+│  • Begin Flink SQL prototyping in parallel                                  │
 │                                                                              │
-│  LONG-TERM (12+ months):                                                    │
-│  ════════════════════════                                                   │
-│  MSK + Managed Flink likely better fit:                                     │
-│  • Unified AWS billing/management                                           │
-│  • No cross-cloud data transfer                                             │
-│  • Flink more powerful for complex processing                               │
-│  • Open source = no vendor lock-in                                          │
+│  MEDIUM-TERM (3-6 months):                                                  │
+│  ══════════════════════════                                                 │
+│  Execute migration:                                                         │
+│  • Set up MSK cluster with tiered storage to S3                             │
+│  • Migrate stream processing to Amazon Managed Flink                        │
+│  • Run parallel for 2-4 weeks, then cut over                                │
 │                                                                              │
-│  Key Trigger for Migration:                                                 │
-│  • When Confluent bill exceeds $3k/month consistently                       │
-│  • When we need features Flink has but ksqlDB doesn't                       │
-│  • When stream processing patterns are finalized                            │
+│  LONG-TERM (6+ months):                                                     │
+│  ═════════════════════                                                      │
+│  Fully AWS-native stack:                                                    │
+│  • MSK + Flink + RDS + ElastiCache + S3                                     │
+│  • Unified billing, IAM, VPC                                                │
+│  • No cross-cloud data transfer costs                                       │
+│                                                                              │
+│  ════════════════════════════════════════════════════════════════          │
+│                                                                              │
+│  WHY MIGRATE SOONER (with 3.68 TB):                                         │
+│  • Storage: Confluent ~$400-600/mo vs MSK+S3 ~$100-200/mo                   │
+│  • Egress: ~$150-300/mo to move data to AWS vs $0 within AWS               │
+│  • At this scale, savings compound quickly                                  │
+│  • Migration effort (~8-12 weeks) pays back in <6 months                    │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
