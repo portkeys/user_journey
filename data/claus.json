@@ -1,0 +1,223 @@
+{
+  "user": {
+    "display_name": "Claus",
+    "slug": "claus",
+    "timezone_offset": -8,
+    "timezone_name": "Pacific Time",
+    "location": "Incline Village, NV",
+    "avatar_emoji": "\ud83c\udfbf",
+    "suggested_emoji": "\ud83c\udf32",
+    "emoji_reason": "Default outdoor emoji (no activity or location match)"
+  },
+  "summary": {
+    "publications": {
+      "unknown": 37,
+      "Trailforks Apple Watch": 16,
+      "Trailforks App": 38,
+      "Trailforks": 14
+    },
+    "tags": {},
+    "events_with_tags": 0,
+    "authors": {},
+    "content_categories": {
+      "homefeed": 2,
+      "map": 7,
+      "appfeed": 4,
+      "profile": 1
+    },
+    "subcategories": {},
+    "website_domains": {
+      "trailforks.com": 21
+    },
+    "referrer_domains": {},
+    "email_traffic_count": 0,
+    "temporal": {
+      "first_event": "2026-01-15 22:51:15.913000+00:00",
+      "last_event": "2026-01-16 00:30:13.357000+00:00",
+      "total_days": 0,
+      "events_last_7_days": 105,
+      "events_last_30_days": 105,
+      "avg_events_per_day": 105.0,
+      "by_hour": {
+        "22": 30,
+        "23": 29,
+        "0": 46
+      },
+      "by_day_of_week": {
+        "Thursday": 59,
+        "Friday": 46
+      },
+      "by_month": {
+        "2026-01": 105
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 2,
+      "single_read": 0,
+      "multi_read": 2,
+      "most_revisited": [
+        [
+          "Trailforks.com Activity Feed",
+          2
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          2
+        ]
+      ],
+      "content_types": {
+        "how_to": 0,
+        "best_lists": 0,
+        "reviews": 0,
+        "guides": 0
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 14,
+        "app": 54,
+        "ridelogs": 0,
+        "map_views": 7,
+        "photos": 0,
+        "unique_rides": 0
+      },
+      "gaia_gps": {
+        "events": 0
+      },
+      "outside_app": {
+        "events": 0
+      },
+      "outside_watch": {
+        "events": 0
+      },
+      "editorial": {
+        "events": 0,
+        "articles": 0
+      },
+      "devices": {
+        "events": 0
+      },
+      "monthly_app_usage": {
+        "2026-01": {
+          "trailforks_app": 54,
+          "trailforks_web": 14
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 105,
+      "total_days_tracked": 1,
+      "events_per_day": 105.0,
+      "unique_publications": 4,
+      "unique_tags_encountered": 0,
+      "unique_authors_read": 0,
+      "unique_articles": 2
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Claus's 2025 Outside Memory\n\n## Welcome Message\n\nHello Claus! We're thrilled to celebrate you as a power user of Outside Online's media properties. Your engagement over the past tracking period tells a fascinating story of someone deeply invested in exploring trails, tracking adventures, and staying connected to the outdoor community. Thank you for being such a dedicated member of our community.\n\n## Claus's 2025 Outside Memory\n\nYour engagement journey reveals the portrait of an active, mobile-first adventurer who lives and breathes the outdoor experience. Over this tracking period, you logged an impressive **105 total events** across our platforms, demonstrating the kind of consistent, purposeful engagement that defines true outdoor enthusiasts. What's particularly striking is how your activity concentrated around **Thursday and Friday**\u201459 and 46 events respectively\u2014suggesting you're gearing up for weekend adventures or reflecting on recent explorations as the week winds down.\n\nYour relationship with our ecosystem centers squarely on the **Trailforks App**, which accounted for 38 of your interactions. This isn't casual browsing; you're actively using our mapping features, checking your profile, monitoring notifications, and staying plugged into the activity feed. The data shows you spending time across multiple functional areas: the interactive map (7 events), the app feed (4 events), your profile (1 event), and the home feed (2 events). This multi-faceted engagement suggests you're not just planning trips\u2014you're tracking them, sharing them, and staying aware of what others in your community are doing.\n\nWhat truly captures your engagement pattern is the temporal rhythm: your activity peaked between **10 PM and midnight** (30 events), remained strong through the 11 PM hour (29 events), and surged again after midnight (46 events). This late-night, weekend engagement profile paints a picture of someone who's planning their next adventure, reviewing past routes, or catching up on community activity when they have dedicated time to focus. You're the type of user who treats trail exploration and community connection as something worthy of deep, intentional engagement.\n\n## Your Passions\n\n\u2022 **Trail Mapping & Navigation** - You're consistently engaging with Trailforks' mapping features, spending significant time exploring the interactive map interface. This shows a passion for understanding terrain, discovering new routes, and having detailed geographic knowledge at your fingertips.\n\n\u2022 **Activity Tracking & Performance** - Your repeated interactions with tracking features indicate you care deeply about documenting your adventures\u2014capturing location data, monitoring your performance, and creating a record of your outdoor pursuits.\n\n\u2022 **Community Connection** - Regular visits to your profile, notifications, and the activity feed reveal that you're invested in the social dimension of outdoor recreation. You want to know what others are doing and stay visible within your community.\n\n\u2022 **Mobile-First Adventure Planning** - With 38 of your 68 tracked app events coming through the Trailforks App, you're clearly someone who plans and engages with trails on-the-go, using your phone as an essential adventure companion.\n\n\u2022 **Real-Time Engagement** - Your late-night, concentrated engagement sessions suggest you're someone who dives deep when you have time, rather than grazing casually. You're intentional about when and how you interact with trail data.\n\n## Reading Habits\n\nYour engagement pattern reveals a distinctly **concentrated, purposeful approach** to consuming and interacting with outdoor content. Rather than spreading your activity throughout the day, you've demonstrated a preference for **immersive evening sessions**, with your heaviest activity occurring between 10 PM and 2 AM. This suggests you dedicate specific windows of time to planning, reviewing, and engaging with trails\u2014perhaps unwinding after work or preparing for weekend adventures when you can give the experience your full attention.\n\nThe mobile-first nature of your engagement is unmistakable. You're not primarily accessing Outside Online's properties through a web browser; instead, you're living within the **Trailforks App ecosystem**, moving fluidly between mapping tools, activity feeds, and your personal profile. This indicates you value the convenience and functionality of a purpose-built mobile experience, and you're comfortable with the app as your primary interface for trail discovery and community engagement.\n\nYour **Thursday-to-Friday spike** (105 events across just two days) suggests you treat the end of the week as prime time for outdoor planning and community connection. Whether you're finalizing weekend plans, reviewing recent adventures, or staying updated on what your community is exploring, you're consistently most active when adventure is just around the corner. You're a planner, a tracker, and a community participant\u2014all rolled into one engaged outdoor enthusiast.",
+    "recent_spotlight": "**Trail Ready: Your Week in Trailforks**\n\nYou've been all in on trail exploration this week, diving deep into Trailforks across multiple platforms. Whether you're planning your next adventure or checking trail conditions on the go, you're clearly staying connected to the riding community and keeping your finger on the pulse of what's happening out there.\n\nYour recent explorations include checking the Trailforks Activity Feed to see what fellow riders are up to, syncing with your Apple Watch for on-the-trail navigation, and diving into the interactive app.map feature. You've also been staying on top of notifications and profile updates, making sure you're all set for your next ride.",
+    "seasonal_patterns": [
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "Map exploration",
+          "Tracking rides",
+          "Location usage"
+        ],
+        "insight": "Heavy nighttime activity on Trailforks during winter."
+      },
+      {
+        "season": "Spring",
+        "emoji": "\ud83c\udf31",
+        "activities": [
+          "Planning rides via map",
+          "Viewing activity feed",
+          "Profile checks"
+        ],
+        "insight": "Interest shifts to planning and reviewing activities as weather improves."
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "Trailforks.com Activity Feed",
+        "evidence": "Distinct new entry in sample events indicating growing activity feed usage."
+      },
+      {
+        "topic": "app.notifications",
+        "evidence": "Repeated notifications events indicate rising engagement with alerts."
+      },
+      {
+        "topic": "location",
+        "evidence": "Frequent location entries in sample events suggesting emphasis on location features."
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "Trailforks App usage",
+        "strength": "Very Strong",
+        "evidence": "105 total events in a single day across app domains."
+      },
+      {
+        "topic": "Map exploration and navigation",
+        "strength": "Strong",
+        "evidence": "Map-related events and 7 map entries in content_categories."
+      },
+      {
+        "topic": "Location tracking and tracking features",
+        "strength": "Strong",
+        "evidence": "Multiple events labeled location and tracking."
+      },
+      {
+        "topic": "Activity Feed consumption",
+        "strength": "Strong",
+        "evidence": "Trailforks.com Activity Feed and app feed interactions present in sample events."
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "Profile viewing",
+        "note": "Occasional profile checks."
+      },
+      {
+        "topic": "Home feed exploration",
+        "note": "Light engagement with homefeed."
+      },
+      {
+        "topic": "Notifications review",
+        "note": "Infrequent review of notifications."
+      },
+      {
+        "topic": "Map/navigation interactions",
+        "note": "Occasional map and navigation actions outside main tracking."
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?source=app&userid=2854464&version=2",
+        "date": "Jan 16"
+      },
+      {
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?source=app&userid=2854464&version=2",
+        "date": "Jan 16"
+      },
+      {
+        "title": "app.notifications",
+        "url": "#",
+        "date": "Jan 16"
+      },
+      {
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?scope=following&nativeTabs=true&app=1&activitytype=11&platform=ios&nearby_range=10&lat=39.3&lng=-119.9",
+        "date": "Jan 15"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-16T16:44:03.943017Z"
+}

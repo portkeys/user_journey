@@ -7,7 +7,7 @@
       "timezone_offset": -7,
       "timezone_name": "Mountain Time",
       "location": "Colorado",
-      "avatar_emoji": "🏔️",
+      "avatar_emoji": "\ud83c\udfd4\ufe0f",
       "events_file": "robin_complete_events.json"
     },
     {
@@ -17,7 +17,7 @@
       "timezone_offset": -8,
       "timezone_name": "Pacific Time",
       "location": "Canada",
-      "avatar_emoji": "🌲",
+      "avatar_emoji": "\ud83c\udf32",
       "events_file": "events/trevor_events.json"
     },
     {
@@ -27,7 +27,7 @@
       "timezone_offset": -8,
       "timezone_name": "Pacific Time",
       "location": "Seattle",
-      "avatar_emoji": "🌧️",
+      "avatar_emoji": "\ud83c\udf27\ufe0f",
       "events_file": "events/kate_events.json"
     },
     {
@@ -37,7 +37,7 @@
       "timezone_offset": -8,
       "timezone_name": "Pacific Time",
       "location": "Berkeley",
-      "avatar_emoji": "🌉",
+      "avatar_emoji": "\ud83c\udf09",
       "events_file": "events/wen_events.json"
     },
     {
@@ -47,7 +47,7 @@
       "timezone_offset": -7,
       "timezone_name": "Mountain Time",
       "location": "Colorado",
-      "avatar_emoji": "⛷️",
+      "avatar_emoji": "\u26f7\ufe0f",
       "events_file": "events/pj_events.json"
     },
     {
@@ -57,7 +57,7 @@
       "timezone_offset": -6,
       "timezone_name": "Central Time",
       "location": "Texas",
-      "avatar_emoji": "🏃",
+      "avatar_emoji": "\ud83c\udfc3",
       "events_file": "events/kcal_events.json"
     },
     {
@@ -67,7 +67,7 @@
       "timezone_offset": -5,
       "timezone_name": "Eastern Time",
       "location": "Connecticut",
-      "avatar_emoji": "🚴",
+      "avatar_emoji": "\ud83d\udeb4",
       "events_file": "events/dan_events.json"
     },
     {
@@ -77,7 +77,7 @@
       "timezone_offset": -5,
       "timezone_name": "Eastern Time",
       "location": "New York",
-      "avatar_emoji": "🗽",
+      "avatar_emoji": "\ud83d\uddfd",
       "events_file": "events/lauren_events.json"
     },
     {
@@ -87,7 +87,7 @@
       "timezone_offset": -5,
       "timezone_name": "Eastern Time",
       "location": "North Carolina",
-      "avatar_emoji": "🌲",
+      "avatar_emoji": "\ud83c\udf32",
       "events_file": "events/mike_events.json"
     },
     {
@@ -97,7 +97,17 @@
       "timezone_offset": -8,
       "timezone_name": "Pacific Time",
       "location": "Incline Village, NV",
-      "avatar_emoji": "🎿",
+      "avatar_emoji": "\ud83c\udfbf",
+      "events_file": "events/claus_events.json"
+    },
+    {
+      "user_id": "b90e5f48-91a5-4758-8dba-3ff462a76563",
+      "display_name": "Claus",
+      "slug": "claus_b90e",
+      "timezone_offset": -8,
+      "timezone_name": "Pacific Time",
+      "location": "California",
+      "avatar_emoji": "\ud83c\udfd4\ufe0f",
       "events_file": "events/claus_events.json"
     }
   ]
