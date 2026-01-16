@@ -91,23 +91,13 @@
       "events_file": "events/mike_events.json"
     },
     {
-      "user_id": "placeholder-claus-uuid",
+      "user_id": "b90e5f48-91a5-4758-8dba-3ff462a76563",
       "display_name": "Claus",
       "slug": "claus",
       "timezone_offset": -8,
       "timezone_name": "Pacific Time",
       "location": "Incline Village, NV",
       "avatar_emoji": "\ud83c\udfbf",
-      "events_file": "events/claus_events.json"
-    },
-    {
-      "user_id": "b90e5f48-91a5-4758-8dba-3ff462a76563",
-      "display_name": "Claus",
-      "slug": "claus_b90e",
-      "timezone_offset": -8,
-      "timezone_name": "Pacific Time",
-      "location": "California",
-      "avatar_emoji": "\ud83c\udfd4\ufe0f",
       "events_file": "events/claus_events.json"
     }
   ]
