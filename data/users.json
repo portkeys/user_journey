@@ -99,6 +99,26 @@
       "location": "Incline Village, NV",
       "avatar_emoji": "\ud83c\udfbf",
       "events_file": "events/claus_events.json"
+    },
+    {
+      "user_id": "d2075bcb-fe28-464e-8c64-4b7de981db66",
+      "display_name": "Colin",
+      "slug": "colin",
+      "timezone_offset": -5,
+      "timezone_name": "Eastern Time",
+      "location": "Northampton, MA",
+      "avatar_emoji": "\ud83c\udf41",
+      "events_file": "events/colin_events.json"
+    },
+    {
+      "user_id": "ad0e79ca-146b-455b-b3f4-c96d2ae3b56a",
+      "display_name": "Claudette",
+      "slug": "claudette",
+      "timezone_offset": -7,
+      "timezone_name": "Mountain Time",
+      "location": "Colorado",
+      "avatar_emoji": "\ud83c\udfd4\ufe0f",
+      "events_file": "events/claudette_events.json"
     }
   ]
 }
