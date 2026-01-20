@@ -1,0 +1,797 @@
+{
+  "user": {
+    "display_name": "Colin",
+    "slug": "colin",
+    "timezone_offset": -5,
+    "timezone_name": "Eastern Time",
+    "location": "Northampton, MA",
+    "avatar_emoji": "\ud83c\udf41",
+    "suggested_emoji": "\ud83d\udeb4",
+    "emoji_reason": "Based on top activity: tour-de-france"
+  },
+  "summary": {
+    "publications": {
+      "bikereg": 715,
+      "skireg": 15,
+      "accounts": 5,
+      "trireg": 139,
+      "runreg": 34,
+      "Trailforks": 489,
+      "VeloNews": 65,
+      "Trailforks App": 778,
+      "outside-online": 91,
+      "unknown": 830,
+      "gaiagps": 12,
+      "www.bikereg.com": 1,
+      "ski": 1,
+      "Triathlete": 1,
+      "Pinkbike": 1,
+      "Backpacker": 13
+    },
+    "tags": {
+      "tour-de-france": 13,
+      "tadej-pogacar": 8,
+      "analysis": 8,
+      "egan bernal": 8,
+      "jai hindley": 8,
+      "jo\u00e3o almeida": 8,
+      "jonas vingegaard": 8,
+      "mikel landa": 8,
+      "evergreen": 7,
+      "jonas-vingegaard": 6,
+      "behind-the-ride": 5,
+      "nutrition": 5,
+      "visma-lease-a-bike": 5,
+      "ben-healy": 5,
+      "jonas-rickaert": 5,
+      "mathieu-van-der-poel": 5,
+      "joao-almeida": 4,
+      "juan-ayuso": 4,
+      "geraint-thomas": 3,
+      "liege-bastogne-liege": 3,
+      "presidential-cycling-tour-of-turkey": 3,
+      "tour-de-romandie": 3,
+      "arnaud-de-lie": 3,
+      "lotto-dstny": 3,
+      "antonio-tiberi": 3,
+      "ben-oconnor": 3,
+      "felix-gall": 3,
+      "matteo-jorgenson": 3,
+      "mikel-landa": 3,
+      "sepp-kuss": 3,
+      "vuelta-a-espana": 3,
+      "vuelta a espa\u00f1a": 3,
+      "alexis-skarda": 2,
+      "andrew-lesperance": 2,
+      "bwr": 2,
+      "bwr-arizona": 2,
+      "haley-smith": 2,
+      "keegan-swenson": 2,
+      "sofia-gomez-villafane": 2,
+      "arizona": 2,
+      "best-towns": 2,
+      "colorado": 2,
+      "commerce": 2,
+      "idaho": 2,
+      "maine": 2,
+      "montana": 2,
+      "mountain-towns": 2,
+      "north-carolina": 2,
+      "trailforks": 2,
+      "utah": 2,
+      "vermont": 2,
+      "washington": 2,
+      "remco-evenepoel": 2,
+      "bobby-julich": 2,
+      "coors-classic": 2,
+      "sean-kelly": 2,
+      "steve-bauer": 2,
+      "cannondale": 1,
+      "indoor-cycling": 1,
+      "trainerroad": 1,
+      "training-tools": 1,
+      "zwift": 1,
+      "infinity-events-group": 1,
+      "tour-of-colorado": 1,
+      "helmet": 1,
+      "poc": 1,
+      "sportive": 1,
+      "tour-of-flanders": 1,
+      "ford-ironman-world-championship": 1,
+      "ironman-world-championship-2024-kona": 1,
+      "magnus-ditlev": 1,
+      "patrick-lange": 1,
+      "pro-triathlon": 1,
+      "professional-triathlon": 1,
+      "sam-laidlow": 1,
+      "triathlete-video": 1,
+      "triathlon-news": 1,
+      "bryan-coquard": 1,
+      "danny-van-poppel": 1,
+      "davide-ballerini": 1,
+      "uci": 1,
+      "yellow-cards": 1,
+      "uae-team-emirates": 1,
+      "american racing": 1,
+      "ef education-easypost": 1,
+      "sean quinn": 1
+    },
+    "events_with_tags": 43,
+    "authors": {
+      "Andrew Hood": 5,
+      "Jim Cotton": 5,
+      "Josh Ross": 2,
+      "Logan Jones-Wilkins": 2,
+      "Graham Averill": 2,
+      "Alvin Holbrook": 1,
+      "Will Tracy": 1,
+      "Brad Kaminski": 1,
+      "Susan Lacke": 1,
+      "Bobby Julich": 1
+    },
+    "content_categories": {
+      "events": 32,
+      "Confirmed": 67,
+      "51794": 2,
+      "68825": 1,
+      "68318": 1,
+      "67419": 1,
+      "7865": 4,
+      "68596": 2,
+      "57064": 2,
+      "ParticipantRegistration": 82,
+      "66451": 1,
+      "68315": 8,
+      "61865": 1,
+      "login": 7,
+      "8140": 1,
+      "cart": 35,
+      "39090": 32,
+      "Events": 12,
+      "2022": 30,
+      "1479": 1,
+      "Leaderboard": 1,
+      "12686": 2,
+      "Login": 13,
+      "8189": 1,
+      "Users": 33,
+      "ErrorHandler.aspx": 11,
+      "2016": 4,
+      "69008": 1,
+      "2026": 1,
+      "8082": 1,
+      "trails": 97,
+      "route": 14,
+      "region": 16,
+      "Confirmation": 8,
+      "gravel": 3,
+      "2014": 3,
+      "67798": 1,
+      "appfeed_ugc_post": 4,
+      "poi": 4,
+      "map": 327,
+      "appfeed": 99,
+      "discover": 7,
+      "road": 15,
+      "69401": 2,
+      "rideplans": 1,
+      "notifications": 1,
+      "wishlist": 1,
+      "68035": 1,
+      "12502": 1,
+      "69718": 2,
+      "67919": 1,
+      "confirmation": 1,
+      "66203": 5,
+      "67779": 18,
+      "37239": 1,
+      "outdoor-gear": 2,
+      "director": 134,
+      "report": 6,
+      "66716": 1,
+      "users": 22,
+      "home": 44,
+      "api": 1,
+      "66102": 1,
+      "69343": 1,
+      "69178": 1,
+      "account": 3,
+      "news": 3,
+      "photo": 61,
+      "69479": 8,
+      "signup": 1,
+      "67563": 1,
+      "12810": 2,
+      "70263": 1,
+      "63550": 4,
+      "69179": 1,
+      "68754": 1,
+      "69703": 1,
+      "edit": 1,
+      "68523": 27,
+      "67822": 1,
+      "69853": 1,
+      "69848": 1,
+      "68637": 4,
+      "68381": 1,
+      "67640": 1,
+      "Contact": 4,
+      "8310": 1,
+      "12845": 1,
+      "byline": 1,
+      "67146": 1,
+      "69424": 1,
+      "70162": 1,
+      "67458": 4,
+      "68252": 3,
+      "12273": 2,
+      "68872": 1,
+      "68621": 2,
+      "69599": 1,
+      "70693": 2,
+      "70151": 1,
+      "68089": 1,
+      "69983": 1,
+      "67940": 1,
+      "69450": 1,
+      "67670": 1,
+      "11753": 1,
+      "adventure-travel": 2,
+      "1929": 1,
+      "70607": 2,
+      "70619": 1,
+      "features": 1,
+      "knowledge-base": 1,
+      "70849": 2,
+      "68720": 1,
+      "69795": 1,
+      "69830": 1,
+      "12747": 1,
+      "69617": 1,
+      "69997": 1,
+      "68216": 1,
+      "70714": 1,
+      "homefeed": 83,
+      "12452": 1,
+      "ironman-world-championship-2024-kona": 1,
+      "70591": 2,
+      "jointeam": 3,
+      "67866": 1,
+      "12542": 1,
+      "69449": 1,
+      "video": 3,
+      "ridelog": 2,
+      "contribute": 1,
+      "list": 1,
+      "profile": 1
+    },
+    "subcategories": {
+      "map/trail": 85,
+      "director/event": 70,
+      "ParticipantRegistration/2022": 44,
+      "director/my-events": 44,
+      "trails/map": 32,
+      "Confirmed/68523": 24,
+      "users/director": 22,
+      "ParticipantRegistration/39090": 19,
+      "Users/Director": 16,
+      "Users/Participant": 15,
+      "road/road-racing": 14,
+      "map/region": 14,
+      "Login/Login.aspx": 12,
+      "director/send-email": 11,
+      "director/email-management": 8,
+      "trails/cliff-claven": 8,
+      "Confirmed/69479": 7,
+      "trails/woods-canyon-15002": 7,
+      "Confirmed/67779": 7,
+      "Confirmed/68637": 6,
+      "region/hawes": 5,
+      "map/search": 5,
+      "trails/twister-790457": 5,
+      "Confirmed/68315": 4,
+      "route/best-of-brown-s-ranch-loop": 4,
+      "report/:id": 4,
+      "trails/dirt-road-546807": 4,
+      "ParticipantRegistration/68315": 3,
+      "Confirmed/66203": 3,
+      "trails/turkey-creek": 3,
+      "trails/boulderdash-240743": 3,
+      "trails/hardline-829919": 3,
+      "Confirmed/63550": 3,
+      "ParticipantRegistration/12273": 3,
+      "Contact/gnar-weasels": 3,
+      "jointeam/g4zqw623": 3,
+      "photo/17807531": 3,
+      "trails/the-kings-trail-80349": 3,
+      "route/cowels-goodies": 3,
+      "trails/paine-mt-trail": 3,
+      "photo/19609226": 3,
+      "photo/19609234": 3,
+      "ParticipantRegistration/2016": 2,
+      "trails/2025-lake-placid-loppet-course": 2,
+      "ParticipantRegistration/2014": 2,
+      "outdoor-gear/run": 2,
+      "gravel/gravel-racing": 2,
+      "region/sedona": 2,
+      "Confirmed/848": 2,
+      "Confirmed/67881": 2,
+      "trails/sunset-ridge-240755": 2,
+      "Users/Public": 2,
+      "trails/red-mountain-rush": 2,
+      "adventure-travel/destinations": 2,
+      "ridelog/planner": 2,
+      "map/rideplan": 2,
+      "trails/goat-skull": 2,
+      "region/grayville-falls": 2,
+      "trails/yellow-blaze-155442": 2,
+      "photo/17785057": 2,
+      "trails/wild-side-104373": 2,
+      "photo/27330449": 2,
+      "photo/19609230": 2,
+      "trails/gravity-cavity-139693": 2,
+      "Confirmed/66451": 1,
+      "ParticipantRegistration/7865": 1,
+      "Leaderboard/12686": 1,
+      "ParticipantRegistration/69008": 1,
+      "route/gnar-weasels-course-2022": 1,
+      "region/phoenix": 1,
+      "gravel/gravel-gear": 1,
+      "poi/1383": 1,
+      "route/introduction-to-brown-s": 1,
+      "road/road-training": 1,
+      "wishlist/regions": 1,
+      "poi/54753": 1,
+      "ParticipantRegistration/69343": 1,
+      "api/director": 1,
+      "Confirmed/67578": 1,
+      "news/tour-of-colorado-2026-cycling-stage-race-announcement": 1,
+      "ParticipantRegistration/69179": 1,
+      "photo/27868448": 1,
+      "photo/19996315": 1,
+      "photo/21963701": 1,
+      "photo/19467312": 1,
+      "route/hawes-introduction": 1,
+      "photo/27868443": 1,
+      "news/poc-cytal-road-helmet-costs-less-and-tops-the-virginia-tech-rankings": 1,
+      "photo/27868445": 1,
+      "ParticipantRegistration/69479": 1,
+      "photo/19955390": 1,
+      "photo/23154159": 1,
+      "trails/made-in-the-shade-15464": 1,
+      "photo/20084424": 1,
+      "trails/alpe-d-huez": 1,
+      "photo/25098909": 1,
+      "Confirmed/63500": 1,
+      "photo/13107900": 1,
+      "photo/24391443": 1,
+      "edit/47129d8e-542b-44c2-979c-71dcd588f8fc": 1
+    },
+    "website_domains": {
+      "bikereg.com": 633,
+      "skireg.com": 15,
+      "login-staging.outsideonline.com": 5,
+      "staging.bikereg.com": 82,
+      "dev.trireg.com": 41,
+      "trireg.com": 80,
+      "runreg.com": 34,
+      "dev2.trireg.com": 18,
+      "trailforks.com": 623,
+      "velo.outsideonline.com": 98,
+      "accounts.outsideonline.com": 2,
+      "outsideonline.com": 127,
+      "skimag.com": 1,
+      "triathlete.com": 1,
+      "climbing.com": 1,
+      "pinkbike.com": 6,
+      "backpacker.com": 18
+    },
+    "referrer_domains": {
+      "bikereg.com": 378,
+      "trailforks.com": 199,
+      "staging.bikereg.com": 69,
+      "dev.trireg.com": 31,
+      "google.com": 27,
+      "trireg.com": 21,
+      "dev2.trireg.com": 16,
+      "runreg.com": 15,
+      "skireg.com": 8,
+      "outsideonline.com": 5,
+      "mail.google.com": 4,
+      "admin.bikereg.com": 4,
+      "dev2.bikereg.com": 3,
+      "twowheeledwanderer.com": 2,
+      "messages.google.com": 2,
+      "localhost:44343": 1,
+      "sandbox.paypal.com": 1,
+      "accounts.outsideonline.com": 1,
+      "belgianwaffleride.bike": 1,
+      "velo.outsideonline.com": 1
+    },
+    "email_traffic_count": 56,
+    "temporal": {
+      "first_event": "2025-01-21 14:29:27.062000+00:00",
+      "last_event": "2025-09-24 15:24:15.250000+00:00",
+      "total_days": 246,
+      "events_last_7_days": 170,
+      "events_last_30_days": 343,
+      "avg_events_per_day": 12.967479674796747,
+      "by_hour": {
+        "14": 293,
+        "17": 146,
+        "18": 270,
+        "19": 163,
+        "22": 283,
+        "15": 268,
+        "16": 254,
+        "20": 251,
+        "0": 116,
+        "21": 309,
+        "13": 162,
+        "23": 117,
+        "5": 15,
+        "3": 43,
+        "1": 129,
+        "2": 77,
+        "11": 111,
+        "4": 12,
+        "12": 94,
+        "6": 1,
+        "10": 62,
+        "7": 1,
+        "9": 6,
+        "8": 7
+      },
+      "by_day_of_week": {
+        "Tuesday": 429,
+        "Wednesday": 497,
+        "Thursday": 416,
+        "Friday": 480,
+        "Monday": 438,
+        "Saturday": 583,
+        "Sunday": 347
+      },
+      "by_month": {
+        "2025-01": 76,
+        "2025-02": 283,
+        "2025-03": 440,
+        "2025-04": 365,
+        "2025-05": 236,
+        "2025-06": 126,
+        "2025-07": 471,
+        "2025-08": 873,
+        "2025-09": 320
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 527,
+      "single_read": 368,
+      "multi_read": 159,
+      "most_revisited": [
+        [
+          "BikeReg.com - online cycling event registration",
+          105
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          36
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          32
+        ],
+        [
+          "Trailforks | Trail Database & Maps",
+          29
+        ],
+        [
+          "Colin's Taste Event Online Registration",
+          28
+        ],
+        [
+          "Tri for Jimmy 2025 Online Registration",
+          28
+        ],
+        [
+          "Outside Magazine",
+          27
+        ],
+        [
+          "NEW JERSEY MOUNTAIN BIKE STATE CHAMPIONSHIPS - JUNGLE MTB ESCAPE - H2H RACE SERIES Online Registration",
+          24
+        ],
+        [
+          "NEW JERSEY MOUNTAIN BIKE STATE CHAMPIONSHIPS - JUNGLE MTB ESCAPE - H2H RACE SERIES Online Registration",
+          23
+        ],
+        [
+          "Discover By Map | Trailforks",
+          21
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          20
+        ],
+        [
+          "TriReg.com - online triathlon event registration",
+          20
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          18
+        ],
+        [
+          "Gnar Weasels Online Registration",
+          15
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          14
+        ],
+        [
+          "Outside Magazine",
+          14
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          14
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          12
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          10
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          9
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          9
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          9
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          9
+        ],
+        [
+          "Buzz the Tower Online Registration",
+          8
+        ],
+        [
+          "RunReg.com - online running event registration",
+          8
+        ],
+        [
+          "Tri for Jimmy 2025 Online Registration",
+          8
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          7
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          7
+        ],
+        [
+          "The 2025 Black River Grand Prix & Epic Online Registration",
+          7
+        ],
+        [
+          "The 2025 Black River Grand Prix & Epic Online Registration",
+          7
+        ]
+      ],
+      "content_types": {
+        "how_to": 0,
+        "best_lists": 9,
+        "reviews": 7,
+        "guides": 0
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 489,
+        "app": 778,
+        "ridelogs": 2,
+        "map_views": 144,
+        "photos": 0,
+        "unique_rides": 0
+      },
+      "gaia_gps": {
+        "events": 12
+      },
+      "outside_app": {
+        "events": 0
+      },
+      "outside_watch": {
+        "events": 0
+      },
+      "editorial": {
+        "events": 220,
+        "articles": 112
+      },
+      "devices": {
+        "events": 0
+      },
+      "monthly_app_usage": {
+        "2025-02": {
+          "trailforks_web": 16,
+          "trailforks_app": 19
+        },
+        "2025-03": {
+          "trailforks_app": 42,
+          "gaia_gps": 8,
+          "trailforks_web": 58
+        },
+        "2025-04": {
+          "gaia_gps": 4,
+          "trailforks_web": 13,
+          "trailforks_app": 11
+        },
+        "2025-05": {
+          "trailforks_web": 14,
+          "trailforks_app": 19
+        },
+        "2025-06": {
+          "trailforks_web": 9,
+          "trailforks_app": 43
+        },
+        "2025-07": {
+          "trailforks_app": 200,
+          "trailforks_web": 81
+        },
+        "2025-08": {
+          "trailforks_app": 354,
+          "trailforks_web": 201
+        },
+        "2025-09": {
+          "trailforks_web": 97,
+          "trailforks_app": 90
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 3190,
+      "total_days_tracked": 246,
+      "events_per_day": 12.967479674796747,
+      "unique_publications": 16,
+      "unique_tags_encountered": 86,
+      "unique_authors_read": 10,
+      "unique_articles": 527
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Colin's 2025 Outside Memory\n\n## Welcome Message\n\nColin, thank you for being such a dedicated member of the Outside community! Over the past nine months, you've logged nearly 3,200 interactions across our platforms\u2014a testament to your passion for endurance sports and the outdoor lifestyle. We're thrilled to celebrate your journey with this personalized look at your 2025 engagement.\n\n---\n\n## Colin's 2025 Outside Memory\n\nYour year began with serious intent in late January, diving headfirst into event registration across multiple disciplines. You were exploring BikeReg, TriReg, RunReg, and SkiReg simultaneously\u2014checking out everything from the Really Rad Festival of Cyclocross to the Tri for Jimmy 2025. Those early weeks painted a picture of an athlete with diverse interests, someone ready to commit to racing across cycling, triathlon, running, and skiing.\n\nFebruary marked a turning point. Your engagement nearly quadrupled as you discovered Trailforks, and suddenly your digital footprint expanded dramatically. You began exploring trail systems\u2014from the 2025 Lake Placid Loppet Course to Phoenix's mountain biking routes, and you started engaging with the Trailforks App community. This is when your passion for trail exploration truly crystallized. Simultaneously, you were consuming cycling content from VeloNews, reading about gear innovations like Cannondale's SuperX gravel bike and exploring training tools like TrainerRoad's AI integration.\n\nSpring (March-April) saw your engagement peak at 440 and 365 events respectively. You were actively registering for events\u2014the Highlands Gran Fondo, Devens Grand Prix, Arkansas Graveler\u2014while simultaneously deep-diving into professional cycling coverage. This is when your obsession with the Tour de France narrative became evident, with intense focus on riders like Tadej Poga\u010dar, Jonas Vingegaard, Egan Bernal, Jo\u00e3o Almeida, and Jai Hindley. You were consuming analysis-driven content about these athletes and their teams, particularly Visma-Lease a Bike.\n\nSummer brought a slight dip in May-June (236 and 126 events), perhaps reflecting race season commitments or travel. But July exploded back onto the scene with 471 events\u2014your engagement patterns suggest you were preparing intensely, likely for the Tour de France itself. Then August became your most active month by far: 873 events. This was the crescendo\u2014the Tour de France was happening, and you were all-in, consuming every piece of analysis, every rider profile, every stage breakdown.\n\nBy September, as the season wound down, your engagement normalized to 320 events, but the pattern was clear: you're an athlete who races, explores, learns, and obsesses about the sport you love.\n\n---\n\n## Your Passions\n\n\u2022 **Professional Cycling & Tour de France**: Your engagement with cycling content is unmatched. You've followed Tadej Poga\u010dar, Jonas Vingegaard, Egan Bernal, Jo\u00e3o Almeida, and Jai Hindley obsessively, consuming analysis-heavy pieces from authors like Andrew Hood and Jim Cotton. The Tour de France dominated your summer with 13 dedicated tags, suggesting you're not just a casual fan\u2014you're a student of the sport.\n\n\u2022 **Cyclocross Racing**: Events like the Really Rad Festival of Cyclocross, Tree House CX (New England Regional CX Championships), and the Central Park Classic by New York Bike Lawyers appear repeatedly in your registration history. You're actively competing in cross races across multiple seasons.\n\n\u2022 **Trail Exploration & Mountain Biking**: Trailforks became your second home, with 489 web visits and 778 app interactions. You've explored regions from Phoenix to Lake Placid, studied routes like Brown's Ranch Loop and the Gnar Weasels Course, and engaged actively with the community through posts and comments.\n\n\u2022 **Multi-Sport Racing**: Your registrations span TriReg (139 events), RunReg (34 events), and SkiReg (15 events). You're not a one-discipline athlete\u2014you're exploring triathlons, running events, and ski competitions with genuine curiosity and commitment.\n\n\u2022 **Cycling Training & Technology**: Articles about TrainerRoad, Zwift AI integration, and nutrition strategies indicate you're invested in the science of performance. You're reading behind-the-ride analysis and studying how pros train and prepare.\n\n\u2022 **Gravel & Adventure Cycling**: Your registrations for gran fondos (Highlands Gran Fondo, Arkansas Graveler) and your interest in gear pieces like the Cannondale SuperX gravel bike show you're exploring the growing gravel cycling scene.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal the rhythm of an engaged endurance athlete. You're most active in the late afternoon and evening hours\u2014your peak engagement times cluster around 2-3 PM (293 events at 14:00), 9-10 PM (309 events at 21:00), and 10 PM (283 events at 22:00). This suggests you're reading during work breaks, after training sessions, and during evening wind-down time. Weekends show your highest engagement, with Saturday commanding 583 events and Sunday 347\u2014you're clearly using weekend mornings and afternoons to deep-dive into content and plan your week ahead.\n\nYour consumption accelerated dramatically around major cycling events. February saw a 3.7x jump from January as you discovered Trailforks and VeloNews content. The real crescendo came in August (873 events)\u2014the Tour de France month\u2014when your appetite for cycling analysis was insatiable. You gravitated toward analysis-driven pieces and athlete profiles, with authors like Andrew Hood and Jim Cotton appearing repeatedly in your reading history. These aren't casual clicks; you're returning to trusted voices who break down the tactical and physiological dimensions of professional cycling.\n\nYou're also a platform explorer. Beyond Outside Online's core properties, you've engaged with 16 unique publications and encountered 86 different content tags across 527 unique articles. You're not looking for one-off reads\u2014you're building a comprehensive understanding of your sports through multiple angles, from race registration logistics to elite-level performance analysis to gear reviews. Your engagement suggests you value depth and expertise, seeking out voices like Andrew Hood and Jim Cotton who can contextualize what you're seeing in the races you're following.",
+    "recent_spotlight": "**Trail Hunting Across New England**\n\nYou've been deep in exploration mode this past week, scouting mountain biking routes across Vermont and New Hampshire. It looks like you're planning some serious rides, zooming in on specific regions and checking out trail conditions and user photos. Whether you're chasing that perfect Sunday afternoon route or mapping out your next adventure, you're clearly ready to hit the dirt.\n\nHere's what caught your attention: \"Good Sunday Afternoon Mountain Biking Route,\" the scenic \"Top of Charlie Bench and View POI,\" trails around Woodstock including \"Aqueduct Trails\" and \"Slash Ridge,\" plus ventures into Rochester's \"Tunnel Ridge Multi Trail\" and Claremont's \"Gravity Cavity Multi Trail.\" You've even been browsing community photos to get a real sense of what these trails offer.",
+    "seasonal_patterns": [
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "BikeReg online registrations",
+          "Trailforks trail discovery",
+          "SkiReg browsing"
+        ],
+        "insight": "Winter focuses on registrations and winter-trail planning."
+      },
+      {
+        "season": "Spring",
+        "emoji": "\ud83c\udf31",
+        "activities": [
+          "BikeReg spring race registrations",
+          "RunReg running event registrations",
+          "Trailforks trail planning"
+        ],
+        "insight": "Spring shifts toward registrations and trail planning."
+      },
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "Trailforks App trail exploration",
+          "Outdoor cycling event registrations",
+          "Tour de France rider coverage/analysis"
+        ],
+        "insight": "Summer peaks in outdoor cycling activity and trail exploration."
+      },
+      {
+        "season": "Autumn",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "Trail planning for fall rides on Trailforks",
+          "Late-season registrations (BikeReg/TriReg)",
+          "Rider-focused cycling analysis coverage"
+        ],
+        "insight": "Autumn maintains fall ride planning with ongoing rider analysis."
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "Trailforks App",
+        "evidence": "778 Trailforks App publications and significant trail-related content"
+      },
+      {
+        "topic": "Zwift/TrainerRoad AI integration",
+        "evidence": "VeloNews article about AI integration in indoor cycling training"
+      },
+      {
+        "topic": "nutrition",
+        "evidence": "top_tags includes 'nutrition' with 5 mentions"
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "Tour de France & rider analysis",
+        "strength": "Very Strong",
+        "evidence": "Frequent mentions of Tour de France and riders (Pogacar, Vingegaard, Almeida) in top tags"
+      },
+      {
+        "topic": "Trail networks & mountain biking",
+        "strength": "Very Strong",
+        "evidence": "High Trailforks App activity and trail-focused articles"
+      },
+      {
+        "topic": "Indoor cycling training tech",
+        "strength": "Strong",
+        "evidence": "Coverage of Zwift/TrainerRoad AI integration in training"
+      },
+      {
+        "topic": "Event registration ecosystems",
+        "strength": "Strong",
+        "evidence": "Wide presence of BikeReg/Skireg/TriReg/RunReg registrations"
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "SkiReg",
+        "note": "Occasional skiing event browsing"
+      },
+      {
+        "topic": "RunReg",
+        "note": "Running event registrations observed"
+      },
+      {
+        "topic": "TriReg",
+        "note": "Triathlon events encountered"
+      },
+      {
+        "topic": "Salisbury Jumpfest (Dogsled Race)",
+        "note": "Uncommon event registration interest"
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "Good Sunday Afternoon Mountain Biking Route | Trailfork",
+        "url": "https://www.trailforks.com/route/good-sunday-afternoon/",
+        "date": "Sep 24"
+      },
+      {
+        "title": "Top of Charlie Bench and View POI | Trailforks",
+        "url": "https://www.trailforks.com/poi/23419/",
+        "date": "Sep 24"
+      },
+      {
+        "title": "Woodstock, Vermont Mountain Biking Trails | Trailforks",
+        "url": "https://www.trailforks.com/region/woodstock-1507823048/",
+        "date": "Sep 24"
+      },
+      {
+        "title": "Aqueduct Trails, Woodstock Mountain Biking Trails | Tra",
+        "url": "https://www.trailforks.com/region/aqueduct-trails-20726/",
+        "date": "Sep 24"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-20T18:00:08.516689Z"
+}

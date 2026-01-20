@@ -1,0 +1,719 @@
+{
+  "user": {
+    "display_name": "Claudette",
+    "slug": "claudette",
+    "timezone_offset": -7,
+    "timezone_name": "Mountain Time",
+    "location": "Colorado",
+    "avatar_emoji": "\ud83c\udfd4\ufe0f",
+    "suggested_emoji": "\ud83c\udfc3",
+    "emoji_reason": "Based on top activity: running"
+  },
+  "summary": {
+    "publications": {
+      "yogajournal": 5,
+      "outside-online": 841,
+      "accounts": 20,
+      "runreg": 3,
+      "Outside Learn": 14,
+      "bikereg": 145,
+      "gaiagps": 2,
+      "Triathlete": 5,
+      "VeloNews": 23,
+      "unknown": 144,
+      "Trailforks": 2,
+      "gravel": 16,
+      "Outside Watch": 51,
+      "gravelresults": 44,
+      "Backpacker": 11,
+      "Trailforks App": 11,
+      "Run": 8,
+      "run.outsideonline.com": 2,
+      "climbing": 13,
+      "www.outsideonline.com": 9,
+      "ski": 6,
+      "CleanEating": 16
+    },
+    "tags": {
+      "film": 31,
+      "the-outside-festival": 31,
+      "running": 30,
+      "commerce": 19,
+      "evergreen": 18,
+      "adventure": 16,
+      "everest": 15,
+      "everest-base-camp": 15,
+      "food": 13,
+      "video": 12,
+      "everest2025": 11,
+      "nutrition": 9,
+      "adventure-travel": 6,
+      "bmc": 6,
+      "devinci": 6,
+      "lauf": 6,
+      "specialized": 6,
+      "stinner": 6,
+      "velo-field-test": 6,
+      "deals": 6,
+      "gaia-gps": 5,
+      "search-and-rescue": 5,
+      "gravel": 5,
+      "gravel-calendar": 5,
+      "gravel-guide": 5,
+      "amazon-prime-day": 5,
+      "endurance-training": 4,
+      "breakfast": 4,
+      "costa-rica": 4,
+      "friday-fantasy": 4,
+      "mountain-biking": 4,
+      "explicit": 4,
+      "hawaii": 4,
+      "hiking": 4,
+      "trail-safety": 4,
+      "trailforks": 4,
+      "mount-everest": 4,
+      "2025-gear-reviews": 4,
+      "2025-summer-gear-guide": 4,
+      "gear-guide": 4,
+      "marathon": 4,
+      "road-running": 4,
+      "road-running-shoes": 4,
+      "news": 4,
+      "alps": 4,
+      "training": 3,
+      "culture": 3,
+      "colorado": 3,
+      "grand teton national park": 3,
+      "health": 3,
+      "wyoming": 3,
+      "blm": 2,
+      "environment": 2,
+      "politics": 2,
+      "triathlons": 2,
+      "biking": 2,
+      "gravel-bikes": 2,
+      "womens-gear": 2,
+      "the-pulse": 2,
+      "astrotourism": 2,
+      "snowboarding": 2,
+      "strength-and-power-training": 2,
+      "supershoe": 2,
+      "climate-change": 2,
+      "conservation": 2,
+      "nepal": 2,
+      "arkansas": 2,
+      "idaho": 2,
+      "kentucky": 2,
+      "nebraska": 2,
+      "new-york": 2,
+      "oregon": 2,
+      "travel": 2,
+      "utah": 2,
+      "vermont": 2,
+      "cycling": 2,
+      "outside-features": 2,
+      "racing": 2,
+      "exploration": 2,
+      "italy": 2,
+      "ai": 1,
+      "fascat-coaching": 1,
+      "winter-training": 1,
+      "new-york-city": 1,
+      "eldora-mountain-resort": 1,
+      "powdr": 1,
+      "sweat science": 1,
+      "noaa": 1,
+      "open snow": 1,
+      "weather forecast": 1,
+      "search and rescue": 1,
+      "survival": 1,
+      "climbing": 1,
+      "gear deals": 1,
+      "backcountry camping": 1,
+      "camping": 1,
+      "car camping": 1
+    },
+    "events_with_tags": 128,
+    "authors": {
+      "Lisa Jhung": 7,
+      "Frederick Dreier": 7,
+      "Jen Murphy": 6,
+      "Betsy Welch": 5,
+      "Korin Miller": 4,
+      "Wes Siler": 4,
+      "Ben Ayers": 4,
+      "Josh Ross": 3,
+      "Emma-Kate Lidbury": 3,
+      "Frederick Reimers": 2,
+      "Matthew Kadey": 2,
+      "Ryleigh Nucilli": 2,
+      "Stephanie Vermillion": 2,
+      "Maureen Gaffney": 2,
+      "Alex Hutchinson": 2,
+      "Corey Buhay": 2,
+      "Andrew Willis": 2,
+      "Ian Dille": 2,
+      "Owen Clarke": 2,
+      "Sierra Vandervort": 1,
+      "John Hanc": 1,
+      "Laura Harold": 1,
+      "Will Tracy": 1,
+      "Cory Smith": 1,
+      "Matt Gross": 1,
+      "Drew Zieff": 1,
+      "Evie Carrick": 1
+    },
+    "content_categories": {
+      "lifestyle": 2,
+      "activity": 172,
+      "signup": 5,
+      "12086": 1,
+      "intro-to-skiing": 14,
+      "outdoor-adventure": 35,
+      "health": 11,
+      "o": 21,
+      "12298": 1,
+      "home": 116,
+      "69385": 2,
+      "Results": 4,
+      "oidc-frontend": 26,
+      "events": 30,
+      "training": 3,
+      "adventure-travel": 12,
+      "road": 2,
+      "category": 3,
+      "68637": 2,
+      "Users": 5,
+      "Confirmation": 1,
+      "profile": 51,
+      "cart": 8,
+      "NewUser": 9,
+      "ParticipantRegistration": 10,
+      "68652": 1,
+      "68220": 1,
+      "68942": 1,
+      "70106": 2,
+      "68826": 1,
+      "68849": 3,
+      "login": 5,
+      "69123": 1,
+      "Events": 8,
+      "69280": 1,
+      "outdoor-gear": 18,
+      "outsideplus": 15,
+      "gravel": 5,
+      "tag": 3,
+      "subscription": 2,
+      "69088": 5,
+      "69561": 2,
+      "Confirmed": 3,
+      "66912": 1,
+      "71035": 2,
+      "67796": 1,
+      "69224": 1,
+      "Contact": 1,
+      "70963": 1,
+      "67779": 1,
+      "practice": 1,
+      "69551": 1,
+      "podcast": 2,
+      "gear": 3,
+      "culture": 6,
+      "70568": 1,
+      "68905": 1,
+      "69244": 1,
+      "68762": 1,
+      "byline": 1,
+      "membership": 7,
+      "map": 1,
+      "homefeed": 6,
+      "series": 6,
+      "collection": 1,
+      "skills": 1,
+      "travel": 1,
+      "news": 2,
+      "page": 2
+    },
+    "subcategories": {
+      "profile/ad0e79ca-146b-455b-b3f4-c96d2ae3b56a": 39,
+      "o/perks": 20,
+      "oidc-frontend/profile": 16,
+      "outdoor-adventure/exploration-survival": 11,
+      "outdoor-adventure/biking": 10,
+      "adventure-travel/destinations": 8,
+      "activity/3b726100-ee2f-11ef-8080-8000727b6a9f": 8,
+      "health/nutrition": 7,
+      "oidc-frontend/settings": 7,
+      "activity/98d23680-e7cd-11ef-8080-800149f72f0a": 6,
+      "activity/6adf4c80-002e-11f0-8080-800121c597dc": 6,
+      "activity/5fab9400-05cd-11f0-8080-80007b29985a": 6,
+      "outdoor-adventure/everest": 6,
+      "Users/Participant": 5,
+      "gravel/2025-gravel-racing-calendar": 5,
+      "culture/books-media": 5,
+      "activity/77d5fb00-e765-11ef-8080-800021c337e6": 4,
+      "adventure-travel/advice": 4,
+      "activity/77625d00-fd2f-11ef-8080-80006eb553f5": 4,
+      "activity/300ed480-fec7-11ef-8080-80005d7ac9cd": 4,
+      "activity/6aa03780-080c-11f0-8080-80003c025e19": 4,
+      "activity/74ada600-0c11-11f0-8080-800061ef62aa": 4,
+      "activity/3a491700-2c5b-11f0-8080-80014280f773": 4,
+      "NewUser/NewMemberAccount": 4,
+      "activity/76e0b980-31eb-11f0-8080-80014a712283": 4,
+      "activity/826bc380-279b-11f0-8080-800169026f94": 4,
+      "activity/4c25b380-3678-11f0-8080-80004d6be351": 4,
+      "series/dispatches": 4,
+      "Results/default.aspx": 3,
+      "training/workouts": 3,
+      "oidc-frontend/search": 3,
+      "outdoor-gear/gear-news": 3,
+      "ParticipantRegistration/69088": 3,
+      "activity/70cd9880-cfbf-11ef-8080-800147c897a2": 2,
+      "activity/f997d000-d81a-11ef-8080-80003129dcb5": 2,
+      "activity/25ea8c80-dc1f-11ef-8080-8001548c3c20": 2,
+      "outdoor-adventure/environment": 2,
+      "activity/17f17180-de94-11ef-8080-80011d6be2c6": 2,
+      "activity/6c722980-e019-11ef-8080-800138efea38": 2,
+      "activity/b0c17480-e599-11ef-8080-80001f070fe8": 2,
+      "road/road-gear": 2,
+      "activity/93ed2400-ed85-11ef-8080-800013743e09": 2,
+      "activity/67c7e200-efd5-11ef-8080-80006b03dacb": 2,
+      "activity/a8f6be00-ef11-11ef-8080-80006060c133": 2,
+      "activity/a47de400-efa9-11ef-8080-80012a1ea7e6": 2,
+      "activity/797a2e00-f56f-11ef-8080-80016411592c": 2,
+      "activity/5e12a400-fad6-11ef-8080-80002ac2366b": 2,
+      "category/news": 2,
+      "activity/0de01580-fac7-11ef-8080-8001452ff529": 2,
+      "activity/4a903780-fbc1-11ef-8080-80010c0dc806": 2,
+      "health/training-performance": 2,
+      "activity/3b87c180-fd48-11ef-8080-800151f66793": 2,
+      "activity/b0243400-fe0c-11ef-8080-80002a3e892c": 2,
+      "activity/b483d200-fa45-11ef-8080-80003829a062": 2,
+      "NewUser/NewDirector": 2,
+      "activity/412ce800-fdd8-11ef-8080-800115c8f81e": 2,
+      "activity/28361f80-fd63-11ef-8080-800121720452": 2,
+      "activity/5a2d9d00-fdc8-11ef-8080-80011507dd3d": 2,
+      "activity/7b0ee600-fdfa-11ef-8080-800120491ec9": 2,
+      "activity/ad450f80-0739-11f0-8080-800153ad27aa": 2,
+      "ParticipantRegistration/68849": 2,
+      "activity/0e314080-13e6-11f0-8080-80000925b1f1": 2,
+      "activity/68871000-0c34-11f0-8080-800074c60403": 2,
+      "activity/75e68c00-13e4-11f0-8080-80007476a864": 2,
+      "activity/6d66ca80-17c3-11f0-8080-80005e22195b": 2,
+      "profile/47e23a3b-854d-4065-ae4d-f0697878a80d": 2,
+      "activity/d142d800-0e40-11f0-8080-800060db8d11": 2,
+      "activity/222c7080-13ed-11f0-8080-8000787f56f0": 2,
+      "activity/2cdb0b80-13d5-11f0-8080-80003eda699b": 2,
+      "activity/5a0f7400-1acf-11f0-8080-8001263be417": 2,
+      "activity/04ddfd00-2176-11f0-8080-800027fd442a": 2,
+      "activity/20b73f80-1c5a-11f0-8080-800033c27c28": 2,
+      "activity/c172c280-231e-11f0-8080-8001361daf7a": 2,
+      "activity/85874c80-2447-11f0-8080-800063405658": 2,
+      "activity/ff29b800-29bc-11f0-8080-8000043bfef5": 2,
+      "activity/6a8b3b00-31b0-11f0-8080-80005d6333db": 2,
+      "activity/b3f1fc80-2c7d-11f0-8080-8001699c6a13": 2,
+      "activity/896fbd00-304a-11f0-8080-80001db6c260": 2,
+      "activity/9fb8c580-34ef-11f0-8080-80011f66242d": 2,
+      "activity/d0146880-35b0-11f0-8080-800046c49e7e": 2,
+      "profile/44863afc-3bcb-498a-8e5a-de209dda5b97": 2,
+      "activity/bf2f2a00-3678-11f0-8080-8000122249e0": 2,
+      "activity/2482a700-31b1-11f0-8080-800131fb2d7a": 2,
+      "activity/a8a25200-31e4-11f0-8080-800113e77694": 2,
+      "activity/97ce2800-3400-11f0-8080-800000e8f4b1": 2,
+      "activity/078ed500-3365-11f0-8080-80012980b373": 2,
+      "activity/5cce6200-2e0c-11f0-8080-8001528a345f": 2,
+      "activity/333ab980-3450-11f0-8080-800156309fd0": 2,
+      "profile/80d22751-b540-47fa-95f1-f83d20365ae4": 2,
+      "activity/055c0300-3a56-11f0-8080-80010cccd44f": 2,
+      "series/the-road-less-eaten": 2,
+      "activity/04d24c00-7890-11f0-8080-80006d259a7c": 2,
+      "page/2": 2,
+      "lifestyle/travel": 1,
+      "ParticipantRegistration/68637": 1,
+      "Results/rr": 1,
+      "ParticipantRegistration/68942": 1,
+      "ParticipantRegistration/70106": 1,
+      "tag/velo-buyers-guide": 1,
+      "ParticipantRegistration/66912": 1
+    },
+    "website_domains": {
+      "yogajournal.com": 6,
+      "outsideonline.com": 943,
+      "login-staging.outsideonline.com": 9,
+      "runreg.com": 3,
+      "learn.outsideonline.com": 14,
+      "bikereg.com": 145,
+      "accounts.outsideonline.com": 31,
+      "triathlete.com": 5,
+      "velo.outsideonline.com": 26,
+      "trailforks.com": 2,
+      "staging.outsideonline.com": 3,
+      "watch.outsideonline.com": 56,
+      "beta.gravel-results.com": 53,
+      "backpacker.com": 14,
+      "skimag.com": 10,
+      "run.outsideonline.com": 13,
+      "climbing.com": 17,
+      "cleaneatingmag.com": 24
+    },
+    "referrer_domains": {
+      "outsideonline.com": 134,
+      "bikereg.com": 108,
+      "google.com": 24,
+      "accounts.outsideonline.com": 16,
+      "learn.outsideonline.com": 12,
+      "gravelresults-dev.vercel.app": 8,
+      "beta.gravel-results.com": 8,
+      "velo.outsideonline.com": 6,
+      "climbing.com": 4,
+      "athletereg.com": 3,
+      "triathlete.com": 3,
+      "buy.tinypass.com": 3,
+      "backpacker.com": 3,
+      "outsideinc.com": 3,
+      "finisherpix.com": 2,
+      "cleaneatingmag.com": 2,
+      "millenniumrunning.com": 1,
+      "trailforks.com": 1,
+      "login-staging.outsideonline.com": 1,
+      "pinkbike.com": 1
+    },
+    "email_traffic_count": 129,
+    "temporal": {
+      "first_event": "2025-01-20 18:31:06.440000+00:00",
+      "last_event": "2025-08-29 17:02:22.370000+00:00",
+      "total_days": 220,
+      "events_last_7_days": 24,
+      "events_last_30_days": 320,
+      "avg_events_per_day": 6.322727272727272,
+      "by_hour": {
+        "18": 134,
+        "15": 172,
+        "23": 56,
+        "16": 93,
+        "21": 287,
+        "2": 14,
+        "22": 165,
+        "0": 34,
+        "13": 25,
+        "19": 75,
+        "20": 194,
+        "17": 92,
+        "1": 2,
+        "14": 44,
+        "12": 4
+      },
+      "by_day_of_week": {
+        "Monday": 256,
+        "Tuesday": 341,
+        "Thursday": 283,
+        "Wednesday": 150,
+        "Friday": 284,
+        "Saturday": 41,
+        "Sunday": 36
+      },
+      "by_month": {
+        "2025-01": 32,
+        "2025-02": 82,
+        "2025-03": 152,
+        "2025-04": 104,
+        "2025-05": 246,
+        "2025-06": 357,
+        "2025-07": 98,
+        "2025-08": 320
+      }
+    },
+    "article_engagement": {
+      "unique_articles": 270,
+      "single_read": 126,
+      "multi_read": 144,
+      "most_revisited": [
+        [
+          "Outside Magazine",
+          62
+        ],
+        [
+          "gravel-results.com - we wrangle data so you don't have to",
+          35
+        ],
+        [
+          "Claudette Stevenson - Outside",
+          28
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          27
+        ],
+        [
+          "Outside Online",
+          21
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          14
+        ],
+        [
+          "Outside Magazine",
+          13
+        ],
+        [
+          "Outside Plus Main Subscription - Outside Online",
+          12
+        ],
+        [
+          "The Best Outdoor Gear: Reviews & Guides by Outside Magazine",
+          12
+        ],
+        [
+          "Intro to Skiing | Outside Learn",
+          10
+        ],
+        [
+          "Claudette Stevenson - Taking a simple moment to realize the beauty of nature. | Outside Magazine",
+          8
+        ],
+        [
+          "Outside Profile",
+          8
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          8
+        ],
+        [
+          "Outside Magazine",
+          8
+        ],
+        [
+          "Rachel Risk - \ud83d\udcaa\ud83c\udffc \ud83c\udfc3\ud83c\udffb\u200d\u2640\ufe0f | Outside Magazine",
+          6
+        ],
+        [
+          "Claudette Stevenson - Wow\u2026 had the most incredible moment\u2014spotted a beautiful owl right here in the neighborhood! It was so quiet, so majestic, just staring at me like it knew something I didn\u2019t. Absolutely in awe. | Outside Magazine",
+          6
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          5
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          5
+        ],
+        [
+          "Velo\u2019s 2025 Gravel Race Calendar - The Ultimate Guide to Gravel",
+          5
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          5
+        ],
+        [
+          "Medtronic's Longmont Masters State Championships Criterium presented by The Meteor Online Registration",
+          5
+        ],
+        [
+          "Adventure - Outdoor News, Science, Politics - Outside Online",
+          5
+        ],
+        [
+          "Intro to Skiing | Outside Learn",
+          4
+        ],
+        [
+          "When Is the Best Time to Eat Breakfast?",
+          4
+        ],
+        [
+          "Heather Dietrick - Photo shoot! Shuffled out to the deep untouched snow in the center of Dog Lake, which we had all to ourselves as we skate skied around the perfect corduroy laid inside the outer edge. At moments like these I love how few ppl are in this corner of Montana \u2764\ufe0f. | Outside Magazine",
+          4
+        ],
+        [
+          "This Costa Rican Treehouse Hotel Elevated My Jungle-Adventure Expectations",
+          4
+        ],
+        [
+          "Why Do So Many People Get Into Trouble While Hiking in Hawaii?",
+          4
+        ],
+        [
+          "Claudette Stevenson - For my #getoutsideday I spent the day skiing with my favorite girl! Thanks, Outside. We had such a good day in the sunshine and snow! | Outside Magazine",
+          4
+        ],
+        [
+          "BikeReg.com - online cycling event registration",
+          4
+        ],
+        [
+          "Lauren Bertolini - Best part of later sunset is spending post-daycare evenings outside working the computer and the dirt. | Outside Magazine",
+          4
+        ]
+      ],
+      "content_types": {
+        "how_to": 9,
+        "best_lists": 30,
+        "reviews": 15,
+        "guides": 19
+      }
+    },
+    "ecosystem": {
+      "trailforks": {
+        "web": 2,
+        "app": 11,
+        "ridelogs": 0,
+        "map_views": 1,
+        "photos": 0,
+        "unique_rides": 0
+      },
+      "gaia_gps": {
+        "events": 2
+      },
+      "outside_app": {
+        "events": 0
+      },
+      "outside_watch": {
+        "events": 51
+      },
+      "editorial": {
+        "events": 926,
+        "articles": 483
+      },
+      "devices": {
+        "events": 0
+      },
+      "monthly_app_usage": {
+        "2025-02": {
+          "gaia_gps": 2
+        },
+        "2025-03": {
+          "trailforks_web": 2
+        },
+        "2025-04": {
+          "outside_watch": 1
+        },
+        "2025-06": {
+          "trailforks_app": 11,
+          "outside_watch": 36
+        },
+        "2025-08": {
+          "outside_watch": 14
+        }
+      }
+    },
+    "engagement_metrics": {
+      "total_events": 1391,
+      "total_days_tracked": 220,
+      "events_per_day": 6.322727272727272,
+      "unique_publications": 22,
+      "unique_tags_encountered": 97,
+      "unique_authors_read": 27,
+      "unique_articles": 270
+    }
+  },
+  "llm_insights": {
+    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nHello Claudette! We're thrilled to celebrate your incredible engagement with Outside's community over the past eight months. As one of our most dedicated members, you've logged nearly 1,400 interactions across our properties\u2014averaging over 6 visits per day. Your passion for outdoor adventure, endurance sports, and community is exactly what makes Outside thrive.\n\n---\n\n## Claudette's 2025 Outside Journey\n\nYour year with us tells the story of a multi-sport athlete and adventure enthusiast who's deeply invested in both personal performance and the broader outdoor community. Starting in late January, you arrived with curiosity about wellness and travel\u2014exploring treehouse retreats in Costa Rica and the best wellness destinations worldwide. But it quickly became clear that you're someone who doesn't just *read about* adventure; you *live it*.\n\nAs winter turned to spring, your engagement accelerated dramatically. March marked a turning point, with 152 events as you dove deeper into training content, race registration, and community activity feeds. This is when your patterns really emerged: you weren't just consuming content passively. You were sharing your own adventures\u2014that beautiful day skiing with your favorite girl on #GetOutsideDay, capturing moments of natural beauty, and connecting with others doing the same. Your activity feed posts became windows into your world: sunrise moments, winter milestones, and the quiet joy of getting outside.\n\nMay and June became your peak months, with 246 and 357 events respectively. This surge coincided with what appears to be race season preparation and peak engagement with the cycling community. You explored gravel bike content with particular intensity\u2014reading \"Gravel Brands Are Failing Women Riders,\" diving into field tests for brands like Devinci, Lauf, and Specialized, and registering for events like The Ice Weasels Cometh. You were also consuming training wisdom voraciously: articles on physiological resilience, pre-race workouts from pros, and nutrition guidance for endurance athletes.\n\nThroughout this journey, certain themes stayed constant: your deep love for skiing and winter sports, your commitment to endurance training across multiple disciplines, and your genuine investment in the outdoor community. Whether you were reading Lisa Jhung and Frederick Dreier on running and cycling, exploring Jen Murphy's wellness insights, or following the inspiring activity posts of fellow adventurers like Heather Dietrick and Rachel Risk, you were building a comprehensive picture of how to live an active, purposeful outdoor life.\n\n---\n\n## Your Passions\n\n\u2022 **Endurance Sports & Racing** \u2014 With 145 interactions on BikeReg and multiple race registrations (Ice Weasels, Golden Nugget Criterium, Sunflower Relay), you're clearly an active competitor. Your reading spans training methodologies, nutrition for athletes, and gear reviews across cycling and running disciplines.\n\n\u2022 **Gravel Cycling** \u2014 This emerged as a particular focus, with 5 dedicated gravel-related articles and deep dives into brand comparisons and field tests for gravel-specific equipment (Devinci, Lauf, Specialized, Stinner). You care about inclusivity in the sport, evidenced by your engagement with \"Gravel Brands Are Failing Women Riders.\"\n\n\u2022 **Winter Sports & Skiing** \u2014 Your activity posts celebrate winter milestones and snowy adventures. You completed the Intro to Skiing course and consistently engage with winter-specific content, from skate skiing stories to winter training strategies.\n\n\u2022 **Nutrition & Performance Optimization** \u2014 With 13 food-related articles and 9 nutrition pieces consumed, you're methodical about fueling your athletic pursuits. You've read everything from \"The Healthiest Costco Foods for Athletes\" to \"When Is the Best Time to Eat Breakfast?\"\u2014evidence of someone who understands that performance starts in the kitchen.\n\n\u2022 **Adventure Travel & Exploration** \u2014 Your curiosity extends beyond your backyard. Costa Rican treehouses, Hawaii hiking safety, astronomy events, and wellness retreats all captured your attention. You're inspired by adventure but thoughtful about doing it responsibly.\n\n\u2022 **Community & Storytelling** \u2014 Your engagement with activity feeds (116 home page visits) and your own posts reveal someone who values connection. You follow athletes like Heather Dietrick and Rachel Risk, celebrate others' moments, and share your own\u2014creating a tapestry of shared outdoor experience.\n\n---\n\n## Your Reading Habits\n\nYour reading patterns reveal someone with deliberate, purposeful engagement. You're most active in the evening hours\u2014with peak activity at 9 PM (287 events), followed by 8 PM (194 events) and 10 PM (165 events). This suggests you're using Outside content to wind down, plan, and inspire before bed or during evening downtime. You're also a weekday reader, with Tuesday (341 events), Friday (284 events), and Thursday (283 events) dominating your engagement\u2014likely fitting content consumption around work and training schedules. Weekends see a dramatic drop, suggesting you're actually *outside* rather than reading about it.\n\nYour favorite authors tell a story of balanced interests. **Lisa Jhung** and **Frederick Dreier** (7 articles each) are your go-to voices\u2014Jhung on running and wellness, Dreier on cycling culture and gear. **Jen Murphy** (6 articles) appears frequently, likely for her health and lifestyle expertise. You also regularly read **Betsy Welch** (5 articles), **Wes Siler** (4 articles), and **Ben Ayers** (4 articles), creating a trusted circle of voices across training, performance, and adventure.\n\nWhat's striking is your breadth: you engage with 27 unique authors and 270 distinct articles across 97 different tags. You're not a one-topic reader. You move fluidly from \"Embracing the Robot Overlords: My Experience with an AI Coach\" (VeloNews) to \"This Costa Rican Treehouse Hotel Elevated My Jungle-Adventure Expectations\" to deep dives on search-and-rescue in Hawaii. Your reading is omnivorous but purposeful\u2014every article seems to serve either your athletic development, your adventure planning, or your connection to the outdoor community.",
+    "recent_spotlight": "**Your Summer Adventure Gear Quest**\n\nYou've been gearing up for the great outdoors this week, hunting for both inspiration and deals as the season shifts. Your recent browsing shows you're serious about upgrading your camping setup with smart investments and discovering what gear truly matters.\n\nHere's what's caught your eye: \"This One Piece of Gear Changed Camping Forever\" has you thinking about what essentials could transform your next trip, while \"REI's Labor Day Sale Is Loaded with End of Season Steals\" has you scoping out those perfect end-of-summer bargains. You've also been exploring content from outdoor expert Jade Curtis and diving deeper into Outside Online's camping and gear coverage\u2014clearly weighing your options before making your next adventure purchase.",
+    "seasonal_patterns": [
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "skiing",
+          "ice skating",
+          "winter hiking"
+        ],
+        "insight": "Winter focus on skiing and cold-weather outdoor activities."
+      },
+      {
+        "season": "Spring",
+        "emoji": "\ud83c\udf38",
+        "activities": [
+          "trail running",
+          "mountain biking",
+          "outdoor travel planning"
+        ],
+        "insight": "Spring shows growing interest in trail running and mountain biking."
+      },
+      {
+        "season": "Summer",
+        "emoji": "\u2600\ufe0f",
+        "activities": [
+          "endurance training",
+          "race registrations",
+          "outdoor adventures"
+        ],
+        "insight": "Summer centers on endurance training and race registrations."
+      }
+    ],
+    "emerging_interests": [
+      {
+        "topic": "astronomy-events",
+        "evidence": "Article highlighting astronomy events this year; related astrotourism content appears in data."
+      },
+      {
+        "topic": "ai-coaching",
+        "evidence": "VeloNews article about experience with an AI coach; AI tagging appears in data."
+      },
+      {
+        "topic": "costa-rica-treehouse",
+        "evidence": "Costa Rica treehouse hotel article indicates rising interest in adventure travel."
+      }
+    ],
+    "core_interests": [
+      {
+        "topic": "Running",
+        "strength": "Very Strong",
+        "evidence": "Top tag 'running' with count 30 and multiple running-related events/articles."
+      },
+      {
+        "topic": "Outdoor Adventure",
+        "strength": "Very Strong",
+        "evidence": "Content category 'outdoor-adventure' (35) with related travel/adventure content."
+      },
+      {
+        "topic": "Nutrition",
+        "strength": "Strong",
+        "evidence": "Top tag 'nutrition' (9) and nutrition-focused articles."
+      },
+      {
+        "topic": "Gravel",
+        "strength": "Strong",
+        "evidence": "Top tag 'gravel' (5) and related biking content."
+      }
+    ],
+    "casual_interests": [
+      {
+        "topic": "film",
+        "note": "Occasional engagement with film-related content."
+      },
+      {
+        "topic": "gaia-gps",
+        "note": "Interest in navigation/tracking for trips; lighter engagement."
+      },
+      {
+        "topic": "food",
+        "note": "Light interest in athlete nutrition foods."
+      },
+      {
+        "topic": "friday-fantasy",
+        "note": "Occasional engagement with Friday Fantasy content."
+      }
+    ]
+  },
+  "recent_activity": {
+    "latest_reads": [
+      {
+        "title": "This One Piece of Gear Changed Camping Forever",
+        "url": "https://www.outsideonline.com/outdoor-gear/camping/luxury-sleeping-pad-accessories/",
+        "date": "Aug 29"
+      },
+      {
+        "title": "REI's Labor Day Sale Is Loaded with End of Season Steal",
+        "url": "https://www.outsideonline.com/outdoor-gear/gear-news/rei-labor-day-sale-2025/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsenc=p2ANqtz-9jOasMqWLkk9lBLE87dk8yygeWieOQaMZzIesqcqup9ir6dd-TziJyNC_JA7goQyyTDQK1iNk4P86hHHIOc_Tuy5zWysbzp7ZV2U2ZYjY7pP0me4s&_hsmi=378155489&utm_source=newsletter",
+        "date": "Aug 29"
+      }
+    ],
+    "latest_watches": []
+  },
+  "generated_at": "2026-01-20T18:03:17.878888Z"
+}

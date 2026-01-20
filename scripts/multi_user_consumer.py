@@ -85,7 +85,7 @@ def slugify(name):
     return slug or 'unknown'
 
 
-def fetch_multi_user_events(topic=None, output_dir='events', batch_size=1000):
+def fetch_multi_user_events(topic=None, output_dir='events', batch_size=1000, only_users=None):
     """
     Fetch events from multi-user topic and split by user_id.
 
@@ -93,6 +93,7 @@ def fetch_multi_user_events(topic=None, output_dir='events', batch_size=1000):
         topic: Kafka topic name (defaults to power_user_events)
         output_dir: Directory to save per-user event files
         batch_size: Progress update frequency
+        only_users: Optional set of slugs to process (others are skipped)
 
     Returns:
         Dict mapping user_id -> {username, slug, event_count, events}
@@ -200,12 +201,19 @@ def fetch_multi_user_events(topic=None, output_dir='events', batch_size=1000):
 
     # Process and save per-user files
     print(f"\nSaving per-user event files to {output_dir}/...")
+    if only_users:
+        print(f"  Filtering to only: {', '.join(only_users)}")
 
     user_summary = []
     for user_id, data in users_data.items():
         username = data['username']
         events = data['events']
         slug = slugify(username)
+
+        # Skip users not in the filter list (if filter is specified)
+        if only_users and slug not in only_users:
+            print(f"  {username} ({slug}): {len(events):,} events -> SKIPPED (not in --users filter)")
+            continue
 
         # Handle duplicate slugs by appending user_id suffix
         output_file = os.path.join(output_dir, f'{slug}_events.json')
@@ -305,6 +313,8 @@ def main():
                         help='Just show topic info without consuming')
     parser.add_argument('--no-registry-update', action='store_true',
                         help='Skip updating data/users.json')
+    parser.add_argument('--users', '-u', type=str, default=None,
+                        help='Comma-separated list of user slugs to process (others skipped). E.g., --users colin,claus,claudette')
     args = parser.parse_args()
 
     print("=" * 60)
@@ -323,10 +333,17 @@ def main():
             consumer.close()
         return
 
+    # Parse user filter if provided
+    only_users = None
+    if args.users:
+        only_users = set(s.strip().lower() for s in args.users.split(','))
+        print(f"User filter: {', '.join(sorted(only_users))}")
+
     # Full export
     user_summary = fetch_multi_user_events(
         topic=args.topic,
-        output_dir=args.output_dir
+        output_dir=args.output_dir,
+        only_users=only_users
     )
 
     if user_summary and not args.no_registry_update:
