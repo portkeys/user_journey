@@ -5,28 +5,30 @@
     "timezone_offset": -7,
     "timezone_name": "Mountain Time",
     "location": "Colorado",
-    "avatar_emoji": "\ud83c\udfd4\ufe0f"
+    "avatar_emoji": "\ud83c\udfd4\ufe0f",
+    "suggested_emoji": "\ud83d\udeb4",
+    "emoji_reason": "Based on top activity: tour-de-france"
   },
   "summary": {
     "publications": {
-      "Backpacker": 80,
-      "outside-online": 8767,
-      "Run": 160,
-      "Trailforks App": 1264,
-      "Trailforks": 2010,
-      "VeloNews": 3847,
-      "unknown": 4152,
-      "accounts": 222,
-      "Devices": 35,
+      "unknown": 4226,
+      "outside-online": 8747,
+      "Trailforks App": 1273,
+      "Trailforks": 2179,
+      "accounts": 213,
       "Outside Watch": 78,
       "Pinkbike": 5,
+      "VeloNews": 3843,
       "gaiagps": 151,
-      "yogajournal": 112,
+      "yogajournal": 114,
+      "Devices": 31,
       "Triathlete": 45,
       "ski": 94,
+      "Backpacker": 79,
+      "Run": 156,
       "bikereg": 2,
       "Outside App": 42,
-      "www.outsideonline.com": 65,
+      "www.outsideonline.com": 67,
       "oxygen": 10,
       "watch.outsideonline.com": 4,
       "velo.outsideonline.com": 2,
@@ -40,7 +42,7 @@
       "tour-de-france": 200,
       "tadej-pogacar": 178,
       "jonas-vingegaard": 143,
-      "evergreen": 141,
+      "evergreen": 142,
       "outside-features": 106,
       "public-lands": 65,
       "national-parks": 59,
@@ -55,8 +57,8 @@
       "mathieu-van-der-poel": 40,
       "simon-yates": 37,
       "training": 37,
+      "american racing": 36,
       "ai": 35,
-      "american racing": 35,
       "fascat-coaching": 34,
       "winter-training": 34,
       "matteo-jorgenson": 33,
@@ -67,8 +69,8 @@
       "commerce": 29,
       "politics": 28,
       "tim-merlier": 28,
+      "uci": 27,
       "isaac-del-toro": 27,
-      "uci": 26,
       "kate-courtney": 24,
       "keegan-swenson": 24,
       "leadville-100-mtb": 24,
@@ -81,10 +83,10 @@
       "uae-team-emirates": 20,
       "womens-cycling": 20,
       "joao-almeida": 20,
+      "tour de france": 20,
       "jo\u00e3o almeida": 20,
       "lauren-stephens": 19,
       "melisa-rollins": 19,
-      "tour de france": 19,
       "tadej poga\u010dar": 19,
       "vuelta-a-espana": 18,
       "primoz-roglic": 17,
@@ -93,16 +95,16 @@
       "travel": 17,
       "analysis": 17,
       "bobby-julich": 17,
+      "colorado": 17,
       "sar": 17,
       "nutrition": 16,
       "adventure-travel": 16,
-      "colorado": 16,
+      "native": 16,
       "juan-ayuso": 15,
       "campagnolo": 15,
       "shimano": 15,
       "velo-podcast": 15,
       "athletes": 14,
-      "native": 14,
       "tour-de-france-femmes": 14,
       "visma-lease a bike": 14,
       "uae emirates": 14,
@@ -114,6 +116,7 @@
       "florian-lipowitz": 13,
       "matthew riccitello": 13,
       "mount-everest": 12,
+      "news": 12,
       "tour-de-hoody": 12,
       "gear": 12,
       "richard-carapaz": 12,
@@ -121,7 +124,7 @@
       "sepp kuss": 12,
       "science": 11,
       "paris-roubaix": 11,
-      "news": 11,
+      "explicit": 11,
       "this-week-in-tech": 11,
       "mexico": 11,
       "power-analysis": 11,
@@ -133,8 +136,8 @@
       "mont-ventoux": 11,
       "jos-van-emden": 11,
       "stephen-delcourt": 11,
+      "uci worldtour": 11,
       "wellness": 10,
-      "explicit": 10,
       "iceland": 10,
       "italy": 10,
       "american-racing": 10,
@@ -146,7 +149,6 @@
       "trek": 10,
       "alex carera": 10,
       "grand prix cycliste  de qu\u00e9bec": 10,
-      "uci worldtour": 10,
       "specialized": 9,
       "climbing": 9,
       "tour-of-flanders": 9,
@@ -180,7 +182,6 @@
       "open-snow": 7,
       "results": 7,
       "women's cycling": 7,
-      "criterium-racing": 6,
       "outside-love": 6,
       "health-and-beauty": 6,
       "running": 6,
@@ -209,6 +210,7 @@
       "copper mountain": 6,
       "ruth edwards": 6,
       "zoe backstedt": 6,
+      "skiing": 6,
       "environment": 5,
       "ben-oconnor": 5,
       "uci-road-world-championships": 5,
@@ -225,6 +227,7 @@
       "jay-vine": 5,
       "luke-plapp": 5,
       "the-outside-festival": 5,
+      "criterium-racing": 5,
       "tulsa-tough": 5,
       "michael-woods": 5,
       "search and rescue": 5,
@@ -235,27 +238,26 @@
       "tour-de-romandie-feminin": 5,
       "velon": 5,
       "festivals": 5,
-      "mads pedersen": 5,
-      "quinn simmons": 5
+      "mads pedersen": 5
     },
-    "events_with_tags": 1033,
+    "events_with_tags": 1030,
     "authors": {
       "Jim Cotton": 61,
       "Andrew Hood": 53,
       "Shane Stokes": 36,
       "Frederick Dreier": 19,
-      "Will Tracy": 15,
-      "Bobby Julich": 12,
+      "Will Tracy": 13,
       "Alex Hutchinson": 10,
       "Corey Buhay": 10,
       "Jen Murphy": 10,
-      "Adam Roy": 8,
-      "Alvin Holbrook": 8,
       "Blair Braverman": 8,
       "Josh Ross": 8,
       "Amelia Arvesen": 8,
       "Grayson Haver Currin": 8,
+      "Bobby Julich": 8,
+      "Adam Roy": 7,
       "Jayme Moye": 7,
+      "Alvin Holbrook": 7,
       "Abby Levene": 7,
       "Mary Beth \u201cMouse\u201d Skylis": 6,
       "Logan Jones-Wilkins": 6,
@@ -263,7 +265,6 @@
       "Marc Peruzzi": 6,
       "Jamie Aranoff": 5,
       "The Editors": 5,
-      "Brian Metzler": 4,
       "Zach Nehr": 4,
       "Kevin Chroust": 4,
       "Teaghan Skulszki": 4,
@@ -301,7 +302,6 @@
       "Madison Dapcevich": 2,
       "Will Porter": 2,
       "Cory Smith": 2,
-      "Betsy Welch": 1,
       "seb-stott": 1,
       "Calin Van Paris": 1,
       "stephanepelletier": 1,
@@ -341,43 +341,41 @@
       "Ashia Aubourg": 1
     },
     "content_categories": {
-      "skills": 3,
-      "home": 902,
-      "adventure-travel": 35,
-      "general": 6,
-      "appfeed": 230,
-      "profile": 740,
-      "news": 37,
-      "notifications": 41,
-      "map": 204,
-      "road": 258,
-      "oidc-frontend": 220,
-      "byline": 29,
-      "activity": 145,
-      "connect": 16,
-      "manage": 2,
+      "map": 202,
+      "activity": 142,
       "culture": 74,
+      "appfeed": 226,
+      "profile": 702,
+      "oidc-frontend": 211,
+      "home": 876,
       "health": 29,
       "ridelogs": 36,
       "live-events": 4,
+      "notifications": 40,
       "login": 5,
-      "outdoor-adventure": 122,
+      "outdoor-adventure": 123,
+      "news": 37,
       "route": 2,
+      "road": 253,
+      "connect": 15,
       "meditation": 1,
       "report": 5,
       "o": 10,
       "blogs": 3,
       "pro": 6,
       "all": 3,
-      "lifestyle": 9,
+      "lifestyle": 10,
       "ridelog": 40,
       "summits": 1,
       "stories": 4,
       "gear": 11,
+      "adventure-travel": 29,
+      "general": 2,
       "survival": 1,
       "news-and-events": 9,
       "tag": 61,
       "gravel": 11,
+      "byline": 27,
       "badge": 1,
       "error": 7,
       "outdoor-gear": 20,
@@ -393,10 +391,10 @@
       "blog": 2,
       "Users": 1,
       "68979": 1,
-      "homefeed": 275,
+      "homefeed": 282,
       "teach": 2,
       "urban": 4,
-      "membership": 1,
+      "membership": 2,
       "training": 7,
       "tour-de-france": 2,
       "texas-state-of-mind": 1,
@@ -410,6 +408,7 @@
       "trail": 1,
       "contribute": 2,
       "llms.txt": 1,
+      "manage": 1,
       "settings": 1,
       "practice": 1,
       "500": 1,
@@ -422,6 +421,7 @@
       "athletes": 2,
       "emergency": 1,
       "people": 1,
+      "skills": 2,
       "ebike": 3,
       "archive": 1,
       "games": 1,
@@ -433,10 +433,10 @@
       "categories": 1
     },
     "subcategories": {
-      "road/road-racing": 216,
-      "oidc-frontend/profile": 191,
-      "profile/f03f8762-bd4b-42dc-a989-800836b1bd7e": 101,
-      "profile/tourmalet1": 72,
+      "road/road-racing": 215,
+      "oidc-frontend/profile": 190,
+      "profile/f03f8762-bd4b-42dc-a989-800836b1bd7e": 103,
+      "profile/tourmalet1": 71,
       "tag/outside-features": 46,
       "category/road": 41,
       "profile/a257e3d8-c9ea-41ea-96f7-7ee6be19b8b2": 34,
@@ -445,18 +445,16 @@
       "outdoor-adventure/exploration-survival": 25,
       "outdoor-adventure/environment": 24,
       "outdoor-adventure/hiking-and-backpacking": 23,
-      "road/road-gear": 22,
-      "oidc-frontend/search": 21,
-      "profile/4a529183-0347-4626-b107-c6972213f1c6": 20,
+      "road/road-gear": 20,
       "ridelog/:id": 19,
       "health/training-performance": 17,
       "ridelog/view": 17,
       "byline/grayson-schaffer": 16,
+      "oidc-frontend/search": 15,
       "profile/f04b3f27-ce4e-45f2-a9c1-08117865d846": 15,
       "culture/opinion": 15,
       "profile/406adfdd-59cd-4bc5-a3fa-1909f9230366": 14,
       "outdoor-adventure/everest": 13,
-      "profile/14a6e9f0-6fa0-4e7e-b761-ad949cc1884f": 12,
       "adventure-travel/destinations": 12,
       "culture/books-media": 12,
       "tag/politics": 12,
@@ -466,7 +464,7 @@
       "profile/0cd11ac5-357f-4df2-8e4e-e29f463b4f06": 10,
       "culture/essays-culture": 10,
       "series/dispatches": 9,
-      "oidc-frontend/newsletter-center": 8,
+      "road/road-training": 8,
       "profile/ef12e37e-a57b-43d9-adee-86cda416b955": 8,
       "health/wellness": 8,
       "profile/60bc6d7d-b266-4593-9dae-f96021c522dd": 8,
@@ -485,14 +483,14 @@
       "adventure-travel/national-parks": 7,
       "outdoor-adventure/biking": 7,
       "region/boulder-valley-ranch--boulder-reservoir": 7,
-      "profile/6a4533b2-4f62-4568-9cc1-d61d1aafe57c": 6,
+      "oidc-frontend/newsletter-center": 6,
       "profile/c0418ac3-7f80-4701-85c1-3a61f93e13ec": 6,
-      "road/road-training": 6,
       "map/trail": 6,
       "profile/4a70a0b7-a800-4f7c-a36b-bb18786542d4": 6,
       "activity/4bcd7800-11f2-11f0-8080-80017860d166": 6,
       "profile/96bab5dd-9c4d-4294-8976-0d5435098c34": 6,
       "profile/a2c1a5d8-a5e6-48c4-8e79-61f512f2d3d9": 6,
+      "outdoor-adventure/snow-sports": 6,
       "culture/news": 5,
       "report/nearby": 5,
       "adventure-travel/advice": 5,
@@ -500,18 +498,13 @@
       "activity/13b43c80-465c-11f0-8080-80010aa98cea": 5,
       "profile/055b5b09-f7c6-4c6e-b818-0ffa5d70fc9a": 5,
       "map/legend": 5,
-      "outdoor-adventure/snow-sports": 5,
-      "general/10-reasons-to-be-excited-about-running-in-2025": 4,
-      "road/the-off-season-woes-are-almost-over": 4,
-      "profile/1439a959-fc54-4fd7-bdc5-8b68a009bca4": 4,
-      "profile/eecf39ee-dbf0-4544-a57b-fd8d9187233f": 4,
-      "activity/56e30700-d525-11ef-8080-80015da266d2": 4,
       "health/nutrition": 4,
       "profile/1273e21e-60ae-4001-a5fd-28a668ea3997": 4,
       "profile/b4191838-8ead-4604-bab8-af18fe1d198a": 4,
       "activity/34ac0000-e2ff-11ef-8080-800131017d7f": 4,
       "profile/d02f7091-9ba9-4227-a128-93f4bde665c0": 4,
       "profile/eb12ae2e-edaf-4da1-957b-78aeeb2e22ed": 4,
+      "profile/4a529183-0347-4626-b107-c6972213f1c6": 4,
       "activity/13a28800-ea40-11ef-8080-80014b1a186f": 4,
       "profile/49797165-cef8-40bf-96ee-eafd3eba33c1": 4,
       "profile/43a836e3-667d-4670-90d7-b5f47bd1fbd7": 4,
@@ -532,21 +525,28 @@
       "profile/8d3cd809-403c-44b8-8fba-e151c68b2490": 4,
       "activity/606b2200-1b9b-11f0-8080-800171ba062e": 4,
       "profile/1f9f4427-1a9a-406e-9a80-55a735bb89c2": 4,
-      "gear/eight-sleep-pod-four-review": 4
+      "gear/eight-sleep-pod-four-review": 4,
+      "activity/a7f7f400-72d9-11f0-8080-80011237ec32": 4,
+      "activity/a3f08100-7ae6-11f0-8080-80006a8e7038": 4,
+      "gravel/gravel-gear": 4,
+      "ridelog/heatmap": 4,
+      "blogs/comments": 3,
+      "profile/c93bc22d-1aa0-4750-8a49-a37d8e1e09a1": 3,
+      "adventure-travel/essays": 3
     },
     "website_domains": {
-      "backpacker.com": 167,
-      "outsideonline.com": 10188,
-      "run.outsideonline.com": 226,
-      "trailforks.com": 2370,
-      "velo.outsideonline.com": 5062,
-      "accounts.outsideonline.com": 235,
-      "devices.outsideonline.com": 41,
+      "outsideonline.com": 10191,
+      "trailforks.com": 2537,
       "triathlete.com": 78,
+      "accounts.outsideonline.com": 226,
       "watch.outsideonline.com": 105,
       "pinkbike.com": 10,
-      "yogajournal.com": 140,
+      "velo.outsideonline.com": 5091,
+      "yogajournal.com": 151,
+      "devices.outsideonline.com": 37,
       "skimag.com": 161,
+      "backpacker.com": 166,
+      "run.outsideonline.com": 222,
       "bikereg.com": 2,
       "womensrunning.com": 6,
       "oxygenmag.com": 15,
@@ -557,19 +557,19 @@
       "trailrunnermag.com": 103
     },
     "referrer_domains": {
-      "outsideonline.com": 782,
-      "accounts.outsideonline.com": 414,
-      "velo.outsideonline.com": 300,
+      "outsideonline.com": 768,
+      "accounts.outsideonline.com": 373,
+      "velo.outsideonline.com": 290,
       "trailforks.com": 76,
-      "devices.outsideonline.com": 43,
+      "devices.outsideonline.com": 39,
       "google.com": 36,
       "yogajournal.com": 24,
       "run.outsideonline.com": 20,
       "backpacker.com": 20,
-      "linkedin.com": 18,
       "buy.tinypass.com": 18,
       "triathlete.com": 16,
       "trailrunnermag.com": 13,
+      "linkedin.com": 10,
       "skimag.com": 10,
       "docs.google.com": 6,
       "nationalparktrips.com": 6,
@@ -578,39 +578,38 @@
       "learn.outsideonline.com": 4,
       "pinkbike.com": 3,
       "bikereg.com": 3,
-      "cloud.ouraring.com": 1,
       "share.hsforms.com": 1,
       "cdn.outsideonline.com": 1,
       "lnkd.in": 1,
       "climbing.com": 1,
       "watch.outsideonline.com": 1
     },
-    "email_traffic_count": 304,
+    "email_traffic_count": 299,
     "temporal": {
-      "first_event": "2025-01-14 04:40:37.089000+00:00",
-      "last_event": "2026-01-13 23:14:52.706000+00:00",
-      "total_days": 364,
-      "events_last_7_days": 89,
-      "events_last_30_days": 797,
-      "avg_events_per_day": 58.66483516483517,
+      "first_event": "2025-01-20 06:10:15.024000+00:00",
+      "last_event": "2026-01-21 16:13:02.812000+00:00",
+      "total_days": 366,
+      "events_last_7_days": 313,
+      "events_last_30_days": 694,
+      "avg_events_per_day": 58.92896174863388,
       "by_hour": {
-        "4": 693,
-        "14": 1491,
-        "17": 1229,
-        "18": 1760,
-        "20": 1407,
-        "21": 1294,
-        "22": 961,
-        "2": 1107,
-        "16": 1307,
-        "23": 927,
-        "1": 519,
-        "19": 1193,
-        "0": 1268,
         "6": 77,
-        "13": 1779,
+        "23": 1022,
+        "21": 1291,
+        "22": 907,
+        "4": 691,
+        "14": 1482,
+        "16": 1362,
+        "18": 1759,
+        "19": 1196,
+        "20": 1404,
+        "2": 1108,
+        "13": 1803,
         "5": 123,
         "3": 1052,
+        "17": 1221,
+        "0": 1373,
+        "1": 530,
         "15": 1276,
         "12": 1661,
         "11": 51,
@@ -620,16 +619,16 @@
         "8": 7
       },
       "by_day_of_week": {
+        "Monday": 3825,
         "Tuesday": 3513,
-        "Wednesday": 3621,
-        "Thursday": 3293,
-        "Friday": 3156,
-        "Saturday": 1752,
-        "Sunday": 2194,
-        "Monday": 3825
+        "Wednesday": 3749,
+        "Thursday": 3332,
+        "Saturday": 1750,
+        "Sunday": 2252,
+        "Friday": 3147
       },
       "by_month": {
-        "2025-01": 279,
+        "2025-01": 152,
         "2025-02": 541,
         "2025-03": 533,
         "2025-04": 401,
@@ -641,17 +640,17 @@
         "2025-10": 2979,
         "2025-11": 1449,
         "2025-12": 1418,
-        "2026-01": 184
+        "2026-01": 525
       }
     },
     "article_engagement": {
-      "unique_articles": 963,
-      "single_read": 518,
-      "multi_read": 445,
+      "unique_articles": 959,
+      "single_read": 521,
+      "multi_read": 438,
       "most_revisited": [
         [
           "Outside Magazine",
-          431
+          409
         ],
         [
           "Outside Magazine",
@@ -663,15 +662,15 @@
         ],
         [
           "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
-          93
+          88
         ],
         [
           "Robin Thurston - Outside",
-          53
+          54
         ],
         [
           "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
-          52
+          51
         ],
         [
           "Trailforks.com Activity Feed",
@@ -683,7 +682,7 @@
         ],
         [
           "tourmalet1's Notifications | Trailforks",
-          42
+          41
         ],
         [
           "Outside Profile",
@@ -691,7 +690,7 @@
         ],
         [
           "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
-          39
+          40
         ],
         [
           "Long Reads Archives - Outside Online",
@@ -710,24 +709,12 @@
           25
         ],
         [
-          "Search | Accounts - Outside",
-          21
-        ],
-        [
           "Outside Profile",
           20
         ],
         [
           "Outside Profile",
           20
-        ],
-        [
-          "Outside Profile",
-          20
-        ],
-        [
-          "Trailforks.com Activity Feed",
-          17
         ],
         [
           "Follow Dashboard | Accounts - Outside",
@@ -738,22 +725,26 @@
           17
         ],
         [
-          "Trailforks.com Activity Feed",
-          16
+          "Device Connection Hub",
+          15
         ],
         [
-          "Device Connection Hub",
-          16
-        ],
-        [
-          "Device Connection Hub",
-          16
+          "Search | Accounts - Outside",
+          15
         ],
         [
           "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
           15
         ],
         [
+          "Trailforks.com Activity Feed",
+          14
+        ],
+        [
+          "Device Connection Hub",
+          14
+        ],
+        [
           "VELO - Competitive Cycling News, Race Results and Bike Reviews - Velo",
           14
         ],
@@ -762,27 +753,35 @@
           14
         ],
         [
-          "Outside Profile",
-          12
+          "Trailforks.com Activity Feed",
+          13
         ],
         [
           "tourmalet1's Ride Log 2025 | Trailforks",
           12
+        ],
+        [
+          "Adventure - Outdoor News, Science, Politics - Outside Online",
+          11
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          11
         ]
       ],
       "content_types": {
         "how_to": 16,
         "best_lists": 45,
-        "reviews": 294,
+        "reviews": 289,
         "guides": 14
       }
     },
     "ecosystem": {
       "trailforks": {
-        "web": 2010,
-        "app": 1264,
+        "web": 2179,
+        "app": 1273,
         "ridelogs": 76,
-        "map_views": 100,
+        "map_views": 101,
         "photos": 10,
         "unique_rides": 14
       },
@@ -796,16 +795,16 @@
         "events": 82
       },
       "editorial": {
-        "events": 13377,
-        "articles": 2720
+        "events": 13352,
+        "articles": 2639
       },
       "devices": {
-        "events": 35
+        "events": 31
       },
       "monthly_app_usage": {
         "2025-01": {
-          "trailforks_app": 23,
-          "trailforks_web": 3,
+          "trailforks_app": 16,
+          "trailforks_web": 2,
           "outside_watch": 1,
           "gaia_gps": 6
         },
@@ -873,148 +872,137 @@
           "trailforks_app": 18
         },
         "2026-01": {
-          "trailforks_web": 3,
-          "trailforks_app": 9,
+          "trailforks_web": 173,
+          "trailforks_app": 25,
           "outside_watch": 11,
           "outside_app": 1
         }
       }
     },
     "engagement_metrics": {
-      "total_events": 21354,
-      "total_days_tracked": 364,
-      "events_per_day": 58.66483516483517,
+      "total_events": 21568,
+      "total_days_tracked": 366,
+      "events_per_day": 58.92896174863388,
       "unique_publications": 26,
       "unique_tags_encountered": 200,
-      "unique_authors_read": 99,
-      "unique_articles": 963
+      "unique_authors_read": 97,
+      "unique_articles": 959
     }
   },
   "llm_insights": {
-    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nWelcome, Robin! We're thrilled to celebrate your year with Outside Online and our community of publications. As one of our most engaged members, you've logged over **21,000 interactions** across our platforms\u2014a testament to your passion for cycling, adventure, and the outdoor lifestyle. This is your story.\n\n---\n\n## Robin's 2025 Outside Memory\n\nYour year began quietly in January, with curiosity drawing you across multiple properties\u2014from Backpacker's practical winter hiking tips to VeloNews coverage of the cycling world waking up after the off-season. You were exploring, settling in, building your routine. By February and March, a pattern emerged: you were becoming a devoted follower of professional cycling, particularly the European racing calendar.\n\nThen came the turning point. **June arrived, and your engagement exploded.** The 2025 cycling season was in full swing, and you were there for every moment. Your interactions jumped from under 500 per month to over 2,200\u2014a five-fold increase. This wasn't casual browsing; this was deep, sustained engagement. You were following **Tadej Poga\u010dar** (178 tags), **Jonas Vingegaard** (143 tags), and the entire **Tour de France** narrative (200 tags) with the intensity of someone who lives and breathes professional cycling.\n\nJuly and August became your peak months, with **2,625** and **4,574** events respectively. You were consuming everything: race coverage from Jim Cotton and Andrew Hood, technical analysis, team dynamics, gear reviews. The Criterium du Dauphine, Giro d'Italia, and the grand tours dominated your reading. You followed individual riders\u2014Remco Evenepoel, Mathieu van der Poel, Jonathan Milan\u2014tracking their seasons with the dedication of a true fan. You weren't just reading articles; you were engaging across VeloNews (3,847 total events), Outside Online (8,767 events), and Trailforks (3,274 combined events), creating a rich, multi-platform experience.\n\nAs autumn arrived, your engagement remained strong but began to normalize. September saw 3,790 events, October 2,979. You'd moved through the racing calendar\u2014the grand tours had concluded, and while you remained engaged, the urgency shifted. By November and December, your monthly activity settled into a sustainable rhythm of 1,400-1,500 events. You'd completed a full cycling year, from winter preparation through the season's crescendo and into the quieter months ahead.\n\n---\n\n## Your Passions\n\n\u2022 **Professional Road Cycling** \u2014 You're a dedicated follower of the WorldTour circuit, with particular passion for the grand tours (Tour de France, Giro d'Italia, Criterium du Dauphine). Your engagement spiked dramatically during racing season, consuming coverage from top analysts like Jim Cotton, Andrew Hood, and Shane Stokes. Riders like Tadej Poga\u010dar, Jonas Vingegaard, and Remco Evenepoel captured your attention throughout 2025.\n\n\u2022 **Cycling Technology & Gear** \u2014 Beyond the racing itself, you're deeply interested in the equipment that makes it all possible. You've explored bike storage solutions, new time trial bikes from Giant and Liv, wheel technology, and the technical innovations driving the sport forward. Design and technology content (47 tags) consistently drew your attention.\n\n\u2022 **Mountain Biking & Trail Culture** \u2014 Your engagement with Trailforks (over 3,200 combined events across the app and website) reveals a parallel passion for trail riding and mountain biking community. You're not just reading about trails\u2014you're actively exploring them through the mapping platform and engaging with the broader MTB community.\n\n\u2022 **Adventure & Outdoor Exploration** \u2014 National parks (59 tags), public lands (65 tags), and adventure travel (35 events) show your interest in getting outside beyond just cycling. Yosemite National Park specifically caught your attention (45 tags), suggesting a draw toward iconic outdoor destinations.\n\n\u2022 **Endurance Sports Training & Performance** \u2014 Winter training (34 tags), training methodology (37 tags), and athlete nutrition appear throughout your reading history. You're interested in how elite athletes prepare, with particular focus on the science behind performance optimization and coaching approaches like FasCAT Coaching (34 tags).\n\n\u2022 **Broader Outdoor Culture & Wellness** \u2014 Your reading extends to health and science topics\u2014from sex differences in sport to microplastics in the environment to longevity and mental wellness. You engage thoughtfully with Outside's evergreen content (141 tags), suggesting you value substantive, well-researched feature writing alongside breaking news.\n\n---\n\n## Reading Habits\n\nYour reading follows a distinctly **nocturnal and evening pattern**, with your peak engagement occurring between **2 PM and 10 PM**, with particular intensity around **1-2 PM (1,491 events), 6-7 PM (1,760 events), and midnight-1 AM (1,268 events)**. This suggests you're reading during work breaks, evening wind-down, and late-night browsing sessions. You're most active on **weekdays, particularly Monday through Wednesday** (3,513-3,825 events each), with a notable drop on weekends\u2014a pattern consistent with someone catching up on professional cycling coverage between work commitments.\n\nYour author preferences reveal a clear hierarchy of trusted voices. **Jim Cotton** (61 articles) is your most-read writer, followed closely by **Andrew Hood** (53 articles) and **Shane Stokes** (36 articles)\u2014all cycling specialists known for their deep technical analysis and insider perspective on the professional peloton. You've also engaged with **Bobby Julich** (12 articles), bringing a former pro's credibility to race coverage. This consistency suggests you've identified and stuck with writers whose voices and expertise resonate with you, rather than consuming cycling coverage broadly.\n\nYour content consumption is heavily weighted toward **home feeds and profiles** (902 and 740 events respectively), indicating you're using Outside Online as a hub\u2014checking in regularly, following profiles, and staying updated through feeds. The **app feed** (230 events) and **map features** (204 events) from Trailforks show active engagement with the platform's community and trail discovery tools. You're not just a passive reader; you're an active participant in these communities, tracking activities, checking notifications, and exploring what others in your network are doing.",
-    "recent_spotlight": "**Your Week of Adventure: Cycling, Climbing, and the Future of Nature Content**\n\nYou've been diving deep into the outdoor world this week, bouncing between competitive cycling coverage and adventure documentaries. Your curiosity has also turned toward the bigger picture\u2014exploring how technology is reshaping the way we experience nature and outdoor storytelling.\n\nHere's what's captured your attention:\n\n\u2022 \"Generative AI Just Killed the Wildlife Video. Should You Care?\" \u2014 A thought-provoking piece on AI's impact on nature content\n\u2022 VeloNews competitive cycling coverage and race updates\n\u2022 \"Welcome to UMA & Climbing Part One\" on Outside TV\n\u2022 Explorations of iconic outdoor destinations like Vail, Colorado and Zion National Park with Mike Posner",
+    "narrative": "# Robin's 2025 Outside Memory\n\n## Welcome Message\n\nWelcome, Robin! We're thrilled to celebrate your year with Outside Online and our community of passionate adventurers. Over the past 366 days, you've been an exceptional member\u2014engaging with our content nearly 60 times a day and exploring everything from professional cycling to mountain trails. Your curiosity and dedication make you exactly the kind of reader we love to have in our community.\n\n---\n\n## Robin's 2025 Outside Memory\n\nYour year with us tells the story of someone deeply invested in endurance sports, the outdoors, and the intersection of adventure and science. Starting quietly in January with just 152 events, your engagement gradually built through the spring months before exploding in June\u2014the beginning of what would become your most active season. June marked a turning point with 2,293 events, and by August, you reached peak engagement with 4,574 events. This summer surge coincided perfectly with cycling season: the Tour de France dominated your reading in June and July, and you were consuming everything from race analysis to team dynamics.\n\nYour passion for professional cycling became increasingly evident as the year progressed. You followed the careers of Tadej Poga\u010dar (178 tagged articles), Jonas Vingegaard (143 tagged articles), and Remco Evenepoel (54 tagged articles) with the dedication of a true fan. Authors like Jim Cotton (61 articles), Andrew Hood (53 articles), and Shane Stokes (36 articles) became familiar voices guiding you through race coverage. You didn't just skim headlines\u2014you dove deep into the sport's complexities, reading pieces about Visma-Lease a Bike's winter training secrets, exploring the careers of emerging talents like Ben Healy and Jonathan Milan, and staying informed on everything from UCI regulations to team controversies.\n\nBut cycling wasn't your only story. Throughout the year, you maintained a strong connection to trail-based adventure, regularly checking Trailforks (3,452 total events across the app and website) and using mapping tools to explore routes and trail conditions. You engaged with outdoor adventure content around national parks and public lands, showing particular interest in Yosemite (45 tagged articles). Your reading habits also revealed a curious, scientifically-minded explorer\u2014you read pieces on microplastics in the environment, sex differences in sport, and vitamin D supplementation, suggesting you approach outdoor pursuits with both passion and informed skepticism.\n\nAs summer faded into fall, your engagement remained strong through September (3,790 events) before gradually settling into a more moderate pace through the winter months. The rhythm of your year mirrors the cycling calendar itself\u2014ramping up for the grand tours, staying engaged through the season, then finding new rhythms as the year turned. You've been a model of consistent, thoughtful engagement across our entire ecosystem.\n\n---\n\n## Your Passions\n\n- **Professional Road Cycling** \u2014 Your most dominant passion by far. You consumed 200+ Tour de France articles, followed individual riders obsessively (Poga\u010dar, Vingegaard, Evenepoel), and stayed current on team dynamics, training methods, and racing drama. VeloNews became your second home with 3,843 events.\n\n- **Mountain Biking & Trail Culture** \u2014 An active participant in the Trailforks community (3,452 total events), you regularly check trail conditions, explore routes, and engage with the mountain biking community. This isn't passive reading\u2014you're actively logging activities and following fellow riders.\n\n- **Public Lands & National Parks Adventure** \u2014 You consistently engaged with content about Yosemite, national parks, and public lands conservation (65+ tagged articles). You're invested in where you can explore and how these spaces are protected.\n\n- **Outdoor Science & Health** \u2014 Beyond the romance of adventure, you dig into the data. You read about microplastics in the environment, sex differences in athletic performance, nutrition science, and wellness trends. You're an informed adventurer who wants to understand the \"why\" behind outdoor pursuits.\n\n- **Gear & Design** \u2014 With 47 tagged articles on design and tech, plus specific interest in footwear and sandals (43 articles each), you care about the tools that enable your adventures. You're interested in both the practical and innovative sides of outdoor equipment.\n\n- **Relationships & Adventure Culture** \u2014 You read Outside's culture section thoughtfully, including pieces on relationships, advice columns, and the human stories behind adventure. This suggests you see outdoor pursuits as deeply connected to how we live and relate to each other.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal someone who integrates Outside content into the rhythms of daily life. You're most active during evening hours (6 PM to midnight accounts for your heaviest engagement, with peaks at 8 PM and 9 PM), suggesting you settle in with our content after work or outdoor activities. You're also a night owl\u2014between 11 PM and 4 AM, you maintain consistent engagement, indicating you often read late into the evening or early morning hours. This is someone who makes time for deep dives into stories, not just quick scrolls.\n\nWeekdays dominate your reading calendar, with Monday through Wednesday showing the strongest engagement (3,500+ events each). This pattern suggests you use our content as part of your weekday routine\u2014perhaps reading during commutes, lunch breaks, or evening wind-downs\u2014while your engagement naturally drops on weekends (1,750 events on Saturday, 2,252 on Sunday). You're clearly balancing reading about adventure with actually doing it.\n\nYour favorite authors tell their own story. Jim Cotton and Andrew Hood, both cycling journalists, received your most consistent attention, followed by Shane Stokes. These aren't household names to casual readers, but they are to serious cycling fans\u2014they're the voices providing depth, analysis, and insider perspective on professional racing. Your reading choices reflect a preference for specialist expertise over generalist coverage. You've encountered 97 unique authors and 959 unique articles across 200 different tags, demonstrating genuine curiosity and breadth, but your core engagement centers on a tight group of trusted voices covering the sports and topics you care about most.",
+    "recent_spotlight": "**Your Week of Fitness Inspiration and Cycling News**\n\nYou've been diving into the world of fitness and cycling this week, with a particular interest in expert insights and industry updates. Your recent browsing shows you're staying connected to what's happening in the cycling community while also exploring fitness guidance from trusted sources.\n\nHere's what's caught your attention: Jenny McCoy's Live Q&A on Outside Magazine where the Moves Columnist and Personal Trainer shared expert advice, coverage of the UCI Masters World Champion doping suspension on VeloNews, and features from both Outside Magazine and VeloNews keeping you in the loop on the latest in endurance sports and training.",
     "seasonal_patterns": [
-      {
-        "season": "Winter",
-        "emoji": "\u2744\ufe0f",
-        "activities": [
-          "Winter training content",
-          "Snow/winter hiking gear discussions",
-          "Indoor fitness and nutrition"
-        ],
-        "insight": "Winter shows steady engagement with training and safety gear."
-      },
-      {
-        "season": "Spring",
-        "emoji": "\ud83c\udf37",
-        "activities": [
-          "Adventure travel planning for spring trips",
-          "Trail maps and route planning via Trailforks",
-          "Running and performance prep"
-        ],
-        "insight": "Spring drives planning for outdoor trips and running prep."
-      },
       {
         "season": "Summer",
         "emoji": "\u2600\ufe0f",
         "activities": [
-          "Pro cycling news and race coverage (Tour de France)",
-          "Trail exploration via Trailforks App",
-          "Bike gear launches and reviews"
+          "tour-de-france",
+          "tadej-pogacar",
+          "jonas-vingegaard"
         ],
-        "insight": "Summer peaks in cycling news and outdoor route exploration."
+        "insight": "Grand tours dominate summer reading."
       },
       {
         "season": "Autumn",
         "emoji": "\ud83c\udf42",
         "activities": [
-          "Off-season training planning",
-          "Gear reviews and fall-race prep",
-          "Public lands & national parks exploration"
+          "giro-ditalia",
+          "training",
+          "visma-lease-a-bike"
         ],
-        "insight": "Autumn focuses on off-season training and gear prep."
+        "insight": "Shift toward training focus and gear strategy as season changes."
+      },
+      {
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
+        "activities": [
+          "winter-training",
+          "carbon-monoxide",
+          "ai"
+        ],
+        "insight": "Cold-season training and safety plus tech interest."
       }
     ],
     "emerging_interests": [
       {
         "topic": "ai",
-        "evidence": "Top_tags include 'ai', indicating growing interest in sports-tech topics."
+        "evidence": "Growing tech interest in top_tags usage (ai appears in top_tags)."
       },
       {
-        "topic": "climate-change",
-        "evidence": "Sample events include climate-change-related tags, suggesting rising relevance."
+        "topic": "gaiagps",
+        "evidence": "High outdoors navigation interest (gaiagps appears with notable counts)."
       },
       {
-        "topic": "sustainability",
-        "evidence": "Articles tagged with sustainability appear in environmental coverage."
+        "topic": "microplastics",
+        "evidence": "Recent environmental health article highlighting microplastics."
       }
     ],
     "core_interests": [
       {
         "topic": "tour-de-france",
         "strength": "Very Strong",
-        "evidence": "Frequent engagement with Tour de France coverage and related pro-cycling topics."
+        "evidence": "Top tag with 200 mentions indicating strong focus on this event."
       },
       {
-        "topic": "Trailforks App",
+        "topic": "jonas-vingegaard",
         "strength": "Strong",
-        "evidence": "Regular interaction with Trailforks App content and trail info."
+        "evidence": "High engagement around Vingegaard (143 mentions)."
       },
       {
-        "topic": "winter-training",
+        "topic": "tadej-pogacar",
         "strength": "Strong",
-        "evidence": "Top tags include winter-training and related winter endurance content."
+        "evidence": "High engagement around Pogacar (178 mentions)."
       },
       {
-        "topic": "visma-lease-a-bike",
+        "topic": "giro-ditalia",
         "strength": "Strong",
-        "evidence": "Tags and articles mentioning visma-lease-a-bike appear notably in the data."
+        "evidence": "Mentions of Giro d'Italia (31) show steady interest."
       }
     ],
     "casual_interests": [
       {
-        "topic": "Yoga & mindfulness",
-        "note": "Occasional reads from Yoga Journal and meditation-related content."
+        "topic": "footwear",
+        "note": "Occasional engagement (tagged footwear)."
       },
       {
-        "topic": "Outdoor relationships & humor",
-        "note": "Light engagement with relationship-oriented outdoors content and humor pieces."
+        "topic": "sandals",
+        "note": "Casual gear interest (tagged sandals)."
       },
       {
-        "topic": "Vitamin D & Nutrition for Athletes",
-        "note": "Casual reads about nutrition and vitamin D supplementation for athletes."
+        "topic": "outdoor-adventure",
+        "note": "Light engagement with outdoor adventure content."
       },
       {
-        "topic": "Bike gear & maintenance tips",
-        "note": "Light interaction with gear storage and maintenance articles."
+        "topic": "map",
+        "note": "Infrequent map exploration and related content."
       }
     ]
   },
   "recent_activity": {
     "latest_reads": [
       {
-        "title": "Generative AI Just Killed the Wildlife Video. Should Yo",
-        "url": "https://www.outsideonline.com/outdoor-adventure/environment/ai-wildlife-video/",
-        "date": "Jan 13"
+        "title": "UCI Suspends Masters World Champion for Doping",
+        "url": "https://velo.outsideonline.com/news/masters-world-champion-suspended-doping/?utm_term=ool_member&utm_campaign=oplus_topfive&utm_medium=email&_hsenc=p2ANqtz--_11MYt2Hl7fgu6S1Jm-todBOzsrOMOvWUOV7bWo552WmA-tQG2XIhwMyYaZpGpm_8YWySiLyRVUYU6hT-1mYi-UgKtQfAAfCGDxAAqPf89RqkVls&_hsmi=399308564&utm_source=newsletter",
+        "date": "Jan 20"
       },
       {
-        "title": "The Battle Over Trump\u2019s Face on National Parks Passes C",
-        "url": "https://www.outsideonline.com/outdoor-adventure/environment/trump-nps-pass-sticker/",
-        "date": "Jan 08"
+        "title": "I Deleted Instagram for My Mental Health. But Did It Wo",
+        "url": "https://www.yogajournal.com/lifestyle/delete-instagram/?scope=initial",
+        "date": "Jan 18"
       },
       {
-        "title": "Simon Yates Ends Career With Immediate Effect in Shock ",
-        "url": "https://velo.outsideonline.com/road/road-racing/retirement-bombshell-giro-champion-simon-yates-ends-career-with-immediate-effect/",
-        "date": "Jan 07"
+        "title": "A Man Threatened a Mass Shooting in Breckenridge, Color",
+        "url": "https://www.outsideonline.com/outdoor-adventure/snow-sports/colorado-ski-mass-shooting-threat/",
+        "date": "Jan 15"
+      },
+      {
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?scope=nearby&nearby_range=10&lat=34.1&lng=-118.5&nativeTabs=true&app=1&activitytype=1&platform=ios",
+        "date": "Jan 14"
       }
     ],
-    "latest_watches": [
-      {
-        "title": "Mike Posner: Zion National Park",
-        "url": "https://watch.outsideonline.com/series/park-sessions/cBwPNDcg-MFUQs8df?episode=1&season=1",
-        "date": "Jan 13"
-      }
-    ]
+    "latest_watches": []
   },
-  "generated_at": "2026-01-14T18:37:09.336169Z"
+  "generated_at": "2026-01-21T20:54:30.214404Z"
 }
