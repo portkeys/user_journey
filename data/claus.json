@@ -6,56 +6,281 @@
     "timezone_name": "Pacific Time",
     "location": "Incline Village, NV",
     "avatar_emoji": "\ud83c\udfbf",
-    "suggested_emoji": "\ud83c\udf3f",
-    "emoji_reason": "Default outdoor emoji (no activity or location match)"
+    "suggested_emoji": "\ud83d\udeb4",
+    "emoji_reason": "Based on top activity: mountain-biking"
   },
   "summary": {
     "publications": {
-      "Pinkbike": 116,
-      "unknown": 303,
-      "Trailforks": 36,
-      "Trailforks App": 239
+      "Pinkbike": 150,
+      "unknown": 4588,
+      "Trailforks": 4308,
+      "Trailforks App": 5263,
+      "gaiagps": 106,
+      "Outside App": 10,
+      "outside-online": 442,
+      "www.outsideonline.com": 12,
+      "Devices": 20,
+      "Trailforks Apple Watch": 2357,
+      "VeloNews": 13,
+      "NationalParkTrips": 19,
+      "Outside Learn": 2,
+      "ski": 34,
+      "Backpacker": 5
     },
     "tags": {
+      "climbing": 20,
+      "outside-features": 11,
+      "colorado": 11,
+      "athletes": 11,
+      "skiing": 9,
+      "mountaineering": 9,
+      "commerce": 7,
+      "communications": 7,
+      "technology": 7,
+      "hiking-and-backpacking": 6,
+      "explicit": 6,
+      "social-media": 6,
+      "wellness": 6,
+      "mountain-biking": 5,
+      "wyoming": 5,
+      "evergreen": 5,
+      "survival": 5,
+      "alaska": 5,
+      "denali-national-park-and-preserve": 5,
+      "the-daily-rally": 5,
+      "reader survey": 4,
+      "india": 4,
+      "cross-country ski skis": 3,
+      "gear guide": 3,
+      "fishing": 3,
+      "mountain-towns": 3,
+      "outdoor-skills": 3,
+      "africa": 3,
+      "asia": 3,
+      "europe": 3,
+      "gaia-gps": 3,
+      "nature": 3,
+      "north-america": 3,
+      "south-america": 3,
+      "news": 3,
       "crankworx": 2,
       "emil-johansson": 2,
       "injuries": 2,
       "racing-and-events": 2,
       "crankworx-cairns-2025": 2,
-      "crankworx-slopestyle": 2
+      "crankworx-slopestyle": 2,
+      "weather": 2,
+      "2024 gear reviews": 2,
+      "2025 winter gear guide": 2,
+      "2024-gear-reviews": 2,
+      "2025-winter-gear-guide": 2,
+      "backcountry-skiing": 2,
+      "best-backcountry-skis": 2,
+      "gear-guide": 2,
+      "snow": 2,
+      "arkansas": 2,
+      "biking": 2,
+      "california": 2,
+      "city-biking": 2,
+      "gravel-bikes": 2,
+      "massachusetts": 2,
+      "michigan": 2,
+      "oregon": 2,
+      "tennessee": 2,
+      "utah": 2,
+      "avalanche": 2,
+      "rocky mountain national park": 2,
+      "snowboarding": 2,
+      "film": 2,
+      "long reads": 2,
+      "tv": 2,
+      "reviews-and-tech": 1,
+      "6d": 1,
+      "bluegrass": 1,
+      "fox-racing": 1,
+      "helmets": 1,
+      "poc": 1,
+      "specialized": 1,
+      "sweet-protection": 1,
+      "reviews": 1,
+      "ridden-and-rated": 1,
+      "boots": 1,
+      "danner": 1,
+      "native": 1,
+      "2025 gear reviews": 1,
+      "2026 winter gear guide": 1,
+      "brompton": 1,
+      "campagnolo": 1,
+      "northwave": 1,
+      "scarab": 1,
+      "silca": 1,
+      "bike and cycling gear video reviews": 1,
+      "cycling accessory reviews": 1,
+      "pedals": 1,
+      "wolf tooth": 1,
+      "wolf tooth components": 1,
+      "ski resort rankings": 1,
+      "east coast": 1,
+      "resort guide 2026": 1,
+      "snowiest": 1,
+      "winter travel": 1,
+      "fkt": 1,
+      "grand teton national park": 1,
+      "politics": 1,
+      "trail running": 1,
+      "gear": 1,
+      "gift guide": 1,
+      "gifts": 1,
+      "new hampshire": 1,
+      "olympics": 1,
+      "ski racing": 1,
+      "banff sunshine": 1,
+      "best value": 1,
+      "book now": 1,
+      "family skiing": 1,
+      "lake louise": 1,
+      "arizona": 1,
+      "clothing and apparel": 1,
+      "sunglasses": 1,
+      "facility upgrades": 1,
+      "new lifts": 1
     },
-    "events_with_tags": 2,
+    "events_with_tags": 60,
     "authors": {
-      "edspratt": 2
+      "Graham Averill": 3,
+      "Grayson Haver Currin": 3,
+      "Paddy O&#039;Connell": 3,
+      "edspratt": 2,
+      "mattbeer": 1,
+      "Gloria Wadzinski": 1,
+      "Heather Hansman": 1,
+      "Lily Ritter": 1,
+      "Chase Brush": 1,
+      "Megan Michelson": 1
     },
     "content_categories": {
       "buysell": 63,
-      "map": 109,
-      "notifications": 2,
-      "appfeed": 2,
-      "homefeed": 23,
+      "map": 822,
+      "notifications": 15,
+      "appfeed": 700,
+      "homefeed": 397,
       "system": 4,
       "u": 13,
-      "profile": 1,
-      "ridelogs": 3,
-      "ridelog": 2,
-      "news": 2
+      "profile": 421,
+      "ridelogs": 72,
+      "ridelog": 154,
+      "news": 4,
+      "home": 47,
+      "discover": 13,
+      "report": 13,
+      "usersearch": 2,
+      "login": 4,
+      "region": 21,
+      "inbox": 1,
+      "badges": 6,
+      "connect": 9,
+      "outdoor-adventure": 12,
+      "contribute": 38,
+      "help": 7,
+      "events": 4,
+      "homesettings": 2,
+      "feed": 1,
+      "parks": 1,
+      "error": 77,
+      "tag": 4,
+      "outdoor-gear": 5,
+      "rideplans": 1,
+      "event": 2,
+      "users": 5,
+      "activity": 5,
+      "road": 1,
+      "appfeed_ugc_post": 1,
+      "trails": 21,
+      "routes": 2,
+      "karma": 6,
+      "gravel": 1,
+      "gaia-gps-advanced": 2,
+      "ski-resort-life": 9,
+      "gear": 3,
+      "adventure-travel": 8,
+      "summits": 5,
+      "membership": 2,
+      "culture": 3,
+      "byline": 1,
+      "statistics": 7,
+      "checkins": 1,
+      "widgets": 2,
+      "video": 3,
+      "support": 1,
+      "manage": 3,
+      "data": 1,
+      "pro": 2,
+      "directory": 5,
+      "route": 4,
+      "badge": 1
     },
     "subcategories": {
-      "map/trail": 41,
+      "ridelog/:id": 127,
+      "profile/Cmoberg": 116,
+      "ridelogs/my": 71,
+      "map/trail": 69,
       "buysell/list": 22,
+      "ridelog/view": 18,
+      "contribute/bike": 15,
       "u/Cmoberg": 13,
+      "profile/b90e5f48-91a5-4758-8dba-3ff462a76563": 12,
+      "contribute/ridelogreports": 9,
+      "map/search": 7,
+      "report/nearby": 7,
+      "region/incline-village": 7,
+      "ski-resort-life/resort-guide-2026": 7,
+      "trails/gunner-s-cirque": 7,
+      "adventure-travel/destinations": 6,
+      "outdoor-adventure/exploration-survival": 5,
+      "summits/view": 5,
       "buysell/3992131": 4,
       "buysell/4014727": 4,
       "system/message": 4,
-      "ridelogs/my": 3,
+      "region/east-shore": 4,
+      "tag/outside-features": 4,
+      "trails/incline-flume-trail": 4,
+      "outdoor-adventure/snow-sports": 4,
+      "outdoor-gear/snow-sports-gear": 3,
+      "activity/followsearch": 3,
+      "trails/flume-trail-22710": 3,
+      "karma/suggestions": 3,
+      "profile/GabeUcHTFz": 3,
+      "ridelog/yearlystatsgen": 3,
+      "directory/6269": 3,
+      "route/pusch-peak-via-linda-vista-trail": 3,
       "buysell/3992134": 2,
-      "ridelog/:id": 2,
       "buysell/4001063": 2,
       "buysell/4054382": 2,
       "buysell/4036806": 2,
       "news/emil-johansson-breaks-collarbone-and-rib-in-crankworx-cairns-slopestyle-crash.html": 2,
       "buysell/3921119": 2,
+      "map/region": 2,
+      "report/:id": 2,
+      "profile/contact": 2,
+      "outdoor-adventure/hiking-and-backpacking": 2,
+      "ridelog/strava_notice": 2,
+      "help/view": 2,
+      "event/:id": 2,
+      "trails/map": 2,
+      "report/4311731": 2,
+      "profile/Roverdoc": 2,
+      "trails/hole-in-the-ground-7482": 2,
+      "ridelog/planner": 2,
+      "profile/Zaker": 2,
+      "ridelog/yearinreview": 2,
+      "region/tyrol-basin-ski-and-snowboard-area-73286": 2,
+      "region/tahoe-city": 2,
+      "statistics/charts": 2,
+      "statistics/stats": 2,
+      "map/poi": 2,
+      "activity/8a84ad00-ea66-11f0-8080-80010f865f06": 2,
+      "region/sugar-bowl": 2,
+      "culture/books-media": 2,
       "buysell/3994964": 1,
       "buysell/3990401": 1,
       "buysell/3955585": 1,
@@ -68,166 +293,273 @@
       "buysell/4036386": 1,
       "buysell/4028736": 1,
       "buysell/4038431": 1,
-      "map/search": 1,
       "buysell/4029968": 1,
-      "buysell/4070977": 1
+      "buysell/4070977": 1,
+      "news/review-virginia-techs-top-10-mtb-helmets.html": 1,
+      "profile/BenxjzWmD": 1,
+      "profile/c26c69b4-0f0d-42e8-8de1-23ea253131a2": 1,
+      "profile/tourmalet1": 1,
+      "feed/settings": 1,
+      "parks/grand-canyon-national-park": 1,
+      "events/nearby": 1,
+      "profile/DLehman": 1,
+      "road/road-gear": 1,
+      "contribute/report": 1,
+      "profile/891be310-724a-4dce-afff-d95d4f48c955": 1,
+      "gravel/gravel-gear": 1,
+      "region/paige-meadows": 1,
+      "report/4312299": 1,
+      "trails/all": 1,
+      "gear/ski-reviews": 1,
+      "adventure-travel/news-analysis": 1,
+      "profile/Tahoemountain": 1,
+      "report/4345773": 1,
+      "outdoor-gear/the-outdoorsy-holiday-presents-with-purpose-im-gifting-this-year": 1,
+      "map/legend": 1,
+      "outdoor-adventure/environment": 1,
+      "culture/essays-culture": 1,
+      "profile/bolliger32": 1,
+      "profile/todd": 1
     },
     "website_domains": {
-      "pinkbike.com": 131,
-      "trailforks.com": 55
+      "pinkbike.com": 176,
+      "trailforks.com": 5496,
+      "outsideonline.com": 786,
+      "devices.outsideonline.com": 21,
+      "velo.outsideonline.com": 40,
+      "nationalparktrips.com": 24,
+      "learn.outsideonline.com": 4,
+      "skimag.com": 95,
+      "backpacker.com": 14
     },
     "referrer_domains": {
-      "pinkbike.com": 70,
-      "google.com": 3
+      "trailforks.com": 221,
+      "pinkbike.com": 78,
+      "outsideonline.com": 31,
+      "m.facebook.com": 17,
+      "devices.outsideonline.com": 14,
+      "accounts.outsideonline.com": 8,
+      "google.com": 5,
+      "linkedin.com": 4,
+      "nationalparktrips.com": 2,
+      "learn.outsideonline.com": 2,
+      "buy.tinypass.com": 2,
+      "accounts.google.com": 1,
+      "skimag.com": 1,
+      "paypal.com": 1,
+      "api.tryterra.co": 1
     },
-    "email_traffic_count": 0,
+    "email_traffic_count": 10,
     "temporal": {
       "first_event": "2025-04-24 04:42:02.578000+00:00",
-      "last_event": "2025-08-25 15:16:24.372000+00:00",
-      "total_days": 123,
-      "events_last_7_days": 48,
-      "events_last_30_days": 148,
-      "avg_events_per_day": 5.642276422764228,
+      "last_event": "2026-01-21 03:47:49.983000+00:00",
+      "total_days": 271,
+      "events_last_7_days": 1484,
+      "events_last_30_days": 6161,
+      "avg_events_per_day": 63.944649446494466,
       "by_hour": {
-        "4": 58,
-        "5": 8,
-        "17": 45,
-        "2": 58,
-        "16": 52,
-        "19": 89,
-        "14": 33,
-        "15": 55,
-        "18": 35,
-        "1": 26,
-        "3": 40,
-        "20": 59,
-        "21": 15,
-        "22": 85,
-        "23": 12,
-        "0": 24
+        "4": 782,
+        "5": 155,
+        "17": 1590,
+        "2": 458,
+        "16": 1337,
+        "19": 1292,
+        "14": 184,
+        "15": 678,
+        "18": 1621,
+        "1": 772,
+        "3": 445,
+        "20": 1691,
+        "21": 1159,
+        "22": 1697,
+        "23": 1714,
+        "0": 1585,
+        "6": 121,
+        "13": 25,
+        "7": 2,
+        "10": 17,
+        "9": 3,
+        "11": 1
       },
       "by_day_of_week": {
-        "Thursday": 186,
-        "Saturday": 39,
-        "Tuesday": 23,
-        "Sunday": 103,
-        "Monday": 86,
-        "Friday": 255,
-        "Wednesday": 2
+        "Thursday": 1932,
+        "Saturday": 2538,
+        "Tuesday": 1838,
+        "Sunday": 2597,
+        "Monday": 2896,
+        "Friday": 3164,
+        "Wednesday": 2364
       },
       "by_month": {
         "2025-04": 28,
         "2025-05": 45,
         "2025-06": 268,
         "2025-07": 205,
-        "2025-08": 148
+        "2025-08": 148,
+        "2025-09": 781,
+        "2025-10": 3776,
+        "2025-11": 2964,
+        "2025-12": 5086,
+        "2026-01": 4028
       }
     },
     "article_engagement": {
-      "unique_articles": 53,
-      "single_read": 36,
-      "multi_read": 17,
+      "unique_articles": 368,
+      "single_read": 178,
+      "multi_read": 190,
       "most_revisited": [
         [
+          "Trailforks.com Activity Feed",
+          243
+        ],
+        [
+          "Error",
+          77
+        ],
+        [
+          "Trailforks | Trail Database & Maps",
+          41
+        ],
+        [
+          "Outside Magazine",
+          37
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          33
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          27
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          25
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          22
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          17
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          16
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          15
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          14
+        ],
+        [
+          "Cmoberg's Notifications | Trailforks",
+          13
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          13
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          12
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          12
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          12
+        ],
+        [
           "Mountain Bike News, Photos, Videos & Events | Pinkbike",
-          8
+          11
+        ],
+        [
+          "Add Gear/Bike | Trailforks",
+          11
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          10
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          10
+        ],
+        [
+          "Cmoberg's Dashboard | Trailforks",
+          9
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          9
+        ],
+        [
+          "Device Connection Hub",
+          9
+        ],
+        [
+          "Cmoberg's Gear/Bikes | Trailforks",
+          9
+        ],
+        [
+          "Cmoberg on Trailforks | Trailforks",
+          9
+        ],
+        [
+          "Trailforks.com Activity Feed",
+          9
         ],
         [
           "Mountain Bike Marketplace | Used Mountain Bikes and Parts | Pinkbike",
           8
         ],
         [
-          "Mail - Pinkbike",
-          6
+          "Trailforks.com Activity Feed",
+          8
         ],
         [
-          "2023 Open WIDE S Gravel Bike For Sale",
-          4
-        ],
-        [
-          "Couldn't Access Page - Pinkbike",
-          4
-        ],
-        [
-          "Gravel/CX Complete Bikes For Sale | Buy and Sell Used Gravel/CX Complete BikesPinkbike BuySell Search",
-          3
-        ],
-        [
-          "2022 YT Jeffsy Core 4 Live Uncaged For Sale",
-          3
-        ],
-        [
-          "2023 Open WIDE M Gravel Bike For Sale",
-          2
-        ],
-        [
-          "Results for \"Open wide\" - Gravel/CX Complete Bikes For Sale | Buy and Sell Used Gravel/CX Complete BikesPinkbike BuySell Search",
-          2
-        ],
-        [
-          "Gravel/CX Complete Bikes For Sale | Buy and Sell Used Gravel/CX Complete BikesPage 2 - Pinkbike BuySell Search",
-          2
-        ],
-        [
-          "Cmoberg on Pinkbike",
-          2
-        ],
-        [
-          "2023 Ibis Hakka MX Rival Carbon Small For Sale",
-          2
-        ],
-        [
-          "Road Complete Bikes For Sale | Buy and Sell Used Road Complete BikesPinkbike BuySell Search",
-          2
-        ],
-        [
-          "2023 Canyon Endurance CF SLX 8 Shimano Ultegra Di2 3XS For Sale",
-          2
-        ],
-        [
-          "2024 Canyon Endurace CF SLX 8 AXS For Sale",
-          2
-        ],
-        [
-          "Emil Johansson Breaks Collarbone & Rib in Crankworx Cairns Slopestyle Crash",
-          2
-        ],
-        [
-          "2022 Lauf Anywhere Race, Full Carbon AXS power meter For Sale",
-          2
+          "Contribute to Trailforks",
+          8
         ]
       ],
       "content_types": {
         "how_to": 0,
-        "best_lists": 0,
-        "reviews": 0,
-        "guides": 0
+        "best_lists": 8,
+        "reviews": 4,
+        "guides": 3
       }
     },
     "ecosystem": {
       "trailforks": {
-        "web": 36,
-        "app": 239,
-        "ridelogs": 5,
-        "map_views": 94,
-        "photos": 2,
-        "unique_rides": 0
+        "web": 4308,
+        "app": 7620,
+        "ridelogs": 246,
+        "map_views": 809,
+        "photos": 179,
+        "unique_rides": 13
       },
       "gaia_gps": {
-        "events": 0
+        "events": 106
       },
       "outside_app": {
-        "events": 0
+        "events": 10
       },
       "outside_watch": {
         "events": 0
       },
       "editorial": {
-        "events": 0,
-        "articles": 0
+        "events": 525,
+        "articles": 104
       },
       "devices": {
-        "events": 0
+        "events": 20
       },
       "monthly_app_usage": {
         "2025-05": {
@@ -245,127 +577,160 @@
         "2025-08": {
           "trailforks_app": 65,
           "trailforks_web": 8
+        },
+        "2025-09": {
+          "trailforks_web": 129,
+          "trailforks_app": 307,
+          "gaia_gps": 81,
+          "outside_app": 7
+        },
+        "2025-10": {
+          "trailforks_web": 1129,
+          "trailforks_app": 1609,
+          "gaia_gps": 13
+        },
+        "2025-11": {
+          "trailforks_app": 1722,
+          "trailforks_web": 554,
+          "gaia_gps": 3
+        },
+        "2025-12": {
+          "trailforks_app": 2051,
+          "trailforks_web": 1425,
+          "gaia_gps": 6
+        },
+        "2026-01": {
+          "trailforks_app": 1692,
+          "trailforks_web": 1035,
+          "gaia_gps": 3,
+          "outside_app": 3
         }
       }
     },
     "engagement_metrics": {
-      "total_events": 694,
-      "total_days_tracked": 123,
-      "events_per_day": 5.642276422764228,
-      "unique_publications": 4,
-      "unique_tags_encountered": 6,
-      "unique_authors_read": 1,
-      "unique_articles": 53
+      "total_events": 17329,
+      "total_days_tracked": 271,
+      "events_per_day": 63.944649446494466,
+      "unique_publications": 15,
+      "unique_tags_encountered": 116,
+      "unique_authors_read": 10,
+      "unique_articles": 368
     }
   },
   "llm_insights": {
-    "narrative": "# Your 2025 Outside Memory\n\n## Welcome Message\n\nHello Claus! We're thrilled to celebrate your engagement with Outside Online's media properties over the past four months. As a dedicated power user, you've logged nearly 700 interactions across our platforms\u2014a testament to your genuine passion for the outdoor community. Thank you for being such a valued member of our ecosystem.\n\n---\n\n## Claus's 2025 Outside Memory\n\nYour journey with us this year tells the story of a cyclist with an evolving appetite for discovery. Starting in late April, you dove headfirst into Pinkbike's marketplace, methodically browsing gravel and cyclocross bikes with the focus of someone on a mission. Those early morning sessions\u2014often between 4-5 AM\u2014reveal a rider who thinks about gear before dawn breaks, searching for specific models like the Open WIDE, Santa Cruz Stigmata, and Fezzari Shafer. This wasn't casual browsing; it was purposeful hunting.\n\nBy May, your engagement shifted gears. You discovered Trailforks App and began exploring the mapping and trail discovery features with renewed energy. The middle of June marked a turning point\u2014you dove deep into the Trailforks ecosystem, rating trails, tracking your activities, and even saving rides. This period saw you balance your marketplace curiosity with a genuine interest in trail exploration and community engagement. You were no longer just shopping; you were becoming an active participant in the riding community.\n\nJune through August became your peak engagement months, with June and July commanding the lion's share of your attention (268 and 205 events respectively). During this period, you expanded your browsing to include mountain bikes\u2014YT Jeffsy models caught your eye\u2014while continuing to explore gravel options. Your late-night sessions (peaking at 10 PM) suggest you were planning weekend adventures or unwinding after rides by researching gear. By August, your activity settled into a more sustainable rhythm, suggesting you'd found your groove within our platforms.\n\nWhat emerges is a portrait of a cyclist in motion: someone equally comfortable hunting for the perfect bike on a marketplace, plotting trail routes on a map, and logging rides to track progress. Your engagement wasn't fleeting\u2014it was consistent, intentional, and deeply integrated into your riding lifestyle.\n\n---\n\n## Your Passions\n\n* **Gravel & Cyclocross Cycling** \u2014 Your early engagement was dominated by searches for gravel and CX complete bikes, with particular interest in brands like Open, Santa Cruz, Giant, Specialized, and Niner. You're clearly drawn to the versatility and adventure these platforms offer.\n\n* **Trail Discovery & Mapping** \u2014 The Trailforks App became central to your platform engagement by mid-June, with 239 total interactions. You actively explored trail maps, viewed trail photos, and engaged with location-based features\u2014indicating you're as passionate about *finding* rides as you are about *riding* them.\n\n* **Activity Tracking & Community Participation** \u2014 Your consistent use of Trailforks' activity logging, ride saving, and profile features shows you value documenting your adventures and connecting with the broader cycling community.\n\n* **Mountain Bike Exploration** \u2014 While gravel was your initial focus, your June searches for YT Jeffsy models reveal an expanding interest in mountain biking, suggesting you're either diversifying your quiver or exploring new terrain.\n\n* **Marketplace Curation & Research** \u2014 With 63 BuySell interactions, you're a methodical researcher. You don't just browse\u2014you search for specific models, compare options across pages, and clearly evaluate each listing with care.\n\n* **Premium Trail Access & Features** \u2014 Your June interaction with Trailforks' \"intro-purchase\" feature suggests you saw value in unlocking deeper platform capabilities, indicating you're willing to invest in tools that enhance your riding experience.\n\n---\n\n## Reading Habits\n\nYour engagement patterns reveal a rider who integrates Outside Online into both your planning and wind-down routines. You're a bimodal user: intense early-morning sessions (peaking at 4 AM) suggest you're researching and planning before your day begins, while your evening engagement (with notable spikes at 7-10 PM) indicates you're unwinding post-ride or planning future adventures. This rhythm suggests cycling isn't just what you *do*\u2014it's woven into your daily rhythm.\n\nYour platform loyalty shows clear preferences: Pinkbike dominated your early engagement with 116 interactions, particularly through the BuySell marketplace, while the Trailforks App became increasingly central to your experience as the months progressed (239 total interactions). The shift from marketplace browsing to active trail tracking and activity logging suggests your relationship with our platforms evolved from transactional (shopping for bikes) to community-oriented (tracking rides, exploring trails, engaging with other riders).\n\nFriday emerged as your most active day with 255 interactions\u2014a pattern that makes sense for weekend planning\u2014while Thursday and Sunday also showed strong engagement (186 and 103 interactions respectively). Wednesday was notably quiet, suggesting you might have other commitments midweek. Your content consumption is deeply practical: maps, notifications, ride logs, and marketplace listings dominate your activity, reflecting a user who values actionable information over editorial content. You're here to *do* something, not just to read about it.",
-    "recent_spotlight": "**Hitting the Trails: Your Navigation Game is Strong**\n\nYou've been deep in exploration mode this week, spending quality time with Trailforks to map out your next adventures. Between checking trail conditions, reviewing ratings, and pinpointing locations, it's clear you're planning something exciting. Your recent dives into Pinkbike show you're also staying current with the mountain biking community and keeping an eye on gear.\n\nRecent reads: Trailforks trail mapping and info pages, trail ratings and location scouting, and Pinkbike's latest mountain bike news and gear marketplace listings.",
+    "narrative": "# Your 2025 Outside Memory: A Year of Adventure & Connection\n\n## Welcome Message\n\nWelcome back, Claus! We're thrilled to celebrate your incredible journey through our community over the past nine months. As one of our most engaged members, you've logged nearly **17,330 interactions** across our platforms\u2014a testament to your genuine passion for the outdoor lifestyle. Your dedication to exploring, sharing, and connecting with fellow adventurers hasn't gone unnoticed.\n\n---\n\n## Claus's 2025 Outside Memory\n\nYour year began with a spark in late April, when you dove deep into the gear marketplace, methodically hunting for the perfect gravel and mountain bikes across Pinkbike's BuySell listings. Those early morning sessions\u2014scouring listings for Santa Cruz Stigmatas, Open WIDE models, and YT Jeffsys\u2014revealed a person who takes equipment seriously and understands that the right bike can unlock new adventures.\n\nBy late May and early June, your engagement shifted and expanded. You discovered Trailforks, and it became your portal to the world. The app's mapping features captivated you, and you began not just consuming trails but actively tracking your own rides. June marked the moment you transitioned from browser to athlete, saving activities and exploring trail photos. This wasn't passive consumption\u2014this was you becoming part of the movement.\n\nSummer into fall (July through September) saw a quieter but focused engagement. You continued exploring Trailforks' map features and trail photography, refining your knowledge of terrain and conditions. But something shifted dramatically in October. Your engagement exploded\u2014**3,776 events** that month alone\u2014signaling a major shift in how you were interacting with our platforms. October through January became your power months, with December and January seeing your peak activity at **5,086 and 4,028 events respectively**. \n\nThis crescendo tells a story: you weren't just casually browsing anymore. You were deeply embedded in the Trailforks ecosystem, checking the app feed, reviewing your ride logs, studying maps, and staying connected to the community. Your engagement became rhythmic and purposeful\u2014particularly active during evening and late-night hours (your peak times were 10 PM to 4 AM), suggesting you were planning adventures, reviewing past rides, and connecting with the community when the world was quiet.\n\n---\n\n## Your Passions\n\n\u2022 **Climbing & Mountaineering** \u2014 Your engagement with climbing content (20 mentions) and mountaineering (9 mentions) reveals an adventurer who thinks vertically. Whether it's alpine pursuits or rock climbing, you're drawn to the challenge and the views from above.\n\n\u2022 **Trail Exploration & Mountain Biking** \u2014 With Trailforks as your second home (5,263 app events and 2,357 Apple Watch interactions), you're obsessed with discovering and documenting trails. Mountain biking (5 mentions) and the broader trail community are central to how you experience the outdoors.\n\n\u2022 **Gravel & Multi-Sport Cycling** \u2014 Your early-year focus on sourcing gravel bikes (Santa Cruz Stigmata, Open WIDE, Niner RLT, Ibis Hakka) shows you see cycling as a gateway to diverse terrain\u2014pavement, dirt, and everything between.\n\n\u2022 **Geographic Exploration** \u2014 Colorado (11 mentions), Wyoming (5 mentions), Alaska (5 mentions), and Denali National Park (5 mentions) appear throughout your journey. You're not just reading about places; you're drawn to specific regions and likely planning expeditions to them.\n\n\u2022 **Winter Sports & Skiing** \u2014 Your engagement with skiing (9 mentions) and cross-country ski content suggests you embrace the full seasonal spectrum. For you, adventure doesn't stop when snow falls.\n\n\u2022 **Wellness & Outdoor Skills** \u2014 Beyond adrenaline, you engage with wellness (6 mentions), outdoor skills (3 mentions), and survival content. You're building knowledge and capability, not just chasing thrills.\n\n---\n\n## Reading Habits\n\nYour reading patterns reveal a night owl who plans by day and explores by evening. Your engagement peaks dramatically between **4 PM and midnight**, with particular intensity at **10 PM, 11 PM, and midnight**\u2014suggesting you're reviewing trails, planning weekend adventures, or catching up on community activity after work. Fridays and Saturdays show your highest engagement (3,164 and 2,538 events respectively), with Sundays close behind (2,597), indicating you're most active planning and preparing for weekend adventures or reflecting on them afterward.\n\nYour content consumption is deeply app-driven. The **Trailforks App dominates your engagement** with 5,263 events, followed by Trailforks' web platform (4,308 events) and the map interface (822 events). You're not a casual reader scrolling headlines\u2014you're a tool user, leveraging technology to access detailed trail information, elevation profiles, and community insights. Your engagement with Pinkbike (150 events) and Outside Online (442 events) shows you maintain awareness of broader industry news and gear coverage, but your true home is in the mapping and trail-tracking ecosystem.\n\nYou follow writers like **Graham Averill, Grayson Haver Currin, and Paddy O'Connell**, suggesting you appreciate thoughtful storytelling alongside practical information. Your consumption of **Outside Features** (11 mentions), **gear guides** (3 mentions), and **The Daily Rally** (5 mentions) indicates you value both long-form narrative and quick-hit updates. You're selective but consistent\u2014reading 368 unique articles across 116 different tags, showing intellectual curiosity that spans from **athletes and inspiration** to **communications and social media**, revealing someone who thinks deeply about community and connection.",
+    "recent_spotlight": "**Two Wheels, One Passion: Your Trailforks Deep Dive**\n\nYou've been fully immersed in the Trailforks ecosystem this week, checking trails, tracking your rides, and staying connected with the mountain biking community. From mapping out your next adventure to reviewing your ride logs, you're clearly gearing up for some serious trail time. Whether you're scouting new routes or reliving recent rides, the app has become your go-to companion for all things off-road.\n\nYour recent explorations include checking out the Ride Log Info feature to track your performance, scrolling through the Activity Feed to see what the community's been up to, and diving into the interactive map to scout locations for your next outing.",
     "seasonal_patterns": [
       {
-        "season": "Spring",
-        "emoji": "\ud83c\udf31",
+        "season": "Winter",
+        "emoji": "\u2744\ufe0f",
         "activities": [
-          "Gravel/CX Complete Bikes For Sale listings research",
-          "Trail maps exploration (map/trail-info)",
-          "Racing and events content consumption"
+          "Trail mapping via Trailforks App",
+          "Buying/selling mountain bikes on Pinkbike BuySell",
+          "Ridelog tracking and route planning"
         ],
-        "insight": "Spring marks the start of bike shopping and trail planning."
+        "insight": "Map use and gear market rise in winter."
+      },
+      {
+        "season": "Fall",
+        "emoji": "\ud83c\udf42",
+        "activities": [
+          "Gravel/CX bike research and gear listings",
+          "Trail exploration and app notifications",
+          "Outdoor route planning and reviews"
+        ],
+        "insight": "Gravel gear interest and route planning grow in fall."
       },
       {
         "season": "Summer",
         "emoji": "\u2600\ufe0f",
         "activities": [
-          "Trailforks App activity feed review",
-          "Ridelogs and ride-tracking",
-          "Road and Gravel bike listings browsing"
+          "Trail time planning and outdoor features reading",
+          "Bike maintenance and gear exploration",
+          "App feed engagement and updates"
         ],
-        "insight": "Summer centers on trail activity and ongoing bike listings."
+        "insight": "Outdoor riding content and gear interest remains steady in summer."
       }
     ],
     "emerging_interests": [
       {
-        "topic": "Gravel/CX Complete Bikes For Sale",
-        "evidence": "Frequent gravel/cx bike sale listings and related content in Pinkbike BuySell"
+        "topic": "Trailforks App",
+        "evidence": "Growing engagement with Trailforks app features (activity_feed, tracking, map)."
       },
       {
-        "topic": "Trailforks App usage and trail mapping",
-        "evidence": "Trailforks App entries, activity feed, and map-related events appear in sample"
+        "topic": "Gravel/CX bikes",
+        "evidence": "Increasing gravel/CX bike sale listings and related content."
       },
       {
-        "topic": "Road Complete Bikes For Sale",
-        "evidence": "Road bikes listings appear in sample events"
-      },
-      {
-        "topic": "Racing and events coverage (Crankworx)",
-        "evidence": "Top tags include racing-and-events and crankworx, indicating growing interest"
+        "topic": "cross-country ski skis",
+        "evidence": "Cross-country ski skis tag appears, indicating seasonal content shift."
       }
     ],
     "core_interests": [
       {
-        "topic": "Gravel/CX Complete Bikes For Sale",
+        "topic": "mountain-biking",
         "strength": "Very Strong",
-        "evidence": "Frequent gravel/cx bike sale listings and related content across data"
+        "evidence": "Frequent mountain bike content and BuySell activity; top tag presence."
       },
       {
-        "topic": "Bike BuySell Marketplace",
-        "strength": "Very Strong",
-        "evidence": "63 buysell items and numerous bike-for-sale titles in sample events"
-      },
-      {
-        "topic": "Trailforks App / Trail Maps",
+        "topic": "climbing",
         "strength": "Strong",
-        "evidence": "App usage entries, trail mapping, and ride logs in sample data"
+        "evidence": "Tag 'climbing' appears 20 times in top_tags."
       },
       {
-        "topic": "Racing and events (Crankworx)",
+        "topic": "mountaineering",
         "strength": "Strong",
-        "evidence": "Top tags include racing-and-events and crankworx"
+        "evidence": "Tag 'mountaineering' appears 9 times."
+      },
+      {
+        "topic": "skiing",
+        "strength": "Strong",
+        "evidence": "Tag 'skiing' appears 9 times."
       }
     ],
     "casual_interests": [
       {
-        "topic": "Road Complete Bikes For Sale",
-        "note": "Occasional browsing of road listings"
+        "topic": "fishing",
+        "note": "Occasional engagement"
       },
       {
-        "topic": "Gravel/CX Complete Bikes For Sale",
-        "note": "Casual interest in gravel listings"
+        "topic": "colorado",
+        "note": "Geographic-linked reads"
       },
       {
-        "topic": "Trailforks Photo Album",
-        "note": "Viewing Trailforks photo albums occasionally"
+        "topic": "asia",
+        "note": "Geographic interest appears occasionally"
       },
       {
-        "topic": "Mountain Bike News",
-        "note": "Occasional consumption of bike news content"
+        "topic": "europe",
+        "note": "Geographic interest appears occasionally"
       }
     ]
   },
   "recent_activity": {
     "latest_reads": [
       {
-        "title": "app.map-trail-info",
+        "title": "app.ridelog-info",
         "url": "#",
-        "date": "Aug 25"
+        "date": "Jan 21"
       },
       {
-        "title": "app.map-trail-info",
-        "url": "#",
-        "date": "Aug 25"
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?source=app&userid=2854464&version=2",
+        "date": "Jan 21"
       },
       {
-        "title": "Mountain Bike News, Photos, Videos & Events | Pinkbike",
-        "url": "https://www.pinkbike.com/",
-        "date": "Aug 22"
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?source=app&userid=2854464&version=2",
+        "date": "Jan 21"
       },
       {
-        "title": "2022 Lauf Anywhere Race, Full Carbon AXS power meter Fo",
-        "url": "https://www.pinkbike.com/buysell/3921119/",
-        "date": "Aug 22"
+        "title": "Trailforks.com Activity Feed",
+        "url": "https://www.trailforks.com/appfeed/?scope=following&nativeTabs=true&app=1&activitytype=13&platform=ios&nearby_range=5&lat=39.3&lng=-119.9",
+        "date": "Jan 21"
       }
     ],
     "latest_watches": []
   },
-  "generated_at": "2026-01-20T18:01:50.983346Z"
+  "generated_at": "2026-01-21T16:45:34.484086Z"
 }
