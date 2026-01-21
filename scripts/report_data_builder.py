@@ -149,7 +149,7 @@ def call_gpt5_nano(context: dict) -> dict:
 }
 
 REQUIREMENTS:
-- seasonal_patterns: 2-4 seasons with emoji, 2-3 activities each, one-sentence insight
+- seasonal_patterns: ALL 4 seasons (Spring, Summer, Autumn, Winter) with emoji, 2-3 activities each, one-sentence insight. Use these emojis: Spring 🌸, Summer ☀️, Autumn 🍂, Winter ❄️
 - emerging_interests: 2-4 topics that appeared recently or are growing
 - core_interests: 3-5 deep, consistent interests with evidence
 - casual_interests: 3-5 lighter/occasional interests
