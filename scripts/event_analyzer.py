@@ -50,11 +50,32 @@ class EventAnalyzer:
         self.summary = {}
 
     def analyze_publications(self) -> dict:
-        """Analyze distribution by publication (DOMAIN field)"""
+        """Analyze distribution by source (DOMAIN field with smart classification)"""
         domains = Counter()
         for event in self.events:
-            domain = event.get('DOMAIN') or 'unknown'
-            domains[domain] += 1
+            domain = event.get('DOMAIN')
+
+            if domain:
+                # Rename 'accounts' to be more descriptive
+                if domain == 'accounts':
+                    domain = 'Account/Profile'
+                domains[domain] += 1
+            else:
+                # Classify unknown events based on title/path patterns
+                title = (event.get('TITLE') or '').lower()
+                path = (event.get('PATH') or '').lower()
+                url = (event.get('URL') or '').lower()
+
+                if title.startswith('app.') or title == 'activity save' or 'ridelogs' in path or 'trailforks' in url:
+                    domains['Trailforks App'] += 1
+                elif 'gaia' in title or 'gaia' in url or 'gaiagps' in url:
+                    domains['GaiaGPS App'] += 1
+                elif 'outside tv' in title or 'watch.outside' in url:
+                    domains['Outside Watch'] += 1
+                elif title == 'profile' or '/profile' in path:
+                    domains['Account/Profile'] += 1
+                else:
+                    domains['Other'] += 1
 
         self.summary['publications'] = dict(domains)
         return dict(domains)
