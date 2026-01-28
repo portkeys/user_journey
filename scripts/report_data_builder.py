@@ -300,25 +300,33 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
     cutoff = latest - timedelta(days=7)
     recent_events = [e for dt, e in dated_events if dt > cutoff]
 
-    # Separate reads and watches
+    # Separate reads and watches (dedupe by title)
     latest_reads = []
     latest_watches = []
+    seen_read_titles = set()
+    seen_watch_titles = set()
 
     for e in recent_events:
         if is_video_event(e):
             if is_valid_content(e, is_video=True) and len(latest_watches) < 4:
-                latest_watches.append({
-                    'title': clean_title(e.get('TITLE', ''), is_video=True),
-                    'url': e.get('URL') or e.get('PAGE_URL') or '#',
-                    'date': format_date(e.get('TIMESTAMP'))
-                })
+                title = clean_title(e.get('TITLE', ''), is_video=True)
+                if title not in seen_watch_titles:
+                    seen_watch_titles.add(title)
+                    latest_watches.append({
+                        'title': title,
+                        'url': e.get('URL') or e.get('PAGE_URL') or '#',
+                        'date': format_date(e.get('TIMESTAMP'))
+                    })
         else:
             if is_valid_content(e, is_video=False) and len(latest_reads) < 4:
-                latest_reads.append({
-                    'title': clean_title(e.get('TITLE', ''), is_video=False),
-                    'url': e.get('URL') or e.get('PAGE_URL') or '#',
-                    'date': format_date(e.get('TIMESTAMP'))
-                })
+                title = clean_title(e.get('TITLE', ''), is_video=False)
+                if title not in seen_read_titles:
+                    seen_read_titles.add(title)
+                    latest_reads.append({
+                        'title': title,
+                        'url': e.get('URL') or e.get('PAGE_URL') or '#',
+                        'date': format_date(e.get('TIMESTAMP'))
+                    })
 
     return {
         'latest_reads': latest_reads,
