@@ -247,6 +247,9 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
         title_lower = title.lower().strip()
         if len(title_lower) < 15:
             return False
+        # Exclude app screen names (e.g., app.ridelogs-my, app.ridelog-info)
+        if title_lower.startswith('app.'):
+            return False
         if title_lower in EXACT_MATCHES:
             return False
         for pattern in GENERIC_PATTERNS:
