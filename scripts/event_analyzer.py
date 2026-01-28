@@ -269,12 +269,15 @@ class EventAnalyzer:
         }
 
         ridelog_ids = set()
+        activity_save_ids = set()  # Track unique Activity Save events
 
         for event in self.events:
             domain = (event.get('DOMAIN') or '').lower()
             path = event.get('PATH') or ''
+            url = event.get('URL') or event.get('PAGE_URL') or ''
             module = event.get('MODULE') or ''
             content_type = event.get('CONTENT_TYPE') or ''
+            title = event.get('TITLE') or ''
             ts = event.get('TIMESTAMP')
 
             month = None
@@ -283,6 +286,12 @@ class EventAnalyzer:
                     month = pd.to_datetime(ts).strftime('%Y-%m')
                 except:
                     pass
+
+            # Count Activity Save events (rides logged from app)
+            if title == 'Activity Save':
+                message_id = event.get('MESSAGEID')
+                if message_id:
+                    activity_save_ids.add(message_id)
 
             # Trailforks
             if 'trailfork' in domain:
@@ -297,7 +306,12 @@ class EventAnalyzer:
 
                 if '/ridelog' in path or module == 'ridelog' or content_type == 'ridelog':
                     ecosystem['trailforks']['ridelogs'] += 1
-                    match = re.search(r'/ridelog/view/(\d+)', path)
+                    # Extract ridelog ID from path or URL
+                    match = re.search(r'/ridelog/view/(\d+)', path) or re.search(r'/ridelog/view/(\d+)', url)
+                    if match:
+                        ridelog_ids.add(match.group(1))
+                    # Also check contribute/ridelogreports for ride IDs
+                    match = re.search(r'/ridelogreports/(\d+)', path) or re.search(r'/ridelogreports/(\d+)', url)
                     if match:
                         ridelog_ids.add(match.group(1))
                 if '/map' in path or module == 'map':
@@ -337,7 +351,10 @@ class EventAnalyzer:
                     if event.get('TITLE'):
                         ecosystem['editorial']['articles'] += 1
 
-        ecosystem['trailforks']['unique_rides'] = len(ridelog_ids)
+        # Use the higher count: Activity Saves (rides logged) or viewed ridelog IDs
+        ecosystem['trailforks']['unique_rides'] = max(len(activity_save_ids), len(ridelog_ids))
+        ecosystem['trailforks']['rides_logged'] = len(activity_save_ids)
+        ecosystem['trailforks']['rides_viewed'] = len(ridelog_ids)
         ecosystem['monthly_app_usage'] = {k: dict(v) for k, v in ecosystem['monthly_app_usage'].items()}
 
         self.summary['ecosystem'] = ecosystem
