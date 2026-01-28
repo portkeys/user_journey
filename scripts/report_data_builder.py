@@ -238,7 +238,9 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
 
     def is_video_event(event):
         domain = (event.get('DOMAIN') or '').lower()
-        return 'watch' in domain or 'tv' in domain
+        url = (event.get('URL') or event.get('PAGE_URL') or '').lower()
+        # Check domain field or URL for watch/tv content
+        return 'watch' in domain or 'tv' in domain or 'watch.outsideonline.com' in url or 'watch.outside' in url
 
     def is_valid_content(event, is_video=False):
         title = event.get('TITLE')
@@ -249,6 +251,10 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
             return False
         # Exclude app screen names (e.g., app.ridelogs-my, app.ridelog-info)
         if title_lower.startswith('app.'):
+            return False
+        # Exclude Trailforks profile/stats pages (not articles)
+        url = (event.get('URL') or event.get('PAGE_URL') or '').lower()
+        if '/ridelog/stats' in url or '/profile/' in url:
             return False
         if title_lower in EXACT_MATCHES:
             return False
