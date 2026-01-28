@@ -233,7 +233,7 @@ def extract_recent_activity(events: list, timezone_offset: int = -7) -> dict:
     """Extract recent reads and watches for display"""
     GENERIC_PATTERNS = ['home', 'velo -', 'welcome to', 'backpacker -',
                         'trailrunner -', 'run -', 'climbing -', 'ski -', 'yoga journal -',
-                        'outside magazine', '- outside']
+                        'outside magazine', '- outside', 'activity feed']
     EXACT_MATCHES = ['home', 'outside magazine', 'outside', 'velonews', 'outside tv']
 
     def is_video_event(event):
